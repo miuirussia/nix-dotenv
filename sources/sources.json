@@ -125,10 +125,10 @@
         "homepage": "https://salt.bountysource.com/teams/coc-nvim",
         "owner": "neoclide",
         "repo": "coc.nvim",
-        "rev": "bafe8a993cff13310b6e18fcc011c6da677de1e7",
-        "sha256": "04g3fkwdhjg2syz82b0zs4hvb5lbwixk779ndx761dw6qg5dy7z3",
+        "rev": "a0faec32efcb1a931fcb3d6d5e62ea8e84476585",
+        "sha256": "1091apnma12gshqdyqrfy5jsgbs8liqa2dy5x0f6kqlhb10xprwi",
         "type": "tarball",
-        "url": "https://github.com/neoclide/coc.nvim/archive/bafe8a993cff13310b6e18fcc011c6da677de1e7.tar.gz",
+        "url": "https://github.com/neoclide/coc.nvim/archive/a0faec32efcb1a931fcb3d6d5e62ea8e84476585.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "coc-pairs": {
@@ -252,10 +252,10 @@
         "homepage": "https://salt.bountysource.com/teams/coc-nvim",
         "owner": "neoclide",
         "repo": "coc.nvim",
-        "rev": "ad1793dce0a59afcf8b324b45a1168c032deb162",
-        "sha256": "1khmmvba6cg0pff37nkbm7zmp3mnvpc889pql6dm6xjqrhpqsda7",
+        "rev": "21705da25137096c2161ec936898d0441a8f2fa5",
+        "sha256": "1dmp0qz80mv12g0ax2nynyvjmjpzq7z6rir7vylhqiah3911pjw3",
         "type": "tarball",
-        "url": "https://github.com/neoclide/coc.nvim/archive/ad1793dce0a59afcf8b324b45a1168c032deb162.tar.gz",
+        "url": "https://github.com/neoclide/coc.nvim/archive/21705da25137096c2161ec936898d0441a8f2fa5.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "dhall-vim": {
@@ -420,10 +420,10 @@
         "homepage": "https://github.com/NixOS/nixpkgs",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "9bf04bc90bf634c1f20ce453b53cf68963e02fa1",
-        "sha256": "0ns404k2r5m054zm93a616x58cvj66r82phmm7bszpf5370brqg5",
+        "rev": "4e5e46061e5ea38beb08446ee0779e6fc7b16fe7",
+        "sha256": "0lr1r57ngpn7n0bn830nd9cprk7snxgxjfsgcrsfig9q83i7p8gv",
         "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs/archive/9bf04bc90bf634c1f20ce453b53cf68963e02fa1.tar.gz",
+        "url": "https://github.com/NixOS/nixpkgs/archive/4e5e46061e5ea38beb08446ee0779e6fc7b16fe7.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nixpkgs-stable-linux": {
