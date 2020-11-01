@@ -2,7 +2,7 @@ name: "Autoupdate"
 on:
   schedule:
     - cron: "0 5 * * *"
-    - cron: "16 11 * * *"
+    - cron: "20 11 * * *"
 jobs:
   build:
     continue-on-error: true
