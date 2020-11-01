@@ -25,7 +25,7 @@ jobs:
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-           commit_message: bump
+           commit_message: Automatic sources update
            file_pattern: sources/sources.json
       - name: Start build
         uses: peter-evans/repository-dispatch@v1
