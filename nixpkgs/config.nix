@@ -1,6 +1,5 @@
 let
-  configHome = builtins.getEnv "XDG_CONFIG_HOME";
-  sources = import (configHome + "/nix/sources");
+  sources = import ../sources;
   nixpkgsUnstable = import sources.nixpkgs-unstable {};
   haskellNix = import (sources."haskell.nix") {};
   nixpkgsSrc = haskellNix.sources.nixpkgs;
