@@ -6,7 +6,6 @@ on:
     types: [trigger-ci]
 jobs:
   build:
-    continue-on-error: true
     name: "build"
     runs-on: macos-latest
     steps:
