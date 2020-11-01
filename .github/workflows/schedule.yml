@@ -1,0 +1,21 @@
+name: "Autoupdate"
+on:
+  schedule:
+    - cron: "0 5 * * *"
+    - cron: "16 11 * * *"
+jobs:
+  build:
+    continue-on-error: true
+    name: "update"
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: cachix/install-nix-action@v11
+      - run: |
+          nix-shell --run 'niv -s "./sources/sources.json" update'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          file_pattern: sources/sources.json
+
