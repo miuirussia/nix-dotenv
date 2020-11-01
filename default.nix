@@ -65,6 +65,7 @@ in pkgs.buildEnv {
     nodePackages.eslint_d
     nodePackages.node2nix
     nodePackages.prettier
+    nodePackages.prettier_d_slim
 
     nodePackages.pulp
     nodePackages.purescript
