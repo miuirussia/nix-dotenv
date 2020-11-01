@@ -1,0 +1,39 @@
+diff --git a/lib/repl.js b/lib/repl.js
+index 0007a361..b87020f2 100644
+--- a/lib/repl.js
++++ b/lib/repl.js
+@@ -708,6 +708,20 @@ function REPLServer(prompt,
+           return;
+         }
+       }
++
++      if (trimmedCmd.charAt(0) === ':') {
++        const matches = trimmedCmd.match(/^\:([^\s]+)\s*(:*)$/);
++        const keyword = matches && matches[1];
++        const rest = matches && matches[2];
++        if (_parseREPLKeyword.call(self, keyword, rest) === true) {
++          return;
++        }
++        if (!self[kBufferedCommandSymbol]) {
++          self.outputStream.write('Invalid REPL keyword\n');
++          finish(null);
++          return;
++        }
++      }
+     }
+ 
+     const evalCmd = self[kBufferedCommandSymbol] + cmd + '\n';
+@@ -1524,6 +1538,13 @@ function defineDefaultCommands(repl) {
+     }
+   });
+ 
++  repl.defineCommand('q', {
++    help: 'Exit the repl',
++    action: function() {
++      this.close();
++    }
++  });
++
+   repl.defineCommand('exit', {
+     help: 'Exit the repl',
+     action: function() {
