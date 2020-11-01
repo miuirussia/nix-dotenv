@@ -1,8 +1,8 @@
 name: "Autoupdate"
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 5 * * *"
-    - cron: "20 11 * * *"
 jobs:
   build:
     continue-on-error: true
