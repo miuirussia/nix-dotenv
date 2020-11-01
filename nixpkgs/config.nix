@@ -71,10 +71,6 @@ in {
       }
     );
 
-    nodePackages = pkgs.nodePackages // {
-      prettier_d_slim = (import (sources.prettier_d_slim) { }).package;
-    };
-
     nodejs-12_x = pkgs.nodejs-12_x.overrideAttrs (prev: {
       patches = prev.patches ++ [
         ./node/usable-repl-fix.patch
