@@ -9,24 +9,32 @@ jobs:
     name: "build"
     runs-on: macos-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: cachix/install-nix-action@v11
-    - uses: cachix/cachix-action@v6
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Install nix
+      uses: cachix/install-nix-action@v11
+    - name: Add cachix kdevlab cache
+      uses: cachix/cachix-action@v6
       with:
         name: kdevlab
         signingKey: '${{ secrets.CACHIX_SIGNING_KEY }}'
-    - run: |
+    - name: Add iohk hydra cache
+      run: |
         mkdir -p ~/.config/nix
         touch ~/.config/nix/nix.conf
         echo "substituters = https://hydra.iohk.io" \
             >> ~/.config/nix/nix.conf
         echo "trusted-public-keys = hydra.iohk.io:f/Ea+s+dFdN+3Y/G+FDgSq+a5NEWhJGzdjvKNGv0/EQ=" \
             >> ~/.config/nix/nix.conf
-    - uses: cachix/cachix-action@v6
+    - name: Add cachix iohk cache
+      uses: cachix/cachix-action@v6
       with:
         name: iohk
-    - run: cat ~/.config/nix/nix.conf
-    - run: |
+    - name: Show nix config
+      run: cat ~/.config/nix/nix.conf
+    - name: Build default.nix
+      run: |
         nix --print-build-logs build
-    - run: |
+    - name: Show builded paths
+      run: |
         nix --print-build-logs path-info
