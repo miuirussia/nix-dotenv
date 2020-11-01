@@ -1,4 +1,16 @@
 {
+    "JetBrainsMono": {
+        "branch": "master",
+        "description": "JetBrains Mono – the free and open-source typeface for developers",
+        "homepage": "https://jetbrains.com/mono",
+        "owner": "JetBrains",
+        "repo": "JetBrainsMono",
+        "rev": "fd990a6a4da39fa6e6ebc5045efb8c2d91500575",
+        "sha256": "1352ailn6qrnjp2cy0100pdb0lm2gk1aymm6n244nvh47vafzybm",
+        "type": "tarball",
+        "url": "https://github.com/JetBrains/JetBrainsMono/archive/fd990a6a4da39fa6e6ebc5045efb8c2d91500575.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "coc-calc": {
         "branch": "master",
         "description": "Calculate extension for coc.nvim",

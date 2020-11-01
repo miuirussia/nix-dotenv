@@ -39,7 +39,7 @@ in {
       version = "2.8";
       src = sources.reattach-to-user-namespace;
     });
-    jetbrains-mono = pkgs.callPackage ./jetbrains-mono/default.nix { };
+    jetbrains-mono = pkgs.callPackage ./jetbrains-mono/default.nix { inherit sources; };
 
     kitty = pkgs.kitty.overrideAttrs (prev: {
       postInstall = prev.postInstall + (if pkgs.stdenv.isDarwin then ''

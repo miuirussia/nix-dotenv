@@ -1,20 +1,17 @@
-{ lib, fetchzip }:
+{ pkgs, lib, sources, ... }:
 
 let
-  version = "2.002";
+  version = "master";
 in
-fetchzip rec {
+pkgs.stdenv.mkDerivation {
   name = "JetBrainsMono-${version}";
 
-  url = "https://github.com/JetBrains/JetBrainsMono/releases/download/v${version}/JetBrainsMono-${version}.zip";
-  sha256 = "018lhxi9m8aprls6cnpndzdg5snijwzm22m2pxxi6zcqxrcxh8vb";
+  src = sources.JetBrainsMono;
 
-  postFetch = ''
-    mkdir -p $out/share/fonts
-    unzip -j $downloadedFile \*.ttf -d $out/share/fonts/truetype
-    unzip -j $downloadedFile \*.eot -d $out/share/fonts/eot
-    unzip -j $downloadedFile \*.woff -d $out/share/fonts/woff
-    unzip -j $downloadedFile \*.woff2 -d $out/share/fonts/woff2
+  installPhase = ''
+    mkdir -p $out/share/fonts $out/share/fonts/truetype $out/share/fonts/woff2
+    cp ./fonts/ttf/*.ttf -d $out/share/fonts/truetype
+    cp ./fonts/webfonts/*.woff2 -d $out/share/fonts/woff2
   '';
 
   meta = with lib; {
