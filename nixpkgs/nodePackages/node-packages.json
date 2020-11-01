@@ -3,5 +3,6 @@
   "purescript",
   "purescript-psa",
   "purescript-language-server",
-  "spago"
+  "spago",
+  "prettier_d_slim"
 ]

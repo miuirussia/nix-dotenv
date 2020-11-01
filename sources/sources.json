@@ -125,10 +125,10 @@
         "homepage": "https://salt.bountysource.com/teams/coc-nvim",
         "owner": "neoclide",
         "repo": "coc.nvim",
-        "rev": "d1922c0300bb427f0ced465f92bcefd1120c0735",
-        "sha256": "0n6qr046219yxkv877xb4bl1f1qx0b6c2m8v6iihvqcic3sr6kk6",
+        "rev": "bafe8a993cff13310b6e18fcc011c6da677de1e7",
+        "sha256": "04g3fkwdhjg2syz82b0zs4hvb5lbwixk779ndx761dw6qg5dy7z3",
         "type": "tarball",
-        "url": "https://github.com/neoclide/coc.nvim/archive/d1922c0300bb427f0ced465f92bcefd1120c0735.tar.gz",
+        "url": "https://github.com/neoclide/coc.nvim/archive/bafe8a993cff13310b6e18fcc011c6da677de1e7.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "coc-pairs": {
@@ -312,10 +312,10 @@
         "homepage": null,
         "owner": "haskell",
         "repo": "haskell-language-server",
-        "rev": "b7a390f33febb1be1d4a51597950fd974e670876",
-        "sha256": "05zwfizfhvzc0bxsl84625y84b4845hf16j6yj74mf9k80b6xq04",
+        "rev": "6c14163167e43b064d03fabe14cdbc91ad07c166",
+        "sha256": "0f7s9dry694hxd6n97jv1wbg416zhxnd8fbmz1svz5ip55acjf3i",
         "type": "tarball",
-        "url": "https://github.com/haskell/haskell-language-server/archive/b7a390f33febb1be1d4a51597950fd974e670876.tar.gz",
+        "url": "https://github.com/haskell/haskell-language-server/archive/6c14163167e43b064d03fabe14cdbc91ad07c166.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "json5.vim": {
@@ -336,10 +336,10 @@
         "homepage": "",
         "owner": "kovidgoyal",
         "repo": "kitty",
-        "rev": "87ab1bbe54219dd459514a0f415640ca2317505a",
-        "sha256": "07gpp9z46k7dznri66ri46qciarb3aicnsbsavfvlgbgfm2p42am",
+        "rev": "17375f0be27d5ce9aa562f3462bf8f7da27ee4de",
+        "sha256": "1gslxaqp34qfm3c8ps69qyrr7aflxmbf9hs32sga1ccbch284hkh",
         "type": "tarball",
-        "url": "https://github.com/kovidgoyal/kitty/archive/87ab1bbe54219dd459514a0f415640ca2317505a.tar.gz",
+        "url": "https://github.com/kovidgoyal/kitty/archive/17375f0be27d5ce9aa562f3462bf8f7da27ee4de.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "neovim": {
@@ -348,10 +348,10 @@
         "homepage": "https://neovim.io",
         "owner": "neovim",
         "repo": "neovim",
-        "rev": "9fee5f14239512aed1096b17e8e755c87b9055d2",
-        "sha256": "1pa7ggmx0l492hjgi3pwc5b9lccs7adgqkhcl859k7y365him6m7",
+        "rev": "ca7449db46062098cc9b0c84401655cba7d3a53f",
+        "sha256": "1cdb3qxygx45f8i1k12rsqvc4fj94a8lk5k4m06fh8231iq9mksh",
         "type": "tarball",
-        "url": "https://github.com/neovim/neovim/archive/9fee5f14239512aed1096b17e8e755c87b9055d2.tar.gz",
+        "url": "https://github.com/neovim/neovim/archive/ca7449db46062098cc9b0c84401655cba7d3a53f.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nginx-vim": {
@@ -420,10 +420,10 @@
         "homepage": "https://github.com/NixOS/nixpkgs",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "b60ebd7bd28495087a52812e0ad5a6665ac3d0b9",
-        "sha256": "0kxxki1pzxxlzypa5knkc9xhwaj1jxk7irvv3k1k860hs95xqwah",
+        "rev": "9bf04bc90bf634c1f20ce453b53cf68963e02fa1",
+        "sha256": "0ns404k2r5m054zm93a616x58cvj66r82phmm7bszpf5370brqg5",
         "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs/archive/b60ebd7bd28495087a52812e0ad5a6665ac3d0b9.tar.gz",
+        "url": "https://github.com/NixOS/nixpkgs/archive/9bf04bc90bf634c1f20ce453b53cf68963e02fa1.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nixpkgs-stable-linux": {
@@ -460,18 +460,6 @@
         "sha256": "00xkzpzwlizcv763q8imkdsxy215h2g1fh2dcnz5j659x6qr8arj",
         "type": "tarball",
         "url": "https://github.com/alexlafroscia/postcss-syntax.vim/archive/639cd7c9bb410383a99eb0f85d041290ad19d9d7.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
-    "prettier_d_slim": {
-        "branch": "master",
-        "description": null,
-        "homepage": null,
-        "owner": "kdevlab",
-        "repo": "prettier_d_slim",
-        "rev": "16c55957d1a433b99e33d29dd59375301415b9ab",
-        "sha256": "0xmvfl7z10p2gfvkkgn0235b1lf37rxv8136i13kdimsp39vpfpq",
-        "type": "tarball",
-        "url": "https://github.com/kdevlab/prettier_d_slim/archive/16c55957d1a433b99e33d29dd59375301415b9ab.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "purescript-vim": {

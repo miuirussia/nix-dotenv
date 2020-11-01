@@ -35,7 +35,6 @@ in {
   packageOverrides = pkgs: {
     tmuxinator = pkgs.callPackage ./tmuxinator/default.nix { };
     reason-language-server = pkgs.callPackage ./reason-language-server/default.nix { inherit sources; };
-    purescriptPackages = pkgs.callPackage ./purescript/default.nix { };
     reattach-to-user-namespace = pkgs.reattach-to-user-namespace.overrideAttrs (prev: {
       version = "2.8";
       src = sources.reattach-to-user-namespace;
@@ -70,6 +69,8 @@ in {
         };
       }
     );
+
+    nodePackages = pkgs.nodePackages // (pkgs.callPackage ./nodePackages/default.nix { });
 
     nodejs-12_x = pkgs.nodejs-12_x.overrideAttrs (prev: {
       patches = prev.patches ++ [

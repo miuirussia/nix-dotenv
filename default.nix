@@ -66,11 +66,11 @@ in pkgs.buildEnv {
     nodePackages.node2nix
     nodePackages.prettier
 
-    purescriptPackages.pulp
-    purescriptPackages.purescript
-    purescriptPackages.purescript-psa
-    purescriptPackages.purescript-language-server
-    purescriptPackages.spago
+    nodePackages.pulp
+    nodePackages.purescript
+    nodePackages.purescript-psa
+    nodePackages.purescript-language-server
+    nodePackages.spago
 
     hls-ghc865
     hls-ghc884
