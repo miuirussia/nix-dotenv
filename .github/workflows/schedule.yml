@@ -7,29 +7,19 @@ jobs:
   build:
     continue-on-error: true
     name: "update"
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: cachix/install-nix-action@v11
-      - uses: cachix/cachix-action@v6
-        with:
-          name: kdevlab
       - run: |
-          mkdir -p ~/.config/nix
-          touch ~/.config/nix/nix.conf
-          echo "substituters = https://hydra.iohk.io" \
-              >> ~/.config/nix/nix.conf
-          echo "trusted-public-keys = hydra.iohk.io:f/Ea+s+dFdN+3Y/G+FDgSq+a5NEWhJGzdjvKNGv0/EQ=" \
-              >> ~/.config/nix/nix.conf
-      - uses: cachix/cachix-action@v6
-        with:
-          name: iohk
-      - run: cat ~/.config/nix/nix.conf
+          nix-env -iA niv -f https://github.com/nmattia/niv/tarball/master \
+            --substituters https://niv.cachix.org \
+            --trusted-public-keys niv.cachix.org-1:X32PCg2e/zAm3/uD1ScqW2z/K0LtDyNV7RdaxIuLgQM=
       - run: |
-          nix-shell --run 'niv -s "./sources/sources.json" update'
+          niv -s sources/sources.json update
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          file_pattern: sources/sources.json
-
+           commit_message: bump
+           file_pattern: sources/sources.json
