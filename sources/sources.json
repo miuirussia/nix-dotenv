@@ -119,18 +119,6 @@
         "url": "https://github.com/neoclide/coc-json/archive/06f53ed7fae52d45e09351fa083d488f06eb7497.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
-    "coc-nvim": {
-        "branch": "master",
-        "description": "Intellisense engine for vim8 & neovim, full language server protocol support as VSCode ",
-        "homepage": "https://salt.bountysource.com/teams/coc-nvim",
-        "owner": "neoclide",
-        "repo": "coc.nvim",
-        "rev": "a0faec32efcb1a931fcb3d6d5e62ea8e84476585",
-        "sha256": "1091apnma12gshqdyqrfy5jsgbs8liqa2dy5x0f6kqlhb10xprwi",
-        "type": "tarball",
-        "url": "https://github.com/neoclide/coc.nvim/archive/a0faec32efcb1a931fcb3d6d5e62ea8e84476585.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
     "coc-pairs": {
         "branch": "master",
         "description": "Auto pairs extension for coc.nvim",

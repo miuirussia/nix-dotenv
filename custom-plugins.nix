@@ -29,41 +29,6 @@ let
     '';
   };
 in {
-  vim-coc = let
-    pname = "vim-coc";
-    version = "0.0.74";
-    src = sources.coc-nvim;
-    deps = yarn2nix.mkYarnModules rec {
-      inherit version pname;
-      name = "${pname}-modules-${version}";
-      packageJSON = src + "/package.json";
-      yarnLock = src + "/yarn.lock";
-    };
-  in pkgs.vimUtils.buildVimPluginFrom2Nix {
-    inherit version pname src;
-
-    patches = [
-      ./coc.patch
-    ];
-
-    configurePhase = ''
-      mkdir -p node_modules
-      ln -s ${deps}/node_modules/* node_modules/
-      ln -s ${deps}/node_modules/.bin node_modules/
-    '';
-
-    buildPhase = ''
-      ${yarn}/bin/yarn build
-    '';
-
-    postFixup = ''
-      substituteInPlace $target/autoload/coc/util.vim \
-        --replace "'yarnpkg'" "'${yarn}/bin/yarnpkg'"
-      substituteInPlace $target/autoload/health/coc.vim \
-        --replace "'yarnpkg'" "'${yarn}/bin/yarnpkg'"
-    '';
-  };
-
   vim-coc-release = pkgs.vimUtils.buildVimPlugin {
     name = "vim-coc-release";
     src = sources."coc.nvim";
