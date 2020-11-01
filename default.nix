@@ -4,7 +4,7 @@ let
   sources       = import ./sources;
   nixpkgsConfig = import ./nixpkgs/config.nix;
   pkgs          = import sources.nixpkgs-stable { config = nixpkgsConfig; };
-  plugins       = pkgs.vimPlugins // pkgs.callPackage ./custom-plugins.nix {};
+  plugins       = pkgs.vimPlugins // pkgs.callPackage ./custom-plugins.nix { inherit sources; inherit pkgs; };
 in pkgs.buildEnv {
   name = "nix-env";
   paths = with pkgs; [

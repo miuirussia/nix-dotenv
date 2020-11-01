@@ -1,7 +1,6 @@
-{ pkgs, ... }:
+{ pkgs, sources, ... }:
 
 let
-  sources = import ./sources;
   yarn = (pkgs.yarn.override { nodejs = pkgs.nodejs-12_x; });
   yarn2nix = pkgs.callPackage (sources.yarn2nix) { pkgs = pkgs; nodejs = pkgs.nodejs-12_x; yarn = yarn; };
   mkCocModule = { pname, version, src, patches ? [], command ? "build" }: let
