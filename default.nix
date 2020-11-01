@@ -4,6 +4,7 @@ let
   sources       = import ./sources;
   nixpkgsConfig = import ./nixpkgs/config.nix;
   pkgs          = import sources.nixpkgs-stable { config = nixpkgsConfig; };
+  plugins       = pkgs.vimPlugins // pkgs.callPackage ./custom-plugins.nix {};
 in pkgs.buildEnv {
   name = "nix-env";
   paths = with pkgs; [
@@ -58,7 +59,69 @@ in pkgs.buildEnv {
 
     rustup
 
-    neovim-nightly
+    (wrapNeovim neovim-nightly {
+      configure = {
+        plug.plugins = with plugins; [
+          dhall-vim
+          editorconfig-vim
+          fzf-vim
+          fzfWrapper
+          haskell-vim
+          indentLine
+          neoformat
+          nginx-vim
+          postcss-syntax-vim
+          purescript-vim
+          tabular
+          vim-airline
+          vim-airline-themes
+          vim-better-whitespace
+          vim-cursorword
+          vim-devicons
+          vim-javascript
+          vim-json5
+          vim-jsx
+          vim-languages
+          vim-lastplace
+          vim-markdown
+          vim-nix
+          vim-rooter
+          vim-rust
+          vim-sandwich
+          vim-startify
+          vim-styled-components
+          vim-toml
+          vista-vim
+
+          # coc
+          vim-coc-release
+
+          # coc plugins
+          coc-calc
+          coc-css
+          coc-diagnostic
+          coc-emmet
+          coc-flow
+          coc-git
+          coc-highlight
+          coc-json
+          coc-pairs
+          coc-python
+          # coc-rls
+          coc-rust-analyzer
+          coc-snippets
+          coc-spell-checker
+          # coc-cspell-dicts
+          coc-syntax
+          coc-tsserver
+          coc-vimlsp
+          coc-yaml
+
+          #themes
+          base16-vim
+        ];
+      };
+    })
 
     nodejs-12_x
     (yarn.override { nodejs = nodejs-12_x; })
