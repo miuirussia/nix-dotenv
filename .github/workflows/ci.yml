@@ -32,6 +32,10 @@ jobs:
         name: iohk
     - name: Show nix config
       run: cat ~/.config/nix/nix.conf
+    - name: Update nix channel
+      run: |
+        nix-channel --add https://github.com/NixOS/nixpkgs/archive/nixpkgs-20.09-darwin.tar.gz nixpkgs
+        nix-channel --update
     - name: Build default.nix
       run: |
         nix --print-build-logs build
