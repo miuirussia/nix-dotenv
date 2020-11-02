@@ -53,10 +53,10 @@
         "homepage": null,
         "owner": "iamcco",
         "repo": "coc-diagnostic",
-        "rev": "b84aa6d1461cae25635083393ec35fbc72eeefce",
-        "sha256": "0kzapjai732icy4d5f14ih1jr37j1s62wq7n1gz1v3cy136ic0fm",
+        "rev": "b6ccbd963bfd193362dbe4cf3381c219805069e7",
+        "sha256": "1kkm6sg1yf0kgr6f7a8av3ynlzplvx8fhmm2xsvzbls3w9pmvf1c",
         "type": "tarball",
-        "url": "https://github.com/iamcco/coc-diagnostic/archive/b84aa6d1461cae25635083393ec35fbc72eeefce.tar.gz",
+        "url": "https://github.com/iamcco/coc-diagnostic/archive/b6ccbd963bfd193362dbe4cf3381c219805069e7.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "coc-emmet": {
@@ -252,10 +252,10 @@
         "homepage": "https://salt.bountysource.com/teams/coc-nvim",
         "owner": "neoclide",
         "repo": "coc.nvim",
-        "rev": "21705da25137096c2161ec936898d0441a8f2fa5",
-        "sha256": "1dmp0qz80mv12g0ax2nynyvjmjpzq7z6rir7vylhqiah3911pjw3",
+        "rev": "2adc879786ca65c3fdc3dd94743acbbed3f54465",
+        "sha256": "1j4kjxflm0ldaa0pgjm081x95hqxhhanv45mwwnmcg2lkpd6lnq5",
         "type": "tarball",
-        "url": "https://github.com/neoclide/coc.nvim/archive/21705da25137096c2161ec936898d0441a8f2fa5.tar.gz",
+        "url": "https://github.com/neoclide/coc.nvim/archive/2adc879786ca65c3fdc3dd94743acbbed3f54465.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "dhall-vim": {
@@ -336,10 +336,10 @@
         "homepage": "",
         "owner": "kovidgoyal",
         "repo": "kitty",
-        "rev": "17375f0be27d5ce9aa562f3462bf8f7da27ee4de",
-        "sha256": "1gslxaqp34qfm3c8ps69qyrr7aflxmbf9hs32sga1ccbch284hkh",
+        "rev": "0870a3395668046748ca0bb0fe0d6e6723a3b2af",
+        "sha256": "0g8bhcrgm5lha69lkqsj4zgib2nhzjf8fr5dafw5sk6zhabf2hsd",
         "type": "tarball",
-        "url": "https://github.com/kovidgoyal/kitty/archive/17375f0be27d5ce9aa562f3462bf8f7da27ee4de.tar.gz",
+        "url": "https://github.com/kovidgoyal/kitty/archive/0870a3395668046748ca0bb0fe0d6e6723a3b2af.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "neovim": {
@@ -348,10 +348,10 @@
         "homepage": "https://neovim.io",
         "owner": "neovim",
         "repo": "neovim",
-        "rev": "ca7449db46062098cc9b0c84401655cba7d3a53f",
-        "sha256": "1cdb3qxygx45f8i1k12rsqvc4fj94a8lk5k4m06fh8231iq9mksh",
+        "rev": "90f3a8ba291fb0583ab6b0bd33129fdd45df1dab",
+        "sha256": "0x5350h6gpi890kpn3nrkwsrwqbmz52f9m82hykbp699w88mk7wz",
         "type": "tarball",
-        "url": "https://github.com/neovim/neovim/archive/ca7449db46062098cc9b0c84401655cba7d3a53f.tar.gz",
+        "url": "https://github.com/neovim/neovim/archive/90f3a8ba291fb0583ab6b0bd33129fdd45df1dab.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nginx-vim": {
@@ -420,10 +420,10 @@
         "homepage": "https://github.com/NixOS/nixpkgs",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "4e5e46061e5ea38beb08446ee0779e6fc7b16fe7",
-        "sha256": "0lr1r57ngpn7n0bn830nd9cprk7snxgxjfsgcrsfig9q83i7p8gv",
+        "rev": "cfe2c01e86d88938fc9fc7b26c8f1ba568244bcb",
+        "sha256": "06nl01b144snj6rky8f08plqjdvqi77xb0qn94mc30dw35kp3n8n",
         "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs/archive/4e5e46061e5ea38beb08446ee0779e6fc7b16fe7.tar.gz",
+        "url": "https://github.com/NixOS/nixpkgs/archive/cfe2c01e86d88938fc9fc7b26c8f1ba568244bcb.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nixpkgs-stable-linux": {
