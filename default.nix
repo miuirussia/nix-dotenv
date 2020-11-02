@@ -57,6 +57,8 @@ in pkgs.buildEnv {
     zlib
     zsh-completions
 
+    jetbrains-mono
+
     rustup
 
     (wrapNeovim neovim-nightly {
