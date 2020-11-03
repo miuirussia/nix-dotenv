@@ -161,10 +161,10 @@
         "homepage": null,
         "owner": "neoclide",
         "repo": "coc-python",
-        "rev": "5e5dc476dfda2c13a6b5f53061bee15825814f57",
-        "sha256": "17ih9d8hrzd5rdzvrnqghws6g8v8iicg0rlpk3h5fhxigi8gnjld",
+        "rev": "8bbdb5cdc34dbe96cebb693d4ece244f5a47d4d7",
+        "sha256": "1iaa75gyl94cn79xx605ryplcr63x528xbp46ybq34in2qg50bzg",
         "type": "tarball",
-        "url": "https://github.com/neoclide/coc-python/archive/5e5dc476dfda2c13a6b5f53061bee15825814f57.tar.gz",
+        "url": "https://github.com/neoclide/coc-python/archive/8bbdb5cdc34dbe96cebb693d4ece244f5a47d4d7.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "coc-rls": {
@@ -185,10 +185,10 @@
         "homepage": "",
         "owner": "fannheyward",
         "repo": "coc-rust-analyzer",
-        "rev": "0d24cc65a5e0db4a5a037f76a448f65c41bf92fe",
-        "sha256": "1npkxj6g17vchp22hscvazqmy3bg6gxfr7xzrwc6v34as77plbpp",
+        "rev": "0dc1e281c3947274067727e2b0b27370ab1bf3d7",
+        "sha256": "19y7kkhh2b7xyfp54pvz0cc9jpr88y426fsc3rjrgd1w1dcvxgxl",
         "type": "tarball",
-        "url": "https://github.com/fannheyward/coc-rust-analyzer/archive/0d24cc65a5e0db4a5a037f76a448f65c41bf92fe.tar.gz",
+        "url": "https://github.com/fannheyward/coc-rust-analyzer/archive/0dc1e281c3947274067727e2b0b27370ab1bf3d7.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "coc-snippets": {
@@ -348,10 +348,10 @@
         "homepage": "https://neovim.io",
         "owner": "neovim",
         "repo": "neovim",
-        "rev": "dc14b1468afeb53c9ca0a734a2035cc54b5e1d94",
-        "sha256": "1m3qwwjprzi4swkxf1x0a4afjwvzgzn5v79bdj3w4xcx607ds3i4",
+        "rev": "5b5848f2fb1f4b7995bb8a59d94b6766d2182070",
+        "sha256": "01r3i0l2bizk0rn58ryg2z6kmxx857jwm1bg6r2g5msgacw21jga",
         "type": "tarball",
-        "url": "https://github.com/neovim/neovim/archive/dc14b1468afeb53c9ca0a734a2035cc54b5e1d94.tar.gz",
+        "url": "https://github.com/neovim/neovim/archive/5b5848f2fb1f4b7995bb8a59d94b6766d2182070.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nginx-vim": {
@@ -656,10 +656,10 @@
         "homepage": "github.com/zsh-users/zsh-syntax-highlighting",
         "owner": "zsh-users",
         "repo": "zsh-syntax-highlighting",
-        "rev": "2ebfa6a59879b66b02712693731c84831255601d",
-        "sha256": "1lg4jxv352adzc1wf4k872q7qhvrx59vi2fpj11n50hjmngqv6zr",
+        "rev": "1715f39a4680a27abd57fc30c98a95fdf191be45",
+        "sha256": "1kpxima0fnypl7fak4snxnf6nj36nvp1gqwpx1ailyrgxa8641j0",
         "type": "tarball",
-        "url": "https://github.com/zsh-users/zsh-syntax-highlighting/archive/2ebfa6a59879b66b02712693731c84831255601d.tar.gz",
+        "url": "https://github.com/zsh-users/zsh-syntax-highlighting/archive/1715f39a4680a27abd57fc30c98a95fdf191be45.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
