@@ -252,10 +252,10 @@
     "homepage": "https://salt.bountysource.com/teams/coc-nvim",
     "owner": "neoclide",
     "repo": "coc.nvim",
-    "rev": "0cbd225b922c3702e4828608bab1c6bf699a3eeb",
-    "sha256": "05r8nfbf702bsrzpps2gj04d62kjaa9h6h116c0ql0iwi2zi0kmi",
+    "rev": "32f021ccf44968fc58db37085d2c46ab764f4425",
+    "sha256": "05j55xmxy66cgfcqfhdh0xw8wyk7zqsagvvr7ydhvmygyhr9fgfz",
     "type": "tarball",
-    "url": "https://github.com/neoclide/coc.nvim/archive/0cbd225b922c3702e4828608bab1c6bf699a3eeb.tar.gz",
+    "url": "https://github.com/neoclide/coc.nvim/archive/32f021ccf44968fc58db37085d2c46ab764f4425.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "dhall-vim": {
@@ -336,10 +336,10 @@
     "homepage": "",
     "owner": "kovidgoyal",
     "repo": "kitty",
-    "rev": "ef6164eecb018e41ec2f398e83ca253d42ddf661",
-    "sha256": "001274nkm06mpjg3bnsqyb0n7hj1zv560pxwkiwipd2d0b3d1rpv",
+    "rev": "c4404702762f87e746b623fde07638f6a96d5d81",
+    "sha256": "1kjcw9g18krjigiwha47b649qdwp20ssjfi5vl23s1z1yb00rhmc",
     "type": "tarball",
-    "url": "https://github.com/kovidgoyal/kitty/archive/ef6164eecb018e41ec2f398e83ca253d42ddf661.tar.gz",
+    "url": "https://github.com/kovidgoyal/kitty/archive/c4404702762f87e746b623fde07638f6a96d5d81.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "neovim": {
@@ -348,10 +348,10 @@
     "homepage": "https://neovim.io",
     "owner": "neovim",
     "repo": "neovim",
-    "rev": "aaaad0f5934460dfaf7ef7a29dcf38060c641b43",
-    "sha256": "1hkjjdkdsrg03ylm28hzm6i5s75xpzf2716y45s291i4dcrkcrbn",
+    "rev": "ee3acef3864b843d242ed617d4e3c7550b858b0d",
+    "sha256": "14phaf0cg722vl1pg8l9mnzkns7ax4y1awkr8vbj1fgsq2x5qbfb",
     "type": "tarball",
-    "url": "https://github.com/neovim/neovim/archive/aaaad0f5934460dfaf7ef7a29dcf38060c641b43.tar.gz",
+    "url": "https://github.com/neovim/neovim/archive/ee3acef3864b843d242ed617d4e3c7550b858b0d.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nginx-vim": {
