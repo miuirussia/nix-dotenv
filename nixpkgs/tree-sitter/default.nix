@@ -8,11 +8,13 @@ pkgs.stdenv.mkDerivation {
 
   src = sources.tree-sitter;
 
-  postInstall = ''
+  postBuild = ''
     mkdir -p $out/lib $out/include
     cp -r ./libtree-sitter* $out/lib
     cp -r ./lib/include/* $out/include
   '';
+
+  dontInstall = true;
 
   meta = with lib; {
     homepage = "https://github.com/tree-sitter/tree-sitter";
