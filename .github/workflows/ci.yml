@@ -12,11 +12,11 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Install nix
-      uses: cachix/install-nix-action@v11
+      uses: cachix/install-nix-action@v12
       with:
         nix_path: nixpkgs=channel:nixpkgs-20.09-darwin
     - name: Add cachix kdevlab cache
-      uses: cachix/cachix-action@v6
+      uses: cachix/cachix-action@v7
       with:
         name: kdevlab
         signingKey: '${{ secrets.CACHIX_SIGNING_KEY }}'
@@ -29,7 +29,7 @@ jobs:
         echo "trusted-public-keys = hydra.iohk.io:f/Ea+s+dFdN+3Y/G+FDgSq+a5NEWhJGzdjvKNGv0/EQ=" \
             >> ~/.config/nix/nix.conf
     - name: Add cachix iohk cache
-      uses: cachix/cachix-action@v6
+      uses: cachix/cachix-action@v7
       with:
         name: iohk
     - name: Show nix config
