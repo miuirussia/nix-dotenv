@@ -61,9 +61,12 @@ in {
     haskellPackages_u = nixpkgsUnstable.haskellPackages;
 
     neovim-nightly = nixpkgsUnstable.neovim-unwrapped.overrideAttrs (
-      _: {
+      prev: {
         pname = "neovim-nightly";
         version = "master";
+        buildInputs = prev.buildInputs ++ [
+          pkgs.tree-sitter
+        ];
         src = pkgs.fetchFromGitHub {
           inherit (sources.neovim) owner repo rev sha256;
         };
