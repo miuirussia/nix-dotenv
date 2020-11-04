@@ -29,7 +29,7 @@ let
   hlsPkgs884  = mkHlsPkgs { ghcVersion = "ghc884"; };
   hlsPkgs8102 = mkHlsPkgs { ghcVersion = "ghc8102"; };
 in {
-# allowBroken = true;
+  allowBroken = true;
   allowUnfree = true;
 
   packageOverrides = pkgs: {
