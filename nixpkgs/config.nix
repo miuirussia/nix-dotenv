@@ -60,13 +60,22 @@ in {
 
     haskellPackages_u = nixpkgsUnstable.haskellPackages;
 
-    neovim-nightly = nixpkgsUnstable.neovim-unwrapped.overrideAttrs (prev: {
-      pname = "neovim-nightly";
-      version = "master";
-      src = pkgs.fetchFromGitHub {
-        inherit (sources.neovim) owner repo rev sha256;
-      };
-    });
+    neovim-nightly = let
+      tree-sitter = (pkgs.callPackage ./tree-sitter/default.nix { inherit sources; });
+    in nixpkgsUnstable.neovim-unwrapped.overrideAttrs (
+      prev: {
+        pname = "neovim-nightly";
+        version = "master";
+
+        buildInputs = prev.buildInputs ++ [
+          tree-sitter
+        ];
+
+        src = pkgs.fetchFromGitHub {
+          inherit (sources.neovim) owner repo rev sha256;
+        };
+      }
+    );
 
     nodePackages = pkgs.nodePackages // (pkgs.callPackage ./nodePackages/default.nix { });
 

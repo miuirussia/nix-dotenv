@@ -343,15 +343,15 @@
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "neovim": {
-    "branch": "432f3240f171e857beb3d1a554cbd8a649bb38ae",
+    "branch": "master",
     "description": "Vim-fork focused on extensibility and usability",
     "homepage": "https://neovim.io",
     "owner": "neovim",
     "repo": "neovim",
-    "rev": "432f3240f171e857beb3d1a554cbd8a649bb38ae",
-    "sha256": "1drgaxnaazbv086pmy63254xm2madh8gl50kaynhbdwrrkxwcfzh",
+    "rev": "aaaad0f5934460dfaf7ef7a29dcf38060c641b43",
+    "sha256": "1hkjjdkdsrg03ylm28hzm6i5s75xpzf2716y45s291i4dcrkcrbn",
     "type": "tarball",
-    "url": "https://github.com/neovim/neovim/archive/432f3240f171e857beb3d1a554cbd8a649bb38ae.tar.gz",
+    "url": "https://github.com/neovim/neovim/archive/aaaad0f5934460dfaf7ef7a29dcf38060c641b43.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nginx-vim": {
@@ -504,6 +504,18 @@
     "sha256": "0siml7vqiq5nvymyw8az48rv5dsf9dad8y8hy22j57lknd67b8h3",
     "type": "tarball",
     "url": "https://github.com/rust-lang/rust.vim/archive/96e79e397126be1a64fb53d8e3656842fe1a4532.tar.gz",
+    "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+  },
+  "tree-sitter": {
+    "branch": "master",
+    "description": "An incremental parsing system for programming tools",
+    "homepage": "https://tree-sitter.github.io",
+    "owner": "tree-sitter",
+    "repo": "tree-sitter",
+    "rev": "d12b874a48fe1d9e3e140a8b31b93eeaa4820d15",
+    "sha256": "01xrhj6pqc3ry30fd93cyz0i4a225d1vb4xxg2q6ahgnjhqzydk8",
+    "type": "tarball",
+    "url": "https://github.com/tree-sitter/tree-sitter/archive/d12b874a48fe1d9e3e140a8b31b93eeaa4820d15.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "vim-javascript": {
