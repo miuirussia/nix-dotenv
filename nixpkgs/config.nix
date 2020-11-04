@@ -29,7 +29,7 @@ let
   hlsPkgs884  = mkHlsPkgs { ghcVersion = "ghc884"; };
   hlsPkgs8102 = mkHlsPkgs { ghcVersion = "ghc8102"; };
 in {
-  allowBroken = true;
+# allowBroken = true;
   allowUnfree = true;
 
   packageOverrides = pkgs: {
@@ -64,8 +64,9 @@ in {
       prev: {
         pname = "neovim-nightly";
         version = "master";
-        buildInputs = prev.buildInputs ++ [
-          pkgs.tree-sitter
+        cmakeFlags = prev.cmakeFlags ++ [
+          "-DUSE_BUNDLED=ON"
+          "-DUSE_BUNDLED_TS=ON"
         ];
         src = pkgs.fetchFromGitHub {
           inherit (sources.neovim) owner repo rev sha256;
