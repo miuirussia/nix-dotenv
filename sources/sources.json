@@ -343,15 +343,15 @@
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "neovim": {
-    "branch": "master",
+    "branch": "432f3240f171e857beb3d1a554cbd8a649bb38ae",
     "description": "Vim-fork focused on extensibility and usability",
     "homepage": "https://neovim.io",
     "owner": "neovim",
     "repo": "neovim",
-    "rev": "aaaad0f5934460dfaf7ef7a29dcf38060c641b43",
-    "sha256": "1hkjjdkdsrg03ylm28hzm6i5s75xpzf2716y45s291i4dcrkcrbn",
+    "rev": "432f3240f171e857beb3d1a554cbd8a649bb38ae",
+    "sha256": "1drgaxnaazbv086pmy63254xm2madh8gl50kaynhbdwrrkxwcfzh",
     "type": "tarball",
-    "url": "https://github.com/neovim/neovim/archive/aaaad0f5934460dfaf7ef7a29dcf38060c641b43.tar.gz",
+    "url": "https://github.com/neovim/neovim/archive/432f3240f171e857beb3d1a554cbd8a649bb38ae.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nginx-vim": {
