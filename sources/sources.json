@@ -185,10 +185,10 @@
     "homepage": "",
     "owner": "fannheyward",
     "repo": "coc-rust-analyzer",
-    "rev": "bb288bbdba48f00357434ce26c2289bf617063ad",
-    "sha256": "0nw2b9kpyq6c51r77cmn2rs65jic6b7m4n6ccxr4z7np18h8z2cz",
+    "rev": "7a5bfafc7f850a47c9b79ab2ffd864a41d484a68",
+    "sha256": "1f1020k4rqcgpw2s4xg128752pvcpzsk8hlihy58pzcikx331kns",
     "type": "tarball",
-    "url": "https://github.com/fannheyward/coc-rust-analyzer/archive/bb288bbdba48f00357434ce26c2289bf617063ad.tar.gz",
+    "url": "https://github.com/fannheyward/coc-rust-analyzer/archive/7a5bfafc7f850a47c9b79ab2ffd864a41d484a68.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "coc-snippets": {
@@ -348,10 +348,10 @@
     "homepage": "https://neovim.io",
     "owner": "neovim",
     "repo": "neovim",
-    "rev": "ee3acef3864b843d242ed617d4e3c7550b858b0d",
-    "sha256": "14phaf0cg722vl1pg8l9mnzkns7ax4y1awkr8vbj1fgsq2x5qbfb",
+    "rev": "9cc702ae119f34e3ea51b3bddc159e8b7898c3c7",
+    "sha256": "1qylia04fgb9002vdvxm49gznswxp77mzn7r4sixyyqvbg36ci87",
     "type": "tarball",
-    "url": "https://github.com/neovim/neovim/archive/ee3acef3864b843d242ed617d4e3c7550b858b0d.tar.gz",
+    "url": "https://github.com/neovim/neovim/archive/9cc702ae119f34e3ea51b3bddc159e8b7898c3c7.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nginx-vim": {
@@ -420,10 +420,10 @@
     "homepage": "https://github.com/NixOS/nixpkgs",
     "owner": "NixOS",
     "repo": "nixpkgs",
-    "rev": "8d8c3ff77cf9c933882008c257b5c8736ed388df",
-    "sha256": "0223yshzfdwfwvzyaxp8yqrc1isr4hz8xl7xxmf1p92kifalrn2z",
+    "rev": "a6a3a368dda12910ab8948361fda319fb5278ab7",
+    "sha256": "18zsb46hsscw4g6c4b4g7whwqd016nhf7x4kkmf01fcm0if5g252",
     "type": "tarball",
-    "url": "https://github.com/NixOS/nixpkgs/archive/8d8c3ff77cf9c933882008c257b5c8736ed388df.tar.gz",
+    "url": "https://github.com/NixOS/nixpkgs/archive/a6a3a368dda12910ab8948361fda319fb5278ab7.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nixpkgs-stable-linux": {
