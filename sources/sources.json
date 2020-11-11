@@ -283,7 +283,7 @@
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "haskell.nix": {
-    "branch": "cda15dc5b7d0bba2278010b87bb24508a5844705",
+    "branch": "master",
     "description": "Alternative Haskell Infrastructure for Nixpkgs",
     "homepage": "https://input-output-hk.github.io/haskell.nix",
     "owner": "input-output-hk",
