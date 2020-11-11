@@ -252,10 +252,10 @@
     "homepage": "https://salt.bountysource.com/teams/coc-nvim",
     "owner": "neoclide",
     "repo": "coc.nvim",
-    "rev": "33cb5ee1b77c6837ff98eda39665fe01122cea2d",
-    "sha256": "0c0c1wcf66zxql0qiafkd5k1x3f61pifsdqb8ihnpvl1djsb6q8n",
+    "rev": "9cd87bf078892441e3a51db7db5760ba80542168",
+    "sha256": "1fnxxf0p7qm8lry0anx8a03k7n6lp0mwnp5jswb1vfdyrxyc8ksz",
     "type": "tarball",
-    "url": "https://github.com/neoclide/coc.nvim/archive/33cb5ee1b77c6837ff98eda39665fe01122cea2d.tar.gz",
+    "url": "https://github.com/neoclide/coc.nvim/archive/9cd87bf078892441e3a51db7db5760ba80542168.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "dhall-vim": {
@@ -312,10 +312,10 @@
     "homepage": null,
     "owner": "haskell",
     "repo": "haskell-language-server",
-    "rev": "8682517e9ff92caa35e727e28445896f97c61e8d",
-    "sha256": "1w15p988a5h11fcp25lllaj7j78f35gzg5bixy1vs7ld0p6jj7n9",
+    "rev": "372a12e797069dc3ac4fa33dcaabe3b992999d7c",
+    "sha256": "027fq6752024wzzq9izsilm5lkq9gmpxf82rixbimbijw0yk4pwj",
     "type": "tarball",
-    "url": "https://github.com/haskell/haskell-language-server/archive/8682517e9ff92caa35e727e28445896f97c61e8d.tar.gz",
+    "url": "https://github.com/haskell/haskell-language-server/archive/372a12e797069dc3ac4fa33dcaabe3b992999d7c.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "json5.vim": {
