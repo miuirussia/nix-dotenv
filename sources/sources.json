@@ -252,10 +252,10 @@
     "homepage": "https://salt.bountysource.com/teams/coc-nvim",
     "owner": "neoclide",
     "repo": "coc.nvim",
-    "rev": "d51f8b44ba0b618f854c11b441fd7a8d3267ba07",
-    "sha256": "10ryzskc39dnjyp74rca34x8i3sbqar71wqh1ip876rrglc8psnb",
+    "rev": "ca248166d7bc5cf5d5a5ae624391f9a91be4dbec",
+    "sha256": "0hsgiyqw2f975f1kh5w8ip7qgsbrxvxv1q4in6smdrg7vjbgxznv",
     "type": "tarball",
-    "url": "https://github.com/neoclide/coc.nvim/archive/d51f8b44ba0b618f854c11b441fd7a8d3267ba07.tar.gz",
+    "url": "https://github.com/neoclide/coc.nvim/archive/ca248166d7bc5cf5d5a5ae624391f9a91be4dbec.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "dhall-vim": {
@@ -312,10 +312,10 @@
     "homepage": null,
     "owner": "haskell",
     "repo": "haskell-language-server",
-    "rev": "372a12e797069dc3ac4fa33dcaabe3b992999d7c",
-    "sha256": "027fq6752024wzzq9izsilm5lkq9gmpxf82rixbimbijw0yk4pwj",
+    "rev": "0f64733491a85c3cabe8a2fa91e6f54d803a76d8",
+    "sha256": "0ijzp59xyx7lfb7f30f7qhxd9sw8sib941plfwbbr6lqfc6g7flm",
     "type": "tarball",
-    "url": "https://github.com/haskell/haskell-language-server/archive/372a12e797069dc3ac4fa33dcaabe3b992999d7c.tar.gz",
+    "url": "https://github.com/haskell/haskell-language-server/archive/0f64733491a85c3cabe8a2fa91e6f54d803a76d8.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "json5.vim": {
@@ -336,10 +336,10 @@
     "homepage": "",
     "owner": "kovidgoyal",
     "repo": "kitty",
-    "rev": "a74679dd9594da4794bc0026715869affbfddd8f",
-    "sha256": "1li5xy92f3ba8kg5w6nkgcimd5v120s2mwxcmi56amdpsy9pkqfs",
+    "rev": "9816979169b575fb604a1747b3bdf03ab7c0aa3e",
+    "sha256": "04zxx337p23sn4ib7fsnsk3f21wjpycqdffc082lk6lsp4g16b3p",
     "type": "tarball",
-    "url": "https://github.com/kovidgoyal/kitty/archive/a74679dd9594da4794bc0026715869affbfddd8f.tar.gz",
+    "url": "https://github.com/kovidgoyal/kitty/archive/9816979169b575fb604a1747b3bdf03ab7c0aa3e.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "neovim": {
@@ -420,10 +420,10 @@
     "homepage": "https://github.com/NixOS/nixpkgs",
     "owner": "NixOS",
     "repo": "nixpkgs",
-    "rev": "7eeecd455fb9aaf78e066d92a2a18cfc7f82978e",
-    "sha256": "014x4jfs25rp4mrfhiyw3dmjxz4bpz7v6ndxxf18a0qp6wcqv55l",
+    "rev": "d3634f458894a19de90e8000fa8ae67dbf16f568",
+    "sha256": "19n0byrgrvabybv30rv3gya6gz3byd344r9ndfaplj9f33nwzwbg",
     "type": "tarball",
-    "url": "https://github.com/NixOS/nixpkgs/archive/7eeecd455fb9aaf78e066d92a2a18cfc7f82978e.tar.gz",
+    "url": "https://github.com/NixOS/nixpkgs/archive/d3634f458894a19de90e8000fa8ae67dbf16f568.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nixpkgs-stable-linux": {
