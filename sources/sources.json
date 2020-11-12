@@ -288,10 +288,10 @@
     "homepage": "https://input-output-hk.github.io/haskell.nix",
     "owner": "input-output-hk",
     "repo": "haskell.nix",
-    "rev": "bdd69693b9597c4d893b6d134cf2f3f8b1809e09",
-    "sha256": "1zhh3y5gz24k46f4ds4m6ih403zwvxmsyq66bl8hlwvch8wl38bh",
+    "rev": "c583fb3e775d0f071b58a53f82f726cec623c800",
+    "sha256": "0pzsaxwap6jmmpcyzwvygbrfcanjzkwfrmlqac4jnjrfixd8g27s",
     "type": "tarball",
-    "url": "https://github.com/input-output-hk/haskell.nix/archive/bdd69693b9597c4d893b6d134cf2f3f8b1809e09.tar.gz",
+    "url": "https://github.com/input-output-hk/haskell.nix/archive/c583fb3e775d0f071b58a53f82f726cec623c800.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-stable": {
@@ -348,10 +348,10 @@
     "homepage": "https://neovim.io",
     "owner": "neovim",
     "repo": "neovim",
-    "rev": "4875db2e56b395f47e3b9634b8c0a0e179fbe353",
-    "sha256": "1qg35lh28kn3h6j7hv0myd2rjr8ny04fvk69k21lfyvd3qa8qdfd",
+    "rev": "4ae31c46f75aef7d7a80dd2a8d269c168806a1bd",
+    "sha256": "09qm6bdjakxb3bcp54qk7hlps3v1amy3kkwxqlw1izxbdljl19dd",
     "type": "tarball",
-    "url": "https://github.com/neovim/neovim/archive/4875db2e56b395f47e3b9634b8c0a0e179fbe353.tar.gz",
+    "url": "https://github.com/neovim/neovim/archive/4ae31c46f75aef7d7a80dd2a8d269c168806a1bd.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nginx-vim": {
@@ -420,10 +420,10 @@
     "homepage": "https://github.com/NixOS/nixpkgs",
     "owner": "NixOS",
     "repo": "nixpkgs",
-    "rev": "68833dca6c34871ae8dbe378dc137fa52d785b82",
-    "sha256": "124388h38j0m2s6y64wcdjygrdw9rhdsjm6w9d46amfwpxc5zc0w",
+    "rev": "7eeecd455fb9aaf78e066d92a2a18cfc7f82978e",
+    "sha256": "014x4jfs25rp4mrfhiyw3dmjxz4bpz7v6ndxxf18a0qp6wcqv55l",
     "type": "tarball",
-    "url": "https://github.com/NixOS/nixpkgs/archive/68833dca6c34871ae8dbe378dc137fa52d785b82.tar.gz",
+    "url": "https://github.com/NixOS/nixpkgs/archive/7eeecd455fb9aaf78e066d92a2a18cfc7f82978e.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nixpkgs-stable-linux": {
