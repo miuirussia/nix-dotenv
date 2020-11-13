@@ -185,10 +185,10 @@
     "homepage": "",
     "owner": "fannheyward",
     "repo": "coc-rust-analyzer",
-    "rev": "a53acca5ccd38ffdfa16507975897a35841d8daf",
-    "sha256": "1swrvxmjg4kdpajnv9jhzn80gdx79dzy0xmhbxnvmgq02rx6n1dr",
+    "rev": "d84a05f0a1040644de70be48b692b7c6eebf2b98",
+    "sha256": "1w2y5bjjy4yk2vrl8a35idkf5wrr87p3gkzbrnbgywpdfc1n4862",
     "type": "tarball",
-    "url": "https://github.com/fannheyward/coc-rust-analyzer/archive/a53acca5ccd38ffdfa16507975897a35841d8daf.tar.gz",
+    "url": "https://github.com/fannheyward/coc-rust-analyzer/archive/d84a05f0a1040644de70be48b692b7c6eebf2b98.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "coc-snippets": {
@@ -252,10 +252,10 @@
     "homepage": "https://salt.bountysource.com/teams/coc-nvim",
     "owner": "neoclide",
     "repo": "coc.nvim",
-    "rev": "e9e3b7d297ece609aa142f3e3bf92af5a0916dff",
-    "sha256": "0larnvnwynrcii1yibwjs5xp91l9pgydr0zqv5qchi6cr6r3g2q1",
+    "rev": "f51a7df362281f06f60120f9fe46930719930572",
+    "sha256": "1nz3rny1g0jy074bxnprc91agj6z56j01l1zcbrncyi2366pfzck",
     "type": "tarball",
-    "url": "https://github.com/neoclide/coc.nvim/archive/e9e3b7d297ece609aa142f3e3bf92af5a0916dff.tar.gz",
+    "url": "https://github.com/neoclide/coc.nvim/archive/f51a7df362281f06f60120f9fe46930719930572.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "dhall-vim": {
