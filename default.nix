@@ -46,7 +46,6 @@ in pkgs.buildEnv {
     speedtest-cli
     stlink
     tldr
-    tmux
     tmuxinator
     tree
     w3m
@@ -155,5 +154,13 @@ in pkgs.buildEnv {
 
     gitAndTools.diff-so-fancy
     nix-prefetch-git
+
+    #programs from home-manager
+    direnv
+    starship
+    zsh
+    git
+    kitty
+    tmux
   ];
 }
