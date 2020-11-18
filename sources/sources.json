@@ -185,10 +185,10 @@
     "homepage": "",
     "owner": "fannheyward",
     "repo": "coc-rust-analyzer",
-    "rev": "5183bbc37e67b12e9a3566232fe5dc797e03395d",
-    "sha256": "11pw6hg68xqyj56zpg0626z5x60hy9d6229vzfr1dnpwdhjl4786",
+    "rev": "d904fd35e168e60e7600516fea8e54ce8ab959cd",
+    "sha256": "1xrla7ry240km7jcgyjfkhl81dijgds9lg0j0k2mh3hy2wy18knm",
     "type": "tarball",
-    "url": "https://github.com/fannheyward/coc-rust-analyzer/archive/5183bbc37e67b12e9a3566232fe5dc797e03395d.tar.gz",
+    "url": "https://github.com/fannheyward/coc-rust-analyzer/archive/d904fd35e168e60e7600516fea8e54ce8ab959cd.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "coc-snippets": {
@@ -252,10 +252,10 @@
     "homepage": "https://salt.bountysource.com/teams/coc-nvim",
     "owner": "neoclide",
     "repo": "coc.nvim",
-    "rev": "922f82d0de4b2c37f6a87f0ae9a53b1e20446f7a",
-    "sha256": "1cswwz2rw82wa30wwplb4w08dap1ji4vm668151bp415qg8l5r9i",
+    "rev": "103d5e995127937bdeb42cf248c2325cce93b9eb",
+    "sha256": "1llgy5m8smrvbsaafirx4a0sdzvia2rxwk57jylm5hh376kll6kl",
     "type": "tarball",
-    "url": "https://github.com/neoclide/coc.nvim/archive/922f82d0de4b2c37f6a87f0ae9a53b1e20446f7a.tar.gz",
+    "url": "https://github.com/neoclide/coc.nvim/archive/103d5e995127937bdeb42cf248c2325cce93b9eb.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "dhall-vim": {
@@ -288,10 +288,10 @@
     "homepage": "https://input-output-hk.github.io/haskell.nix",
     "owner": "input-output-hk",
     "repo": "haskell.nix",
-    "rev": "028eeb1a2523e9512bb2dabce59f7ab42b917887",
-    "sha256": "00k0hb0vsfc6cadj51387zsgpd7w9bpf3m4hghz4cjd8ba9lpbfg",
+    "rev": "8c0f7f8effefaccfdc9017661c278376aa4172b7",
+    "sha256": "023s6vhzd6x3rvzaw3lkik7375bxdrr9v61zc2xhw35kv5kazikv",
     "type": "tarball",
-    "url": "https://github.com/input-output-hk/haskell.nix/archive/028eeb1a2523e9512bb2dabce59f7ab42b917887.tar.gz",
+    "url": "https://github.com/input-output-hk/haskell.nix/archive/8c0f7f8effefaccfdc9017661c278376aa4172b7.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-stable": {
@@ -301,7 +301,7 @@
     "owner": "haskell",
     "repo": "haskell-language-server",
     "rev": "372a12e797069dc3ac4fa33dcaabe3b992999d7c",
-    "sha256": "1p2p0shxgvrgflanp57bknagxj57pmkxd7007hvcnf89v658b1q1",
+    "sha256": "027fq6752024wzzq9izsilm5lkq9gmpxf82rixbimbijw0yk4pwj",
     "type": "tarball",
     "url": "https://github.com/haskell/haskell-language-server/archive/372a12e797069dc3ac4fa33dcaabe3b992999d7c.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
@@ -312,10 +312,10 @@
     "homepage": null,
     "owner": "haskell",
     "repo": "haskell-language-server",
-    "rev": "ecafd3efe9e4fc73f6275db4cfa78e0ea8936106",
-    "sha256": "1a8pjj1kp3iv8dc1246q2nsg3ahlb3dc9rcg3ps75l155745r1ql",
+    "rev": "c3af2dd141609f94ecadadfd13def7ccb6acb3bb",
+    "sha256": "0kw8pwjcq9b7qcjca6v7y6bk2l9fcw6jv6a1s6a71krm5fnm07wc",
     "type": "tarball",
-    "url": "https://github.com/haskell/haskell-language-server/archive/ecafd3efe9e4fc73f6275db4cfa78e0ea8936106.tar.gz",
+    "url": "https://github.com/haskell/haskell-language-server/archive/c3af2dd141609f94ecadadfd13def7ccb6acb3bb.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "json5.vim": {
@@ -348,10 +348,10 @@
     "homepage": "https://neovim.io",
     "owner": "neovim",
     "repo": "neovim",
-    "rev": "ce70edb80e965c90fadafea72d758b4d2d531077",
-    "sha256": "1hkd409kvb403vpsq0ckzf8fr5g16f5w7smiagm6i81vzqlfz34j",
+    "rev": "8c4648421a1e34c3e95e42ea596de36987f02563",
+    "sha256": "119kds8a0l557aapzkgmp9c1c7zqxi9h6yia20yjk88ibx7bswkv",
     "type": "tarball",
-    "url": "https://github.com/neovim/neovim/archive/ce70edb80e965c90fadafea72d758b4d2d531077.tar.gz",
+    "url": "https://github.com/neovim/neovim/archive/8c4648421a1e34c3e95e42ea596de36987f02563.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nginx-vim": {
