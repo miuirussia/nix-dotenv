@@ -9,7 +9,7 @@ jobs:
     name: "build"
     runs-on: macos-latest
     steps:
-    - name: Checkout
+    - name: Checkout nix-dotenv
       uses: actions/checkout@v2
       with:
         path: environment
@@ -46,3 +46,20 @@ jobs:
       run: |
         nix --print-build-logs path-info
       working-directory: environment
+    - name: Checkout dotfiles
+      uses: actions/checkout@v2
+      with:
+        path: dotfiles
+        repository: miuirussia/dotfiles
+        token: ${{ secrets.REPO_ACCESS_TOKEN }}
+        persist-credentials: true
+    - name: Copy updated files
+      run: |
+        cp -f "./environment/sources/default.nix" "./environment/sources/sources.nix" "./environment/sources/sources.json" ./dotfiles/nix/sources
+        cp -f "./environment/custom-plugins.nix" ./dotfiles/nix/programs/neovim
+        cp -f "./environment/nixpkgs/mkHlsPkgs.nix" "./environment/nixpkgs/hls.nix" ./dotfiles/nix/nixpkgs
+    - name: Commit updated files
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Automatic sources update
+        repository: dotfiles
