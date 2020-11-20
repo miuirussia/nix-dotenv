@@ -185,10 +185,10 @@
     "homepage": "",
     "owner": "fannheyward",
     "repo": "coc-rust-analyzer",
-    "rev": "5b9e4878622c3062f7555f1096d097e0c6ec5aa5",
-    "sha256": "1zia2ny8m2728dng64w68z0xc7fajh4j5zdsbnlpi2kfqp9hpa2d",
+    "rev": "5760ccf49b41186bc0d102786a397d638f21b0f6",
+    "sha256": "1lf5wb2pgd51f36gj3c2jnsjqyc2iv75prr3iq0dcgd473q070x8",
     "type": "tarball",
-    "url": "https://github.com/fannheyward/coc-rust-analyzer/archive/5b9e4878622c3062f7555f1096d097e0c6ec5aa5.tar.gz",
+    "url": "https://github.com/fannheyward/coc-rust-analyzer/archive/5760ccf49b41186bc0d102786a397d638f21b0f6.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "coc-snippets": {
@@ -228,10 +228,10 @@
     "homepage": "",
     "owner": "iamcco",
     "repo": "coc-vimlsp",
-    "rev": "efb672fe82d8619d83d3978714393e13aee8e296",
-    "sha256": "16whzvyzbx8zh7z33w7pir264dmbapkanb15mkazfhkh0wm3sfvf",
+    "rev": "90af7f24d943954ba04e17426a8a4e9e84e11423",
+    "sha256": "0nda3kp29mbr0kjbnn45a0w52pv4x8mkcsj180fvsm76h0rw1avf",
     "type": "tarball",
-    "url": "https://github.com/iamcco/coc-vimlsp/archive/efb672fe82d8619d83d3978714393e13aee8e296.tar.gz",
+    "url": "https://github.com/iamcco/coc-vimlsp/archive/90af7f24d943954ba04e17426a8a4e9e84e11423.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "coc-yaml": {
@@ -288,10 +288,10 @@
     "homepage": "https://input-output-hk.github.io/haskell.nix",
     "owner": "input-output-hk",
     "repo": "haskell.nix",
-    "rev": "401c1d7cc26314e75ae557a701577ad49999d8ea",
-    "sha256": "0r569s0snwdi8rlp61dybjjq66wb300fmrr6m7shaxqv5hrzkb7p",
+    "rev": "01fd15957e550737a8109295c5117f6ec26d9abd",
+    "sha256": "080643y3vw9a0nda81f8rdvm1vdkbd7w5h6aa8qip1bzcms0xn8a",
     "type": "tarball",
-    "url": "https://github.com/input-output-hk/haskell.nix/archive/401c1d7cc26314e75ae557a701577ad49999d8ea.tar.gz",
+    "url": "https://github.com/input-output-hk/haskell.nix/archive/01fd15957e550737a8109295c5117f6ec26d9abd.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-stable": {
@@ -336,10 +336,10 @@
     "homepage": "",
     "owner": "kovidgoyal",
     "repo": "kitty",
-    "rev": "bdcac9aed39f3d2de51bfdf3ea3e0c927a18a5e3",
-    "sha256": "1dlwa546r1ps29s5mr4jrbxagsa1cxdkvjd7nr9sjpnf7f2zhfx8",
+    "rev": "9193a20b447de3c81d738c5f6c7fa0e6fa8905ef",
+    "sha256": "0n7xf434hfbkgd6hhla9xjcp2j8dfy12xm104qbnb537p3g69b0m",
     "type": "tarball",
-    "url": "https://github.com/kovidgoyal/kitty/archive/bdcac9aed39f3d2de51bfdf3ea3e0c927a18a5e3.tar.gz",
+    "url": "https://github.com/kovidgoyal/kitty/archive/9193a20b447de3c81d738c5f6c7fa0e6fa8905ef.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "neovim": {
@@ -348,10 +348,10 @@
     "homepage": "https://neovim.io",
     "owner": "neovim",
     "repo": "neovim",
-    "rev": "ad56527247353df4a83fc7232d8680083ec4f24f",
-    "sha256": "00dhnfh151dfif92bv8ib79yj1jga56ddp9s9kpf0xkbvqnpwk25",
+    "rev": "480b04122e93826bdfc74fbeacab2d94b089420f",
+    "sha256": "1xbl037rkwwh05i67xzfvb982m0rhb4afhwjzc48ahnq1bvprv7d",
     "type": "tarball",
-    "url": "https://github.com/neovim/neovim/archive/ad56527247353df4a83fc7232d8680083ec4f24f.tar.gz",
+    "url": "https://github.com/neovim/neovim/archive/480b04122e93826bdfc74fbeacab2d94b089420f.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nginx-vim": {
@@ -620,10 +620,10 @@
     "homepage": "http://liuchengxu.org/vista.vim",
     "owner": "liuchengxu",
     "repo": "vista.vim",
-    "rev": "bc3b2a74efb253be4b79cc7b70b192e1360f26c1",
-    "sha256": "0qfdykp7sf4p2h8gfx40qmnfj94p4hksngqqkzrhzi9z3i6fqk2a",
+    "rev": "103e23ffadd01a9ad840b367cb27d7dfd9177c98",
+    "sha256": "14c5biwj5qwwsvhydcaw3r4zgzqj14j576dg5kim5vmx7fxq015s",
     "type": "tarball",
-    "url": "https://github.com/liuchengxu/vista.vim/archive/bc3b2a74efb253be4b79cc7b70b192e1360f26c1.tar.gz",
+    "url": "https://github.com/liuchengxu/vista.vim/archive/103e23ffadd01a9ad840b367cb27d7dfd9177c98.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "yarn2nix": {
