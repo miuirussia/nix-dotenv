@@ -185,10 +185,10 @@
     "homepage": "",
     "owner": "fannheyward",
     "repo": "coc-rust-analyzer",
-    "rev": "5760ccf49b41186bc0d102786a397d638f21b0f6",
-    "sha256": "1lf5wb2pgd51f36gj3c2jnsjqyc2iv75prr3iq0dcgd473q070x8",
+    "rev": "ae50a3379b131136039861e776ad2cec3a0156dd",
+    "sha256": "162a1hw323l17c5vc0866bkxyg8l4jczwkhj7k97d27abviqcc16",
     "type": "tarball",
-    "url": "https://github.com/fannheyward/coc-rust-analyzer/archive/5760ccf49b41186bc0d102786a397d638f21b0f6.tar.gz",
+    "url": "https://github.com/fannheyward/coc-rust-analyzer/archive/ae50a3379b131136039861e776ad2cec3a0156dd.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "coc-snippets": {
@@ -252,10 +252,10 @@
     "homepage": "https://salt.bountysource.com/teams/coc-nvim",
     "owner": "neoclide",
     "repo": "coc.nvim",
-    "rev": "f90cd46969e4a7bc2d9fc366bbfefc550df70e7a",
-    "sha256": "00hz15dv5zh6cq3lkl14qxzkcamp8lv4d6ijyjxmnknq46p2asl4",
+    "rev": "835a0e7f30a87a4e9ddebe7eba1b0b7d0dc93bb2",
+    "sha256": "06inghy4w17rnar1j9606xxqlyhhm77nll8mrnp3wckakhias04k",
     "type": "tarball",
-    "url": "https://github.com/neoclide/coc.nvim/archive/f90cd46969e4a7bc2d9fc366bbfefc550df70e7a.tar.gz",
+    "url": "https://github.com/neoclide/coc.nvim/archive/835a0e7f30a87a4e9ddebe7eba1b0b7d0dc93bb2.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "dhall-vim": {
@@ -288,10 +288,10 @@
     "homepage": "https://input-output-hk.github.io/haskell.nix",
     "owner": "input-output-hk",
     "repo": "haskell.nix",
-    "rev": "01fd15957e550737a8109295c5117f6ec26d9abd",
-    "sha256": "080643y3vw9a0nda81f8rdvm1vdkbd7w5h6aa8qip1bzcms0xn8a",
+    "rev": "c52845ff2e5c14d0803712446f5779a6cd35ed96",
+    "sha256": "1ipg7gqhcxxch1m3w3w98b4ia9747kr7h0b5kabfb1lyhf9zk95s",
     "type": "tarball",
-    "url": "https://github.com/input-output-hk/haskell.nix/archive/01fd15957e550737a8109295c5117f6ec26d9abd.tar.gz",
+    "url": "https://github.com/input-output-hk/haskell.nix/archive/c52845ff2e5c14d0803712446f5779a6cd35ed96.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-stable": {
@@ -500,10 +500,10 @@
     "homepage": "https://tree-sitter.github.io",
     "owner": "tree-sitter",
     "repo": "tree-sitter",
-    "rev": "f65c100522620240dc7724e3167b404131485354",
-    "sha256": "160f0m40na3l2lpqjlxxq8cclhwb8xf410s3v1fbif9km5x3lhvq",
+    "rev": "b5d2aa7102f6f9dcfaa8f6b58eb642a49c9a9546",
+    "sha256": "0z5bmg5l4srz81niflzzcmlihs0mx8w82m8q4fp187jry94x35rw",
     "type": "tarball",
-    "url": "https://github.com/tree-sitter/tree-sitter/archive/f65c100522620240dc7724e3167b404131485354.tar.gz",
+    "url": "https://github.com/tree-sitter/tree-sitter/archive/b5d2aa7102f6f9dcfaa8f6b58eb642a49c9a9546.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "vim-javascript": {
