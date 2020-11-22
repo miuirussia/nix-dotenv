@@ -336,10 +336,10 @@
     "homepage": "",
     "owner": "kovidgoyal",
     "repo": "kitty",
-    "rev": "c46ebebbb34d66f03b417a52e3e30e7ea524efaa",
-    "sha256": "0rqs4dg4q1ljpy5mapg58bvwg55qwck4lq3jk8z30a7cfsd2cm3q",
+    "rev": "3ed536ace15cdb165b21ee21c6a00d6385bef0f3",
+    "sha256": "16943m11vwbr6ldpi3qb4z24l77aayma7g9f5cg6hhxqbr6an65c",
     "type": "tarball",
-    "url": "https://github.com/kovidgoyal/kitty/archive/c46ebebbb34d66f03b417a52e3e30e7ea524efaa.tar.gz",
+    "url": "https://github.com/kovidgoyal/kitty/archive/3ed536ace15cdb165b21ee21c6a00d6385bef0f3.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "neovim": {
@@ -396,10 +396,10 @@
     "homepage": "https://github.com/NixOS/nixpkgs",
     "owner": "NixOS",
     "repo": "nixpkgs",
-    "rev": "58f9c4c7d3a42c912362ca68577162e38ea8edfb",
-    "sha256": "1517dy07jf4zhzknqbgm617lgjxsn7a6k1vgq61c67f6h55qs5ij",
+    "rev": "9da0758c1cd4724cf09fd48fee11413f88c48c8d",
+    "sha256": "1n8wy4a5hfrx3fqxlxkwnganb5y1l450v36255jj58j7fkcys6ss",
     "type": "tarball",
-    "url": "https://github.com/NixOS/nixpkgs/archive/58f9c4c7d3a42c912362ca68577162e38ea8edfb.tar.gz",
+    "url": "https://github.com/NixOS/nixpkgs/archive/9da0758c1cd4724cf09fd48fee11413f88c48c8d.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nixpkgs-stable-darwin": {
@@ -420,10 +420,10 @@
     "homepage": "https://github.com/NixOS/nixpkgs",
     "owner": "NixOS",
     "repo": "nixpkgs",
-    "rev": "58f9c4c7d3a42c912362ca68577162e38ea8edfb",
-    "sha256": "1517dy07jf4zhzknqbgm617lgjxsn7a6k1vgq61c67f6h55qs5ij",
+    "rev": "9da0758c1cd4724cf09fd48fee11413f88c48c8d",
+    "sha256": "1n8wy4a5hfrx3fqxlxkwnganb5y1l450v36255jj58j7fkcys6ss",
     "type": "tarball",
-    "url": "https://github.com/NixOS/nixpkgs/archive/58f9c4c7d3a42c912362ca68577162e38ea8edfb.tar.gz",
+    "url": "https://github.com/NixOS/nixpkgs/archive/9da0758c1cd4724cf09fd48fee11413f88c48c8d.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nixpkgs-unstable": {

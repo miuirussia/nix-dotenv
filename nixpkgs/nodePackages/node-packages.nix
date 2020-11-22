@@ -184,13 +184,13 @@ let
         sha1 = "89b4d199ab2bee49de164ea02b89ce462d71b767";
       };
     };
-    "base64-js-1.3.1" = {
+    "base64-js-1.5.1" = {
       name = "base64-js";
       packageName = "base64-js";
-      version = "1.3.1";
+      version = "1.5.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/base64-js/-/base64-js-1.3.1.tgz";
-        sha512 = "mLQ4i2QO1ytvGWFWmcngKO//JXAQueZvwEKtjgQFM4jIK0kU+ytMfplL8j+n5mspOfjHwoAg+9yhb7BwAHm36g==";
+        url = "https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz";
+        sha512 = "AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==";
       };
     };
     "bcrypt-pbkdf-1.0.2" = {
@@ -319,13 +319,13 @@ let
         sha1 = "0713cb7587247a632a9f08cf1bd169b878b62a8a";
       };
     };
-    "browserify-rsa-4.0.1" = {
+    "browserify-rsa-4.1.0" = {
       name = "browserify-rsa";
       packageName = "browserify-rsa";
-      version = "4.0.1";
+      version = "4.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/browserify-rsa/-/browserify-rsa-4.0.1.tgz";
-        sha1 = "21e0abfaf6f2029cf2fafb133567a701d4135524";
+        url = "https://registry.npmjs.org/browserify-rsa/-/browserify-rsa-4.1.0.tgz";
+        sha512 = "AdEER0Hkspgno2aR97SAf6vi0y0k8NuOpGnVH3O99rcA5Q6sh8QxcngtHuJ6uXwnfAXNM4Gn1Gb7/MV1+Ymbog==";
       };
     };
     "browserify-sign-4.2.1" = {
@@ -1219,13 +1219,13 @@ let
         sha512 = "NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==";
       };
     };
-    "is-core-module-2.0.0" = {
+    "is-core-module-2.1.0" = {
       name = "is-core-module";
       packageName = "is-core-module";
-      version = "2.0.0";
+      version = "2.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/is-core-module/-/is-core-module-2.0.0.tgz";
-        sha512 = "jq1AH6C8MuteOoBPwkxHafmByhL9j5q4OaPGdbuD+ZtQJVzH+i6E3BJDQcBA09k57i2Hh2yQbEG8yObZ0jdlWw==";
+        url = "https://registry.npmjs.org/is-core-module/-/is-core-module-2.1.0.tgz";
+        sha512 = "YcV7BgVMRFRua2FqQzKtTDMz8iCuLEyGKjr70q8Zm1yy2qKcurbFEd79PAdHV77oL3NrAaOVQIbMmiHQCHB7ZA==";
       };
     };
     "is-fullwidth-code-point-2.0.0" = {
@@ -2038,13 +2038,13 @@ let
         sha512 = "MsvtOrfG9ZcrOwAW+Qi+F6HbD0CWXEh9ou77uOb7FM2WPhwT7smM833PzanhJLsgXjN89Ir6V2PczXNnMpwKhw==";
       };
     };
-    "resolve-1.18.1" = {
+    "resolve-1.19.0" = {
       name = "resolve";
       packageName = "resolve";
-      version = "1.18.1";
+      version = "1.19.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/resolve/-/resolve-1.18.1.tgz";
-        sha512 = "lDfCPaMKfOJXjy0dPayzPdF1phampNWr3qFCjAu+rw/qbQmr5jWH5xN2hwh9QKfw9E5v4hwV7A+jrCmL8yjjqA==";
+        url = "https://registry.npmjs.org/resolve/-/resolve-1.19.0.tgz";
+        sha512 = "rArEXAgsBG4UgRGcynxWIWKFvh/XZCcS8UJdHhwy91zwAvCZIbcs+vAbflgBnNjYMs/i/i+/Ux6IZhML1yPvxg==";
       };
     };
     "restore-cursor-2.0.0" = {
@@ -2380,13 +2380,13 @@ let
         sha512 = "w2VwSrBoHa5BsSyH+KxEqeQBAllHhccyMFVHtGtdMpF4W7IRWfZjFiQceJPChOeTsSDVUpER2T8FA93pr0L+QA==";
       };
     };
-    "temp-0.9.2" = {
+    "temp-0.9.4" = {
       name = "temp";
       packageName = "temp";
-      version = "0.9.2";
+      version = "0.9.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/temp/-/temp-0.9.2.tgz";
-        sha512 = "KLVd6CXeUYsqmI/LBWDLg3bFkdZPg0Xr/Gn79GUuPNiISzp6v/EKUaCOrxqeH1w/wVNmrljyDRgKxhZV9JzyJA==";
+        url = "https://registry.npmjs.org/temp/-/temp-0.9.4.tgz";
+        sha512 = "yYrrsWnrXMcdsnu/7YMYAofM1ktpL5By7vZhf15CrXijWWrEYZks5AXBudalfSWJLlnen/QUJUB5aoB0kqZUGA==";
       };
     };
     "through-2.2.7" = {
@@ -2760,7 +2760,7 @@ in
       })
       sources."async-1.5.2"
       sources."balanced-match-1.0.0"
-      sources."base64-js-1.3.1"
+      sources."base64-js-1.5.1"
       sources."bn.js-5.1.3"
       sources."brace-expansion-1.1.11"
       sources."brorand-1.1.0"
@@ -2781,11 +2781,7 @@ in
           sources."jsonparse-0.0.5"
         ];
       })
-      (sources."browserify-rsa-4.0.1" // {
-        dependencies = [
-          sources."bn.js-4.11.9"
-        ];
-      })
+      sources."browserify-rsa-4.1.0"
       (sources."browserify-sign-4.2.1" // {
         dependencies = [
           sources."readable-stream-3.6.0"
@@ -2867,7 +2863,7 @@ in
         ];
       })
       sources."is-buffer-1.1.6"
-      sources."is-core-module-2.0.0"
+      sources."is-core-module-2.1.0"
       sources."isarray-1.0.0"
       sources."isexe-2.0.0"
       sources."json-stable-stringify-0.0.1"
@@ -2938,7 +2934,7 @@ in
           sources."string_decoder-1.1.1"
         ];
       })
-      sources."resolve-1.18.1"
+      sources."resolve-1.19.0"
       sources."rimraf-2.7.1"
       sources."ripemd160-2.0.2"
       sources."safe-buffer-5.2.1"
@@ -2963,7 +2959,7 @@ in
       sources."string_decoder-1.3.0"
       sources."subarg-1.0.0"
       sources."syntax-error-1.4.0"
-      (sources."temp-0.9.2" // {
+      (sources."temp-0.9.4" // {
         dependencies = [
           sources."rimraf-2.6.3"
         ];
@@ -3204,10 +3200,10 @@ in
   purescript-language-server = nodeEnv.buildNodePackage {
     name = "purescript-language-server";
     packageName = "purescript-language-server";
-    version = "0.14.3";
+    version = "0.14.4";
     src = fetchurl {
-      url = "https://registry.npmjs.org/purescript-language-server/-/purescript-language-server-0.14.3.tgz";
-      sha512 = "nt5N6EusQO2dqEnbkma/z7fXxKuVCgMQ8BSJEGZdRiM9W8pa/AV8f8UyPFsN8AMpwZbZv6P9T9LDL6Q3+61S3Q==";
+      url = "https://registry.npmjs.org/purescript-language-server/-/purescript-language-server-0.14.4.tgz";
+      sha512 = "qsyk0PNStUQJnoxZKPAO0QTRBsZ2fu/PZwfMIAv6b1lHbdi5fsyC7BdCtZxzwAO2hF0OxCIANEeRkbUi+e55Fg==";
     };
     dependencies = [
       sources."isexe-2.0.0"
@@ -3320,12 +3316,12 @@ in
       sources."function-bind-1.1.1"
       sources."has-1.0.3"
       sources."has-flag-3.0.0"
-      sources."is-core-module-2.0.0"
+      sources."is-core-module-2.1.0"
       sources."minimist-1.2.5"
       sources."nanolru-1.0.0"
       sources."path-parse-1.0.6"
       sources."prettier-1.19.1"
-      sources."resolve-1.18.1"
+      sources."resolve-1.19.0"
       sources."supports-color-5.5.0"
     ];
     buildInputs = globalBuildInputs;
