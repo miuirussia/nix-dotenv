@@ -252,10 +252,10 @@
     "homepage": "https://salt.bountysource.com/teams/coc-nvim",
     "owner": "neoclide",
     "repo": "coc.nvim",
-    "rev": "98c0fb13bf1f49dc3f717acd8d11614a2a1ab2d1",
-    "sha256": "126w7drr8p0vrjwdgy5ddyw02qabi5w83y7p2zyjyplhy32q78rs",
+    "rev": "d97a57217ad6be2398bcb0f8f4c2483cc9774def",
+    "sha256": "0blcy6y6zs6jks9mjl5cqdhz4m228hk66dninrc6ahkjmh4hqzcx",
     "type": "tarball",
-    "url": "https://github.com/neoclide/coc.nvim/archive/98c0fb13bf1f49dc3f717acd8d11614a2a1ab2d1.tar.gz",
+    "url": "https://github.com/neoclide/coc.nvim/archive/d97a57217ad6be2398bcb0f8f4c2483cc9774def.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "dhall-vim": {
@@ -348,10 +348,10 @@
     "homepage": "https://neovim.io",
     "owner": "neovim",
     "repo": "neovim",
-    "rev": "cd691f2b6f605bc7fc13961e275823673d9871ad",
-    "sha256": "0rcv4ryq0yds0y2pb6i1smzwa3dyg1cww2wllmmm84bggv5r63z2",
+    "rev": "fb52790d1c16afdd12e4e484ee1dbce8d2a161b9",
+    "sha256": "03f8i0kbsqdgs1a0h84xch0snq6a80a21inw7j21vww0yd3driw7",
     "type": "tarball",
-    "url": "https://github.com/neovim/neovim/archive/cd691f2b6f605bc7fc13961e275823673d9871ad.tar.gz",
+    "url": "https://github.com/neovim/neovim/archive/fb52790d1c16afdd12e4e484ee1dbce8d2a161b9.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nginx-vim": {
