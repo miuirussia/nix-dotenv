@@ -57,6 +57,7 @@ pkgs.buildEnv {
     zlib
     zsh-completions
 
+    cascadia-code
     jetbrains-mono
 
     rustup
