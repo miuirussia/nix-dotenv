@@ -64,3 +64,14 @@ jobs:
       with:
         commit_message: Automatic sources update
         repository: dotfiles
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: nix-env
+        path: |
+          environment/sources/*
+          environment/custom-plugins.nix
+          environment/nixpkgs/mkHlsPkgs.nix
+          environment/nixpkgs/hls.nix
+          environment/nixpkgs/nodePackages/*
+
