@@ -5,10 +5,10 @@
     "homepage": "https://jetbrains.com/mono",
     "owner": "JetBrains",
     "repo": "JetBrainsMono",
-    "rev": "6a005ca77d9202aa12fc277aefa8f5bb4eb7f0cd",
-    "sha256": "0s2gr32sjg8jdw707vbkj2dpyglbfyybl7mvgqg51qcpwgvcl523",
+    "rev": "594b3cc32768a435d0307ab7e4e57c8ede6491bd",
+    "sha256": "1lqk6nb16xxxspnvjfhdvfq8lvm7fhvk0ccnds9h4y0xlvq7qzmg",
     "type": "tarball",
-    "url": "https://github.com/JetBrains/JetBrainsMono/archive/6a005ca77d9202aa12fc277aefa8f5bb4eb7f0cd.tar.gz",
+    "url": "https://github.com/JetBrains/JetBrainsMono/archive/594b3cc32768a435d0307ab7e4e57c8ede6491bd.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "coc-calc": {
@@ -167,6 +167,18 @@
     "url": "https://github.com/neoclide/coc-python/archive/8bbdb5cdc34dbe96cebb693d4ece244f5a47d4d7.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
+  "coc-release": {
+    "branch": "release",
+    "description": "Intellisense engine for vim8 & neovim, full language server protocol support as VSCode ",
+    "homepage": "https://salt.bountysource.com/teams/coc-nvim",
+    "owner": "neoclide",
+    "repo": "coc.nvim",
+    "rev": "2498eeb3c933941c80f4661189f98f91d284e5c5",
+    "sha256": "08zndy03s0vjck7ig00slni5hwg542g18sjw0sy3c94c5ip022fm",
+    "type": "tarball",
+    "url": "https://github.com/neoclide/coc.nvim/archive/2498eeb3c933941c80f4661189f98f91d284e5c5.tar.gz",
+    "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+  },
   "coc-rls": {
     "branch": "master",
     "description": "Rust language server support for coc.nvim",
@@ -185,10 +197,10 @@
     "homepage": "",
     "owner": "fannheyward",
     "repo": "coc-rust-analyzer",
-    "rev": "69c75d1e0eb35084e45667265695b121c7717971",
-    "sha256": "1k3cyyk3q2whldb7d52n2mbykh2bq2b9lpxkgwq1r12xb3n849cv",
+    "rev": "3f7abdb4f4c414a3f6023a5436f30fb1cb44b90c",
+    "sha256": "1pw6qpzzh9czhbdg91r2qdsh6f0xwwpkg3r5xa4wkdgxdapb9rjj",
     "type": "tarball",
-    "url": "https://github.com/fannheyward/coc-rust-analyzer/archive/69c75d1e0eb35084e45667265695b121c7717971.tar.gz",
+    "url": "https://github.com/fannheyward/coc-rust-analyzer/archive/3f7abdb4f4c414a3f6023a5436f30fb1cb44b90c.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "coc-snippets": {
@@ -222,6 +234,18 @@
     "url_template": "https://registry.npmjs.org/coc-syntax/-/coc-syntax-<version>.tgz",
     "version": "1.2.4"
   },
+  "coc-unstable": {
+    "branch": "master",
+    "description": "Intellisense engine for vim8 & neovim, full language server protocol support as VSCode ",
+    "homepage": "https://salt.bountysource.com/teams/coc-nvim",
+    "owner": "neoclide",
+    "repo": "coc.nvim",
+    "rev": "d3048fd4badd3fdf9eb34153bcac29a4a5900123",
+    "sha256": "06ax5429v4j71cmrixbwwpnv2j753z37mjg7bjdkvwn22x0z5pz3",
+    "type": "tarball",
+    "url": "https://github.com/neoclide/coc.nvim/archive/d3048fd4badd3fdf9eb34153bcac29a4a5900123.tar.gz",
+    "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+  },
   "coc-vimlsp": {
     "branch": "master",
     "description": "viml language server ",
@@ -244,18 +268,6 @@
     "sha256": "0w0523csn7kjlkdrbnwzrlxhjmsc03kwnmxjkg3xqqm21jvfasym",
     "type": "tarball",
     "url": "https://github.com/neoclide/coc-yaml/archive/f7044abaa48189cf54a2cc4a9e0eb69da9ced935.tar.gz",
-    "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-  },
-  "coc.nvim": {
-    "branch": "release",
-    "description": "Intellisense engine for vim8 & neovim, full language server protocol support as VSCode ",
-    "homepage": "https://salt.bountysource.com/teams/coc-nvim",
-    "owner": "neoclide",
-    "repo": "coc.nvim",
-    "rev": "d97a57217ad6be2398bcb0f8f4c2483cc9774def",
-    "sha256": "0blcy6y6zs6jks9mjl5cqdhz4m228hk66dninrc6ahkjmh4hqzcx",
-    "type": "tarball",
-    "url": "https://github.com/neoclide/coc.nvim/archive/d97a57217ad6be2398bcb0f8f4c2483cc9774def.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "dhall-vim": {
@@ -288,10 +300,10 @@
     "homepage": "https://input-output-hk.github.io/haskell.nix",
     "owner": "input-output-hk",
     "repo": "haskell.nix",
-    "rev": "e729389f3266e50602f36b7035c5e34177b705ac",
-    "sha256": "0z5c2iim03b3dh8w19p9wsklmfvx1wvcmqw5sh0hyz01i1va3kj4",
+    "rev": "3689e4fa3d5ed2353614b78f15e791a6d4b16e70",
+    "sha256": "1ijkks5x76kcc2n0fah66d7jy5pxmr655g3alspsr8rlgkqig2g8",
     "type": "tarball",
-    "url": "https://github.com/input-output-hk/haskell.nix/archive/e729389f3266e50602f36b7035c5e34177b705ac.tar.gz",
+    "url": "https://github.com/input-output-hk/haskell.nix/archive/3689e4fa3d5ed2353614b78f15e791a6d4b16e70.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-stable": {
@@ -312,10 +324,10 @@
     "homepage": null,
     "owner": "haskell",
     "repo": "haskell-language-server",
-    "rev": "d79feb5bf5d9a33003125e2988d7c0dc7174b8d5",
-    "sha256": "0nvflg9xq7zk9x6l37wyhxid6fafx260zkn9y959kw2zra16c8sq",
+    "rev": "2e7c0ce19f9db7c356892c05561d72fc01ad4a83",
+    "sha256": "0sjyc2z5xcd7mccqwzb13d28zja1680d7i4wl3aafag8l3csg9rp",
     "type": "tarball",
-    "url": "https://github.com/haskell/haskell-language-server/archive/d79feb5bf5d9a33003125e2988d7c0dc7174b8d5.tar.gz",
+    "url": "https://github.com/haskell/haskell-language-server/archive/2e7c0ce19f9db7c356892c05561d72fc01ad4a83.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "json5.vim": {
@@ -336,10 +348,10 @@
     "homepage": "",
     "owner": "kovidgoyal",
     "repo": "kitty",
-    "rev": "3ed536ace15cdb165b21ee21c6a00d6385bef0f3",
-    "sha256": "16943m11vwbr6ldpi3qb4z24l77aayma7g9f5cg6hhxqbr6an65c",
+    "rev": "c89d861c0e1b7d51a7523aa57333aa2451361fa5",
+    "sha256": "172cdh3hclh02cc5hwizinm83w9gsspiymrjc10p2m1rinn9mpdy",
     "type": "tarball",
-    "url": "https://github.com/kovidgoyal/kitty/archive/3ed536ace15cdb165b21ee21c6a00d6385bef0f3.tar.gz",
+    "url": "https://github.com/kovidgoyal/kitty/archive/c89d861c0e1b7d51a7523aa57333aa2451361fa5.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "neovim": {
@@ -348,10 +360,10 @@
     "homepage": "https://neovim.io",
     "owner": "neovim",
     "repo": "neovim",
-    "rev": "2d36b62eda16ae1cf370f4107530fa65d2b1bce4",
-    "sha256": "0n5a60a67hj15illrc3xwxbnca7hhnzdbgc84rpxr8b0h0agakmd",
+    "rev": "2d5dd85eef3be0a0a4073964ddbb849c586bc6a1",
+    "sha256": "04w3k7mnf1h8dhpbimsr08arp2jd4b4qdb1a5rbnhkky0msglxq9",
     "type": "tarball",
-    "url": "https://github.com/neovim/neovim/archive/2d36b62eda16ae1cf370f4107530fa65d2b1bce4.tar.gz",
+    "url": "https://github.com/neovim/neovim/archive/2d5dd85eef3be0a0a4073964ddbb849c586bc6a1.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nginx-vim": {
@@ -500,10 +512,10 @@
     "homepage": "https://tree-sitter.github.io",
     "owner": "tree-sitter",
     "repo": "tree-sitter",
-    "rev": "b5d2aa7102f6f9dcfaa8f6b58eb642a49c9a9546",
-    "sha256": "0z5bmg5l4srz81niflzzcmlihs0mx8w82m8q4fp187jry94x35rw",
+    "rev": "2bf9c0113b227080e58376bcd915be3a9590b026",
+    "sha256": "0snhwdqgvszra0snd74fklyp0ss410p0xc9bvhs0f8akmvr14pz1",
     "type": "tarball",
-    "url": "https://github.com/tree-sitter/tree-sitter/archive/b5d2aa7102f6f9dcfaa8f6b58eb642a49c9a9546.tar.gz",
+    "url": "https://github.com/tree-sitter/tree-sitter/archive/2bf9c0113b227080e58376bcd915be3a9590b026.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "vim-javascript": {

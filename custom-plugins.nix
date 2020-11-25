@@ -10,27 +10,67 @@ let
       packageJSON = src + "/package.json";
       yarnLock = src + "/yarn.lock";
     };
-  in pkgs.vimUtils.buildVimPluginFrom2Nix {
-    inherit version pname src;
+  in
+    pkgs.vimUtils.buildVimPluginFrom2Nix {
+      inherit version pname src;
 
-    buildInputs = [ pkgs.openssl pkgs.git pkgs.nodePackages.typescript ];
+      buildInputs = [ pkgs.openssl pkgs.git pkgs.nodePackages.typescript ];
 
-    patches = patches;
+      patches = patches;
 
-    configurePhase = ''
-      mkdir -p node_modules
-      ln -s ${deps}/node_modules/* node_modules/
-      ln -s ${deps}/node_modules/.bin node_modules/
-    '';
+      configurePhase = ''
+        mkdir -p node_modules
+        ln -s ${deps}/node_modules/* node_modules/
+        ln -s ${deps}/node_modules/.bin node_modules/
+      '';
 
-    buildPhase = ''
-      GIT_SSL_NO_VERIFY=true ${yarn}/bin/yarn ${command}
-    '';
-  };
-in {
+      buildPhase = ''
+        GIT_SSL_NO_VERIFY=true ${yarn}/bin/yarn ${command}
+      '';
+    };
+in
+{
+  vim-coc = let
+    pname = "vim-coc";
+    version = "0.0.79";
+    src = sources.coc-unstable;
+    deps = yarn2nix.mkYarnModules {
+      inherit version pname;
+      name = "${pname}-modules-${version}";
+      packageJSON = src + "/package.json";
+      yarnLock = src + "/yarn.lock";
+    };
+  in
+    pkgs.vimUtils.buildVimPluginFrom2Nix {
+      inherit version pname src;
+
+      name = pname + "-" + version;
+
+      dependencies = [ pkgs.nodejs-12_x ];
+
+      configurePhase = ''
+        mkdir -p node_modules
+        ln -s ${deps}/node_modules/* node_modules/
+        ln -s ${deps}/node_modules/.bin node_modules/
+      '';
+
+      buildPhase = ''
+        sed -i 's/stringify(options.query)/stringify(options.query as any)/' src/model/fetch.ts
+        ${yarn}/bin/yarn build
+      '';
+
+      postFixup = ''
+        substituteInPlace $target/autoload/coc/util.vim \
+          --replace "'yarnpkg'" "'${yarn}/bin/yarnpkg'" \
+          --replace "'node'" "'${pkgs.nodejs-12_x}/bin/node'"
+        substituteInPlace $target/autoload/health/coc.vim \
+          --replace "'yarnpkg'" "'${yarn}/bin/yarnpkg'"
+      '';
+    };
+
   vim-coc-release = pkgs.vimUtils.buildVimPlugin {
     name = "vim-coc-release";
-    src = sources."coc.nvim";
+    src = sources.coc-release;
   };
 
   coc-css = mkCocModule {

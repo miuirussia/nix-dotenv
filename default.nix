@@ -108,7 +108,7 @@ pkgs.buildEnv {
             vista-vim
 
             # coc
-            vim-coc-release
+            vim-coc
 
             # coc plugins
             coc-calc
