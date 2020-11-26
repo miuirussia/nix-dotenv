@@ -60,7 +60,7 @@ in {
 
     nodePackages = pkgs.nodePackages // (pkgs.callPackage ./nodePackages/default.nix { });
 
-    nodejs-12_x = pkgs.nodejs-12_x.overrideAttrs (prev: {
+    nodejs-14_x = pkgs.nodejs-14_x.overrideAttrs (prev: {
       patches = prev.patches ++ [
         ./node/usable-repl-fix.patch
       ];

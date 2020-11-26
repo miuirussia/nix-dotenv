@@ -138,8 +138,8 @@ pkgs.buildEnv {
       }
     )
 
-    nodejs-12_x
-    (yarn.override { nodejs = nodejs-12_x; })
+    nodejs-14_x
+    (yarn.override { nodejs = nodejs-14_x; })
     nodePackages.eslint_d
     nodePackages.node2nix
     nodePackages.prettier

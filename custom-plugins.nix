@@ -1,8 +1,8 @@
 { pkgs, sources, ... }:
 
 let
-  yarn = (pkgs.yarn.override { nodejs = pkgs.nodejs-12_x; });
-  yarn2nix = pkgs.callPackage (sources.yarn2nix) { pkgs = pkgs; nodejs = pkgs.nodejs-12_x; yarn = yarn; };
+  yarn = (pkgs.yarn.override { nodejs = pkgs.nodejs-14_x; });
+  yarn2nix = pkgs.callPackage (sources.yarn2nix) { pkgs = pkgs; nodejs = pkgs.nodejs-14_x; yarn = yarn; };
   mkCocModule = { pname, version, src, patches ? [], command ? "build" }: let
     deps = yarn2nix.mkYarnModules rec {
       inherit version pname;
@@ -46,7 +46,7 @@ in
 
       name = pname + "-" + version;
 
-      dependencies = [ pkgs.nodejs-12_x ];
+      dependencies = [ pkgs.nodejs-14_x ];
 
       configurePhase = ''
         mkdir -p node_modules
@@ -62,7 +62,7 @@ in
       postFixup = ''
         substituteInPlace $target/autoload/coc/util.vim \
           --replace "'yarnpkg'" "'${yarn}/bin/yarnpkg'" \
-          --replace "'node'" "'${pkgs.nodejs-12_x}/bin/node'"
+          --replace "'node'" "'${pkgs.nodejs-14_x}/bin/node'"
         substituteInPlace $target/autoload/health/coc.vim \
           --replace "'yarnpkg'" "'${yarn}/bin/yarnpkg'"
       '';
