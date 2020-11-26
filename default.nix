@@ -164,6 +164,8 @@ pkgs.buildEnv {
     haskellPackages_u.hoogle
     haskellPackages_u.stack
 
+    haskell.compiler.ghc844
+
     nix-tools
 
     gitAndTools.diff-so-fancy

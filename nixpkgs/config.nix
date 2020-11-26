@@ -41,6 +41,12 @@ in {
 
     haskellPackages_u = nixpkgsUnstable.haskellPackages;
 
+    haskell = pkgs.haskell // {
+      compiler = pkgs.haskell.compiler // {
+        ghc844 = iohkPkgs.haskell-nix.compiler.ghc844;
+      };
+    };
+
     neovim-nightly = let
       tree-sitter = (pkgs.callPackage ./tree-sitter/default.nix { inherit sources; });
     in nixpkgsUnstable.neovim-unwrapped.overrideAttrs (
