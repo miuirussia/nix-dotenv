@@ -1,10 +1,7 @@
 let
   sources = import ../sources;
   nixpkgsUnstable = import sources.nixpkgs-unstable {};
-  haskellNix = import (sources."haskell.nix") {};
-  nixpkgsSrc = haskellNix.sources.nixpkgs;
-  nixpkgsArgs = haskellNix.nixpkgsArgs;
-  iohkPkgs = import nixpkgsSrc nixpkgsArgs;
+  iohkPkgs = import sources.nixpkgs-unstable (import (sources."haskell.nix") {}).nixpkgsArgs;
   mkHlsPkgs = import ./mkHlsPkgs.nix;
   hlsPkgs865  = mkHlsPkgs { ghcVersion = "ghc865"; inherit sources; };
   hlsPkgs884  = mkHlsPkgs { ghcVersion = "ghc884"; inherit sources; };
