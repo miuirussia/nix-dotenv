@@ -43,13 +43,13 @@ in {
       compiler = pkgs.haskell.compiler // {
         ghc844 = iohkPkgs.haskell-nix.compiler.ghc844.overrideAttrs (
           prev: {
-            patches = prev.patches ++ [
-              ./ghc/fix-ghc844.diff
-            ];
-
-            postPatch = prev.postPatch + ''
-              cat docs/users_guide/flags.py
-            '';
+            src = prev.src.overrideAttrs (
+              prevSrc: {
+                patches = prevSrc.patches ++ [
+                  ./ghc/fix-ghc844.diff
+                ];
+              }
+            );
           }
         );
         ghc865 = iohkPkgs.haskell-nix.compiler.ghc865;
