@@ -74,4 +74,11 @@ jobs:
           environment/nixpkgs/mkHlsPkgs.nix
           environment/nixpkgs/hls.nix
           environment/nixpkgs/nodePackages/*
+    - name: Notification
+      if: cancelled() == false
+      uses: xinthink/action-telegram@v1.1
+      with:
+        botToken: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        chatId: ${{ secrets.TELEGRAM_BOT_CHANNEL }}
+        jobStatus: ${{ job.status }}
 
