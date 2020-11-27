@@ -30,8 +30,7 @@ index cc30b8c..0e56bdf 100644
      # Add extension directive, and override the class with our own
      app.add_object_type('extension', 'extension')
 -    app.add_directive_to_domain('std', 'extension', LanguageExtension)
-+    app.add_directive_to_domain('std', 'extension', LanguageExtension,
-+            override=True)
++    app.add_directive_to_domain('std', 'extension', LanguageExtension, override=True)
      # NB: language-extension would be misinterpreted by sphinx, and produce
      # lang="extensions" XML attributes
  

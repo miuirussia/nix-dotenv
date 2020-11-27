@@ -46,8 +46,14 @@ in {
             patches = prev.patches ++ [
               ./ghc/fix-ghc844.diff
             ];
+
+            postPatch = prev.postPatch + ''
+              cat docs/users_guide/flags.py
+            '';
           }
         );
+        ghc865 = iohkPkgs.haskell-nix.compiler.ghc865;
+        ghc8102 = iohkPkgs.haskell-nix.compiler.ghc8102;
       };
     };
 
