@@ -2,7 +2,7 @@ let
   sources = import ../sources;
   nixpkgsUnstable = import sources.nixpkgs-unstable {};
   haskellNix = import (sources."haskell.nix") {};
-  iohkPkgs = import sources.nixpkgs-unstable haskellNix.nixpkgsArgs;
+  iohkPkgs = import haskellNix.sources.nixpkgs haskellNix.nixpkgsArgs;
   mkHlsPkgs = import ./mkHlsPkgs.nix;
   hlsPkgs865  = mkHlsPkgs { ghcVersion = "ghc865"; inherit sources; };
   hlsPkgs884  = mkHlsPkgs { ghcVersion = "ghc884"; inherit sources; };
@@ -41,13 +41,7 @@ in {
 
     haskell = pkgs.haskell // {
       compiler = pkgs.haskell.compiler // {
-        ghc844 = iohkPkgs.haskell-nix.compiler.ghc844.overrideAttrs (
-          prev: {
-            patches = prev.patches ++ [
-              ./ghc/fix-ghc844.diff
-            ];
-          }
-        );
+        ghc844 = iohkPkgs.haskell-nix.compiler.ghc844;
       };
     };
 
