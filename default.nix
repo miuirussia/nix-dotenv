@@ -165,8 +165,6 @@ pkgs.buildEnv {
     haskellPackages_u.stack
 
     haskell.compiler.ghc844
-    haskell.compiler.ghc865
-    haskell.compiler.ghc8102
 
     nix-tools
 
