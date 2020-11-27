@@ -1,37 +1,35 @@
 diff --git a/docs/users_guide/flags.py b/docs/users_guide/flags.py
-index c9f14f0fa7e100feb4f6d344dd261b5410dddf42..df23f383c5fb661187efc34c91310b1eb3be404c 100644
+index cc30b8c..0e56bdf 100644
 --- a/docs/users_guide/flags.py
 +++ b/docs/users_guide/flags.py
-@@ -48,8 +48,6 @@ from docutils import nodes
- from docutils.parsers.rst import Directive, directives
- from sphinx import addnodes
- from sphinx.domains.std import GenericObject
--from sphinx.domains import ObjType
--from sphinx.roles import XRefRole
- from sphinx.errors import SphinxError
- from utils import build_table_from_list
+@@ -5,7 +5,7 @@
+ #
+ # .. ghc-flag::
+ #     :shortdesc: A short description (REQUIRED)
+-#     :type: dynamic, mode, dynamix/ ``:set`` (REQUIRED)
++#     :type: dynamic or mode  (REQUIRED)
+ #     :reverse: The reverse of the flag
+ #     :category: The category to list the flag under (default: 'misc')
+ #     :noindex: Do not list the flag anywhere (good for duplicates)
+@@ -109,6 +109,8 @@ class GenericFlag(GenericObject):
+         type_node = nodes.paragraph()
+         reverse_node = nodes.paragraph()
  
-@@ -599,20 +597,15 @@ def purge_flags(app, env, docname):
- ### Initialization
++        assert flag_type in ('dynamic', 'mode'), ('Unknown flag type for %s: %s' %
++                                                     (name_string, flag_type))
  
- def setup(app):
--    # Yuck: We can't use app.add_object_type since we need to provide the
--    # Directive instance ourselves.
--    std_object_types = app.registry.domain_object_types.setdefault('std', {})
+         # Nodes expect an internal ViewList type for the content,
+         # we are just spoofing it here
+@@ -600,11 +602,12 @@ def setup(app):
  
      # Add ghc-flag directive, and override the class with our own
+     app.add_object_type('ghc-flag', 'ghc-flag')
 -    app.add_directive_to_domain('std', 'ghc-flag', Flag)
--    app.add_role_to_domain('std', 'ghc-flag', XRefRole())
--    std_object_types['ghc-flag'] = ObjType('ghc-flag', 'ghc-flag')
-+    app.add_object_type('ghc-flag', 'ghc-flag')
 +    app.add_directive_to_domain('std', 'ghc-flag', Flag, override=True)
  
      # Add extension directive, and override the class with our own
+     app.add_object_type('extension', 'extension')
 -    app.add_directive_to_domain('std', 'extension', LanguageExtension)
--    app.add_role_to_domain('std', 'extension', XRefRole())
--    std_object_types['extension'] = ObjType('ghc-flag', 'ghc-flag')
--
-+    app.add_object_type('extension', 'extension')
 +    app.add_directive_to_domain('std', 'extension', LanguageExtension,
 +            override=True)
      # NB: language-extension would be misinterpreted by sphinx, and produce
