@@ -450,6 +450,18 @@
     "url": "https://github.com/NixOS/nixpkgs/archive/6625284c397b44bc9518a5a1567c1b5aae455c08.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
+  "nixpkgs-iohk-unstable": {
+    "branch": "ead04a66392bccddd77effe9d46ca3b7e0e06d95",
+    "description": "A read-only mirror of NixOS/nixpkgs tracking the released channels. Send issues and PRs to",
+    "homepage": "https://github.com/NixOS/nixpkgs",
+    "owner": "NixOS",
+    "repo": "nixpkgs",
+    "rev": "ead04a66392bccddd77effe9d46ca3b7e0e06d95",
+    "sha256": "13wdk1sib795ylbsxclawrqz5kf9hzxlxzclh18hvw3sndgrjwbd",
+    "type": "tarball",
+    "url": "https://github.com/NixOS/nixpkgs/archive/ead04a66392bccddd77effe9d46ca3b7e0e06d95.tar.gz",
+    "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+  },
   "postcss-syntax-vim": {
     "branch": "master",
     "description": "Vim syntax file for scss (Sassy CSS)",
