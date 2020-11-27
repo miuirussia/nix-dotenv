@@ -74,11 +74,10 @@ jobs:
           environment/nixpkgs/mkHlsPkgs.nix
           environment/nixpkgs/hls.nix
           environment/nixpkgs/nodePackages/*
-    - name: Notification
-      if: cancelled() == false
-      uses: xinthink/action-telegram@v1.1
+    - name: Notify in telegram
+      uses: appleboy/telegram-action@master
       with:
-        botToken: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-        chatId: ${{ secrets.TELEGRAM_BOT_CHANNEL }}
-        jobStatus: ${{ job.status }}
+        to: ${{ secrets.TELEGRAM_BOT_CHANNEL }}
+        token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        message: Dotfiles successfully updated! You can start using it.
 

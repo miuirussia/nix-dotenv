@@ -31,6 +31,12 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
            commit_message: Automatic sources update
+      - name: Notify in telegram
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_BOT_CHANNEL }}
+          token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          message: Sources successfully updated! Starting ci task...
       - name: Start build
         uses: peter-evans/repository-dispatch@v1
         with:

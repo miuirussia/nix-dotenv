@@ -2,6 +2,7 @@
 , config
 , useMaterialization ? config.haskell-nix.useMaterialization
 , checkMaterialization ? config.haskell-nix.checkMaterialization
+, nixpkgs-pin ? config.haskell-nix.nixpkgs-pin
 , index-state ? config.haskell-nix.hackage.index.state
 , index-sha256 ? config.haskell-nix.hackage.index.sha256
 , ghcVersion ? config.ghcVersion
@@ -12,6 +13,7 @@ let
   nixpkgs =
     let
       hn = import sources."haskell.nix" {};
+      nixpkgsSrc = hn.sources."${nixpkgs-pin}";
       nixpkgsOrigArgs = hn.nixpkgsArgs;
       nixpkgsArgs = nixpkgsOrigArgs // {
         config = {};
@@ -25,7 +27,7 @@ let
         ];
       };
     in
-      import sources.nixpkgs-unstable nixpkgsArgs;
+      import nixpkgsSrc nixpkgsArgs;
 
   haskell-nix = nixpkgs.haskell-nix;
 
