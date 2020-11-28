@@ -24,6 +24,25 @@ let
               happy = super.haskellPackages.happy;
             }
           )
+          (
+            self: super: {
+              haskell-nix = super.haskell-nix // {
+                compiler = super.haskell-nix.compiler // {
+                  ghc844 = super.haskell-nix.compiler.ghc844.overrideAttrs (
+                    prev: {
+                      src = prev.src.overrideAttrs (
+                        prevSrc: {
+                          patches = prevSrc.patches ++ [
+                            ./ghc/fix-ghc844.diff
+                          ];
+                        }
+                      );
+                    }
+                  );
+                };
+              };
+            }
+          )
         ];
       };
     in
