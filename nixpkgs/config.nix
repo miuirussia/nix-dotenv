@@ -2,7 +2,30 @@ let
   sources = import ../sources;
   nixpkgsUnstable = import sources.nixpkgs-unstable {};
   haskellNix = import (sources."haskell.nix") {};
-  iohkPkgs = import sources.nixpkgs-unstable haskellNix.nixpkgsArgs;
+  iohkArgs = haskellNix.nixpkgsArgs // {
+    overlays = haskellNix.nixpkgsArgs.overlays ++ [
+      (
+        self: super: {
+          haskell-nix = super.haskell-nix // {
+            compiler = super.haskell-nix.compiler // {
+              ghc844 = super.haskell-nix.compiler.ghc844.overrideAttrs (
+                prev: {
+                  src = prev.src.overrideAttrs (
+                    prevSrc: {
+                      patches = prevSrc.patches ++ [
+                        ./ghc/fix-ghc844.diff
+                      ];
+                    }
+                  );
+                }
+              );
+            };
+          };
+        }
+      )
+    ];
+  };
+  iohkPkgs = import sources.nixpkgs-unstable iohkArgs;
   mkHlsPkgs = import ./mkHlsPkgs.nix;
   hlsPkgs865  = mkHlsPkgs { ghcVersion = "ghc865"; inherit sources; };
   hlsPkgs884  = mkHlsPkgs { ghcVersion = "ghc884"; inherit sources; };
@@ -28,7 +51,7 @@ in {
 
     niv = (import sources.niv {}).niv;
 
-    nix-tools = iohkPkgs.haskell-nix.nix-tools.ghc865;
+    nix-tools = iohkPkgs.haskell-nix.nix-tools.ghc8102;
 
     haskell-nix = iohkPkgs.haskell-nix;
 
@@ -41,17 +64,7 @@ in {
 
     haskell = pkgs.haskell // {
       compiler = pkgs.haskell.compiler // {
-        ghc844 = iohkPkgs.haskell-nix.compiler.ghc844.overrideAttrs (
-          prev: {
-            src = prev.src.overrideAttrs (
-              prevSrc: {
-                patches = prevSrc.patches ++ [
-                  ./ghc/fix-ghc844.diff
-                ];
-              }
-            );
-          }
-        );
+        ghc844 = iohkPkgs.haskell-nix.compiler.ghc844;
       };
     };
 
