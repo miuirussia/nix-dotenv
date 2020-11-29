@@ -38,6 +38,7 @@ jobs:
           chatId: ${{ secrets.TELEGRAM_BOT_CHANNEL }}
           botToken: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           jobStatus: ${{ job.status }}
+          skipSuccess: false
       - name: Start build
         uses: peter-evans/repository-dispatch@v1
         with:
