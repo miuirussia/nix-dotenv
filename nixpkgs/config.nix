@@ -52,8 +52,6 @@ in {
             );
           }
         );
-        ghc865 = iohkPkgs.haskell-nix.compiler.ghc865;
-        ghc8102 = iohkPkgs.haskell-nix.compiler.ghc8102;
       };
     };
 

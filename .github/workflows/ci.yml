@@ -1,9 +1,6 @@
 name: "CI"
 on:
   push:
-  pull_request:
-  repository_dispatch:
-    types: [trigger-ci]
 jobs:
   build:
     name: "build"
