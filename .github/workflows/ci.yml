@@ -41,6 +41,7 @@ jobs:
       run: nix-instantiate --eval -E '(import <nixpkgs> {}).lib.version'
     - name: Build default.nix
       run: |
+        nix path-info --all | grep -v '\.drv$' > /tmp/store-path-pre-build
         nix --print-build-logs build
       working-directory: environment
     - name: Show builded paths
@@ -49,7 +50,7 @@ jobs:
       working-directory: environment
     - name: Upload cache
       run: |
-        all-nix-deps $(nix --print-build-logs path-info) | xargs upload-nix
+        comm -13 <(sort /tmp/store-path-pre-build) <(nix path-info --all | grep -v '\.drv$' | sort) | xargs -P8 upload-nix
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
