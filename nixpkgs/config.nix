@@ -53,6 +53,8 @@ in {
 
     nix-tools = iohkPkgs.haskell-nix.nix-tools.ghc8102;
 
+    nix-cache-tools = import ./nix-cache-tools;
+
     haskell-nix = iohkPkgs.haskell-nix;
 
     hls-ghc865 = hlsPkgs865.server;
