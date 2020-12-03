@@ -46,7 +46,7 @@ jobs:
         nix --print-build-logs build -f hls.nix --argstr "version" "${{ matrix.ghc }}"
     - name: Show builded paths
       run: |
-        nix --print-build-logs path-info -f hls.nix
+        nix --print-build-logs path-info -f hls.nix --argstr "version" "${{ matrix.ghc }}"
     - name: Upload cache
       run: |
         comm -13 <(sort /tmp/store-path-pre-build) <(nix path-info --all | grep -v '\.drv$' | sort) | xargs -P8 upload-nix
