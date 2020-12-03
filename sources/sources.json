@@ -197,10 +197,10 @@
     "homepage": "",
     "owner": "fannheyward",
     "repo": "coc-rust-analyzer",
-    "rev": "e59765fa607a48698810c776c27535ecff1e5a9d",
-    "sha256": "05drh5cp4wcvkp1maxlr7d7crjn5k661yfhndxv35sblazai7aif",
+    "rev": "a622549c215536e59da49cea310c05f2df3182da",
+    "sha256": "1lzcnrvmrhrxm4in9yjnmhn4cwy0sgpl149kpzyl3laanmggv2xs",
     "type": "tarball",
-    "url": "https://github.com/fannheyward/coc-rust-analyzer/archive/e59765fa607a48698810c776c27535ecff1e5a9d.tar.gz",
+    "url": "https://github.com/fannheyward/coc-rust-analyzer/archive/a622549c215536e59da49cea310c05f2df3182da.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "coc-snippets": {
@@ -300,10 +300,10 @@
     "homepage": "https://input-output-hk.github.io/haskell.nix",
     "owner": "input-output-hk",
     "repo": "haskell.nix",
-    "rev": "d014079ccee72d9fbd05e4f0af8c6481034283de",
-    "sha256": "0isij8viisw1dxdp6apnnb97461q9966lxaffapsjmgkf0m9fv5p",
+    "rev": "131433c36bd05b90a6fb9f15647ca768584c96cc",
+    "sha256": "088ykxh7sh71ar17hc15x8ygb91n03hg9m60wjmihsz0ix0g62s5",
     "type": "tarball",
-    "url": "https://github.com/input-output-hk/haskell.nix/archive/d014079ccee72d9fbd05e4f0af8c6481034283de.tar.gz",
+    "url": "https://github.com/input-output-hk/haskell.nix/archive/131433c36bd05b90a6fb9f15647ca768584c96cc.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-stable": {
