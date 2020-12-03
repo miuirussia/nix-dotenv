@@ -2,6 +2,7 @@
   hlsPkgs = import ./hls.nix {
     inherit sources;
     unstable = true;
+    nixpkgsSrcUnstable = true;
     config = {
       inherit ghcVersion;
       haskell-nix.useMaterialization = false;
