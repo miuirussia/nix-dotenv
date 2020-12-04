@@ -27,7 +27,7 @@ jobs:
       run: |
         mkdir -p ~/.config/nix
         touch ~/.config/nix/nix.conf
-        echo "substituters = https://hydra.iohk.io https://s3.kdevlab.com/nix-cache" \
+        echo "substituters = https://hydra.iohk.io https://nix-cache.s3.kdevlab.com" \
             >> ~/.config/nix/nix.conf
         echo "trusted-public-keys = hydra.iohk.io:f/Ea+s+dFdN+3Y/G+FDgSq+a5NEWhJGzdjvKNGv0/EQ= s3.kdevlab.com:PhuKrzVfCsS0T1R4FnslJy2qUBul9oQ2CTSO/fg/llM=" \
             >> ~/.config/nix/nix.conf
@@ -88,7 +88,7 @@ jobs:
       run: |
         mkdir -p ~/.config/nix
         touch ~/.config/nix/nix.conf
-        echo "substituters = https://hydra.iohk.io https://s3.kdevlab.com/nix-cache" \
+        echo "substituters = https://hydra.iohk.io https://nix-cache.s3.kdevlab.com" \
             >> ~/.config/nix/nix.conf
         echo "trusted-public-keys = hydra.iohk.io:f/Ea+s+dFdN+3Y/G+FDgSq+a5NEWhJGzdjvKNGv0/EQ= s3.kdevlab.com:PhuKrzVfCsS0T1R4FnslJy2qUBul9oQ2CTSO/fg/llM=" \
             >> ~/.config/nix/nix.conf
