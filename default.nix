@@ -151,9 +151,9 @@ pkgs.buildEnv {
     nodePackages.purescript-language-server
     nodePackages.spago
 
-    #hls-ghc865
-    #hls-ghc884
-    #hls-ghc8102
+    # hls-ghc865
+    # hls-ghc884
+    # hls-ghc8102
     hls-wrapper
 
     haskellPackages_u.brittany
@@ -164,7 +164,7 @@ pkgs.buildEnv {
     haskellPackages_u.hoogle
     haskellPackages_u.stack
 
-    haskell.compiler.ghc844
+    # haskell.compiler.ghc844
 
     nix-tools
 
