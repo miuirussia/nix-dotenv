@@ -55,14 +55,6 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         NIX_UPLOAD_STORE_URL: 's3://nix-cache?endpoint=s3.kdevlab.com'
         NIX_UPLOAD_SECRET_KEY: ${{ secrets.CACHE_PRIVATE_KEY }}
-    - name: Notify in telegram
-      if: cancelled() == false
-      uses: xinthink/action-telegram@v1.1
-      with:
-        chatId: ${{ secrets.TELEGRAM_BOT_CHANNEL }}
-        botToken: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-        jobStatus: ${{ job.status }}
-        skipSuccess: false
   build:
     needs: [hls]
     name: "build"
@@ -132,10 +124,15 @@ jobs:
         cp -f "./environment/custom-plugins.nix" ./dotfiles/nix/programs/neovim
         cp -rf "./environment/nixpkgs/mkHlsPkgs.nix" "./environment/nixpkgs/hls.nix" "./environment/nixpkgs/nix-cache-tools" ./dotfiles/nix/nixpkgs
         cp -f ./environment/nixpkgs/nodePackages/{default.nix,node-env.nix,node-packages.json,node-packages.nix} ./dotfiles/nix/nixpkgs/nodePackages
+    - name: Get current time
+      uses: 1466587594/get-current-time@v2
+      id: current-time
+      with:
+        format: YYYY-MM-D H:mm:ss
     - name: Commit updated files
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        commit_message: Automatic sources update
+        commit_message: Automatic sources update – ${{ steps.current-time.outputs.formattedTime }}
         repository: dotfiles
     - name: Notify in telegram
       if: cancelled() == false

@@ -29,10 +29,15 @@ jobs:
           cd nixpkgs/nodePackages && node2nix -i node-packages.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Get current time
+        uses: 1466587594/get-current-time@v2
+        id: current-time
+        with:
+          format: YYYY-MM-D H:mm:ss
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-           commit_message: Automatic sources update
+           commit_message: Automatic sources update – ${{ steps.current-time.outputs.formattedTime }}
       - name: Notify in telegram
         if: cancelled() == false
         uses: xinthink/action-telegram@v1.1
