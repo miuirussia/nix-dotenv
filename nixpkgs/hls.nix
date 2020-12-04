@@ -1,6 +1,5 @@
 { sources
 , config
-, nixpkgsSrcUnstable ? false
 , useMaterialization ? config.haskell-nix.useMaterialization
 , checkMaterialization ? config.haskell-nix.checkMaterialization
 , nixpkgs-pin ? config.haskell-nix.nixpkgs-pin
@@ -14,7 +13,7 @@ let
   nixpkgs =
     let
       hn = import sources."haskell.nix" {};
-      nixpkgsSrc = if nixpkgsSrcUnstable then sources.nixpkgs-unstable else hn.sources."${nixpkgs-pin}";
+      nixpkgsSrc = sources.nixpkgs-iohk;
       nixpkgsOrigArgs = hn.nixpkgsArgs;
       nixpkgsArgs = nixpkgsOrigArgs // {
         config = {};
