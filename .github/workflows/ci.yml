@@ -128,7 +128,7 @@ jobs:
       uses: 1466587594/get-current-time@v2
       id: current-time
       with:
-        format: YYYY-MM-D H:mm:ss
+        format: YYYY-MM-DD HH:mm:ss
     - name: Commit updated files
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
