@@ -2,12 +2,17 @@ name: "Autoupdate"
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 5 * * *"
+    - cron: "0 4 * * *"
 jobs:
   build:
     name: "update"
     runs-on: ubuntu-latest
     steps:
+      - name: Get current time
+        uses: 1466587594/get-current-time@v2
+        id: current-time
+        with:
+          format: YYYY-MM-DD HH:mm:ss
       - name: Checkout
         uses: actions/checkout@v2
         with:
@@ -29,11 +34,6 @@ jobs:
           cd nixpkgs/nodePackages && node2nix -i node-packages.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Get current time
-        uses: 1466587594/get-current-time@v2
-        id: current-time
-        with:
-          format: YYYY-MM-DD HH:mm:ss
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:

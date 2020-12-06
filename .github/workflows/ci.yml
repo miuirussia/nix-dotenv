@@ -9,6 +9,11 @@ jobs:
     name: "hls - ghc${{ matrix.ghc }}"
     runs-on: macos-latest
     steps:
+    - name: Get current time
+      uses: 1466587594/get-current-time@v2
+      id: current-time
+      with:
+        format: YYYY-MM-DD HH:mm:ss
     - name: Checkout nix-dotenv
       uses: actions/checkout@v2
     - name: Install nix
@@ -124,11 +129,6 @@ jobs:
         cp -f "./environment/custom-plugins.nix" ./dotfiles/nix/programs/neovim
         cp -rf "./environment/nixpkgs/mkHlsPkgs.nix" "./environment/nixpkgs/hls.nix" "./environment/nixpkgs/nix-cache-tools" ./dotfiles/nix/nixpkgs
         cp -f ./environment/nixpkgs/nodePackages/{default.nix,node-env.nix,node-packages.json,node-packages.nix} ./dotfiles/nix/nixpkgs/nodePackages
-    - name: Get current time
-      uses: 1466587594/get-current-time@v2
-      id: current-time
-      with:
-        format: YYYY-MM-DD HH:mm:ss
     - name: Commit updated files
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
