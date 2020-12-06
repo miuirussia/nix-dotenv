@@ -127,7 +127,7 @@ jobs:
       run: |
         cp -f "./environment/sources/default.nix" "./environment/sources/sources.nix" "./environment/sources/sources.json" ./dotfiles/nix/sources
         cp -f "./environment/custom-plugins.nix" ./dotfiles/nix/programs/neovim
-        cp -rf "./environment/nixpkgs/mkHlsPkgs.nix" "./environment/nixpkgs/hls.nix" "./environment/nixpkgs/nix-cache-tools" ./dotfiles/nix/nixpkgs
+        cp -rf "./environment/nixpkgs/mkHlsPkgs.nix" "./environment/nixpkgs/hls.nix" "./environment/nixpkgs/nix-cache-tools" "./environment/nixpkgs/package.nix" ./dotfiles/nix/nixpkgs
         cp -f ./environment/nixpkgs/nodePackages/{default.nix,node-env.nix,node-packages.json,node-packages.nix} ./dotfiles/nix/nixpkgs/nodePackages
     - name: Commit updated files
       uses: stefanzweifel/git-auto-commit-action@v4
