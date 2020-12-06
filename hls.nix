@@ -3,7 +3,7 @@
 let
   sources = import ./sources;
   nixpkgsConfig = import ./nixpkgs/config.nix;
-  pkgs = import sources.nixpkgs-stable { config = nixpkgsConfig; };
+  pkgs = import sources.nixpkgs-unstable { config = nixpkgsConfig; };
 in
 pkgs.buildEnv {
   name = "hls-" + version;
