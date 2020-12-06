@@ -40,7 +40,7 @@ jobs:
       run: cat ~/.config/nix/nix.conf
     - name: Show nixpkgs version
       run: nix-instantiate --eval -E '(import <nixpkgs> {}).lib.version'
-    - name: Build default.nix
+    - name: Build ghc.nix
       run: |
         nix path-info --all | grep -v '\.drv$' > /tmp/store-path-pre-build
         nix --print-build-logs build -f ghc.nix --argstr "version" "${{ matrix.ghc }}"
@@ -94,7 +94,7 @@ jobs:
       run: cat ~/.config/nix/nix.conf
     - name: Show nixpkgs version
       run: nix-instantiate --eval -E '(import <nixpkgs> {}).lib.version'
-    - name: Build default.nix
+    - name: Build hls.nix
       run: |
         nix path-info --all | grep -v '\.drv$' > /tmp/store-path-pre-build
         nix --print-build-logs build -f hls.nix --argstr "version" "${{ matrix.ghc }}"
