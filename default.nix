@@ -142,18 +142,17 @@ pkgs.buildEnv {
     (yarn.override { nodejs = nodejs-14_x; })
     nodePackages.eslint_d
     nodePackages.node2nix
-    nodePackages.prettier
-    nodePackages.prettier_d_slim
+    nodePackages.prettier-eslint-cli
 
+    # purescript
     nodePackages.pulp
     nodePackages.purescript
     nodePackages.purescript-psa
     nodePackages.purescript-language-server
     nodePackages.spago
 
-    # hls-ghc865
-    # hls-ghc884
-    # hls-ghc8102
+
+    # haskell packages
     hls-wrapper
 
     haskellPackages_u.brittany
@@ -163,9 +162,6 @@ pkgs.buildEnv {
     haskellPackages_u.hlint
     haskellPackages_u.hoogle
     haskellPackages_u.stack
-
-    # haskell.compiler.ghc844
-
     nix-tools
 
     gitAndTools.diff-so-fancy

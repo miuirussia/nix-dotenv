@@ -4,5 +4,6 @@
   "purescript-psa",
   "purescript-language-server",
   "spago",
-  "prettier_d_slim"
+  "prettier-eslint-cli",
+  "eslint_d"
 ]
