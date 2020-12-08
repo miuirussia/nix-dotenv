@@ -1,9 +1,10 @@
 [
+  "eslint_d",
+  "fx",
+  "prettier-eslint-cli",
   "pulp",
   "purescript",
-  "purescript-psa",
   "purescript-language-server",
-  "spago",
-  "prettier-eslint-cli",
-  "eslint_d"
+  "purescript-psa",
+  "spago"
 ]

@@ -143,6 +143,7 @@ pkgs.buildEnv {
     nodePackages.eslint_d
     nodePackages.node2nix
     nodePackages.prettier-eslint-cli
+    nodePackages.fx
 
     # purescript
     nodePackages.pulp
