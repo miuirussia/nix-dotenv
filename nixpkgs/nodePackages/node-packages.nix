@@ -1012,13 +1012,13 @@ let
         sha512 = "CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==";
       };
     };
-    "debug-4.3.1" = {
+    "debug-4.3.2" = {
       name = "debug";
       packageName = "debug";
-      version = "4.3.1";
+      version = "4.3.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/debug/-/debug-4.3.1.tgz";
-        sha512 = "doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==";
+        url = "https://registry.npmjs.org/debug/-/debug-4.3.2.tgz";
+        sha512 = "mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==";
       };
     };
     "decamelize-1.2.0" = {
@@ -4342,7 +4342,7 @@ in
       sources."concat-map-0.0.1"
       sources."core_d-2.0.0"
       sources."cross-spawn-7.0.3"
-      sources."debug-4.3.1"
+      sources."debug-4.3.2"
       sources."deep-is-0.1.3"
       sources."doctrine-3.0.0"
       sources."emoji-regex-7.0.3"
@@ -4538,7 +4538,7 @@ in
       sources."concat-map-0.0.1"
       sources."core-js-3.8.1"
       sources."cross-spawn-6.0.5"
-      sources."debug-4.3.1"
+      sources."debug-4.3.2"
       sources."decamelize-1.2.0"
       sources."deep-is-0.1.3"
       sources."dlv-1.1.3"
