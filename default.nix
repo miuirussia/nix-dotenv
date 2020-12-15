@@ -57,8 +57,6 @@ pkgs.buildEnv {
     zlib
     zsh-completions
 
-    nixFlakes
-
     cascadia-code
     jetbrains-mono
 
