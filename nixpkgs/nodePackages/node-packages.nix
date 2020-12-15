@@ -4090,13 +4090,13 @@ let
         sha512 = "2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==";
       };
     };
-    "vscode-jsonrpc-5.0.1" = {
+    "vscode-jsonrpc-6.0.0" = {
       name = "vscode-jsonrpc";
       packageName = "vscode-jsonrpc";
-      version = "5.0.1";
+      version = "6.0.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-jsonrpc/-/vscode-jsonrpc-5.0.1.tgz";
-        sha512 = "JvONPptw3GAQGXlVV2utDcHx0BiY34FupW/kI6mZ5x06ER5DdPG/tXWMVHjTNULF5uKPOUUD0SaXg5QaubJL0A==";
+        url = "https://registry.npmjs.org/vscode-jsonrpc/-/vscode-jsonrpc-6.0.0.tgz";
+        sha512 = "wnJA4BnEjOSyFMvjZdpiOwhSq9uDoK8e/kpRJDTaMYzwlkrhG1fwDIZI94CLsLzlCK5cIbMMtFlJlfR57Lavmg==";
       };
     };
     "vscode-languageserver-6.1.1" = {
@@ -4108,13 +4108,13 @@ let
         sha512 = "DueEpkUAkD5XTR4MLYNr6bQIp/UFR0/IPApgXU3YfCBCB08u2sm9hRCs6DxYZELkk++STPjpcjksR2H8qI3cDQ==";
       };
     };
-    "vscode-languageserver-protocol-3.15.3" = {
+    "vscode-languageserver-protocol-3.16.0" = {
       name = "vscode-languageserver-protocol";
       packageName = "vscode-languageserver-protocol";
-      version = "3.15.3";
+      version = "3.16.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-languageserver-protocol/-/vscode-languageserver-protocol-3.15.3.tgz";
-        sha512 = "zrMuwHOAQRhjDSnflWdJG+O2ztMWss8GqUUB8dXLR/FPenwkiBNkMIJJYfSN6sgskvsF0rHAoBowNQfbyZnnvw==";
+        url = "https://registry.npmjs.org/vscode-languageserver-protocol/-/vscode-languageserver-protocol-3.16.0.tgz";
+        sha512 = "sdeUoAawceQdgIfTI+sdcwkiK2KU+2cbEYA0agzM2uqaUy2UpnnGHtWTHVEtS0ES4zHU0eMFRGN+oQgDxlD66A==";
       };
     };
     "vscode-languageserver-textdocument-1.0.1" = {
@@ -4126,13 +4126,13 @@ let
         sha512 = "UIcJDjX7IFkck7cSkNNyzIz5FyvpQfY7sdzVy+wkKN/BLaD4DQ0ppXQrKePomCxTS7RrolK1I0pey0bG9eh8dA==";
       };
     };
-    "vscode-languageserver-types-3.15.1" = {
+    "vscode-languageserver-types-3.16.0" = {
       name = "vscode-languageserver-types";
       packageName = "vscode-languageserver-types";
-      version = "3.15.1";
+      version = "3.16.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-languageserver-types/-/vscode-languageserver-types-3.15.1.tgz";
-        sha512 = "+a9MPUQrNGRrGU630OGbYVQ+11iOIovjCkqxajPa9w57Sd5ruK8WQNsslzpa0x/QJqC8kRc2DUxWjIFwoNm4ZQ==";
+        url = "https://registry.npmjs.org/vscode-languageserver-types/-/vscode-languageserver-types-3.16.0.tgz";
+        sha512 = "k8luDIWJWyenLc5ToFQQMaSrqCHiLwyKPHKPQZ5zz21vM+vIVUSvsRpcbiECH4WR88K2XZqc4ScRcZ7nk/jbeA==";
       };
     };
     "vscode-uri-2.1.2" = {
@@ -5200,11 +5200,11 @@ in
       sources."isexe-2.0.0"
       sources."shell-quote-1.7.2"
       sources."uuid-3.4.0"
-      sources."vscode-jsonrpc-5.0.1"
+      sources."vscode-jsonrpc-6.0.0"
       sources."vscode-languageserver-6.1.1"
-      sources."vscode-languageserver-protocol-3.15.3"
+      sources."vscode-languageserver-protocol-3.16.0"
       sources."vscode-languageserver-textdocument-1.0.1"
-      sources."vscode-languageserver-types-3.15.1"
+      sources."vscode-languageserver-types-3.16.0"
       sources."vscode-uri-2.1.2"
       sources."which-2.0.2"
     ];
