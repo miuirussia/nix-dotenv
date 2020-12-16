@@ -240,10 +240,10 @@
     "homepage": "https://salt.bountysource.com/teams/coc-nvim",
     "owner": "neoclide",
     "repo": "coc.nvim",
-    "rev": "7e550643a530e1de72d82e33d8b159d200aa8873",
-    "sha256": "144alhaic4izcicsxab99nph7pa35fawibpjqm1j2jfkcnb3c6xp",
+    "rev": "abb0232824e1e66f5884afff9c074279bc1b19f1",
+    "sha256": "13722n2r93c5km0w7xlf1dcjf7ii62m6jnks683yyyhzm6cdqphh",
     "type": "tarball",
-    "url": "https://github.com/neoclide/coc.nvim/archive/7e550643a530e1de72d82e33d8b159d200aa8873.tar.gz",
+    "url": "https://github.com/neoclide/coc.nvim/archive/abb0232824e1e66f5884afff9c074279bc1b19f1.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "coc-vimlsp": {
