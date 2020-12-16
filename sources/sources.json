@@ -101,10 +101,10 @@
     "homepage": null,
     "owner": "neoclide",
     "repo": "coc-git",
-    "rev": "b0ddf048e515428002f7be4cb32d79a04d22c0dd",
-    "sha256": "1407dgrasz06p1gzwf4gynrg9nirmmfdzyh4hflsnb7lkd4sfmlf",
+    "rev": "be65d6e693c289434303d46fe93d70a8c2ed739e",
+    "sha256": "07gx04rcsxljawsy3ncnbx05ihsd870x17bq4pw26hbccp7gwmil",
     "type": "tarball",
-    "url": "https://github.com/neoclide/coc-git/archive/b0ddf048e515428002f7be4cb32d79a04d22c0dd.tar.gz",
+    "url": "https://github.com/neoclide/coc-git/archive/be65d6e693c289434303d46fe93d70a8c2ed739e.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "coc-highlight": {
@@ -185,10 +185,10 @@
     "homepage": null,
     "owner": "neoclide",
     "repo": "coc-rls",
-    "rev": "3b1e611de3bda851abfe68da49a9d271da511b0a",
-    "sha256": "163yix9fs6kym57n12zp4nv11gncnd8srww1kkys5xwvm2qx499f",
+    "rev": "eaa4c931e3a2900e34207fa3240255b4bbe7cf26",
+    "sha256": "178szbw5b54c22jknrxdmq8cwpdrvxzbsnl05xnramqdqp1xbf1a",
     "type": "tarball",
-    "url": "https://github.com/neoclide/coc-rls/archive/3b1e611de3bda851abfe68da49a9d271da511b0a.tar.gz",
+    "url": "https://github.com/neoclide/coc-rls/archive/eaa4c931e3a2900e34207fa3240255b4bbe7cf26.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "coc-rust-analyzer": {
@@ -197,10 +197,10 @@
     "homepage": "",
     "owner": "fannheyward",
     "repo": "coc-rust-analyzer",
-    "rev": "95e5070478d85ae2d6662916e29b5c4a5e307e1f",
-    "sha256": "12k6cykxclr1sx64pyknmk7vmmabaam8378knl7016n4vpp32f30",
+    "rev": "aaad674ebc3328b4aa23e3be36e4a1b606bc35aa",
+    "sha256": "0q2dg1skmmfy3di2vv146gv8w8x0v47w0br9c0r6lwd651s1rn90",
     "type": "tarball",
-    "url": "https://github.com/fannheyward/coc-rust-analyzer/archive/95e5070478d85ae2d6662916e29b5c4a5e307e1f.tar.gz",
+    "url": "https://github.com/fannheyward/coc-rust-analyzer/archive/aaad674ebc3328b4aa23e3be36e4a1b606bc35aa.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "coc-snippets": {
@@ -300,10 +300,10 @@
     "homepage": "https://input-output-hk.github.io/haskell.nix",
     "owner": "input-output-hk",
     "repo": "haskell.nix",
-    "rev": "1ad1cdc050bbca4632d556d46caa1054f032d9fd",
-    "sha256": "1c9kc3a1ck3rbrn9i0zyvnv9apbxc5s62dk3gxyzlca737a78khc",
+    "rev": "604f0991571469b34c295a1f05c28672db1fc361",
+    "sha256": "0qhq16525r4wyrm4njz9gb1wrbnvdnj9d7b5hf7dyldyx21wimyd",
     "type": "tarball",
-    "url": "https://github.com/input-output-hk/haskell.nix/archive/1ad1cdc050bbca4632d556d46caa1054f032d9fd.tar.gz",
+    "url": "https://github.com/input-output-hk/haskell.nix/archive/604f0991571469b34c295a1f05c28672db1fc361.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-stable": {
