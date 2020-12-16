@@ -152,6 +152,8 @@ pkgs.buildEnv {
     nodePackages.purescript-language-server
     nodePackages.spago
 
+    (hiPrio nixFlakes)
+
 
     # haskell packages
     hls-wrapper
