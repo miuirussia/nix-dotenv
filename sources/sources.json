@@ -203,18 +203,6 @@
     "url": "https://github.com/fannheyward/coc-rust-analyzer/archive/30532af5b917d86636a2edcd2dd101ebeb0e8edc.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
-  "coc-snippets": {
-    "branch": "master",
-    "description": "Snippets solution for coc.nvim",
-    "homepage": null,
-    "owner": "neoclide",
-    "repo": "coc-snippets",
-    "rev": "f5d3a14dec5b28e6dc0613d35315287542945296",
-    "sha256": "0grwzsn7afwp5ycpwm9igp6g12d95k2p8j2bm9ynxly66zpinwzk",
-    "type": "tarball",
-    "url": "https://github.com/neoclide/coc-snippets/archive/f5d3a14dec5b28e6dc0613d35315287542945296.tar.gz",
-    "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-  },
   "coc-spell-checker": {
     "branch": "master",
     "description": "A basic spell checker that works well with camelCase code for (Neo)vim",

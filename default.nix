@@ -123,7 +123,6 @@ pkgs.buildEnv {
             coc-python
             # coc-rls
             coc-rust-analyzer
-            coc-snippets
             coc-spell-checker
             # coc-cspell-dicts
             coc-syntax

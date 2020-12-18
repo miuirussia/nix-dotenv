@@ -135,12 +135,6 @@ in
     src = sources.coc-rust-analyzer;
   };
 
-  coc-snippets = mkCocModule {
-    pname = "coc-snippets";
-    src = sources.coc-snippets;
-    command = "install --frozen-lockfile";
-  };
-
   coc-emmet = mkCocModule {
     pname = "coc-emmet";
     src = sources.coc-emmet;
