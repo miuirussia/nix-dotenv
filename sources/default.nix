@@ -20,10 +20,29 @@ let
             fetchSubmodules = true;
         };
 
+    mkPatchedNixpkgs = src:
+      pkgs.stdenv.mkDerivation {
+        name = "nixpkgs-${src.branch}-patched";
+        inherit src;
+        patches = [./nixpkgs.patch];
+        installPhase = ''
+          mkdir -p $out
+          cp -r * $out
+        '';
+      };
+
     darwinizedSrcs =
         if isDarwin
-        then srcs // { nixpkgs-stable = srcs.nixpkgs-stable-darwin; }
-        else srcs // { nixpkgs-stable = srcs.nixpkgs-stable-linux ; };
+        then srcs // {
+          nixpkgs-stable = mkPatchedNixpkgs {
+            src = srcs.nixpkgs-stable-darwin;
+          };
+        }
+        else srcs // {
+          nixpkgs-stable = mkPatchedNixpkgs {
+            src = srcs.nixpkgs-stable-linux;
+          };
+        };
 
     overrides = {
         hls-stable =
@@ -32,6 +51,10 @@ let
         hls-unstable =
             let s = sources.hls-unstable;
             in fromGitHub s "haskell-hls-${s.branch}-src";
+        nixpkgs-unstable =
+            mkPatchedNixpkgs {
+              src = srcs.nixpkgs-unstable;
+            };
     };
 
 in darwinizedSrcs // overrides

@@ -1,0 +1,13 @@
+diff --git a/pkgs/development/tools/yarn2nix-moretea/yarn2nix/internal/fixup_yarn_lock.js b/pkgs/development/tools/yarn2nix-moretea/yarn2nix/internal/fixup_yarn_lock.js
+index 86e92f85..40c77b13 100755
+--- a/pkgs/development/tools/yarn2nix-moretea/yarn2nix/internal/fixup_yarn_lock.js
++++ b/pkgs/development/tools/yarn2nix-moretea/yarn2nix/internal/fixup_yarn_lock.js
+@@ -25,7 +25,7 @@ const result = []
+ 
+ readFile
+   .on('line', line => {
+-    const arr = line.match(/^ {2}resolved "([^#]+)#([^"]+)"$/)
++    const arr = line.match(/^ {2}resolved "([^#]+)[#\/]([^\/"]+)"$/)
+ 
+     if (arr !== null) {
+       const [_, url, shaOrRev] = arr
