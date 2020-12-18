@@ -2,10 +2,12 @@
 
 let
   yarn = (pkgs.yarn.override { nodejs = pkgs.nodejs-14_x; });
-  yarn2nix = pkgs.callPackage (sources.yarn2nix) { pkgs = pkgs; nodejs = pkgs.nodejs-14_x; yarn = yarn; };
-  mkCocModule = { pname, version, src, patches ? [], command ? "build" }: let
-    deps = yarn2nix.mkYarnModules rec {
+  mkCocModule = { pname, src, patches ? [], command ? "build" }: let
+    pkgInfo = builtins.fromJSON (builtins.readFile (src + "/package.json"));
+    version = pkgInfo.version;
+    deps = pkgs.mkYarnModules {
       inherit version pname;
+
       name = "${pname}-modules-${version}";
       packageJSON = src + "/package.json";
       yarnLock = src + "/yarn.lock";
@@ -34,7 +36,7 @@ in
     pname = "vim-coc";
     version = "0.0.79";
     src = sources.coc-unstable;
-    deps = yarn2nix.mkYarnModules {
+    deps = pkgs.mkYarnModules {
       inherit version pname;
       name = "${pname}-modules-${version}";
       packageJSON = src + "/package.json";
@@ -75,122 +77,102 @@ in
 
   coc-css = mkCocModule {
     pname = "coc-css";
-    version = "1.2.2";
     src = sources.coc-css;
   };
 
   coc-diagnostic = mkCocModule {
     pname = "coc-diagnostic";
-    version = "1.4.2";
     src = sources.coc-diagnostic;
   };
 
   coc-eslint = mkCocModule {
     pname = "coc-eslint";
-    version = "1.2.4";
     src = sources.coc-eslint;
   };
 
   coc-flow = mkCocModule {
     pname = "coc-flow";
-    version = "0.1.2";
     src = sources.coc-flow;
   };
 
   coc-git = mkCocModule {
     pname = "coc-git";
-    version = "1.6.16";
     src = sources.coc-git;
   };
 
   coc-highlight = mkCocModule {
     pname = "coc-highlight";
-    version = "1.2.5";
     src = sources.coc-highlight;
   };
 
   coc-json = mkCocModule {
     pname = "coc-json";
-    version = "1.2.4";
     src = sources.coc-json;
   };
 
   coc-pairs = mkCocModule {
     pname = "coc-pairs";
-    version = "1.2.20";
     src = sources.coc-pairs;
   };
 
   coc-prettier = mkCocModule {
     pname = "coc-prettier";
-    version = "1.1.11";
     src = sources.coc-prettier;
   };
 
   coc-python = mkCocModule {
     pname = "coc-python";
-    version = "1.2.7";
     src = sources.coc-python;
   };
 
   coc-rls = mkCocModule {
     pname = "coc-rls";
-    version = "1.1.4";
     src = sources.coc-rls;
   };
 
   coc-rust-analyzer = mkCocModule {
     pname = "coc-rust-analyzer";
-    version = "0.7.14";
     src = sources.coc-rust-analyzer;
   };
 
   coc-snippets = mkCocModule {
     pname = "coc-snippets";
-    version = "2.1.17";
     src = sources.coc-snippets;
     command = "install --frozen-lockfile";
   };
 
   coc-emmet = mkCocModule {
     pname = "coc-emmet";
-    version = "1.1.6";
     src = sources.coc-emmet;
   };
 
   coc-vimlsp = mkCocModule {
     pname = "coc-vimlsp";
-    version = "0.4.4";
     src = sources.coc-vimlsp;
   };
 
   coc-yaml = mkCocModule {
     pname = "coc-yaml";
-    version = "1.0.4";
     src = sources.coc-yaml;
   };
 
   coc-spell-checker = mkCocModule {
     pname = "coc-spell-checker";
-    version = "1.2.0";
     src = sources.coc-spell-checker;
   };
 
   coc-calc = mkCocModule {
     pname = "coc-calc";
-    version = "2.0.0";
     src = sources.coc-calc;
   };
 
   purescript-vim = pkgs.vimUtils.buildVimPlugin {
     name = "purescript-vim";
-    version = "1.0.0";
     src = sources.purescript-vim;
   };
 
   coc-syntax = pkgs.vimUtils.buildVimPlugin {
     name = "coc-syntax";
-    version = "1.2.4";
     src = sources.coc-syntax;
   };
 
