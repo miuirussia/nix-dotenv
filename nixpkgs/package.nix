@@ -26,7 +26,7 @@ let
       )
     ];
   };
-  iohkPkgs = import sources.nixpkgs-unstable iohkArgs;
+  iohkPkgs = import sources.nixpkgs-stable iohkArgs;
   mkHlsPkgs = import ./mkHlsPkgs.nix;
   hlsPkgs865  = mkHlsPkgs { ghcVersion = "ghc865"; inherit sources; };
   hlsPkgs884  = mkHlsPkgs { ghcVersion = "ghc884"; inherit sources; };
