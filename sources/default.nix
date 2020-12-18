@@ -20,15 +20,18 @@ let
             fetchSubmodules = true;
         };
 
-    mkPatchedNixpkgs = src:
+    mkPatchedNixpkgs = { src }:
       pkgs.stdenv.mkDerivation {
-        name = "nixpkgs-${src.branch}-patched";
-        inherit src;
+        name = "nixpkgs${src.branch}-patched";
         patches = [./nixpkgs.patch];
+
+        inherit src;
+
         installPhase = ''
           mkdir -p $out
           cp -r * $out
         '';
+
       };
 
     darwinizedSrcs =
