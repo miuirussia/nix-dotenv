@@ -149,6 +149,7 @@ in
     pname = "coc-snippets";
     version = "2.1.17";
     src = sources.coc-snippets;
+    command = "install --frozen-lockfile";
   };
 
   coc-emmet = mkCocModule {
