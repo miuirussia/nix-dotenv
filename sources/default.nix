@@ -22,7 +22,7 @@ let
 
     mkPatchedNixpkgs = { src }:
       pkgs.stdenv.mkDerivation {
-        name = "nixpkgs${src.branch}-patched";
+        name = "nixpkgs-${src.branch}-patched";
         patches = [./nixpkgs.patch];
 
         inherit src;
