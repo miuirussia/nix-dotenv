@@ -34,7 +34,8 @@ in
 {
   vim-coc = let
     pname = "vim-coc";
-    version = "0.0.79";
+    pkgInfo = builtins.fromJSON (builtins.readFile (src + "/package.json"));
+    version = pkgInfo.version;
     src = sources.coc-unstable;
     deps = pkgs.mkYarnModules {
       inherit version pname;
@@ -47,6 +48,8 @@ in
       inherit version pname src;
 
       name = pname + "-" + version;
+
+      buildInputs = [ pkgs.openssl pkgs.git pkgs.nodePackages.typescript ];
 
       dependencies = [ pkgs.nodejs-14_x ];
 
