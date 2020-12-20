@@ -49,8 +49,6 @@ in
 
       name = pname + "-" + version;
 
-      buildInputs = [ pkgs.openssl pkgs.git pkgs.nodePackages.typescript ];
-
       dependencies = [ pkgs.nodejs-14_x ];
 
       configurePhase = ''
@@ -60,7 +58,6 @@ in
       '';
 
       buildPhase = ''
-        sed -i 's/stringify(options.query)/stringify(options.query as any)/' src/model/fetch.ts
         ${yarn}/bin/yarn build
       '';
 

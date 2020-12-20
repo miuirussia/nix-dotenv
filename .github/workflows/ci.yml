@@ -191,7 +191,7 @@ jobs:
         fetch-depth: 0
     - name: Copy updated files
       run: |
-        cp -f ./environment/sources/{default.nix,sources.nix,sources.json,nixpkgs.patch} ./dotfiles/nix/sources
+        cp -f ./environment/sources/{default.nix,sources.nix,sources.json,*.patch} ./dotfiles/nix/sources
         cp -f ./environment/custom-plugins.nix ./dotfiles/nix/programs/neovim
         cp -rf ./environment/nixpkgs/{mkHlsPkgs.nix,hls.nix,nix-cache-tools,package.nix} ./dotfiles/nix/nixpkgs
         cp -f ./environment/nixpkgs/nodePackages/{default.nix,node-env.nix,node-packages.json,node-packages.nix} ./dotfiles/nix/nixpkgs/nodePackages
