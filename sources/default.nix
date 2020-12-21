@@ -25,12 +25,6 @@ let
         name = "nixpkgs-${src.branch}-patched";
         patches = [
           ./nixpkgs.patch
-        ] ++ lib.optional (isDarwin && src.branch == "nixpkgs-20.09-darwin") [
-          (pkgs.fetchpatch {
-            name = "big-sur-fix.patch";
-            url = "https://github.com/NixOS/nixpkgs/pull/105799.patch";
-            sha256 = "1i0c2v9q4mdl06r8dd5a9lw9wpjm38iivci3md69vx4m1rvwkw6n";
-          })
         ];
 
         inherit src;

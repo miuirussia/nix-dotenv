@@ -1,7 +1,6 @@
 { sources }:
 
 let
-  nixpkgsUnstable = import sources.nixpkgs-unstable {};
   haskellNix = import (sources."haskell.nix") {};
   iohkArgs = haskellNix.nixpkgsArgs // {
     overlays = haskellNix.nixpkgsArgs.overlays ++ [
@@ -26,7 +25,7 @@ let
       )
     ];
   };
-  iohkPkgs = import sources.nixpkgs-stable iohkArgs;
+  iohkPkgs = import sources.nixpkgs-unstable iohkArgs;
   mkHlsPkgs = import ./mkHlsPkgs.nix;
   hlsPkgs865  = mkHlsPkgs { ghcVersion = "ghc865"; inherit sources; };
   hlsPkgs884  = mkHlsPkgs { ghcVersion = "ghc884"; inherit sources; };
@@ -63,8 +62,6 @@ in {
     hls-ghc8102 = hlsPkgs8102.server;
     hls-wrapper = hlsPkgs8102.wrapper;
 
-    haskellPackages_u = nixpkgsUnstable.haskellPackages;
-
     haskell = pkgs.haskell // {
       compiler = pkgs.haskell.compiler // {
         ghc844  = iohkPkgs.haskell-nix.compiler.ghc844;
@@ -73,7 +70,7 @@ in {
 
     neovim-nightly = let
       tree-sitter = (pkgs.callPackage ./tree-sitter/default.nix { inherit sources; });
-    in nixpkgsUnstable.neovim-unwrapped.overrideAttrs (
+    in pkgs.neovim-unwrapped.overrideAttrs (
       prev: {
         pname = "neovim-nightly";
         version = "master";

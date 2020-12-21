@@ -3,7 +3,7 @@
 let
   sources = import ./sources;
   nixpkgsConfig = import ./nixpkgs/config.nix;
-  pkgs = import sources.nixpkgs-stable { config = nixpkgsConfig; };
+  pkgs = import sources.nixpkgs-unstable { config = nixpkgsConfig; };
   plugins = pkgs.vimPlugins // pkgs.callPackage ./custom-plugins.nix { inherit sources; inherit pkgs; };
 in
 pkgs.buildEnv {
@@ -157,13 +157,13 @@ pkgs.buildEnv {
     # haskell packages
     hls-wrapper
 
-    haskellPackages_u.brittany
-    haskellPackages_u.cachix
-    haskellPackages_u.dhall-lsp-server
-    haskellPackages_u.ghcid
-    haskellPackages_u.hlint
-    haskellPackages_u.hoogle
-    haskellPackages_u.stack
+    haskellPackages.brittany
+    haskellPackages.cachix
+    haskellPackages.dhall-lsp-server
+    haskellPackages.ghcid
+    haskellPackages.hlint
+    haskellPackages.hoogle
+    haskellPackages.stack
     nix-tools
 
     gitAndTools.diff-so-fancy

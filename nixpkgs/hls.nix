@@ -13,7 +13,7 @@ let
   nixpkgs =
     let
       hn = import sources."haskell.nix" {};
-      nixpkgsSrc = sources.nixpkgs-stable;
+      nixpkgsSrc = sources.nixpkgs-unstable;
       nixpkgsOrigArgs = hn.nixpkgsArgs;
       nixpkgsArgs = nixpkgsOrigArgs // {
         config = {};
