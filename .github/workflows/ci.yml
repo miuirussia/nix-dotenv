@@ -7,7 +7,7 @@ jobs:
       matrix:
         ghc: ['844', '865', '884', '8102']
     name: "ghc${{ matrix.ghc }}"
-    runs-on: macos-11.0
+    runs-on: macos-latest
     steps:
     - name: Checkout nix-dotenv
       uses: actions/checkout@v2
@@ -65,7 +65,7 @@ jobs:
       matrix:
         ghc: ['865', '884', '8102']
     name: "hls - ghc${{ matrix.ghc }}"
-    runs-on: macos-11.0
+    runs-on: macos-latest
     steps:
     - name: Checkout nix-dotenv
       uses: actions/checkout@v2
@@ -120,7 +120,7 @@ jobs:
   build:
     needs: [hls]
     name: "build"
-    runs-on: macos-11.0
+    runs-on: macos-latest
     steps:
     - name: Get current time
       uses: 1466587594/get-current-time@v2
