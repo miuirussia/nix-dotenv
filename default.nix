@@ -173,7 +173,7 @@ pkgs.buildEnv {
     direnv
     starship
     zsh
-    git
+    gitAndTools.gitFull
     kitty
     tmux
   ];
