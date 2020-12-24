@@ -5267,10 +5267,10 @@ in
   spago = nodeEnv.buildNodePackage {
     name = "spago";
     packageName = "spago";
-    version = "0.18.0";
+    version = "0.18.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/spago/-/spago-0.18.0.tgz";
-      sha512 = "VsjpPPrVwjA30VuJR47daV+uhEyFtoHu+GEKNOZ+Gve+vvfn8foRLy9goT4xbYixdmsnUQIv49F/4f4rh/0u5Q==";
+      url = "https://registry.npmjs.org/spago/-/spago-0.18.1.tgz";
+      sha512 = "pyxYQbtOxKZdUC9iQ0hcbtP/rJz09OwVcE22RI46+YVbLxK/80tVUrCTSQXGeG87YzQopc7bfqkY+lEXdfje1w==";
     };
     dependencies = [
       sources."ajv-6.12.6"
