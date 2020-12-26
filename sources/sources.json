@@ -197,10 +197,10 @@
     "homepage": "",
     "owner": "fannheyward",
     "repo": "coc-rust-analyzer",
-    "rev": "7952ef6010f429894258bdd6a6e12de6b0a8cd15",
-    "sha256": "1pvpk3rb016bk3a811xymdbfgpdp67wm49kq79mj89vj7j149j2d",
+    "rev": "d4c07a56e1fe3da5c2d3a972a1626d0e4efe2bb5",
+    "sha256": "0m3dv6ghsq5j5y6f7sw3qj1wvx41gsfvrw98lqqz8ly308k0zsrx",
     "type": "tarball",
-    "url": "https://github.com/fannheyward/coc-rust-analyzer/archive/7952ef6010f429894258bdd6a6e12de6b0a8cd15.tar.gz",
+    "url": "https://github.com/fannheyward/coc-rust-analyzer/archive/d4c07a56e1fe3da5c2d3a972a1626d0e4efe2bb5.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "coc-spell-checker": {
@@ -288,10 +288,10 @@
     "homepage": "https://input-output-hk.github.io/haskell.nix",
     "owner": "input-output-hk",
     "repo": "haskell.nix",
-    "rev": "4a1bd5d077b6a33dfaada8fbca1f528e730d7dd4",
-    "sha256": "1r9j1093djwd4ax6a60kf6zp36ib4wj58ly2h893qk1jnhkrwi66",
+    "rev": "064d4eb587a78c8e073bbbaec6d6022eb234e015",
+    "sha256": "1xkv2a614qlrhijsp22ihr783fbffipyj59mh6pvs1nvxmh5j4dl",
     "type": "tarball",
-    "url": "https://github.com/input-output-hk/haskell.nix/archive/4a1bd5d077b6a33dfaada8fbca1f528e730d7dd4.tar.gz",
+    "url": "https://github.com/input-output-hk/haskell.nix/archive/064d4eb587a78c8e073bbbaec6d6022eb234e015.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-stable": {
@@ -312,10 +312,10 @@
     "homepage": null,
     "owner": "haskell",
     "repo": "haskell-language-server",
-    "rev": "0f07efcbab2bc1efba2cf707de207bb2f666eea2",
-    "sha256": "1c3kb8ydzc42zjgyd6296v2sl5cbnjhybxbf8qssklgpj5812kql",
+    "rev": "a43933a4cc15585eed33391cdb5039f9e9f6fa07",
+    "sha256": "1rw2672f6dx65k7hrfza6a7ksjaf4zq24nk2jap56mal2kg4v4dx",
     "type": "tarball",
-    "url": "https://github.com/haskell/haskell-language-server/archive/0f07efcbab2bc1efba2cf707de207bb2f666eea2.tar.gz",
+    "url": "https://github.com/haskell/haskell-language-server/archive/a43933a4cc15585eed33391cdb5039f9e9f6fa07.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "json5.vim": {
@@ -348,10 +348,10 @@
     "homepage": "https://neovim.io",
     "owner": "neovim",
     "repo": "neovim",
-    "rev": "8c8cc35926f265bf4f048b83fd130bef3932851e",
-    "sha256": "1iswss5415n56cfxn9pylnpfnwafhfdnxfc1pk9z1m280i2whlyk",
+    "rev": "84faeb07d0018c674c2bc730333fefae6123f366",
+    "sha256": "0wkd2v866254gqvs288md7g8h2c67g6k744z4vxhi8mr02pj7byv",
     "type": "tarball",
-    "url": "https://github.com/neovim/neovim/archive/8c8cc35926f265bf4f048b83fd130bef3932851e.tar.gz",
+    "url": "https://github.com/neovim/neovim/archive/84faeb07d0018c674c2bc730333fefae6123f366.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nginx-vim": {
@@ -408,10 +408,10 @@
     "homepage": "https://github.com/NixOS/nixpkgs",
     "owner": "NixOS",
     "repo": "nixpkgs",
-    "rev": "ca119749d86f484066fae7680af8a44ea1f11ca8",
-    "sha256": "1mzcw6ia7q7j7pcfwn5ixhry5x0r29dvf5zjz3ip3fpkn7f72aj0",
+    "rev": "ae1b121d9a68518dbf46124397e34e465d3cdf6c",
+    "sha256": "129ydkkj2p9xlhqf514k9p8sj1s9v9nvi44q2yvxn6fqwwf8ni1m",
     "type": "tarball",
-    "url": "https://github.com/NixOS/nixpkgs/archive/ca119749d86f484066fae7680af8a44ea1f11ca8.tar.gz",
+    "url": "https://github.com/NixOS/nixpkgs/archive/ae1b121d9a68518dbf46124397e34e465d3cdf6c.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nixpkgs-stable-linux": {
@@ -644,10 +644,10 @@
     "homepage": "github.com/zsh-users/zsh-syntax-highlighting",
     "owner": "zsh-users",
     "repo": "zsh-syntax-highlighting",
-    "rev": "1715f39a4680a27abd57fc30c98a95fdf191be45",
-    "sha256": "1kpxima0fnypl7fak4snxnf6nj36nvp1gqwpx1ailyrgxa8641j0",
+    "rev": "5eb494852ebb99cf5c2c2bffee6b74e6f1bf38d0",
+    "sha256": "03vszkmm09smbzpbnk6c5f5sx1y9vh0j91xvgqfv6m4gldxrj37j",
     "type": "tarball",
-    "url": "https://github.com/zsh-users/zsh-syntax-highlighting/archive/1715f39a4680a27abd57fc30c98a95fdf191be45.tar.gz",
+    "url": "https://github.com/zsh-users/zsh-syntax-highlighting/archive/5eb494852ebb99cf5c2c2bffee6b74e6f1bf38d0.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   }
 }
