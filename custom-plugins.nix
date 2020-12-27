@@ -1,7 +1,8 @@
 { pkgs, sources, ... }:
 
 let
-  yarn = (pkgs.yarn.override { nodejs = pkgs.nodejs-14_x; });
+  nodejs = pkgs.nodejs-14_x;
+  yarn = (pkgs.yarn.override { inherit nodejs; });
   mkCocModule = { pname, src, patches ? [], command ? "build" }: let
     pkgInfo = builtins.fromJSON (builtins.readFile (src + "/package.json"));
     version = pkgInfo.version;
@@ -158,6 +159,19 @@ in
   coc-calc = mkCocModule {
     pname = "coc-calc";
     src = sources.coc-calc;
+  };
+
+  vimspector = pkgs.vimUtils.buildVimPlugin {
+    name = "vimspector";
+    src = sources.vimspector;
+
+    buildInputs = [ pkgs.python3 pkgs.git pkgs.cacert nodejs ];
+    buildPhase = ''
+      export HOME=$PWD
+      npm config set prefix $PWD/.npm
+      npm config set cache $PWD/.npm-cache
+      ./install_gadget.py --enable-rust --force-enable-node --force-enable-chrome
+    '';
   };
 
   purescript-vim = pkgs.vimUtils.buildVimPlugin {

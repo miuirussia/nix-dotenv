@@ -614,6 +614,18 @@
     "url": "https://github.com/lyokha/vim-xkbswitch/archive/f851600045c543f3646c709d7e03e231408eab81.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
+  "vimspector": {
+    "branch": "master",
+    "description": "vimspector - A multi-language debugging system for Vim",
+    "homepage": "http://puremourning.github.io/vimspector-web",
+    "owner": "puremourning",
+    "repo": "vimspector",
+    "rev": "41a98026fa0bc29be35fc8392e38b1caabab0a3a",
+    "sha256": "14x6fmz7yy377zhgrmcv718bnqyh46c6rrb2f3ypfbbrk0nbd7k6",
+    "type": "tarball",
+    "url": "https://github.com/puremourning/vimspector/archive/41a98026fa0bc29be35fc8392e38b1caabab0a3a.tar.gz",
+    "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+  },
   "vista-vim": {
     "branch": "master",
     "description": ":cactus: Viewer & Finder for LSP symbols and tags",

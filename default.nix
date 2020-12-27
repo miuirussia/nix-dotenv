@@ -102,9 +102,9 @@ pkgs.buildEnv {
             vim-rooter
             vim-rust
             vim-sandwich
-            vim-startify
             vim-styled-components
             vim-toml
+            vimspector
             vista-vim
 
             # coc
