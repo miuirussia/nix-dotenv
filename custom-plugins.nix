@@ -17,7 +17,7 @@ let
     pkgs.vimUtils.buildVimPluginFrom2Nix {
       inherit version pname src;
 
-      buildInputs = [ pkgs.openssl pkgs.git pkgs.nodePackages.typescript ];
+      buildInputs = [ pkgs.openssl pkgs.git pkgs.nodePackages.typescript pkgs.cacert ];
 
       patches = patches;
 
@@ -28,7 +28,7 @@ let
       '';
 
       buildPhase = ''
-        GIT_SSL_NO_VERIFY=true ${yarn}/bin/yarn ${command}
+        NODE_ENV=production ${yarn}/bin/yarn ${command}
       '';
     };
 in
