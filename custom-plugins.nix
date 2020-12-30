@@ -3,11 +3,16 @@
 let
   nodejs = pkgs.nodejs-14_x;
   yarn = (pkgs.yarn.override { inherit nodejs; });
+  yarnFlags = [
+    "--offline"
+    "--frozen-lockfile"
+    "--ignore-engines"
+  ];
   mkCocModule = { pname, src, patches ? [], command ? "build" }: let
     pkgInfo = builtins.fromJSON (builtins.readFile (src + "/package.json"));
     version = pkgInfo.version;
     deps = pkgs.mkYarnModules {
-      inherit version pname;
+      inherit version pname yarnFlags;
 
       name = "${pname}-modules-${version}";
       packageJSON = src + "/package.json";
@@ -39,15 +44,10 @@ in
     version = pkgInfo.version;
     src = sources.coc-unstable;
     deps = pkgs.mkYarnModules {
-      inherit version pname;
+      inherit version pname yarnFlags;
       name = "${pname}-modules-${version}";
       packageJSON = src + "/package.json";
       yarnLock = src + "/yarn.lock";
-      yarnFlags = [
-        "--offline"
-        "--frozen-lockfile"
-        "--ignore-engines"
-      ];
     };
   in
     pkgs.vimUtils.buildVimPluginFrom2Nix {
