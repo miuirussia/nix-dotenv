@@ -348,10 +348,10 @@
     "homepage": "https://neovim.io",
     "owner": "neovim",
     "repo": "neovim",
-    "rev": "69fc6c2de011e6da556fedd3a058fecf47883b8e",
-    "sha256": "1cnczilm6bh96x6a35314dabd53xraablbr5ss1f6q5vllw9jj99",
+    "rev": "28a0f6b17ddb51f605abfcd9d48b8084545d5901",
+    "sha256": "0v640qrdqxrrarwyy3nlv2iv8gsq1j0hhdj17zwgszp72sm1lymx",
     "type": "tarball",
-    "url": "https://github.com/neovim/neovim/archive/69fc6c2de011e6da556fedd3a058fecf47883b8e.tar.gz",
+    "url": "https://github.com/neovim/neovim/archive/28a0f6b17ddb51f605abfcd9d48b8084545d5901.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nginx-vim": {

@@ -64,7 +64,7 @@ in
       '';
 
       buildPhase = ''
-        ${yarn}/bin/yarn build
+        NODE_ENV=production ${yarn}/bin/yarn build
       '';
 
       postFixup = ''
