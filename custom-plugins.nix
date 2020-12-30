@@ -34,7 +34,7 @@ let
 in
 {
   vim-coc = let
-    pname = "vim-coc";
+    pname = "coc-unstable";
     pkgInfo = builtins.fromJSON (builtins.readFile (src + "/package.json"));
     version = pkgInfo.version;
     src = sources.coc-unstable;
@@ -43,6 +43,11 @@ in
       name = "${pname}-modules-${version}";
       packageJSON = src + "/package.json";
       yarnLock = src + "/yarn.lock";
+      yarnFlags = [
+        "--offline"
+        "--frozen-lockfile"
+        "--ignore-engines"
+      ];
     };
   in
     pkgs.vimUtils.buildVimPluginFrom2Nix {
