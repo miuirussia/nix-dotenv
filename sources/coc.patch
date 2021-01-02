@@ -1,0 +1,17 @@
+diff --git a/esbuild.js b/esbuild.js
+index 38ae850f..8030c0f5 100755
+--- a/esbuild.js
++++ b/esbuild.js
+@@ -42,10 +42,11 @@ async function start() {
+     platform: 'node',
+     target: 'node10.12',
+     outfile: 'build/index.js',
+-    plugins: [envPlugin]
++    // plugins: [envPlugin]
+   })
+ }
+ 
+ start().catch(e => {
++  process.exitCode = 1
+   console.error(e)
+ })

@@ -71,6 +71,10 @@ let
 
               inherit src;
 
+              patches = [
+                ./coc.patch
+              ];
+
               buildPhase = ''
                 sed -i 's/stringify(options.query)/stringify(options.query as any)/' src/model/fetch.ts
                 sed -i 's/cp\.execSync(\x27git rev-parse HEAD\x27, {encoding: \x27utf8\x27})/\x27${src.rev}\x27/' esbuild.js
