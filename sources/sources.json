@@ -312,10 +312,10 @@
     "homepage": null,
     "owner": "haskell",
     "repo": "haskell-language-server",
-    "rev": "90966db23660c2c2828ba0d9761e695a432dba8e",
-    "sha256": "1shxgy6l6v1cz9q2scj39hffan0jnr178jhzn6322kfm4yqbw73b",
+    "rev": "6b0740c476192178a4d9eea96b1a2a8b1c9e601d",
+    "sha256": "1wb7pqiv4nsnhly7vxk4hdl3bvyhmqwg64jy13py4fw7rncr6sys",
     "type": "tarball",
-    "url": "https://github.com/haskell/haskell-language-server/archive/90966db23660c2c2828ba0d9761e695a432dba8e.tar.gz",
+    "url": "https://github.com/haskell/haskell-language-server/archive/6b0740c476192178a4d9eea96b1a2a8b1c9e601d.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "json5.vim": {
@@ -336,10 +336,10 @@
     "homepage": "",
     "owner": "kovidgoyal",
     "repo": "kitty",
-    "rev": "d1496f1eb57349b186792627995a0b91046ed603",
-    "sha256": "1c171c58032s9d4hidm5wyszafc26vw65z5mmql95niw0azaxgkx",
+    "rev": "df00e9545d3cbc37cca75646eff257e940a3d258",
+    "sha256": "18afrfv05gxhrn8mkc3fwf11p9sxy9ifzd8hx66zqcyiq1b3rr8x",
     "type": "tarball",
-    "url": "https://github.com/kovidgoyal/kitty/archive/d1496f1eb57349b186792627995a0b91046ed603.tar.gz",
+    "url": "https://github.com/kovidgoyal/kitty/archive/df00e9545d3cbc37cca75646eff257e940a3d258.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "neovim": {
