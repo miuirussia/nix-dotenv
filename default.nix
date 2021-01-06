@@ -159,7 +159,7 @@ pkgs.buildEnv {
 
     haskellPackages.brittany
     haskellPackages.cachix
-    haskellPackages.dhall-lsp-server
+    # haskellPackages.dhall-lsp-server
     haskellPackages.ghcid
     haskellPackages.hlint
     haskellPackages.hoogle
