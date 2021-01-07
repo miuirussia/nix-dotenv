@@ -5300,10 +5300,10 @@ in
   spago = nodeEnv.buildNodePackage {
     name = "spago";
     packageName = "spago";
-    version = "0.18.1";
+    version = "0.19.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/spago/-/spago-0.18.1.tgz";
-      sha512 = "pyxYQbtOxKZdUC9iQ0hcbtP/rJz09OwVcE22RI46+YVbLxK/80tVUrCTSQXGeG87YzQopc7bfqkY+lEXdfje1w==";
+      url = "https://registry.npmjs.org/spago/-/spago-0.19.0.tgz";
+      sha512 = "Nya6XumeRerMjkSXrexqlQJFoObYK8ybj7EtoB9WOHQfC4meySkrbfiD5bJhhn+WVhiGzHIqi4dllnrlTrH1wA==";
     };
     dependencies = [
       sources."ajv-6.12.6"
