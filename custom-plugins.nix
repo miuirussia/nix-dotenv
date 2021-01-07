@@ -33,7 +33,11 @@ let
       '';
 
       buildPhase = ''
-        NODE_ENV=production ${yarn}/bin/yarn ${command}
+        if [ -f "esbuild.js" ]; then
+          NODE_ENV=production ${yarn}/bin/yarn node esbuild.js
+        else
+          NODE_ENV=production ${yarn}/bin/yarn ${command}
+        fi
       '';
     };
 in
