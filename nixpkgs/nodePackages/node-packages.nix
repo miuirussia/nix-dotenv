@@ -4063,13 +4063,13 @@ let
         sha512 = "zoWr9ObaxALD3DOPfjPSqxt4fnZiWblxHIgeWqW8x7UqDzEtHEQLzji2cuJYQFCU6KmoJikOYAZlrTHHebjx2w==";
       };
     };
-    "uri-js-4.4.0" = {
+    "uri-js-4.4.1" = {
       name = "uri-js";
       packageName = "uri-js";
-      version = "4.4.0";
+      version = "4.4.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/uri-js/-/uri-js-4.4.0.tgz";
-        sha512 = "B0yRTzYdUCCn9n+F4+Gh4yIDtMQcaJsmYBDsTSG8g/OejKBodLQ2IHfN3bM7jUsRXndopT7OIXWdYqc1fjmV6g==";
+        url = "https://registry.npmjs.org/uri-js/-/uri-js-4.4.1.tgz";
+        sha512 = "7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==";
       };
     };
     "url-0.11.0" = {
@@ -4496,7 +4496,7 @@ in
       sources."text-table-0.2.0"
       sources."type-check-0.4.0"
       sources."type-fest-0.8.1"
-      sources."uri-js-4.4.0"
+      sources."uri-js-4.4.1"
       sources."v8-compile-cache-2.2.0"
       sources."which-2.0.2"
       sources."word-wrap-1.2.3"
@@ -4756,7 +4756,7 @@ in
       sources."tslib-1.14.1"
       sources."type-check-0.3.2"
       sources."typescript-3.9.7"
-      sources."uri-js-4.4.0"
+      sources."uri-js-4.4.1"
       (sources."vue-eslint-parser-2.0.3" // {
         dependencies = [
           sources."acorn-5.7.4"
@@ -5227,7 +5227,7 @@ in
       sources."typedarray-0.0.6"
       sources."unique-filename-1.1.1"
       sources."unique-slug-2.0.2"
-      sources."uri-js-4.4.0"
+      sources."uri-js-4.4.1"
       sources."util-deprecate-1.0.2"
       sources."uuid-3.4.0"
       sources."verror-1.10.0"
@@ -5357,7 +5357,7 @@ in
       sources."tough-cookie-2.5.0"
       sources."tunnel-agent-0.6.0"
       sources."tweetnacl-0.14.5"
-      sources."uri-js-4.4.0"
+      sources."uri-js-4.4.1"
       sources."uuid-3.4.0"
       sources."verror-1.10.0"
       sources."yallist-3.1.1"
