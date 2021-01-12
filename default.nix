@@ -63,7 +63,9 @@ pkgs.buildEnv {
     rustup
 
     (
-      wrapNeovim neovim-nightly {
+      wrapNeovimUnstable neovim-nightly {
+        withPython2 = true;
+        withPython3 = true;
         withNodeJs = true;
 
         extraPython3Packages = (
