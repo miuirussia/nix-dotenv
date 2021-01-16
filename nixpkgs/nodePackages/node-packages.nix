@@ -31,13 +31,13 @@ let
         sha512 = "i6rgnR/YgPEQzZZnbTHHuZdlE8qyoBNalD6F+q4vAFlcMEcqmkoG+mPqJYJCo63qPf74+Y1UZsl3l6f7/RIkmA==";
       };
     };
-    "@eslint/eslintrc-0.2.2" = {
+    "@eslint/eslintrc-0.3.0" = {
       name = "_at_eslint_slash_eslintrc";
       packageName = "@eslint/eslintrc";
-      version = "0.2.2";
+      version = "0.3.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-0.2.2.tgz";
-        sha512 = "EfB5OHNYp1F4px/LI/FEnGylop7nOqkQ1LRzCM0KccA2U8tvV8w01KBv37LbO7nW4H+YhKyo2LcJhRwjjV17QQ==";
+        url = "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-0.3.0.tgz";
+        sha512 = "1JTKgrOKAHVivSvOYw+sJOunkBjUOvjqWk1DPja7ZFhIS2mX/4EgTT8M7eTK9jrKhL/FvXXEbQwIs3pg1xp3dg==";
       };
     };
     "@medv/blessed-2.0.1" = {
@@ -1246,13 +1246,13 @@ let
         sha512 = "S3Rz11i7c8AA5JPv7xAH+dOyq/Cu/VXHiHXBPOU1k/JAM5dXqQPt3qcrhpHSorXmrpu2g0gkIBVXAqCpzfoZIg==";
       };
     };
-    "eslint-7.17.0" = {
+    "eslint-7.18.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "7.17.0";
+      version = "7.18.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-7.17.0.tgz";
-        sha512 = "zJk08MiBgwuGoxes5sSQhOtibZ75pz0J35XTRlZOk9xMffhpA9BTbQZxoXZzOl5zMbleShbGwtw+1kGferfFwQ==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-7.18.0.tgz";
+        sha512 = "fbgTiE8BfUJZuBeq2Yi7J3RB3WGUQ9PNuNbmgi6jt9Iv8qrkxfy19Ds3OpL1Pm7zg3BtTVhvcUZbIRQ0wmSjAQ==";
       };
     };
     "eslint-scope-3.7.3" = {
@@ -4370,7 +4370,7 @@ in
           sources."chalk-2.4.2"
         ];
       })
-      sources."@eslint/eslintrc-0.2.2"
+      sources."@eslint/eslintrc-0.3.0"
       sources."acorn-7.4.1"
       sources."acorn-jsx-5.3.1"
       sources."ajv-6.12.6"
@@ -4402,7 +4402,7 @@ in
       sources."emoji-regex-8.0.0"
       sources."enquirer-2.3.6"
       sources."escape-string-regexp-1.0.5"
-      sources."eslint-7.17.0"
+      sources."eslint-7.18.0"
       sources."eslint-scope-5.1.1"
       (sources."eslint-utils-2.1.0" // {
         dependencies = [
