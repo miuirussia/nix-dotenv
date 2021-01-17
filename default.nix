@@ -1,85 +1,89 @@
-{ pkgs ? import <nixpkgs> {} }:
-
 let
   sources = import ./sources;
   nixpkgsConfig = import ./nixpkgs/config.nix;
   pkgs = import sources.nixpkgs-unstable { config = nixpkgsConfig; };
   plugins = pkgs.vimPlugins // pkgs.callPackage ./custom-plugins.nix { inherit sources; inherit pkgs; };
+
 in
-pkgs.buildEnv {
-  name = "nix-env";
-  paths = with pkgs; [
-    aria
-    autoconf
-    automake
-    bat
-    coreutils
-    curl
-    ddgr
-    exa
-    fd
-    ffmpeg
-    findutils
-    fontforge
-    fswatch
-    fzf
-    gnugrep
-    gnupatch
-    gnused
-    gnutar
-    googler
-    hexyl
-    htop
-    httpie
-    imgcat
-    jq
-    lazygit
-    lldb
-    ncdu
-    niv
-    ranger
-    reason-language-server
-    reattach-to-user-namespace
-    rename
-    rnix-lsp
-    rsync
-    shellcheck
-    speedtest-cli
-    stlink
-    tldr
-    tmuxinator
-    tree
-    w3m
-    watchman
-    wget
-    xz
-    youtube-dl
-    zlib
-    zsh-completions
+  with pkgs;
+  buildEnv {
+    name = "nix-env";
+    paths = let
+      wrapNeovim = pkgs.wrapNeovimUnstable.override { nodejs = pkgs.nodejs-14_x; };
+      neovimUtils = pkgs.neovimUtils.override { nodejs = pkgs.nodejs-14_x; };
+    in
+      [
+        aria
+        autoconf
+        automake
+        bat
+        coreutils
+        curl
+        ddgr
+        exa
+        fd
+        ffmpeg
+        findutils
+        fontforge
+        fswatch
+        fzf
+        gnugrep
+        gnupatch
+        gnused
+        gnutar
+        googler
+        hexyl
+        htop
+        httpie
+        imgcat
+        jq
+        lazygit
+        lldb
+        ncdu
+        niv
+        ranger
+        reason-language-server
+        reattach-to-user-namespace
+        rename
+        rnix-lsp
+        rsync
+        shellcheck
+        speedtest-cli
+        stlink
+        tldr
+        tmuxinator
+        tree
+        w3m
+        watchman
+        wget
+        xz
+        youtube-dl
+        zlib
+        zsh-completions
 
-    cascadia-code
-    jetbrains-mono
+        cascadia-code
+        jetbrains-mono
 
-    rustup
+        rustup
 
-    (
-      (wrapNeovimUnstable.override { nodejs = nodejs-14_x; }) neovim-nightly
         (
-          (neovimUtils.override { nodejs = nodejs-14_x; }).makeNeovimConfig {
-            withPython2 = true;
-            withPython3 = true;
-            withNodeJs = true;
+          let
+            neovimConfig = neovimUtils.makeNeovimConfig {
+              withPython2 = true;
+              withPython3 = true;
+              withNodeJs = true;
 
-            extraPython3Packages = (
-              ps: with ps; [
-                black
-                flake8
-                jedi
-              ]
-            );
+              extraPython3Packages = (
+                ps: with ps; [
+                  black
+                  flake8
+                  jedi
+                ]
+              );
 
-            configure = {
-              plug.plugins = with plugins; [
+              configure = {};
+
+              plugins = with plugins; [
                 dhall-vim
                 editorconfig-vim
                 fzf-vim
@@ -138,48 +142,52 @@ pkgs.buildEnv {
                 base16-vim
               ];
             };
-          }
+          in
+            wrapNeovim neovim-nightly (
+              neovimConfig // {
+                wrapperArgs = (lib.escapeShellArgs neovimConfig.wrapperArgs);
+              }
+            )
         )
-    )
 
-    nodejs-14_x
-    (yarn.override { nodejs = nodejs-14_x; })
-    nodePackages.eslint_d
-    nodePackages.node2nix
-    nodePackages.prettier-eslint-cli
-    nodePackages.fx
+        nodejs-14_x
+        (yarn.override { nodejs = nodejs-14_x; })
+        nodePackages.eslint_d
+        nodePackages.node2nix
+        nodePackages.prettier-eslint-cli
+        nodePackages.fx
 
-    # purescript
-    nodePackages.pulp
-    nodePackages.purescript
-    nodePackages.purescript-psa
-    nodePackages.purescript-language-server
-    nodePackages.spago
+        # purescript
+        nodePackages.pulp
+        nodePackages.purescript
+        nodePackages.purescript-psa
+        nodePackages.purescript-language-server
+        nodePackages.spago
 
-    (hiPrio nixFlakes)
+        (hiPrio nixFlakes)
 
 
-    # haskell packages
-    hls-wrapper
+        # haskell packages
+        hls-wrapper
 
-    haskellPackages.brittany
-    haskellPackages.cachix
-    # haskellPackages.dhall-lsp-server
-    haskellPackages.ghcid
-    haskellPackages.hlint
-    haskellPackages.hoogle
-    haskellPackages.stack
-    nix-tools
+        haskellPackages.brittany
+        haskellPackages.cachix
+        # haskellPackages.dhall-lsp-server
+        haskellPackages.ghcid
+        haskellPackages.hlint
+        haskellPackages.hoogle
+        haskellPackages.stack
+        nix-tools
 
-    gitAndTools.diff-so-fancy
-    nix-prefetch-git
+        gitAndTools.diff-so-fancy
+        nix-prefetch-git
 
-    #programs from home-manager
-    direnv
-    starship
-    zsh
-    gitAndTools.gitFull
-    kitty
-    tmux
-  ];
-}
+        #programs from home-manager
+        direnv
+        starship
+        zsh
+        gitAndTools.gitFull
+        kitty
+        tmux
+      ];
+  }
