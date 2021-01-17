@@ -81,66 +81,66 @@ in
                 ]
               );
 
-              configure = {};
+              configure = {
+                plug.plugins = with plugins; [
+                  dhall-vim
+                  editorconfig-vim
+                  fzf-vim
+                  fzfWrapper
+                  haskell-vim
+                  indentLine
+                  neoformat
+                  nginx-vim
+                  postcss-syntax-vim
+                  purescript-vim
+                  tabular
+                  vim-airline
+                  vim-airline-themes
+                  vim-better-whitespace
+                  vim-cursorword
+                  vim-devicons
+                  vim-javascript
+                  vim-json5
+                  vim-jsx
+                  vim-languages
+                  vim-lastplace
+                  vim-markdown
+                  vim-nix
+                  vim-rooter
+                  vim-rust
+                  vim-sandwich
+                  vim-styled-components
+                  vim-toml
+                  vimspector
+                  vista-vim
 
-              plugins = with plugins; [
-                dhall-vim
-                editorconfig-vim
-                fzf-vim
-                fzfWrapper
-                haskell-vim
-                indentLine
-                neoformat
-                nginx-vim
-                postcss-syntax-vim
-                purescript-vim
-                tabular
-                vim-airline
-                vim-airline-themes
-                vim-better-whitespace
-                vim-cursorword
-                vim-devicons
-                vim-javascript
-                vim-json5
-                vim-jsx
-                vim-languages
-                vim-lastplace
-                vim-markdown
-                vim-nix
-                vim-rooter
-                vim-rust
-                vim-sandwich
-                vim-styled-components
-                vim-toml
-                vimspector
-                vista-vim
+                  # coc
+                  vim-coc
 
-                # coc
-                vim-coc
+                  # coc plugins
+                  coc-calc
+                  coc-css
+                  coc-diagnostic
+                  coc-emmet
+                  coc-flow
+                  coc-git
+                  coc-highlight
+                  coc-json
+                  coc-pairs
+                  coc-python
+                  # coc-rls
+                  coc-rust-analyzer
+                  coc-spell-checker
+                  # coc-cspell-dicts
+                  coc-syntax
+                  coc-tsserver
+                  coc-vimlsp
+                  coc-yaml
 
-                # coc plugins
-                coc-calc
-                coc-css
-                coc-diagnostic
-                coc-emmet
-                coc-flow
-                coc-git
-                coc-highlight
-                coc-json
-                coc-pairs
-                coc-python
-                # coc-rls
-                coc-rust-analyzer
-                coc-spell-checker
-                # coc-cspell-dicts
-                coc-syntax
-                coc-tsserver
-                coc-vimlsp
-                coc-yaml
-
-                #themes
-                base16-vim
-              ];
+                  #themes
+                  base16-vim
+                ];
+              };
             };
           in
             wrapNeovim neovim-nightly (
