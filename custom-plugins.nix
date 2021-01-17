@@ -27,7 +27,9 @@ let
         git
         nodePackages.typescript
         cacert
-      ] // buildInputs;
+        python
+        python3
+      ] ++ buildInputs;
 
       patches = patches;
 
@@ -137,10 +139,6 @@ in
 
   coc-python = mkCocModule {
     pname = "coc-python";
-    buildInputs = [
-      pkgs.python
-      pkgs.python3
-    ];
     src = sources.coc-python;
   };
 
