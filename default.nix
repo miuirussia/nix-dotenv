@@ -145,7 +145,7 @@ in
           in
             wrapNeovim neovim-nightly (
               neovimConfig // {
-                wrapperArgs = (lib.escapeShellArgs neovimConfig.wrapperArgs);
+                wrapperArgs = (lib.escapeShellArgs neovimConfig.wrapperArgs) + " " + "--set NVIM_LOG_FILE /dev/null";
               }
             )
         )
