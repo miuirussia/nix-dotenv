@@ -8,7 +8,7 @@ let
     "--frozen-lockfile"
     "--ignore-engines"
   ];
-  mkCocModule = { pname, src, patches ? [], command ? "build" }: let
+  mkCocModule = { pname, src, patches ? [], buildInputs ? [], command ? "build" }: let
     pkgInfo = builtins.fromJSON (builtins.readFile (src + "/package.json"));
     version = pkgInfo.version;
     deps = pkgs.mkYarnModules {
@@ -22,7 +22,12 @@ let
     pkgs.vimUtils.buildVimPluginFrom2Nix {
       inherit version pname src;
 
-      buildInputs = [ pkgs.openssl pkgs.git pkgs.nodePackages.typescript pkgs.cacert ];
+      buildInputs = with pkgs; [
+        openssl
+        git
+        nodePackages.typescript
+        cacert
+      ] // buildInputs;
 
       patches = patches;
 
@@ -132,6 +137,10 @@ in
 
   coc-python = mkCocModule {
     pname = "coc-python";
+    buildInputs = [
+      pkgs.python
+      pkgs.python3
+    ];
     src = sources.coc-python;
   };
 
