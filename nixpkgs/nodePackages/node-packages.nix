@@ -58,13 +58,13 @@ let
         sha512 = "OCutwjDZ4aFS6PB1UZ988C4YgwlBHJd6wCeQqaLdmadZ/7e+w79+hbMUFC1QXDNCmdyoRfAFdm0RypzwR+Qpag==";
       };
     };
-    "@types/json-schema-7.0.6" = {
+    "@types/json-schema-7.0.7" = {
       name = "_at_types_slash_json-schema";
       packageName = "@types/json-schema";
-      version = "7.0.6";
+      version = "7.0.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.6.tgz";
-        sha512 = "3c+yGKvVP5Y9TYBEibGNR+kLtijnj7mYrXRg+WpFb2X9xm04g/DXYkfg4hmzJQosc9snFNUPkbYIhu+KAm6jJw==";
+        url = "https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.7.tgz";
+        sha512 = "cxWFQVseBm6O9Gbw1IWb8r6OS4OhSt3hPZLkFApLjM8TEXROBuQGLAH2i2gZpcXdLBIrpXuTDhH7Vbm1iXmNGA==";
       };
     };
     "@typescript-eslint/experimental-utils-1.13.0" = {
@@ -913,13 +913,13 @@ let
         sha512 = "f2domd9fsVDFtaFcbaRZuYXwtdmnzqbADSwhSWYxYB/Q8zsdUUFMXVRwXGDMWmbEzAn1kdRrtI1T/KTFOL4X2A==";
       };
     };
-    "core-js-3.8.2" = {
+    "core-js-3.8.3" = {
       name = "core-js";
       packageName = "core-js";
-      version = "3.8.2";
+      version = "3.8.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/core-js/-/core-js-3.8.2.tgz";
-        sha512 = "FfApuSRgrR6G5s58casCBd9M2k+4ikuu4wbW6pJyYU7bd9zvFc9qf7vr5xmrZOhT9nn+8uwlH1oRR9jTnFoA3A==";
+        url = "https://registry.npmjs.org/core-js/-/core-js-3.8.3.tgz";
+        sha512 = "KPYXeVZYemC2TkNEkX/01I+7yd+nX3KddKwZ1Ww7SKWdI2wQprSgLmrTddT8nw92AjEklTsPBoSdQBhbI1bQ6Q==";
       };
     };
     "core-util-is-1.0.2" = {
@@ -1579,13 +1579,13 @@ let
         sha512 = "r5wGx7YeOwNWNlCA0wQ86zKyDLMQr+/RB8xy74M4hTphfmjlijTSSXGuH8rnvKZnfT9i+75zmd8jcKdMR4O6jA==";
       };
     };
-    "flatted-3.1.0" = {
+    "flatted-3.1.1" = {
       name = "flatted";
       packageName = "flatted";
-      version = "3.1.0";
+      version = "3.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/flatted/-/flatted-3.1.0.tgz";
-        sha512 = "tW+UkmtNg/jv9CSofAKvgVcO7c2URjhTdW1ZTkcAritblu8tajiYy7YisnIflEwtKssCtOxpnBRoCB7iap0/TA==";
+        url = "https://registry.npmjs.org/flatted/-/flatted-3.1.1.tgz";
+        sha512 = "zAoAQiudy+r5SvnSw3KJy5os/oRJYHzrzja/tBDqrZtNhUw8bt6y8OBzMWcjWr+8liV8Eb6yOhw8WZ7VFZ5ZzA==";
       };
     };
     "flush-write-stream-1.1.1" = {
@@ -4433,7 +4433,7 @@ in
       sources."fast-levenshtein-2.0.6"
       sources."file-entry-cache-6.0.0"
       sources."flat-cache-3.0.4"
-      sources."flatted-3.1.0"
+      sources."flatted-3.1.1"
       sources."fs.realpath-1.0.0"
       sources."functional-red-black-tree-1.0.1"
       sources."glob-7.1.6"
@@ -4560,7 +4560,7 @@ in
       sources."@babel/helper-validator-identifier-7.12.11"
       sources."@babel/highlight-7.10.4"
       sources."@types/eslint-visitor-keys-1.0.0"
-      sources."@types/json-schema-7.0.6"
+      sources."@types/json-schema-7.0.7"
       sources."@typescript-eslint/experimental-utils-1.13.0"
       sources."@typescript-eslint/parser-1.13.0"
       (sources."@typescript-eslint/typescript-estree-1.13.0" // {
@@ -4597,7 +4597,7 @@ in
       sources."color-name-1.1.3"
       sources."common-tags-1.8.0"
       sources."concat-map-0.0.1"
-      sources."core-js-3.8.2"
+      sources."core-js-3.8.3"
       sources."cross-spawn-6.0.5"
       sources."debug-4.3.2"
       sources."decamelize-1.2.0"
