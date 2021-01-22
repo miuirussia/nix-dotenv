@@ -47,7 +47,7 @@ jobs:
     - name: Build ghc.nix
       run: |
         nix path-info --all | grep -v '\.drv$' > /tmp/store-path-pre-build
-        nix --print-build-logs build -f ghc.nix --argstr "version" "${{ matrix.ghc }}"
+        nix --print-build-logs --show-trace build -f ghc.nix --argstr "version" "${{ matrix.ghc }}"
     - name: Show builded paths
       run: |
         nix --print-build-logs path-info -f ghc.nix --argstr "version" "${{ matrix.ghc }}"
@@ -105,7 +105,7 @@ jobs:
     - name: Build hls.nix
       run: |
         nix path-info --all | grep -v '\.drv$' > /tmp/store-path-pre-build
-        nix --print-build-logs build -f hls.nix --argstr "version" "${{ matrix.ghc }}"
+        nix --print-build-logs --show-trace build -f hls.nix --argstr "version" "${{ matrix.ghc }}"
     - name: Show builded paths
       run: |
         nix --print-build-logs path-info -f hls.nix --argstr "version" "${{ matrix.ghc }}"
@@ -166,7 +166,7 @@ jobs:
     - name: Build default.nix
       run: |
         nix path-info --all | grep -v '\.drv$' > /tmp/store-path-pre-build
-        nix --print-build-logs build
+        nix --print-build-logs --show-trace build
       working-directory: environment
     - name: Show builded paths
       run: |
