@@ -1,5 +1,162 @@
+diff --git a/pkgs/development/compilers/llvm/11/clang/default.nix b/pkgs/development/compilers/llvm/11/clang/default.nix
+index 24d6da97bf1..aed5b66368f 100644
+--- a/pkgs/development/compilers/llvm/11/clang/default.nix
++++ b/pkgs/development/compilers/llvm/11/clang/default.nix
+@@ -8,12 +8,12 @@ let
+     pname = "clang";
+     inherit version;
+ 
+-    src = fetch "clang" "0kab4zmkxffg98a3rx95756jlwhxflalin5w05g1anpwxv175xbk";
++    src = fetch "clang" "02ajkij85966vd150iy246mv16dsaph1kfi0y8wnncp8w6nar5hg";
+     inherit clang-tools-extra_src;
+ 
+     unpackPhase = ''
+       unpackFile $src
+-      mv clang-* clang
++      mv clang-${version}* clang
+       sourceRoot=$PWD/clang
+       unpackFile ${clang-tools-extra_src}
+       mv clang-tools-extra-* $sourceRoot/tools/extra
+diff --git a/pkgs/development/compilers/llvm/11/compiler-rt.nix b/pkgs/development/compilers/llvm/11/compiler-rt.nix
+index 3f8c092fce2..9a596e00e1b 100644
+--- a/pkgs/development/compilers/llvm/11/compiler-rt.nix
++++ b/pkgs/development/compilers/llvm/11/compiler-rt.nix
+@@ -11,7 +11,7 @@ in
+ stdenv.mkDerivation rec {
+   pname = "compiler-rt";
+   inherit version;
+-  src = fetch pname "1z470r8c5aahdwkmflglx998n0i77j8b1c69d7cir1kf27qy6yq8";
++  src = fetch pname "0d5j5l8phwqjjscmk8rmqn0i2i0abl537gdbkagl8fjpzy1gyjip";
+ 
+   nativeBuildInputs = [ cmake python3 llvm ];
+   buildInputs = stdenv.lib.optional stdenv.hostPlatform.isDarwin libcxxabi;
+diff --git a/pkgs/development/compilers/llvm/11/default.nix b/pkgs/development/compilers/llvm/11/default.nix
+index b354bd6b44a..e6765ec6899 100644
+--- a/pkgs/development/compilers/llvm/11/default.nix
++++ b/pkgs/development/compilers/llvm/11/default.nix
+@@ -6,18 +6,16 @@
+ }:
+ 
+ let
+-  release_version = "11.0.1";
+-  candidate = ""; # empty or "rcN"
+-  dash-candidate = stdenv.lib.optionalString (candidate != "") "-${candidate}";
+-  version = "${release_version}${dash-candidate}"; # differentiating these (variables) is important for RCs
++  release_version = "11.0.0";
++  version = release_version; # differentiating these (variables) is important for RCs
+   targetConfig = stdenv.targetPlatform.config;
+ 
+   fetch = name: sha256: fetchurl {
+-    url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-${version}/${name}-${release_version}${candidate}.src.tar.xz";
++    url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-${release_version}/${name}-${version}.src.tar.xz";
+     inherit sha256;
+   };
+ 
+-  clang-tools-extra_src = fetch "clang-tools-extra" "1j8n6n4l54k2lrdxh266y1fl4z8vy5dc76wsf0csk5n3ikfi38ic";
++  clang-tools-extra_src = fetch "clang-tools-extra" "02bcwwn54661madhq4nxc069s7p7pj5gpqi8ww50w3anbpviilzy";
+ 
+   tools = stdenv.lib.makeExtensible (tools: let
+     callPackage = newScope (tools // { inherit stdenv cmake libxml2 python3 isl release_version version fetch; });
+diff --git a/pkgs/development/compilers/llvm/11/libc++/default.nix b/pkgs/development/compilers/llvm/11/libc++/default.nix
+index d0b581c0460..a74510c717b 100644
+--- a/pkgs/development/compilers/llvm/11/libc++/default.nix
++++ b/pkgs/development/compilers/llvm/11/libc++/default.nix
+@@ -6,7 +6,7 @@ stdenv.mkDerivation {
+   pname = "libc++";
+   inherit version;
+ 
+-  src = fetch "libcxx" "0gaybwkn76vhakvipxslp7pmv2wm7agxkqwk5f5aizhzc9lzdmcz";
++  src = fetch "libcxx" "0ylbkcd38zrrz9xmkq9na3d9s8d96hc286dwfwd73wi205lyc7kc";
+ 
+   postUnpack = ''
+     unpackFile ${libcxxabi.src}
+diff --git a/pkgs/development/compilers/llvm/11/libc++abi.nix b/pkgs/development/compilers/llvm/11/libc++abi.nix
+index e87622b23b2..d173b1735cb 100644
+--- a/pkgs/development/compilers/llvm/11/libc++abi.nix
++++ b/pkgs/development/compilers/llvm/11/libc++abi.nix
+@@ -6,7 +6,7 @@ stdenv.mkDerivation {
+   pname = "libc++abi";
+   inherit version;
+ 
+-  src = fetch "libcxxabi" "0gv8pxq95gvsybldj21hdfkmm0r5cn1z7jhd72l231n0lmb70saa";
++  src = fetch "libcxxabi" "05ac7rkjbla03bc0lf92f901dfjgxdvp8cr9fpn59a5p4x27ssaq";
+ 
+   nativeBuildInputs = [ cmake ];
+   buildInputs = stdenv.lib.optional (!stdenv.isDarwin && !stdenv.isFreeBSD && !stdenv.hostPlatform.isWasm) libunwind;
+diff --git a/pkgs/development/compilers/llvm/11/libunwind.nix b/pkgs/development/compilers/llvm/11/libunwind.nix
+index 5708b00c08a..e17b35ed624 100644
+--- a/pkgs/development/compilers/llvm/11/libunwind.nix
++++ b/pkgs/development/compilers/llvm/11/libunwind.nix
+@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
+   pname = "libunwind";
+   inherit version;
+ 
+-  src = fetch pname "0zsixkaiwp007afxlpsf5dc7wfrv8sj9wxzjw6f1r4bjv1rv3cvd";
++  src = fetch pname "0bwjd2xf51r2apn8p0f9shb6nc8hnqzq1n9gggjvyjmi6cf02mc4";
+ 
+   nativeBuildInputs = [ cmake ];
+ 
+diff --git a/pkgs/development/compilers/llvm/11/lld.nix b/pkgs/development/compilers/llvm/11/lld.nix
+index af02a5d4750..81b829a2898 100644
+--- a/pkgs/development/compilers/llvm/11/lld.nix
++++ b/pkgs/development/compilers/llvm/11/lld.nix
+@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
+   pname = "lld";
+   inherit version;
+ 
+-  src = fetch pname "1dq82dkam8x2niha18v7ckh30zmzyclydzipqkf7h41r3ah0vfk0";
++  src = fetch pname "077xyh7sij6mhp4dc4kdcmp9whrpz332fa12rwxnzp3wgd5bxrzg";
+ 
+   nativeBuildInputs = [ cmake ];
+   buildInputs = [ llvm libxml2 ];
+diff --git a/pkgs/development/compilers/llvm/11/lldb.nix b/pkgs/development/compilers/llvm/11/lldb.nix
+index 28bb75470a9..0282037c092 100644
+--- a/pkgs/development/compilers/llvm/11/lldb.nix
++++ b/pkgs/development/compilers/llvm/11/lldb.nix
+@@ -20,7 +20,7 @@ stdenv.mkDerivation (rec {
+   pname = "lldb";
+   inherit version;
+ 
+-  src = fetch pname "1yzjbsn81l2r3v9js2fxrglkwvz1f2rxyxh6430nydbrs0bqklz8";
++  src = fetch pname "0wic9lyb2la9bkzdc13szkm4f793w1mddp50xvh237iraygw0w45";
+ 
+   patches = [ ./lldb-procfs.patch ];
+ 
+diff --git a/pkgs/development/compilers/llvm/11/llvm.nix b/pkgs/development/compilers/llvm/11/llvm.nix
+index 442e1ee3a6d..be72b556fa9 100644
+--- a/pkgs/development/compilers/llvm/11/llvm.nix
++++ b/pkgs/development/compilers/llvm/11/llvm.nix
+@@ -32,12 +32,12 @@ in stdenv.mkDerivation (rec {
+   pname = "llvm";
+   inherit version;
+ 
+-  src = fetch pname "0a5mb65xa5bal8q6cb37xgkqis2bip87fsafgq3wbsva9cjprn6c";
+-  polly_src = fetch "polly" "1smrqm9s0r2g9h0v0nil6y9wn2ih4l5bddk4dhgn538ngc7cxpq8";
++  src = fetch pname "0s94lwil98w7zb7cjrbnxli0z7gklb312pkw74xs1d6zk346hgwi";
++  polly_src = fetch "polly" "0h442ivcslr3dv3q3g1nw5avh77f8cxsp6zild1hgspj266xpynw";
+ 
+   unpackPhase = ''
+     unpackFile $src
+-    mv llvm-${release_version}* llvm
++    mv llvm-${version}* llvm
+     sourceRoot=$PWD/llvm
+   '' + optionalString enablePolly ''
+     unpackFile $polly_src
+diff --git a/pkgs/development/compilers/llvm/11/openmp.nix b/pkgs/development/compilers/llvm/11/openmp.nix
+index 55a4ceb7e6e..ae0ddcb1767 100644
+--- a/pkgs/development/compilers/llvm/11/openmp.nix
++++ b/pkgs/development/compilers/llvm/11/openmp.nix
+@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
+   pname = "openmp";
+   inherit version;
+ 
+-  src = fetch pname "19rcv25y41ww3zlfg0lwprzijl3cn7jgc0v5540jzpp7j0ds45ad";
++  src = fetch pname "0k389d0g9zlfyzh1kpb3i5jdawzpn0hrdxzbjinpvdv7rbw4sw1d";
+ 
+   nativeBuildInputs = [ cmake perl ];
+   buildInputs = [ llvm ];
 diff --git a/pkgs/development/tools/yarn2nix-moretea/yarn2nix/internal/fixup_yarn_lock.js b/pkgs/development/tools/yarn2nix-moretea/yarn2nix/internal/fixup_yarn_lock.js
-index 86e92f85..a324195b 100755
+index 86e92f85208..a324195bd2a 100755
 --- a/pkgs/development/tools/yarn2nix-moretea/yarn2nix/internal/fixup_yarn_lock.js
 +++ b/pkgs/development/tools/yarn2nix-moretea/yarn2nix/internal/fixup_yarn_lock.js
 @@ -34,7 +34,17 @@ readFile

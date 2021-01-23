@@ -427,15 +427,15 @@
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nixpkgs-unstable": {
-    "branch": "7d71001b796340b219d1bfa8552c81995017544a",
+    "branch": "nixpkgs-unstable",
     "description": "A read-only mirror of NixOS/nixpkgs tracking the released channels. Send issues and PRs to",
     "homepage": "https://github.com/NixOS/nixpkgs",
     "owner": "NixOS",
     "repo": "nixpkgs",
-    "rev": "7d71001b796340b219d1bfa8552c81995017544a",
-    "sha256": "09fv5rhnq6m770wy0wyyp8anhqsn2dyrk4c4gmka02r5600kbaiw",
+    "rev": "27a42b9ef8dcb6ad1f6ce90a03fa29586ce4645b",
+    "sha256": "0yiif17zx37zbq5i077pg0a3am7vpm5y30w947dw60na6fzy9gzn",
     "type": "tarball",
-    "url": "https://github.com/NixOS/nixpkgs/archive/7d71001b796340b219d1bfa8552c81995017544a.tar.gz",
+    "url": "https://github.com/NixOS/nixpkgs/archive/27a42b9ef8dcb6ad1f6ce90a03fa29586ce4645b.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "postcss-syntax-vim": {
