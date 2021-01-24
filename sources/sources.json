@@ -318,6 +318,18 @@
     "url": "https://github.com/haskell/haskell-language-server/archive/e0caba5a8a9f565af71f6215443143337f254c3a.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
+  "intero-neovim": {
+    "branch": "master",
+    "description": "A neovim plugin for Intero, forked from ghcmod-vim",
+    "homepage": "",
+    "owner": "parsonsmatt",
+    "repo": "intero-neovim",
+    "rev": "4ce2d154379f8c95b3819512a9b67ead5204ffd0",
+    "sha256": "1na61qb31z80973jfi7ziw2zv6y73rm0bpfb6iqxjppmg4iqgl3i",
+    "type": "tarball",
+    "url": "https://github.com/parsonsmatt/intero-neovim/archive/4ce2d154379f8c95b3819512a9b67ead5204ffd0.tar.gz",
+    "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+  },
   "json5.vim": {
     "branch": "master",
     "description": "Syntax highlighting for JSON5 in Vim",

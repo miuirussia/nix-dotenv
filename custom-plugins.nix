@@ -190,6 +190,11 @@ in
     '';
   };
 
+  intero-neovim = pkgs.vimUtils.buildVimPlugin {
+    name = "intero-neovim";
+    src = sources.intero-neovim;
+  };
+
   purescript-vim = pkgs.vimUtils.buildVimPlugin {
     name = "purescript-vim";
     src = sources.purescript-vim;

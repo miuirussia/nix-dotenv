@@ -89,6 +89,7 @@ in
                   fzfWrapper
                   haskell-vim
                   indentLine
+                  intero-neovim
                   neoformat
                   nginx-vim
                   postcss-syntax-vim
