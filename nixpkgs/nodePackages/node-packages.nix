@@ -5282,10 +5282,10 @@ in
   purescript-psa = nodeEnv.buildNodePackage {
     name = "purescript-psa";
     packageName = "purescript-psa";
-    version = "0.8.1";
+    version = "0.8.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/purescript-psa/-/purescript-psa-0.8.1.tgz";
-      sha512 = "MAimf3PguJfR6gvxJhaZkAvIR+YJ+AJIodXhA+JYWoeHgZNFHTHih1Kj0a/3BKxp2JY0ksKTnmE1UgxW+lE5/Q==";
+      url = "https://registry.npmjs.org/purescript-psa/-/purescript-psa-0.8.2.tgz";
+      sha512 = "4Olf0aQQrNCfcDLXQI3gJgINEQ+3U+4QPLmQ2LHX2L/YOXSwM7fOGIUs/wMm/FQnwERUyQmHKQTJKB4LIjE2fg==";
     };
     buildInputs = globalBuildInputs;
     meta = {
