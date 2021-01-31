@@ -34,7 +34,13 @@ in {
 # allowBroken = true;
   allowUnfree = true;
 
-  packageOverrides = pkgs: {
+  packageOverrides = pkgs: let
+    nodejs-14_x = pkgs.nodejs-14_x.overrideAttrs (prev: {
+      patches = prev.patches ++ [
+        ./node/usable-repl-fix.patch
+      ];
+    });
+  in {
     tmuxinator = pkgs.callPackage ./tmuxinator/default.nix { };
     reason-language-server = pkgs.callPackage ./reason-language-server/default.nix { inherit sources; };
     reattach-to-user-namespace = pkgs.reattach-to-user-namespace.overrideAttrs (prev: {
@@ -87,10 +93,9 @@ in {
 
     nodePackages = pkgs.nodePackages // (pkgs.callPackage ./nodePackages/default.nix { nodejs = pkgs.nodejs-14_x; });
 
-    nodejs-14_x = pkgs.nodejs-14_x.overrideAttrs (prev: {
-      patches = prev.patches ++ [
-        ./node/usable-repl-fix.patch
-      ];
-    });
+    wrapNeovimUnstable = pkgs.wrapNeovimUnstable.override { nodejs = nodejs-14_x; };
+    neovimUtils = pkgs.neovimUtils.override { nodejs = pkgs.nodejs-14_x; };
+
+    inherit nodejs-14_x;
   };
 }

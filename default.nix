@@ -8,11 +8,7 @@ in
   with pkgs;
   buildEnv {
     name = "nix-env";
-    paths = let
-      wrapNeovim = pkgs.wrapNeovimUnstable.override { nodejs = pkgs.nodejs-14_x; };
-      neovimUtils = pkgs.neovimUtils.override { nodejs = pkgs.nodejs-14_x; };
-    in
-      [
+    paths = [
         aria
         autoconf
         automake
@@ -144,7 +140,7 @@ in
               };
             };
           in
-            wrapNeovim neovim-nightly (
+            wrapNeovimUnstable neovim-nightly (
               neovimConfig // {
                 wrapperArgs = (lib.escapeShellArgs neovimConfig.wrapperArgs) + " " + "--set NVIM_LOG_FILE /dev/null";
               }
