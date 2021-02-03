@@ -4,13 +4,13 @@
 
 let
   sources = {
-    "@babel/code-frame-7.12.11" = {
+    "@babel/code-frame-7.12.13" = {
       name = "_at_babel_slash_code-frame";
       packageName = "@babel/code-frame";
-      version = "7.12.11";
+      version = "7.12.13";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.12.11.tgz";
-        sha512 = "Zt1yodBx1UcyiePMSkWnU4hPqhwq7hGi2nFL1LeA3EUl+q2LQx16MISgJ0+z7dnmgvP9QtIleuETGOiOH1RcIw==";
+        url = "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.12.13.tgz";
+        sha512 = "HV1Cm0Q3ZrpCR93tkWOYiuYIgLxZXZFVG2VgK+MBWjUqZTundupbfx2aXarXuw5Ko5aMcjtJgbSs4vUGBS5v6g==";
       };
     };
     "@babel/helper-validator-identifier-7.12.11" = {
@@ -22,13 +22,13 @@ let
         sha512 = "np/lG3uARFybkoHokJUmf1QfEvRVCPbmQeUQpKow5cQ3xWrV9i3rUHodKDJPQfTVX61qKi+UdYk8kik84n7XOw==";
       };
     };
-    "@babel/highlight-7.10.4" = {
+    "@babel/highlight-7.12.13" = {
       name = "_at_babel_slash_highlight";
       packageName = "@babel/highlight";
-      version = "7.10.4";
+      version = "7.12.13";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/highlight/-/highlight-7.10.4.tgz";
-        sha512 = "i6rgnR/YgPEQzZZnbTHHuZdlE8qyoBNalD6F+q4vAFlcMEcqmkoG+mPqJYJCo63qPf74+Y1UZsl3l6f7/RIkmA==";
+        url = "https://registry.npmjs.org/@babel/highlight/-/highlight-7.12.13.tgz";
+        sha512 = "kocDQvIbgMKlWxXe9fof3TQ+gkIPOUSEYhJjqUjvKMez3krV7vbzYCDq39Oj11UAVK7JqPVGQPlgE85dPNlQww==";
       };
     };
     "@eslint/eslintrc-0.3.0" = {
@@ -1165,13 +1165,13 @@ let
         sha1 = "3a83a904e54353287874c564b7549386849a98c9";
       };
     };
-    "elliptic-6.5.3" = {
+    "elliptic-6.5.4" = {
       name = "elliptic";
       packageName = "elliptic";
-      version = "6.5.3";
+      version = "6.5.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/elliptic/-/elliptic-6.5.3.tgz";
-        sha512 = "IMqzv5wNQf+E6aHeIqATs0tOLeOTwj1QKbRcS3jBbYkl5oLAserA8yJTT7/VyHUYG91PRmPyeQDObKLPpeS4dw==";
+        url = "https://registry.npmjs.org/elliptic/-/elliptic-6.5.4.tgz";
+        sha512 = "iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ==";
       };
     };
     "emoji-regex-7.0.3" = {
@@ -4372,9 +4372,9 @@ in
       sha512 = "rMZDE3kiJ2JXv1qk3i3xa5lzelEVQuTNRF5nMHQNX2SDzHKucisbNQh9ExvXU3Wd+jNjeVOSmZ6Ir0gY3COf2w==";
     };
     dependencies = [
-      sources."@babel/code-frame-7.12.11"
+      sources."@babel/code-frame-7.12.13"
       sources."@babel/helper-validator-identifier-7.12.11"
-      (sources."@babel/highlight-7.10.4" // {
+      (sources."@babel/highlight-7.12.13" // {
         dependencies = [
           sources."chalk-2.4.2"
           sources."has-flag-3.0.0"
@@ -4566,9 +4566,9 @@ in
       sha512 = "cei9UbN1aTrz3sQs88CWpvY/10PYTevzd76zoG1tdJ164OhmNTFRKPTOZrutVvscoQWzbnLKkviS3gu5JXwvZg==";
     };
     dependencies = [
-      sources."@babel/code-frame-7.12.11"
+      sources."@babel/code-frame-7.12.13"
       sources."@babel/helper-validator-identifier-7.12.11"
-      sources."@babel/highlight-7.10.4"
+      sources."@babel/highlight-7.12.13"
       sources."@types/eslint-visitor-keys-1.0.0"
       sources."@types/json-schema-7.0.7"
       sources."@typescript-eslint/experimental-utils-1.13.0"
@@ -4907,7 +4907,7 @@ in
       })
       sources."domain-browser-1.2.0"
       sources."duplexer2-0.1.4"
-      (sources."elliptic-6.5.3" // {
+      (sources."elliptic-6.5.4" // {
         dependencies = [
           sources."bn.js-4.11.9"
         ];
