@@ -1354,13 +1354,13 @@ let
         sha512 = "eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==";
       };
     };
-    "esquery-1.3.1" = {
+    "esquery-1.4.0" = {
       name = "esquery";
       packageName = "esquery";
-      version = "1.3.1";
+      version = "1.4.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/esquery/-/esquery-1.3.1.tgz";
-        sha512 = "olpvt9QG0vniUBZspVRN6lwB7hOZoTRtT+jzR+tS4ffYx2mzbw+z0XCOk44aaLYKApNX5nMm+E+P6o25ip/DHQ==";
+        url = "https://registry.npmjs.org/esquery/-/esquery-1.4.0.tgz";
+        sha512 = "cCDispWt5vHHtwMY2YrAQ4ibFkAL8RbH5YGBnZBc90MolvvfkkQcJro/aZiAQUlQ3qgrYS6D6v8Gc5G5CQsc9w==";
       };
     };
     "esrecurse-4.3.0" = {
@@ -1768,13 +1768,13 @@ let
         sha512 = "7IDTQTIu2xzXkT+6mlluidnWo+BypnbSoEVVQCGfzqnl5Ik8d3e1d4wycb8Rj9tWW+Z39uPWsdlquqiqPCd/pA==";
       };
     };
-    "graceful-fs-4.2.4" = {
+    "graceful-fs-4.2.5" = {
       name = "graceful-fs";
       packageName = "graceful-fs";
-      version = "4.2.4";
+      version = "4.2.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.4.tgz";
-        sha512 = "WjKPNJF79dtJAVniUlGGWHYGz2jWxT6VhN/4m1NdkbZ2nOsEF+cI1Edgql5zCRhs/VsQYRvrXctxktVXZUkixw==";
+        url = "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.5.tgz";
+        sha512 = "kBBSQbz2K0Nyn+31j/w36fUfxkBW9/gfwRWdUY1ULReH3iokVJgddZAFcD1D0xlgTmFxJCbUkUclAlc6/IDJkw==";
       };
     };
     "har-schema-2.0.0" = {
@@ -4426,7 +4426,7 @@ in
         ];
       })
       sources."esprima-4.0.1"
-      (sources."esquery-1.3.1" // {
+      (sources."esquery-1.4.0" // {
         dependencies = [
           sources."estraverse-5.2.0"
         ];
@@ -4626,7 +4626,7 @@ in
       sources."eslint-visitor-keys-1.3.0"
       sources."espree-5.0.1"
       sources."esprima-4.0.1"
-      (sources."esquery-1.3.1" // {
+      (sources."esquery-1.4.0" // {
         dependencies = [
           sources."estraverse-5.2.0"
         ];
@@ -4922,7 +4922,7 @@ in
       sources."get-assigned-identifiers-1.2.0"
       sources."glob-7.1.6"
       sources."globule-1.3.2"
-      sources."graceful-fs-4.2.4"
+      sources."graceful-fs-4.2.5"
       sources."has-1.0.3"
       (sources."hash-base-3.1.0" // {
         dependencies = [
@@ -5148,7 +5148,7 @@ in
       sources."get-stream-5.2.0"
       sources."getpass-0.1.7"
       sources."glob-7.1.6"
-      sources."graceful-fs-4.2.4"
+      sources."graceful-fs-4.2.5"
       sources."har-schema-2.0.0"
       sources."har-validator-5.1.5"
       sources."has-flag-3.0.0"
