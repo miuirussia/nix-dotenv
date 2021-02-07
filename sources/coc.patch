@@ -1,8 +1,8 @@
 diff --git a/esbuild.js b/esbuild.js
-index e36a6350..6cc1438d 100755
+index 4bffe41b..fc823fd9 100755
 --- a/esbuild.js
 +++ b/esbuild.js
-@@ -76,10 +76,11 @@ async function start() {
+@@ -77,7 +77,7 @@ async function start(watch) {
      platform: 'node',
      target: 'node10.12',
      outfile: 'build/index.js',
@@ -11,7 +11,10 @@ index e36a6350..6cc1438d 100755
    })
  }
  
- start().catch(e => {
+@@ -96,5 +96,6 @@ if (process.argv.length > 2 && process.argv[2] === '--watch') {
+ }
+ 
+ start(watch).catch(e => {
 +  process.exitCode = 1
    console.error(e)
  })
