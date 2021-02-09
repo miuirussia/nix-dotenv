@@ -8,6 +8,6 @@ in
 pkgs.buildEnv {
   name = "ghc-" + version;
   paths = [
-    pkgs.haskell.compiler."ghc${version}"
+    pkgs.haskell-nix.compiler."ghc${version}"
   ];
 }
