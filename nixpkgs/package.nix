@@ -29,7 +29,7 @@ let
   mkHlsPkgs = import ./mkHlsPkgs.nix;
   hlsPkgs865  = mkHlsPkgs { ghcVersion = "ghc865"; inherit sources; };
   hlsPkgs884  = mkHlsPkgs { ghcVersion = "ghc884"; inherit sources; };
-  hlsPkgs8103 = mkHlsPkgs { ghcVersion = "ghc8103"; inherit sources; };
+  hlsPkgs8104 = mkHlsPkgs { ghcVersion = "ghc8104"; inherit sources; };
 in {
 # allowBroken = true;
   allowUnfree = true;
@@ -65,8 +65,8 @@ in {
 
     hls-ghc865 = hlsPkgs865.server;
     hls-ghc884 = hlsPkgs884.server;
-    hls-ghc8103 = hlsPkgs8103.server;
-    hls-wrapper = hlsPkgs8103.wrapper;
+    hls-ghc8104 = hlsPkgs8104.server;
+    hls-wrapper = hlsPkgs8104.wrapper;
 
     haskell = pkgs.haskell // {
       compiler = pkgs.haskell.compiler // {
