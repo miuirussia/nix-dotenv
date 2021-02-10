@@ -4366,10 +4366,10 @@ in
   eslint_d = nodeEnv.buildNodePackage {
     name = "eslint_d";
     packageName = "eslint_d";
-    version = "10.0.0";
+    version = "10.0.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-10.0.0.tgz";
-      sha512 = "rMZDE3kiJ2JXv1qk3i3xa5lzelEVQuTNRF5nMHQNX2SDzHKucisbNQh9ExvXU3Wd+jNjeVOSmZ6Ir0gY3COf2w==";
+      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-10.0.2.tgz";
+      sha512 = "owgGugHDhfzqe2tjbkz+Htv4stRwFfXJEG6lc+c9dKxwgAvuYNurldosLJ2gyC66Uv/cPf4IS70wuUTmNLTrOQ==";
     };
     dependencies = [
       sources."@babel/code-frame-7.12.13"
