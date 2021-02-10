@@ -1768,13 +1768,13 @@ let
         sha512 = "7IDTQTIu2xzXkT+6mlluidnWo+BypnbSoEVVQCGfzqnl5Ik8d3e1d4wycb8Rj9tWW+Z39uPWsdlquqiqPCd/pA==";
       };
     };
-    "graceful-fs-4.2.5" = {
+    "graceful-fs-4.2.6" = {
       name = "graceful-fs";
       packageName = "graceful-fs";
-      version = "4.2.5";
+      version = "4.2.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.5.tgz";
-        sha512 = "kBBSQbz2K0Nyn+31j/w36fUfxkBW9/gfwRWdUY1ULReH3iokVJgddZAFcD1D0xlgTmFxJCbUkUclAlc6/IDJkw==";
+        url = "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.6.tgz";
+        sha512 = "nTnJ528pbqxYanhpDYsi4Rd8MAeaBA67+RZ10CM1m3bTAVFEDcd5AuA4a6W5YkGZ1iNXHzZz8T6TBKLeBuNriQ==";
       };
     };
     "har-schema-2.0.0" = {
@@ -4027,13 +4027,13 @@ let
         sha1 = "867ac74e3864187b1d3d47d996a78ec5c8830777";
       };
     };
-    "typescript-3.9.7" = {
+    "typescript-3.9.8" = {
       name = "typescript";
       packageName = "typescript";
-      version = "3.9.7";
+      version = "3.9.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/typescript/-/typescript-3.9.7.tgz";
-        sha512 = "BLbiRkiBzAwsjut4x/dsibSTB6yWpwT5qWmC2OfuCg3GgVQCSgMs4vEctYPhsaGtd0AeuuHMkjZ2h2WG8MSzRw==";
+        url = "https://registry.npmjs.org/typescript/-/typescript-3.9.8.tgz";
+        sha512 = "nDbnFkUZZjkQ92qwKX+C+jtk4OGfU8H9toSEs3uAsl8cxLjG2sqQm6leF/pLWvm9FAEJ6KHkYMAbHYaY2ITeVg==";
       };
     };
     "umd-3.0.3" = {
@@ -4765,7 +4765,7 @@ in
       sources."tmp-0.0.33"
       sources."tslib-1.14.1"
       sources."type-check-0.3.2"
-      sources."typescript-3.9.7"
+      sources."typescript-3.9.8"
       sources."uri-js-4.4.1"
       (sources."vue-eslint-parser-2.0.3" // {
         dependencies = [
@@ -4922,7 +4922,7 @@ in
       sources."get-assigned-identifiers-1.2.0"
       sources."glob-7.1.6"
       sources."globule-1.3.2"
-      sources."graceful-fs-4.2.5"
+      sources."graceful-fs-4.2.6"
       sources."has-1.0.3"
       (sources."hash-base-3.1.0" // {
         dependencies = [
@@ -5148,7 +5148,7 @@ in
       sources."get-stream-5.2.0"
       sources."getpass-0.1.7"
       sources."glob-7.1.6"
-      sources."graceful-fs-4.2.5"
+      sources."graceful-fs-4.2.6"
       sources."har-schema-2.0.0"
       sources."har-validator-5.1.5"
       sources."has-flag-3.0.0"
