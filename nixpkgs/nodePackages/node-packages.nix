@@ -4027,13 +4027,13 @@ let
         sha1 = "867ac74e3864187b1d3d47d996a78ec5c8830777";
       };
     };
-    "typescript-3.9.8" = {
+    "typescript-3.9.9" = {
       name = "typescript";
       packageName = "typescript";
-      version = "3.9.8";
+      version = "3.9.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/typescript/-/typescript-3.9.8.tgz";
-        sha512 = "nDbnFkUZZjkQ92qwKX+C+jtk4OGfU8H9toSEs3uAsl8cxLjG2sqQm6leF/pLWvm9FAEJ6KHkYMAbHYaY2ITeVg==";
+        url = "https://registry.npmjs.org/typescript/-/typescript-3.9.9.tgz";
+        sha512 = "kdMjTiekY+z/ubJCATUPlRDl39vXYiMV9iyeMuEuXZh2we6zz80uovNN2WlAxmmdE/Z/YQe+EbOEXB5RHEED3w==";
       };
     };
     "umd-3.0.3" = {
@@ -4765,7 +4765,7 @@ in
       sources."tmp-0.0.33"
       sources."tslib-1.14.1"
       sources."type-check-0.3.2"
-      sources."typescript-3.9.8"
+      sources."typescript-3.9.9"
       sources."uri-js-4.4.1"
       (sources."vue-eslint-parser-2.0.3" // {
         dependencies = [
