@@ -9,75 +9,76 @@ in
   buildEnv {
     name = "nix-env";
     paths = [
-        aria
-        autoconf
-        automake
-        bat
-        coreutils
-        curl
-        ddgr
-        exa
-        fd
-        ffmpeg
-        findutils
-        fontforge
-        fswatch
-        fzf
-        gnugrep
-        gnupatch
-        gnused
-        gnutar
-        googler
-        hexyl
-        htop
-        httpie
-        imgcat
-        jq
-        lazygit
-        lldb
-        ncdu
-        niv
-        ranger
-        reason-language-server
-        reattach-to-user-namespace
-        rename
-        rnix-lsp
-        rsync
-        shellcheck
-        speedtest-cli
-        stlink
-        tldr
-        tmuxinator
-        tree
-        w3m
-        watchman
-        wget
-        xz
-        youtube-dl
-        zlib
-        zsh-completions
+      aria
+      autoconf
+      automake
+      bat
+      coreutils
+      curl
+      ddgr
+      exa
+      fd
+      ffmpeg
+      findutils
+      fontforge
+      fswatch
+      fzf
+      gnugrep
+      gnupatch
+      gnused
+      gnutar
+      googler
+      hexyl
+      htop
+      httpie
+      imgcat
+      jq
+      lazygit
+      lldb
+      ncdu
+      niv
+      ranger
+      reason-language-server
+      reattach-to-user-namespace
+      rename
+      rnix-lsp
+      rsync
+      shellcheck
+      speedtest-cli
+      stlink
+      tldr
+      tmuxinator
+      tree
+      w3m
+      watchman
+      wget
+      xz
+      youtube-dl
+      zlib
+      zsh-completions
 
-        cascadia-code
-        jetbrains-mono
+      cascadia-code
+      jetbrains-mono
 
-        rustup
+      rustup
 
-        (
-          let
-            neovimConfig = neovimUtils.makeNeovimConfig {
-              withPython2 = true;
-              withPython3 = true;
-              withNodeJs = true;
+      (
+        let
+          neovimConfig = neovimUtils.makeNeovimConfig {
+            withPython2 = true;
+            withPython3 = true;
+            withNodeJs = true;
 
-              extraPython3Packages = (
-                ps: with ps; [
-                  black
-                  flake8
-                  jedi
-                ]
-              );
+            extraPython3Packages = (
+              ps: with ps; [
+                black
+                flake8
+                jedi
+              ]
+            );
 
-              plugins = with plugins; [
+            configuration = {
+              plug.plugins = with plugins; [
                 dhall-vim
                 editorconfig-vim
                 fzf-vim
@@ -137,52 +138,53 @@ in
                 base16-vim
               ];
             };
-          in
-            wrapNeovimUnstable neovim-nightly (
-              neovimConfig // {
-                wrapperArgs = (lib.escapeShellArgs neovimConfig.wrapperArgs) + " " + "--set NVIM_LOG_FILE /dev/null";
-              }
-            )
-        )
+          };
+        in
+          wrapNeovimUnstable neovim-nightly (
+            neovimConfig // {
+              wrapperArgs = (lib.escapeShellArgs neovimConfig.wrapperArgs) + " " + "--set NVIM_LOG_FILE /dev/null";
+            }
+          )
+      )
 
-        nodejs-14_x
-        (yarn.override { nodejs = nodejs-14_x; })
-        nodePackages.eslint_d
-        nodePackages.node2nix
-        nodePackages.prettier-eslint-cli
-        nodePackages.fx
+      nodejs-14_x
+      (yarn.override { nodejs = nodejs-14_x; })
+      nodePackages.eslint_d
+      nodePackages.node2nix
+      nodePackages.prettier-eslint-cli
+      nodePackages.fx
 
-        # purescript
-        nodePackages.pulp
-        nodePackages.purescript
-        nodePackages.purescript-psa
-        nodePackages.purescript-language-server
-        nodePackages.spago
+      # purescript
+      nodePackages.pulp
+      nodePackages.purescript
+      nodePackages.purescript-psa
+      nodePackages.purescript-language-server
+      nodePackages.spago
 
-        (hiPrio nixFlakes)
+      (hiPrio nixFlakes)
 
 
-        # haskell packages
-        hls-wrapper
+      # haskell packages
+      hls-wrapper
 
-        haskellPackages.brittany
-        haskellPackages.cachix
-        # haskellPackages.dhall-lsp-server
-        haskellPackages.ghcid
-        haskellPackages.hlint
-        haskellPackages.hoogle
-        haskellPackages.stack
-        nix-tools
+      haskellPackages.brittany
+      haskellPackages.cachix
+      # haskellPackages.dhall-lsp-server
+      haskellPackages.ghcid
+      haskellPackages.hlint
+      haskellPackages.hoogle
+      haskellPackages.stack
+      nix-tools
 
-        gitAndTools.diff-so-fancy
-        nix-prefetch-git
+      gitAndTools.diff-so-fancy
+      nix-prefetch-git
 
-        #programs from home-manager
-        direnv
-        starship
-        zsh
-        gitAndTools.gitFull
-        kitty
-        tmux
-      ];
+      #programs from home-manager
+      direnv
+      starship
+      zsh
+      gitAndTools.gitFull
+      kitty
+      tmux
+    ];
   }
