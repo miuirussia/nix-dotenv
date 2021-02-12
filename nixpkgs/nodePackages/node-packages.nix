@@ -193,13 +193,13 @@ let
         sha512 = "j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==";
       };
     };
-    "ajv-7.0.4" = {
+    "ajv-7.1.0" = {
       name = "ajv";
       packageName = "ajv";
-      version = "7.0.4";
+      version = "7.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ajv/-/ajv-7.0.4.tgz";
-        sha512 = "xzzzaqgEQfmuhbhAoqjJ8T/1okb6gAzXn/eQRNpAN1AEUoHJTNF9xCDRTtf/s3SKldtZfa+RJeTs+BQq+eZ/sw==";
+        url = "https://registry.npmjs.org/ajv/-/ajv-7.1.0.tgz";
+        sha512 = "svS9uILze/cXbH0z2myCK2Brqprx/+JJYK5pHicT/GQiBfzzhUVAIT6MwqJg8y4xV/zoGsUeuPuwtoiKSGE15g==";
       };
     };
     "ansi-colors-4.1.1" = {
@@ -3307,13 +3307,13 @@ let
         sha1 = "7999539fc9e047a37928fa196f8e1563dabd36de";
       };
     };
-    "resolve-1.19.0" = {
+    "resolve-1.20.0" = {
       name = "resolve";
       packageName = "resolve";
-      version = "1.19.0";
+      version = "1.20.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/resolve/-/resolve-1.19.0.tgz";
-        sha512 = "rArEXAgsBG4UgRGcynxWIWKFvh/XZCcS8UJdHhwy91zwAvCZIbcs+vAbflgBnNjYMs/i/i+/Ux6IZhML1yPvxg==";
+        url = "https://registry.npmjs.org/resolve/-/resolve-1.20.0.tgz";
+        sha512 = "wENBPt4ySzg4ybFQW2TT1zMQucPK95HSh/nq2CFTZVOGut2+pQvSsgtda4d26YrYcr067wjbmzOG8byDPBX63A==";
       };
     };
     "resolve-from-4.0.0" = {
@@ -4499,7 +4499,7 @@ in
       sources."supports-color-8.1.1"
       (sources."table-6.0.7" // {
         dependencies = [
-          sources."ajv-7.0.4"
+          sources."ajv-7.1.0"
           sources."json-schema-traverse-1.0.0"
         ];
       })
@@ -5014,7 +5014,7 @@ in
           sources."string_decoder-1.1.1"
         ];
       })
-      sources."resolve-1.19.0"
+      sources."resolve-1.20.0"
       sources."rimraf-2.7.1"
       sources."ripemd160-2.0.2"
       sources."safe-buffer-5.2.1"
