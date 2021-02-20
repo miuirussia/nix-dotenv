@@ -3,7 +3,6 @@ let
   nixpkgsConfig = import ./nixpkgs/config.nix;
   pkgs = import sources.nixpkgs-unstable { config = nixpkgsConfig; };
   plugins = pkgs.vimPlugins // pkgs.callPackage ./custom-plugins.nix { inherit sources; inherit pkgs; };
-
 in
   with pkgs;
   buildEnv {
@@ -153,6 +152,7 @@ in
       nodePackages.node2nix
       nodePackages.prettier-eslint-cli
       nodePackages.fx
+      nodePackages.neovim
 
       # purescript
       nodePackages.pulp
