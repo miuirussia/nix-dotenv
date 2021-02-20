@@ -161,6 +161,7 @@ jobs:
       run: |
         nix path-info --all | grep -v '\.drv$' > /tmp/store-path-pre-build
         nix --print-build-logs --show-trace build
+        tree ./result
       working-directory: environment
     - name: Show builded paths
       run: |
