@@ -63,6 +63,90 @@ in
 
       (
         let
+          pluginList = with plugins; [
+            dhall-vim
+            editorconfig-vim
+            fzf-vim
+            fzfWrapper
+            haskell-vim
+            indentLine
+            intero-neovim
+            neoformat
+            nginx-vim
+            postcss-syntax-vim
+            purescript-vim
+            tabular
+            vim-airline
+            vim-airline-themes
+            vim-better-whitespace
+            vim-cursorword
+            vim-devicons
+            vim-javascript
+            vim-json5
+            vim-jsx
+            vim-languages
+            vim-lastplace
+            vim-markdown
+            vim-nix
+            vim-rooter
+            vim-rust
+            vim-sandwich
+            vim-styled-components
+            vim-toml
+            vimspector
+            vista-vim
+
+            # coc
+            vim-coc
+
+            # coc plugins
+            coc-calc
+            coc-css
+            coc-diagnostic
+            coc-emmet
+            coc-flow
+            coc-git
+            coc-highlight
+            coc-json
+            coc-pairs
+            coc-python
+            # coc-rls
+            coc-rust-analyzer
+            coc-spell-checker
+            # coc-cspell-dicts
+            coc-syntax
+            coc-tsserver
+            coc-vimlsp
+            coc-yaml
+
+            #themes
+            base16-vim
+          ];
+
+          pluginConfig = p:
+            if p ? plugin && (p.config or "") != "" then ''
+              " ${p.plugin.pname} {{{
+              ${p.config}
+              " }}}
+            '' else
+              "";
+
+          moduleConfigure = {
+            packages.kdevlab = {
+              start = filter (f: f != null) (
+                map
+                  (x: if x ? plugin && x.optional == true then null else (x.plugin or x))
+                  pluginList
+              );
+              opt = filter (f: f != null)
+                (
+                  map (x: if x ? plugin && x.optional == true then x.plugin else null)
+                    pluginList
+                );
+            };
+            customRC = pkgs.lib.concatMapStrings pluginConfig pluginList;
+          };
+
           neovimConfig = neovimUtils.makeNeovimConfig {
             withPython2 = true;
             withPython3 = true;
@@ -76,65 +160,9 @@ in
               ]
             );
 
-            plugins = with plugins; [
-              dhall-vim
-              editorconfig-vim
-              fzf-vim
-              fzfWrapper
-              haskell-vim
-              indentLine
-              intero-neovim
-              neoformat
-              nginx-vim
-              postcss-syntax-vim
-              purescript-vim
-              tabular
-              vim-airline
-              vim-airline-themes
-              vim-better-whitespace
-              vim-cursorword
-              vim-devicons
-              vim-javascript
-              vim-json5
-              vim-jsx
-              vim-languages
-              vim-lastplace
-              vim-markdown
-              vim-nix
-              vim-rooter
-              vim-rust
-              vim-sandwich
-              vim-styled-components
-              vim-toml
-              vimspector
-              vista-vim
+            plugins = pluginList;
 
-              # coc
-              vim-coc
-
-              # coc plugins
-              coc-calc
-              coc-css
-              coc-diagnostic
-              coc-emmet
-              coc-flow
-              coc-git
-              coc-highlight
-              coc-json
-              coc-pairs
-              coc-python
-              # coc-rls
-              coc-rust-analyzer
-              coc-spell-checker
-              # coc-cspell-dicts
-              coc-syntax
-              coc-tsserver
-              coc-vimlsp
-              coc-yaml
-
-              #themes
-              base16-vim
-            ];
+            configure = moduleConfigure;
           };
         in
           wrapNeovimUnstable neovim-nightly (
