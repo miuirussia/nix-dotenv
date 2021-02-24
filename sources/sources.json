@@ -137,10 +137,10 @@
     "homepage": null,
     "owner": "neoclide",
     "repo": "coc-pairs",
-    "rev": "b0a20dc9aa99270d0f7d0006001c80149b030553",
-    "sha256": "0r8b0jb360a12bkckxc29a6sa4nnmxv8v7xhd1yrfsvn74dfhsbc",
+    "rev": "9fa1244ba0ec50c40603cc6eccef6da59748313d",
+    "sha256": "1bp6bx106d08fappg2vzxasr27si1i235wk0ii33s2dxh66zfmww",
     "type": "tarball",
-    "url": "https://github.com/neoclide/coc-pairs/archive/b0a20dc9aa99270d0f7d0006001c80149b030553.tar.gz",
+    "url": "https://github.com/neoclide/coc-pairs/archive/9fa1244ba0ec50c40603cc6eccef6da59748313d.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "coc-prettier": {
@@ -312,10 +312,10 @@
     "homepage": null,
     "owner": "haskell",
     "repo": "haskell-language-server",
-    "rev": "cf9cbeb144407ab0120f14cc0d4e424ccbe0f08b",
-    "sha256": "18xglsikch5miz6hp35dd5n0nx4xhc2dvmcqm30svjkf7xgdk6lw",
+    "rev": "4cd1cf934638881e52b3eba9f70157a4b799c0e9",
+    "sha256": "0p0rhhc6pldzan85qp3nhc54zwabah8r3dvxdzw49i32dvy4xxgs",
     "type": "tarball",
-    "url": "https://github.com/haskell/haskell-language-server/archive/cf9cbeb144407ab0120f14cc0d4e424ccbe0f08b.tar.gz",
+    "url": "https://github.com/haskell/haskell-language-server/archive/4cd1cf934638881e52b3eba9f70157a4b799c0e9.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "intero-neovim": {
@@ -420,10 +420,10 @@
     "homepage": "https://github.com/NixOS/nixpkgs",
     "owner": "NixOS",
     "repo": "nixpkgs",
-    "rev": "502e871b550dad61766a42a95282c5248d5de786",
-    "sha256": "0z06cidvw7msavzzx7d9pmq8r325g65fyjq7v8n1y1p53sfbyxsm",
+    "rev": "721312288f7001215a0d482579cd013dec397d16",
+    "sha256": "0gfibirsmggm3f4sjq73p091ynayk2r64afks99l0nslbapwnlf8",
     "type": "tarball",
-    "url": "https://github.com/NixOS/nixpkgs/archive/502e871b550dad61766a42a95282c5248d5de786.tar.gz",
+    "url": "https://github.com/NixOS/nixpkgs/archive/721312288f7001215a0d482579cd013dec397d16.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nixpkgs-stable-linux": {
