@@ -93,7 +93,7 @@ in
             vim-sandwich
             vim-styled-components
             vim-toml
-            # vimspector
+            vimspector
             vista-vim
 
             # coc

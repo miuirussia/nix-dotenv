@@ -67,7 +67,7 @@ let
             let
               src = srcs.coc-unstable;
             in pkgs.stdenv.mkDerivation {
-              name = "coc-unstable";
+              name = "coc-unstable-src";
 
               inherit src;
 
@@ -79,6 +79,26 @@ let
                 sed -i 's/stringify(options.query)/stringify(options.query as any)/' src/model/fetch.ts
                 sed -i 's/cp\.execSync(\x27git rev-parse HEAD\x27, {encoding: \x27utf8\x27})/\x27${src.rev}\x27/' esbuild.js
               '';
+
+              installPhase = ''
+                mkdir -p $out
+                cp -r . $out
+              '';
+
+              doCheck = false;
+              dontFixup = true;
+            };
+        vimspector =
+            let
+              src = srcs.vimspector;
+            in pkgs.stdenv.mkDerivation {
+              name = "vimspector-src";
+
+              inherit src;
+
+              patches = [
+                ./vimspector.patch
+              ];
 
               installPhase = ''
                 mkdir -p $out
