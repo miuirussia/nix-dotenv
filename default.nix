@@ -123,6 +123,8 @@ in
             base16-vim
           ];
 
+          filter = pkgs.lib.filter;
+
           pluginConfig = p:
             if p ? plugin && (p.config or "") != "" then ''
               " ${p.plugin.pname} {{{
