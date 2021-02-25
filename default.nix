@@ -149,10 +149,19 @@ in
             customRC = pkgs.lib.concatMapStrings pluginConfig pluginList;
           };
 
+          extraPackages = with pkgs; [
+            nodejs-14_x
+            yarn
+            git
+          ];
+
+
           neovimConfig = neovimUtils.makeNeovimConfig {
             withPython2 = true;
             withPython3 = true;
             withNodeJs = true;
+            viAlias = true;
+            vimAlias = true;
 
             extraPython3Packages = (
               ps: with ps; [
@@ -166,10 +175,11 @@ in
 
             configure = moduleConfigure;
           };
+
         in
           wrapNeovimUnstable neovim-nightly (
             neovimConfig // {
-              wrapperArgs = (lib.escapeShellArgs neovimConfig.wrapperArgs) + " " + "--set NVIM_LOG_FILE /dev/null";
+              wrapperArgs = (lib.escapeShellArgs neovimConfig.wrapperArgs) + " " + "--set NVIM_LOG_FILE /dev/null --suffix PATH : \"${pkgs.lib.makeBinPath extraPackages}\"";
             }
           )
       )
