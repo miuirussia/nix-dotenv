@@ -454,13 +454,13 @@ let
         sha512 = "XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==";
       };
     };
-    "bn.js-4.11.9" = {
+    "bn.js-4.12.0" = {
       name = "bn.js";
       packageName = "bn.js";
-      version = "4.11.9";
+      version = "4.12.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/bn.js/-/bn.js-4.11.9.tgz";
-        sha512 = "E6QoYqCKZfgatHTdHzs1RRKP7ip4vvm+EyRUeE2RF0NblwVvb0p6jSVeNTOFxPn26QXN2o6SMfNxKp6kU8zQaw==";
+        url = "https://registry.npmjs.org/bn.js/-/bn.js-4.12.0.tgz";
+        sha512 = "c98Bf3tPniI+scsdk237ku1Dc3ujXQTSgyiPUDEOe7tRkhrqridvh8klBv0HCEso1OLOYcHuCv/cS6DNxKH+ZA==";
       };
     };
     "bn.js-5.2.0" = {
@@ -3397,13 +3397,13 @@ let
         sha1 = "e848396f057d223f24386924618e25694161ec47";
       };
     };
-    "rxjs-6.6.3" = {
+    "rxjs-6.6.6" = {
       name = "rxjs";
       packageName = "rxjs";
-      version = "6.6.3";
+      version = "6.6.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/rxjs/-/rxjs-6.6.3.tgz";
-        sha512 = "trsQc+xYYXZ3urjOiJOuCOa5N3jAZ3eiSpQB5hIT8zGlL2QfnHLJ2r7GMkBGuIausdJN1OneaI6gQlsqNHHmZQ==";
+        url = "https://registry.npmjs.org/rxjs/-/rxjs-6.6.6.tgz";
+        sha512 = "/oTwee4N4iWzAMAL9xdGKjkEHmIwupR3oXbQjCKywF1BeFohswF3vZdogbmEF6pZkOsXTzWkrZszrWpQTByYVg==";
       };
     };
     "safe-buffer-5.1.2" = {
@@ -4746,7 +4746,7 @@ in
       sources."restore-cursor-2.0.0"
       sources."rimraf-2.6.3"
       sources."run-async-2.4.1"
-      sources."rxjs-6.6.3"
+      sources."rxjs-6.6.6"
       sources."safer-buffer-2.1.2"
       sources."semver-5.7.1"
       sources."set-blocking-2.0.0"
@@ -4838,7 +4838,7 @@ in
       sources."acorn-walk-7.2.0"
       (sources."asn1.js-5.4.1" // {
         dependencies = [
-          sources."bn.js-4.11.9"
+          sources."bn.js-4.12.0"
         ];
       })
       (sources."assert-1.5.0" // {
@@ -4898,7 +4898,7 @@ in
       sources."core-util-is-1.0.2"
       (sources."create-ecdh-4.0.4" // {
         dependencies = [
-          sources."bn.js-4.11.9"
+          sources."bn.js-4.12.0"
         ];
       })
       sources."create-hash-1.2.0"
@@ -4911,14 +4911,14 @@ in
       sources."detective-5.2.0"
       (sources."diffie-hellman-5.0.3" // {
         dependencies = [
-          sources."bn.js-4.11.9"
+          sources."bn.js-4.12.0"
         ];
       })
       sources."domain-browser-1.2.0"
       sources."duplexer2-0.1.4"
       (sources."elliptic-6.5.4" // {
         dependencies = [
-          sources."bn.js-4.11.9"
+          sources."bn.js-4.12.0"
         ];
       })
       sources."es6-promise-3.3.1"
@@ -4964,7 +4964,7 @@ in
       sources."md5.js-1.3.5"
       (sources."miller-rabin-4.0.1" // {
         dependencies = [
-          sources."bn.js-4.11.9"
+          sources."bn.js-4.12.0"
         ];
       })
       sources."mime-1.6.0"
@@ -5007,7 +5007,7 @@ in
       sources."process-nextick-args-2.0.1"
       (sources."public-encrypt-4.0.3" // {
         dependencies = [
-          sources."bn.js-4.11.9"
+          sources."bn.js-4.12.0"
         ];
       })
       sources."punycode-1.4.1"
