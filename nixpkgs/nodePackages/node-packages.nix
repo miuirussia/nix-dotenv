@@ -40,13 +40,13 @@ let
         sha512 = "4vrIhfJyfNf+lCtXC2ck1rKSzDwciqF7IWFhXXrSOUC2O5DrVp+w4c6ed4AllTxhTkUP5x2tYj41VaxdVMMRDw==";
       };
     };
-    "@eslint/eslintrc-0.3.0" = {
+    "@eslint/eslintrc-0.4.0" = {
       name = "_at_eslint_slash_eslintrc";
       packageName = "@eslint/eslintrc";
-      version = "0.3.0";
+      version = "0.4.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-0.3.0.tgz";
-        sha512 = "1JTKgrOKAHVivSvOYw+sJOunkBjUOvjqWk1DPja7ZFhIS2mX/4EgTT8M7eTK9jrKhL/FvXXEbQwIs3pg1xp3dg==";
+        url = "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-0.4.0.tgz";
+        sha512 = "2ZPCc+uNbjV5ERJr+aKSPRwZgKd2z11x0EgLvb1PURmUrn9QNRXFqje0Ldq454PfAVyaJYyrDvvIKSFP4NnBog==";
       };
     };
     "@medv/blessed-2.0.1" = {
@@ -1255,13 +1255,13 @@ let
         sha512 = "S3Rz11i7c8AA5JPv7xAH+dOyq/Cu/VXHiHXBPOU1k/JAM5dXqQPt3qcrhpHSorXmrpu2g0gkIBVXAqCpzfoZIg==";
       };
     };
-    "eslint-7.20.0" = {
+    "eslint-7.21.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "7.20.0";
+      version = "7.21.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-7.20.0.tgz";
-        sha512 = "qGi0CTcOGP2OtCQBgWZlQjcTuP0XkIpYFj25XtRTQSHC+umNnp7UMshr2G8SLsRFYDdAPFeHOsiteadmMH02Yw==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-7.21.0.tgz";
+        sha512 = "W2aJbXpMNofUp0ztQaF40fveSsJBjlSCSWpy//gzfTvwC+USs/nceBrKmlJOiM8r1bLwP2EuYkCqArn/6QTIgg==";
       };
     };
     "eslint-scope-3.7.3" = {
@@ -4390,7 +4390,7 @@ in
           sources."supports-color-5.5.0"
         ];
       })
-      sources."@eslint/eslintrc-0.3.0"
+      sources."@eslint/eslintrc-0.4.0"
       sources."acorn-7.4.1"
       sources."acorn-jsx-5.3.1"
       sources."ajv-6.12.6"
@@ -4421,7 +4421,7 @@ in
       sources."emoji-regex-8.0.0"
       sources."enquirer-2.3.6"
       sources."escape-string-regexp-1.0.5"
-      sources."eslint-7.20.0"
+      sources."eslint-7.21.0"
       sources."eslint-scope-5.1.1"
       (sources."eslint-utils-2.1.0" // {
         dependencies = [
