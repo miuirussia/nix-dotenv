@@ -1741,13 +1741,13 @@ let
         sha512 = "LwaxwyZ72Lk7vZINtNNrywX0ZuLyStrdDtabefZKAY5ZGJhVtgdznluResxNmPitE0SAO+O26sWTHeKSI2wMBA==";
       };
     };
-    "glob-parent-5.1.1" = {
+    "glob-parent-5.1.2" = {
       name = "glob-parent";
       packageName = "glob-parent";
-      version = "5.1.1";
+      version = "5.1.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.1.tgz";
-        sha512 = "FnI+VGOpnlGHWZxthPGR+QhR78fuiK0sNLkHQv+bL9fQi57lNNdquIbna/WrfROrolq8GK5Ek6BiMwqL/voRYQ==";
+        url = "https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz";
+        sha512 = "AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==";
       };
     };
     "globals-11.12.0" = {
@@ -4456,7 +4456,7 @@ in
       sources."fs.realpath-1.0.0"
       sources."functional-red-black-tree-1.0.1"
       sources."glob-7.1.6"
-      sources."glob-parent-5.1.1"
+      sources."glob-parent-5.1.2"
       sources."globals-12.4.0"
       sources."has-flag-4.0.0"
       sources."ignore-4.0.6"
@@ -4569,10 +4569,10 @@ in
   prettier-eslint-cli = nodeEnv.buildNodePackage {
     name = "prettier-eslint-cli";
     packageName = "prettier-eslint-cli";
-    version = "5.0.0";
+    version = "5.0.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/prettier-eslint-cli/-/prettier-eslint-cli-5.0.0.tgz";
-      sha512 = "cei9UbN1aTrz3sQs88CWpvY/10PYTevzd76zoG1tdJ164OhmNTFRKPTOZrutVvscoQWzbnLKkviS3gu5JXwvZg==";
+      url = "https://registry.npmjs.org/prettier-eslint-cli/-/prettier-eslint-cli-5.0.1.tgz";
+      sha512 = "fzX26Q6654RN3SD4c8XDBiJyNWOFQKsMLsMiXIGgSN2xNQLmiqjXW3wnR33qMVJOo+wq86a+WjA6wov0krTvCA==";
     };
     dependencies = [
       sources."@babel/code-frame-7.12.13"
