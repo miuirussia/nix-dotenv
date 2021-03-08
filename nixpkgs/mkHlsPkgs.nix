@@ -7,8 +7,8 @@
       haskell-nix.useMaterialization = false;
       haskell-nix.checkMaterialization = false;
       haskell-nix.hackage.index = {
-        state = "2021-02-16T00:00:00Z";
-        sha256 = "67d1661cda5dd2af00dbedca6bb09dbae67768bea97030a5ac111c6e80111572";
+        state = "2021-03-03T00:00:00Z";
+        sha256 = "28552066a268f19a8a75c69c885be8d340c0dc20e9a82c7874e5c0d068a1a62b";
       };
       # An alternative to adding `--sha256` comments into the
       # cabal.project file:
