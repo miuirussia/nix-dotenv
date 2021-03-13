@@ -1255,13 +1255,13 @@ let
         sha512 = "S3Rz11i7c8AA5JPv7xAH+dOyq/Cu/VXHiHXBPOU1k/JAM5dXqQPt3qcrhpHSorXmrpu2g0gkIBVXAqCpzfoZIg==";
       };
     };
-    "eslint-7.21.0" = {
+    "eslint-7.22.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "7.21.0";
+      version = "7.22.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-7.21.0.tgz";
-        sha512 = "W2aJbXpMNofUp0ztQaF40fveSsJBjlSCSWpy//gzfTvwC+USs/nceBrKmlJOiM8r1bLwP2EuYkCqArn/6QTIgg==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-7.22.0.tgz";
+        sha512 = "3VawOtjSJUQiiqac8MQc+w457iGLfuNGLFn8JmF051tTKbh5/x/0vlcEj8OgDCaw7Ysa2Jn8paGshV7x2abKXg==";
       };
     };
     "eslint-scope-3.7.3" = {
@@ -1766,6 +1766,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/globals/-/globals-12.4.0.tgz";
         sha512 = "BWICuzzDvDoH54NHKCseDanAhE3CeDorgDL5MT6LMXXj2WCnd9UC2szdk4AWLfjdgNBCXLUanXYcpBBKOSWGwg==";
+      };
+    };
+    "globals-13.6.0" = {
+      name = "globals";
+      packageName = "globals";
+      version = "13.6.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/globals/-/globals-13.6.0.tgz";
+        sha512 = "YFKCX0SiPg7l5oKYCJ2zZGxcXprVXHcSnVuvzrT3oSENQonVLqM5pf9fN5dLGZGyCjhw8TN8Btwe/jKnZ0pjvQ==";
       };
     };
     "globule-1.3.2" = {
@@ -4018,6 +4027,15 @@ let
         sha512 = "XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==";
       };
     };
+    "type-fest-0.20.2" = {
+      name = "type-fest";
+      packageName = "type-fest";
+      version = "0.20.2";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/type-fest/-/type-fest-0.20.2.tgz";
+        sha512 = "Ne+eE4r0/iWnpAxD852z3A+N0Bt5RN//NjJwRd2VFHEmrywxf5vsZlh4R6lixl6B+wz/8d+maTSAkN1FIkI3LQ==";
+      };
+    };
     "type-fest-0.8.1" = {
       name = "type-fest";
       packageName = "type-fest";
@@ -4390,7 +4408,11 @@ in
           sources."supports-color-5.5.0"
         ];
       })
-      sources."@eslint/eslintrc-0.4.0"
+      (sources."@eslint/eslintrc-0.4.0" // {
+        dependencies = [
+          sources."globals-12.4.0"
+        ];
+      })
       sources."acorn-7.4.1"
       sources."acorn-jsx-5.3.1"
       sources."ajv-6.12.6"
@@ -4421,7 +4443,7 @@ in
       sources."emoji-regex-8.0.0"
       sources."enquirer-2.3.6"
       sources."escape-string-regexp-1.0.5"
-      sources."eslint-7.21.0"
+      sources."eslint-7.22.0"
       sources."eslint-scope-5.1.1"
       (sources."eslint-utils-2.1.0" // {
         dependencies = [
@@ -4457,7 +4479,11 @@ in
       sources."functional-red-black-tree-1.0.1"
       sources."glob-7.1.6"
       sources."glob-parent-5.1.2"
-      sources."globals-12.4.0"
+      (sources."globals-13.6.0" // {
+        dependencies = [
+          sources."type-fest-0.20.2"
+        ];
+      })
       sources."has-flag-4.0.0"
       sources."ignore-4.0.6"
       sources."import-fresh-3.3.0"
