@@ -288,10 +288,10 @@
     "homepage": "https://input-output-hk.github.io/haskell.nix",
     "owner": "input-output-hk",
     "repo": "haskell.nix",
-    "rev": "08887404bb23e7e6c49e3d4404394a6c03162c0c",
-    "sha256": "055mc75v9sa8b7xajq5vn3pqfbqnpwn6wznbisb9rpr0n8w6ds66",
+    "rev": "3b1fcfaca4217929f868100c517321bf46be55d9",
+    "sha256": "1z7q6995m2b309yr6n0nchhcmy8sc6615i1dc5xm26bp6p759xpy",
     "type": "tarball",
-    "url": "https://github.com/input-output-hk/haskell.nix/archive/08887404bb23e7e6c49e3d4404394a6c03162c0c.tar.gz",
+    "url": "https://github.com/input-output-hk/haskell.nix/archive/3b1fcfaca4217929f868100c517321bf46be55d9.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-stable": {
@@ -312,10 +312,10 @@
     "homepage": null,
     "owner": "haskell",
     "repo": "haskell-language-server",
-    "rev": "9b7302fd422945ac5ab3217589a22f679b26c026",
-    "sha256": "0y001dwvlyjm5mi3jpp4w1kknvk7bc5vg2skng7bxajhcpgmwv9x",
+    "rev": "0e9dca41de0504e4ef04b0a44ff2048825a8eb40",
+    "sha256": "0ax0p185rfmqrqzpx1r95yjmzrlgpaxsk5g6jfrxxww83kiz6ak1",
     "type": "tarball",
-    "url": "https://github.com/haskell/haskell-language-server/archive/9b7302fd422945ac5ab3217589a22f679b26c026.tar.gz",
+    "url": "https://github.com/haskell/haskell-language-server/archive/0e9dca41de0504e4ef04b0a44ff2048825a8eb40.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "intero-neovim": {
@@ -360,10 +360,10 @@
     "homepage": "https://neovim.io",
     "owner": "neovim",
     "repo": "neovim",
-    "rev": "314b222c25f1f21713082d3cb17f5fa442a8b3ec",
-    "sha256": "15pkiaia8m7i7hji8hahcwfpd1q08c4pafjsbn0cjklbvihc13p5",
+    "rev": "f5daf55c10435930883c0c9b1aa1e035bef78443",
+    "sha256": "1dshcmq31l0y2dvlp3jgkyr9rnjbw04q36jrdg0nl6yykwlplzbw",
     "type": "tarball",
-    "url": "https://github.com/neovim/neovim/archive/314b222c25f1f21713082d3cb17f5fa442a8b3ec.tar.gz",
+    "url": "https://github.com/neovim/neovim/archive/f5daf55c10435930883c0c9b1aa1e035bef78443.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nginx-vim": {
@@ -512,10 +512,10 @@
     "homepage": "https://tree-sitter.github.io",
     "owner": "tree-sitter",
     "repo": "tree-sitter",
-    "rev": "ec8520ca4210662acac47eae60cfc10807a8c979",
-    "sha256": "0dry7azpc4fq7kaygm0fi54akp9gm8qws7dl8vk3hc31s04dib0y",
+    "rev": "f3910c649e5c90438e6a86a7d29e4554ca7aeb12",
+    "sha256": "0z9gdbwrvg6idmfm708h4vk6pdjy3zv4dar2ci5snfsfmk7p3vfx",
     "type": "tarball",
-    "url": "https://github.com/tree-sitter/tree-sitter/archive/ec8520ca4210662acac47eae60cfc10807a8c979.tar.gz",
+    "url": "https://github.com/tree-sitter/tree-sitter/archive/f3910c649e5c90438e6a86a7d29e4554ca7aeb12.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "vim-javascript": {
