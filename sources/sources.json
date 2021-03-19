@@ -530,6 +530,18 @@
     "url": "https://github.com/pangloss/vim-javascript/archive/f466bd75d346a6a977faa7db4cce9aadb440f6c1.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
+  "vim-js": {
+    "branch": "master",
+    "description": "💯The most accurate syntax highlighting plugin for JavaScript and Flow.js",
+    "homepage": "",
+    "owner": "yuezk",
+    "repo": "vim-js",
+    "rev": "d3f5a53cbc059aba69b6f3bdb9f743750a4e0fa0",
+    "sha256": "16s3pgypz8qhqdzs5943scvx67z14c7mykg2pcp9w2pckvbjigdb",
+    "type": "tarball",
+    "url": "https://github.com/yuezk/vim-js/archive/d3f5a53cbc059aba69b6f3bdb9f743750a4e0fa0.tar.gz",
+    "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+  },
   "vim-jsx": {
     "branch": "master",
     "description": "React JSX syntax highlighting and indenting for vim.",
@@ -540,6 +552,18 @@
     "sha256": "0czjily7kjw7bwmkxd8lqn5ncrazqjsfhsy3sf2wl9ni0r45cgcd",
     "type": "tarball",
     "url": "https://github.com/mxw/vim-jsx/archive/8879e0d9c5ba0e04ecbede1c89f63b7a0efa24af.tar.gz",
+    "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+  },
+  "vim-jsx-pretty": {
+    "branch": "master",
+    "description": ":flashlight: [Vim script] JSX and TSX syntax pretty highlighting for vim.",
+    "homepage": "",
+    "owner": "maxmellon",
+    "repo": "vim-jsx-pretty",
+    "rev": "6989f1663cc03d7da72b5ef1c03f87e6ddb70b41",
+    "sha256": "16d76jvfb1cq591i06fnmgzv0q16g89zz7cmvgvj24vap2wgkbp8",
+    "type": "tarball",
+    "url": "https://github.com/maxmellon/vim-jsx-pretty/archive/6989f1663cc03d7da72b5ef1c03f87e6ddb70b41.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "vim-languages": {

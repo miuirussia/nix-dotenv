@@ -270,6 +270,16 @@ in
     src = sources.vim-rooter;
   };
 
+  vim-js = pkgs.vimUtils.buildVimPlugin {
+    name = "vim-js";
+    src = sources.vim-js;
+  };
+
+  vim-jsx-pretty = pkgs.vimUtils.buildVimPlugin {
+    name = "vim-jsx-pretty";
+    src = sources.vim-jsx-pretty;
+  };
+
   vista-vim = pkgs.vimUtils.buildVimPlugin {
     name = "vista-vim";
     src = sources.vista-vim;

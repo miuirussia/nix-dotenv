@@ -81,9 +81,9 @@ in
             vim-better-whitespace
             vim-cursorword
             vim-devicons
-            vim-javascript
+            vim-js
+            vim-jsx-pretty
             vim-json5
-            vim-jsx
             vim-languages
             vim-lastplace
             vim-markdown
