@@ -188,6 +188,8 @@ in
           )
       )
 
+      flow
+
       nodejs-14_x
       (yarn.override { nodejs = nodejs-14_x; })
       nodePackages.eslint_d
