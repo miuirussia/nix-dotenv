@@ -306,6 +306,18 @@
     "url": "https://github.com/zdharma/fast-syntax-highlighting/archive/a62d721affc771de2c78201d868d80668a84c1e1.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
+  "flow": {
+    "branch": "master",
+    "description": "Adds static typing to JavaScript to improve developer productivity and code quality.",
+    "homepage": "https://flow.org/",
+    "owner": "facebook",
+    "repo": "flow",
+    "rev": "refs/tags/v0.147.0",
+    "sha256": "1n6kwdhkfc80gx9dpj83klnzx1p8jmfj2h3w78i5d5q7hlwh2kyx",
+    "type": "tarball",
+    "url": "https://github.com/facebook/flow/archive/refs/tags/v0.147.0.tar.gz",
+    "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+  },
   "haskell.nix": {
     "branch": "master",
     "description": "Alternative Haskell Infrastructure for Nixpkgs",

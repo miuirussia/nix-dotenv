@@ -104,7 +104,16 @@ in
           }
         );
 
-      flow = pkgs.writeShellScriptBin "flow"
+        flow = let
+          custom-flow = pkgs.flow.overrideAttrs (
+            prev: {
+              pname = "flow-nightly";
+              version = "latest";
+
+              src = sources.flow;
+            }
+          );
+        in pkgs.writeShellScriptBin "flow"
         ''
           lookup() {
             local file="''${1}"
@@ -124,7 +133,7 @@ in
 
           FLOW_EXEC=$(lookup "node_modules/.bin/flow")
 
-          [[ -z "''${FLOW_EXEC}" ]] && FLOW_EXEC="${pkgs.flow}/bin/flow"
+          [[ -z "''${FLOW_EXEC}" ]] && FLOW_EXEC="${custom-flow}/bin/flow"
           $FLOW_EXEC "$@"
         '';
 
