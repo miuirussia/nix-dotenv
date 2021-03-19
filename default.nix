@@ -96,6 +96,10 @@ in
             vimspector
             vista-vim
 
+            vim-lsp
+            asyncomplete
+            asyncomplete-lsp
+
             # coc
             vim-coc
 

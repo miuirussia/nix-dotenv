@@ -280,6 +280,21 @@ in
     src = sources.vim-jsx-pretty;
   };
 
+  vim-lsp = pkgs.vimUtils.buildVimPlugin {
+    name = "vim-lsp";
+    src = sources.vim-lsp;
+  };
+
+  asyncomplete = pkgs.vimUtils.buildVimPlugin {
+    name = "asyncomplete.vim";
+    src = sources."asyncomplete.vim";
+  };
+
+  asyncomplete-lsp = pkgs.vimUtils.buildVimPlugin {
+    name = "asyncomplete-lsp.vim";
+    src = sources."asyncomplete-lsp.vim";
+  };
+
   vista-vim = pkgs.vimUtils.buildVimPlugin {
     name = "vista-vim";
     src = sources.vista-vim;

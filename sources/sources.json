@@ -11,6 +11,30 @@
     "url": "https://github.com/JetBrains/JetBrainsMono/archive/e0bcedb1613a8212c7b032ae5db2d7a54b74dd9b.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
+  "asyncomplete-lsp.vim": {
+    "branch": "master",
+    "description": null,
+    "homepage": null,
+    "owner": "prabirshrestha",
+    "repo": "asyncomplete-lsp.vim",
+    "rev": "684c34453db9dcbed5dbf4769aaa6521530a23e0",
+    "sha256": "0vqx0d6iks7c0liplh3x8vgvffpljfs1j3g2yap7as6wyvq621rq",
+    "type": "tarball",
+    "url": "https://github.com/prabirshrestha/asyncomplete-lsp.vim/archive/684c34453db9dcbed5dbf4769aaa6521530a23e0.tar.gz",
+    "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+  },
+  "asyncomplete.vim": {
+    "branch": "master",
+    "description": "async completion in pure vim script for vim8 and neovim",
+    "homepage": "",
+    "owner": "prabirshrestha",
+    "repo": "asyncomplete.vim",
+    "rev": "8e018dee9c5e2205288bda01be0de196b04b7cf2",
+    "sha256": "1ghv6zp3qajd4n9qv3mnxqhczi77qmds2b2iicbl252slvldr604",
+    "type": "tarball",
+    "url": "https://github.com/prabirshrestha/asyncomplete.vim/archive/8e018dee9c5e2205288bda01be0de196b04b7cf2.tar.gz",
+    "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+  },
   "coc-calc": {
     "branch": "master",
     "description": "Calculate extension for coc.nvim",
@@ -576,6 +600,18 @@
     "sha256": "1irdf513srkr0yfw69gjz4lrj167lclxz8rmzqj0qi54pii2842f",
     "type": "tarball",
     "url": "https://github.com/supki/vim-languages/archive/e951c3baffe3f3d82f49bda82b3b608e09e24568.tar.gz",
+    "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+  },
+  "vim-lsp": {
+    "branch": "master",
+    "description": "async language server protocol plugin for vim and neovim",
+    "homepage": "",
+    "owner": "prabirshrestha",
+    "repo": "vim-lsp",
+    "rev": "84e9beb5c8a0729099284c630524429ccb4f23ab",
+    "sha256": "0yn0b0c9lmz68mnyag4zdirh1zsnrmbhb54m018rmv9q44zi480h",
+    "type": "tarball",
+    "url": "https://github.com/prabirshrestha/vim-lsp/archive/84e9beb5c8a0729099284c630524429ccb4f23ab.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "vim-rooter": {
