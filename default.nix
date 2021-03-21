@@ -101,29 +101,6 @@ in
             asyncomplete-lsp
             asyncomplete-buffer
 
-            # coc
-            vim-coc
-
-            # coc plugins
-            coc-calc
-            coc-css
-            coc-diagnostic
-            coc-emmet
-            coc-flow
-            coc-git
-            coc-highlight
-            coc-json
-            coc-pairs
-            coc-python
-            # coc-rls
-            coc-rust-analyzer
-            coc-spell-checker
-            # coc-cspell-dicts
-            coc-syntax
-            coc-tsserver
-            coc-vimlsp
-            coc-yaml
-
             #themes
             base16-vim
           ];
