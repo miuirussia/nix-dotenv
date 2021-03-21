@@ -5,6 +5,7 @@
   "pulp",
   "purescript",
   "purescript-language-server",
+  "typescript-language-server",
   "purescript-psa",
   "spago"
 ]
