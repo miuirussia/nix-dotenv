@@ -295,6 +295,11 @@ in
     src = sources."asyncomplete-lsp.vim";
   };
 
+  asyncomplete-buffer = pkgs.vimUtils.buildVimPlugin {
+    name = "asyncomplete-buffer.vim";
+    src = sources."asyncomplete-buffer.vim";
+  };
+
   vista-vim = pkgs.vimUtils.buildVimPlugin {
     name = "vista-vim";
     src = sources.vista-vim;

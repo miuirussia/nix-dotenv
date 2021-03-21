@@ -11,6 +11,18 @@
     "url": "https://github.com/JetBrains/JetBrainsMono/archive/e0bcedb1613a8212c7b032ae5db2d7a54b74dd9b.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
+  "asyncomplete-buffer.vim": {
+    "branch": "master",
+    "description": "provides buffer autocomplete for asyncomplete.vim",
+    "homepage": null,
+    "owner": "prabirshrestha",
+    "repo": "asyncomplete-buffer.vim",
+    "rev": "018bcf0f712ce0fde3f1f2eaabd7004fccb2d34a",
+    "sha256": "0ixc37gzgsf93sl52fa3ywz6bw7cn1406fgimmy5rz0d62b0y8yi",
+    "type": "tarball",
+    "url": "https://github.com/prabirshrestha/asyncomplete-buffer.vim/archive/018bcf0f712ce0fde3f1f2eaabd7004fccb2d34a.tar.gz",
+    "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+  },
   "asyncomplete-lsp.vim": {
     "branch": "master",
     "description": null,

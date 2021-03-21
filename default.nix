@@ -99,6 +99,7 @@ in
             vim-lsp
             asyncomplete
             asyncomplete-lsp
+            asyncomplete-buffer
 
             # coc
             vim-coc
