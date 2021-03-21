@@ -203,11 +203,13 @@ in
       nodePackages.pulp
       nodePackages.purescript
       nodePackages.purescript-psa
-      nodePackages.purescript-language-server
       nodePackages.spago
 
       (hiPrio nixFlakes)
 
+      nodePackages.diagnostic-languageserver
+      nodePackages.purescript-language-server
+      nodePackages.typescript-language-server
 
       # haskell packages
       hls-wrapper
