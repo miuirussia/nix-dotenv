@@ -185,10 +185,12 @@ jobs:
         fetch-depth: 0
     - name: Copy updated files
       run: |
-        cp -f ./environment/sources/{default.nix,sources.nix,sources.json,*.patch} ./dotfiles/nix/sources
-        cp -f ./environment/custom-plugins.nix ./dotfiles/nix/programs/neovim
+        rm -rf ./dotfiles/nix/sources/*.patch
+        rm -rf ./dotfiles/nix/programs/neovim/patches
+        cp -f  ./environment/sources/{default.nix,sources.nix,sources.json,*.patch} ./dotfiles/nix/sources
+        cp -rf ./environment/neovim/{custom-plugins.nix,patches} ./dotfiles/nix/programs/neovim
         cp -rf ./environment/nixpkgs/{mkHlsPkgs.nix,hls.nix,nix-cache-tools,package.nix} ./dotfiles/nix/nixpkgs
-        cp -f ./environment/nixpkgs/nodePackages/{default.nix,node-env.nix,node-packages.json,node-packages.nix} ./dotfiles/nix/nixpkgs/nodePackages
+        cp -f  ./environment/nixpkgs/nodePackages/{default.nix,node-env.nix,node-packages.json,node-packages.nix} ./dotfiles/nix/nixpkgs/nodePackages
     - name: Commit updated files
       uses: stefanzweifel/git-auto-commit-action@v4
       with:

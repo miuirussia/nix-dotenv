@@ -566,6 +566,18 @@
     "url": "https://github.com/tree-sitter/tree-sitter/archive/89e1157a299596f3ce2155ba9fd69d5e2c03d3e6.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
+  "vim-airline": {
+    "branch": "master",
+    "description": "lean & mean status/tabline for vim that's light as air",
+    "homepage": "",
+    "owner": "vim-airline",
+    "repo": "vim-airline",
+    "rev": "09dbd09ed3b6318ca4c3cda8f61f02f1bc8ce783",
+    "sha256": "0hi4yvd5b8il63a42kk10hxc8ixb1khf8h8q601qipkvgla8mpiy",
+    "type": "tarball",
+    "url": "https://github.com/vim-airline/vim-airline/archive/09dbd09ed3b6318ca4c3cda8f61f02f1bc8ce783.tar.gz",
+    "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+  },
   "vim-javascript": {
     "branch": "misc-flow-improvements",
     "description": "Vastly improved Javascript indentation and syntax support in Vim.",

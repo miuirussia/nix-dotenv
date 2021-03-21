@@ -2,7 +2,7 @@ let
   sources = import ./sources;
   nixpkgsConfig = import ./nixpkgs/config.nix;
   pkgs = import sources.nixpkgs-unstable { config = nixpkgsConfig; };
-  plugins = pkgs.vimPlugins // pkgs.callPackage ./custom-plugins.nix { inherit sources; inherit pkgs; };
+  plugins = pkgs.vimPlugins // pkgs.callPackage ./neovim/custom-plugins.nix { inherit sources; inherit pkgs; };
 in
   with pkgs;
   buildEnv {

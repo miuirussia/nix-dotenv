@@ -270,6 +270,12 @@ in
     src = sources.vim-rooter;
   };
 
+  vim-airline = pkgs.vimUtils.buildVimPlugin {
+    name = "vim-airline";
+    patches = [./patches/vim-airline.patch];
+    src = sources.vim-airline;
+  };
+
   vim-js = pkgs.vimUtils.buildVimPlugin {
     name = "vim-js";
     src = sources.vim-js;
