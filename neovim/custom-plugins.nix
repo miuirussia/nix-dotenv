@@ -5,7 +5,7 @@
     name = "vimspector";
     src = sources.vimspector;
 
-    buildInputs = [ pkgs.python3 pkgs.git pkgs.cacert nodejs ];
+    buildInputs = [ pkgs.python3 pkgs.git pkgs.cacert pkgs.nodejs-14_x ];
     buildPhase = ''
       export HOME=$PWD
       npm config set prefix $PWD/.npm
