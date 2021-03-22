@@ -24,8 +24,7 @@ jobs:
           nix-env -iA niv -f https://github.com/nmattia/niv/tarball/master \
             --substituters https://niv.cachix.org \
             --trusted-public-keys niv.cachix.org-1:X32PCg2e/zAm3/uD1ScqW2z/K0LtDyNV7RdaxIuLgQM=
-          nix-env -iA jq nix-prefetch-git nodePackages.node2nix \
-            -f https://github.com/NixOS/nixpkgs/archive/6f7e39c768442fce08646c3fbccacb2808baff66.tar.gz
+          nix-env -iA jq nix-prefetch-git nodePackages.node2nix -f https://github.com/NixOS/nixpkgs/archive/nixpkgs-unstable.tar.gz
       - name: Update dependencies
         run: |
           niv -s sources/sources.json update
