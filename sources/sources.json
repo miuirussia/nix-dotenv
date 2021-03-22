@@ -149,10 +149,10 @@
     "homepage": "",
     "owner": "kovidgoyal",
     "repo": "kitty",
-    "rev": "af9da2e4950356c4b8aa112b58e294c1e46dd5ff",
-    "sha256": "1ql2n8k6w8dnv6kygdn32966wmg0si3qjn9k9qn2q7p6gbw5k7qi",
+    "rev": "ba32e481cac8267d8bd10b3e6b1246b95e13fad5",
+    "sha256": "0nvmv19crgfh1igyvgf6dwhvka1hjhsanr0nzvd3jqg7vgqrm79w",
     "type": "tarball",
-    "url": "https://github.com/kovidgoyal/kitty/archive/af9da2e4950356c4b8aa112b58e294c1e46dd5ff.tar.gz",
+    "url": "https://github.com/kovidgoyal/kitty/archive/ba32e481cac8267d8bd10b3e6b1246b95e13fad5.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "neovim": {
