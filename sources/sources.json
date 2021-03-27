@@ -77,10 +77,10 @@
     "homepage": "https://flow.org/",
     "owner": "facebook",
     "repo": "flow",
-    "rev": "3287ef36c97c5d7e6df6ff3a2a6cc14dd848bd2f",
-    "sha256": "0imgfmx94jc5v0x329wl5f3bvzmii9idjv7i5wvkbrqqxphnsg8f",
+    "rev": "452938fc9f557052ffaf88673f3e2761b4722da9",
+    "sha256": "1n2apifxfdvrli3xq0mzrd1pi3nnx46gwnryg15bs4in1q8ky4px",
     "type": "tarball",
-    "url": "https://github.com/facebook/flow/archive/3287ef36c97c5d7e6df6ff3a2a6cc14dd848bd2f.tar.gz",
+    "url": "https://github.com/facebook/flow/archive/452938fc9f557052ffaf88673f3e2761b4722da9.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "haskell.nix": {
@@ -89,10 +89,10 @@
     "homepage": "https://input-output-hk.github.io/haskell.nix",
     "owner": "input-output-hk",
     "repo": "haskell.nix",
-    "rev": "91292dda70a5a86078e63a5349c65ba157e5bd31",
-    "sha256": "11jns4h15bgddznmlpyk9zyjwj6pr6b36ky6v3ls3ah967kqig26",
+    "rev": "c3a26f9ccff4776e7933326f8e8881d984f8a2a9",
+    "sha256": "1yvf007bk6x6a321ymzg020y2hiyay7p8wzy5v86yrncbyi6yxw3",
     "type": "tarball",
-    "url": "https://github.com/input-output-hk/haskell.nix/archive/91292dda70a5a86078e63a5349c65ba157e5bd31.tar.gz",
+    "url": "https://github.com/input-output-hk/haskell.nix/archive/c3a26f9ccff4776e7933326f8e8881d984f8a2a9.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-stable": {
@@ -113,10 +113,10 @@
     "homepage": null,
     "owner": "haskell",
     "repo": "haskell-language-server",
-    "rev": "8dbeae160c526672958096edee48aa97ef9f5359",
-    "sha256": "0hhqpi87i9bh9zns9ci19vpmgn1fzkidrfq1bxal08mc482xlcs7",
+    "rev": "a4e22dbc77bf41ff9224c3cb057d11d113f9944b",
+    "sha256": "0bl4ic1bzz9ji13wg37119bjzp8zgcyyg39xk73sll1zs69c53gn",
     "type": "tarball",
-    "url": "https://github.com/haskell/haskell-language-server/archive/8dbeae160c526672958096edee48aa97ef9f5359.tar.gz",
+    "url": "https://github.com/haskell/haskell-language-server/archive/a4e22dbc77bf41ff9224c3cb057d11d113f9944b.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "intero-neovim": {
@@ -161,10 +161,10 @@
     "homepage": "https://neovim.io",
     "owner": "neovim",
     "repo": "neovim",
-    "rev": "095f5da79cb8f108b67824039952c6b225cb3dac",
-    "sha256": "1hgbb8kk9bizrbw1rf8bmif0izax5q13rb0iga0sfd37wks43z11",
+    "rev": "f0ace6d419380907b719edd2ea1d2256e92beb84",
+    "sha256": "0ajxaaj6nc68ac0g55bah5a5g2myld0n1gdp47k3lz77hvswihgp",
     "type": "tarball",
-    "url": "https://github.com/neovim/neovim/archive/095f5da79cb8f108b67824039952c6b225cb3dac.tar.gz",
+    "url": "https://github.com/neovim/neovim/archive/f0ace6d419380907b719edd2ea1d2256e92beb84.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nginx-vim": {
@@ -209,10 +209,10 @@
     "homepage": "https://github.com/NixOS/nixpkgs",
     "owner": "NixOS",
     "repo": "nixpkgs",
-    "rev": "d395190b24b27a65588f4539c423d9807ad8d4e7",
-    "sha256": "0r1kj8gf97z9ydh36vmgrar1q4l9ggaqiygxjvp8jmr1948y0nh2",
+    "rev": "34f85de51bbc74595e63b22ee089adbb31f7c7a2",
+    "sha256": "1k44md0l7glwvmf8wryw91i7qr0qq8wp7jfnbixdlyjzlxkfd26d",
     "type": "tarball",
-    "url": "https://github.com/NixOS/nixpkgs/archive/d395190b24b27a65588f4539c423d9807ad8d4e7.tar.gz",
+    "url": "https://github.com/NixOS/nixpkgs/archive/34f85de51bbc74595e63b22ee089adbb31f7c7a2.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nixpkgs-stable-darwin": {
@@ -233,10 +233,10 @@
     "homepage": "https://github.com/NixOS/nixpkgs",
     "owner": "NixOS",
     "repo": "nixpkgs",
-    "rev": "d395190b24b27a65588f4539c423d9807ad8d4e7",
-    "sha256": "0r1kj8gf97z9ydh36vmgrar1q4l9ggaqiygxjvp8jmr1948y0nh2",
+    "rev": "34f85de51bbc74595e63b22ee089adbb31f7c7a2",
+    "sha256": "1k44md0l7glwvmf8wryw91i7qr0qq8wp7jfnbixdlyjzlxkfd26d",
     "type": "tarball",
-    "url": "https://github.com/NixOS/nixpkgs/archive/d395190b24b27a65588f4539c423d9807ad8d4e7.tar.gz",
+    "url": "https://github.com/NixOS/nixpkgs/archive/34f85de51bbc74595e63b22ee089adbb31f7c7a2.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nixpkgs-unstable": {
@@ -493,10 +493,10 @@
     "homepage": "http://liuchengxu.org/vista.vim",
     "owner": "liuchengxu",
     "repo": "vista.vim",
-    "rev": "954754c830d2ca7da3157cdea029c8d50021d0bc",
-    "sha256": "1cw79hzkisii0g2n457wbzha65wbpp00x3yrb8rb3d5299bz0z72",
+    "rev": "b37d9b3331b8345a7c6cb821eda89e08eb7d7fa1",
+    "sha256": "12m54rj9xjcbyfa61z9qim8mbwqcmjfqkmdsp23jlm41nw17627y",
     "type": "tarball",
-    "url": "https://github.com/liuchengxu/vista.vim/archive/954754c830d2ca7da3157cdea029c8d50021d0bc.tar.gz",
+    "url": "https://github.com/liuchengxu/vista.vim/archive/b37d9b3331b8345a7c6cb821eda89e08eb7d7fa1.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "zsh-history-substring-search": {

@@ -238,13 +238,13 @@ let
         sha512 = "j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==";
       };
     };
-    "ajv-7.2.3" = {
+    "ajv-7.2.4" = {
       name = "ajv";
       packageName = "ajv";
-      version = "7.2.3";
+      version = "7.2.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ajv/-/ajv-7.2.3.tgz";
-        sha512 = "idv5WZvKVXDqKralOImQgPM9v6WOdLNa0IY3B3doOjw/YxRGT8I+allIJ6kd7Uaj+SF1xZUSU+nPM5aDNBVtnw==";
+        url = "https://registry.npmjs.org/ajv/-/ajv-7.2.4.tgz";
+        sha512 = "nBeQgg/ZZA3u3SYxyaDvpvDtgZ/EZPF547ARgZBrG9Bhu1vKDwAIjtIf+sDtJUKa2zOcEbmRLBRSyMraS/Oy1A==";
       };
     };
     "ansi-colors-4.1.1" = {
@@ -1381,13 +1381,13 @@ let
         sha512 = "S3Rz11i7c8AA5JPv7xAH+dOyq/Cu/VXHiHXBPOU1k/JAM5dXqQPt3qcrhpHSorXmrpu2g0gkIBVXAqCpzfoZIg==";
       };
     };
-    "eslint-7.22.0" = {
+    "eslint-7.23.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "7.22.0";
+      version = "7.23.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-7.22.0.tgz";
-        sha512 = "3VawOtjSJUQiiqac8MQc+w457iGLfuNGLFn8JmF051tTKbh5/x/0vlcEj8OgDCaw7Ysa2Jn8paGshV7x2abKXg==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-7.23.0.tgz";
+        sha512 = "kqvNVbdkjzpFy0XOszNwjkKzZ+6TcwCQ/h+ozlcIWwaimBBuhlQ4nN6kbiM2L+OjDcznkTJxzYfRFH92sx4a0Q==";
       };
     };
     "eslint-scope-3.7.3" = {
@@ -4848,7 +4848,7 @@ in
       sources."emoji-regex-8.0.0"
       sources."enquirer-2.3.6"
       sources."escape-string-regexp-1.0.5"
-      sources."eslint-7.22.0"
+      sources."eslint-7.23.0"
       sources."eslint-scope-5.1.1"
       (sources."eslint-utils-2.1.0" // {
         dependencies = [
@@ -4939,7 +4939,7 @@ in
       sources."supports-color-8.1.1"
       (sources."table-6.0.7" // {
         dependencies = [
-          sources."ajv-7.2.3"
+          sources."ajv-7.2.4"
           sources."json-schema-traverse-1.0.0"
         ];
       })
