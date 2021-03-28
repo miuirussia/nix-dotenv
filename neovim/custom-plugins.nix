@@ -91,7 +91,6 @@
 
   vim-airline = pkgs.vimUtils.buildVimPlugin {
     name = "vim-airline";
-    patches = [./patches/vim-airline.patch];
     src = sources.vim-airline;
   };
 
