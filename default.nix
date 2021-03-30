@@ -101,6 +101,8 @@ in
             asyncomplete-lsp
             asyncomplete-buffer
 
+            vscode-custom
+
             #themes
             base16-vim
           ];
