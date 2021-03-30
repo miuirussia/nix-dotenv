@@ -1,7 +1,9 @@
 { sources, pkgs }:
 
 let
-  extensions = pkgs.vscode-utils.extensionsFromVscodeMarketplace [
+  extensions = ([
+    (pkgs.callPackage ./codelldb { })
+  ]) ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
     {
       name = "vscode-theme-onedark";
       publisher = "akamud";

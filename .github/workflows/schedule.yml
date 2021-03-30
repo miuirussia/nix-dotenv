@@ -28,9 +28,10 @@ jobs:
       - name: Update dependencies
         run: |
           niv -s sources/sources.json update
-          ./fix-sha256.sh hls-stable
-          ./fix-sha256.sh hls-unstable
-          cd nixpkgs/nodePackages && node2nix -i node-packages.json
+          $GITHUB_WORKSPACE/fix-sha256.sh hls-stable
+          $GITHUB_WORKSPACE/fix-sha256.sh hls-unstable
+          cd $GITHUB_WORKSPACE/nixpkgs/vscode/codelldb && ./update.sh
+          cd $GITHUB_WORKSPACE/nixpkgs/nodePackages && node2nix -i node-packages.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit changes
