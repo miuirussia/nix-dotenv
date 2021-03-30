@@ -138,5 +138,6 @@ let
     }
   ];
 in pkgs.vscode-with-extensions.override {
+  vscode = pkgs.vscodium;
   vscodeExtensions = extensions;
 }
