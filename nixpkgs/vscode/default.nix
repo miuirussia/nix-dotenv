@@ -129,12 +129,6 @@ let
       sha256 = "1q19mb686mpgvx129bq226a2kfynaz942sp870b1i50hvxnshiw3";
     }
     {
-      name = "vscode-lldb";
-      publisher = "vadimcn";
-      version = "1.6.1";
-      sha256 = "117ivspcsmp36qp9jzrgvjgd3bgc5bq2ln4y43q7ks4z7w0gskq4";
-    }
-    {
       name = "vscode-nginx";
       publisher = "william-voyek";
       version = "0.7.2";
