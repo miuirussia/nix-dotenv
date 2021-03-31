@@ -187,10 +187,10 @@ jobs:
       run: |
         rm -rf ./dotfiles/nix/sources/*.patch
         rm -rf ./dotfiles/nix/programs/neovim/patches
-        rm -rf ./dotfiles/nix/nix/nixpkgs/vscode
+        rm -rf ./dotfiles/nix/nix/nixpkgs/{vscode,jetbrains-mono}
         cp -f  ./environment/sources/{default.nix,sources.nix,sources.json,*.patch} ./dotfiles/nix/sources
         cp -rf ./environment/neovim/{custom-plugins.nix,patches} ./dotfiles/nix/programs/neovim
-        cp -rf ./environment/nixpkgs/{mkHlsPkgs.nix,hls.nix,nix-cache-tools,package.nix,vscode} ./dotfiles/nix/nixpkgs
+        cp -rf ./environment/nixpkgs/{mkHlsPkgs.nix,hls.nix,nix-cache-tools,package.nix,vscode,jetbrains-mono} ./dotfiles/nix/nixpkgs
         cp -f  ./environment/nixpkgs/nodePackages/{default.nix,node-env.nix,node-packages.json,node-packages.nix} ./dotfiles/nix/nixpkgs/nodePackages
     - name: Commit updated files
       uses: stefanzweifel/git-auto-commit-action@v4
