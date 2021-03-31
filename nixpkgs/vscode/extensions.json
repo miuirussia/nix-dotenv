@@ -12,6 +12,12 @@
     "version": "4.6.0"
   },
   {
+    "name": "flow-for-vscode",
+    "publisher": "flowtype",
+    "sha256": "0firvhcnd4mvb19r51pw4q6fadsnb8l0hdfin292s4kvcjkqcdc5",
+    "version": "1.5.0"
+  },
+  {
     "name": "vscode-neovim",
     "publisher": "asvetliakov",
     "sha256": "0a3zwp1w8ak985327cmjw28i7zlxcj1a6jwb750vd867hhqfw9bp",

@@ -2,6 +2,8 @@
   publisher: akamud
 - name: material-icon-theme
   publisher: pkief
+- name: flow-for-vscode
+  publisher: flowtype
 - name: vscode-neovim
   publisher: asvetliakov
 - name: Nix
