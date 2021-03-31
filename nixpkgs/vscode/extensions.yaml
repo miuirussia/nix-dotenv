@@ -1,5 +1,7 @@
 - name: vscode-theme-onedark
   publisher: akamud
+- name: material-icon-theme
+  publisher: pkief
 - name: vscode-neovim
   publisher: asvetliakov
 - name: Nix

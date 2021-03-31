@@ -6,6 +6,12 @@
     "version": "2.2.3"
   },
   {
+    "name": "material-icon-theme",
+    "publisher": "pkief",
+    "sha256": "0jid21l8mdh0bism7yl0awkbj9802fb880rkpnva43p61npybvcb",
+    "version": "4.6.0"
+  },
+  {
     "name": "vscode-neovim",
     "publisher": "asvetliakov",
     "sha256": "0a3zwp1w8ak985327cmjw28i7zlxcj1a6jwb750vd867hhqfw9bp",
