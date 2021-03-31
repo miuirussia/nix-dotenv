@@ -493,10 +493,10 @@
     "homepage": "http://liuchengxu.org/vista.vim",
     "owner": "liuchengxu",
     "repo": "vista.vim",
-    "rev": "b37d9b3331b8345a7c6cb821eda89e08eb7d7fa1",
-    "sha256": "12m54rj9xjcbyfa61z9qim8mbwqcmjfqkmdsp23jlm41nw17627y",
+    "rev": "a2236deb0a40d745f38fac4523ed6a0c86639863",
+    "sha256": "14gxwqykm4cql80la3x1x7sxcfmdvpm05r9brxw3xfn9bsqy3qsk",
     "type": "tarball",
-    "url": "https://github.com/liuchengxu/vista.vim/archive/b37d9b3331b8345a7c6cb821eda89e08eb7d7fa1.tar.gz",
+    "url": "https://github.com/liuchengxu/vista.vim/archive/a2236deb0a40d745f38fac4523ed6a0c86639863.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "zsh-history-substring-search": {
