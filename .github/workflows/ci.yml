@@ -162,6 +162,8 @@ jobs:
         nix path-info --all | grep -v '\.drv$' > /tmp/store-path-pre-build
         nix --print-build-logs --show-trace build
       working-directory: environment
+      env:
+        NIX_CURL_FLAGS: "--header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}'"
     - name: Show builded paths
       run: |
         nix --print-build-logs path-info
