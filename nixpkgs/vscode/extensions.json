@@ -1,0 +1,122 @@
+[
+  {
+    "name": "vscode-theme-onedark",
+    "publisher": "akamud",
+    "sha256": "1m6f6p7x8vshhb03ml7sra3v01a7i2p3064mvza800af7cyj3w5m",
+    "version": "2.2.3"
+  },
+  {
+    "name": "vscode-neovim",
+    "publisher": "asvetliakov",
+    "sha256": "0a3zwp1w8ak985327cmjw28i7zlxcj1a6jwb750vd867hhqfw9bp",
+    "version": "0.0.78"
+  },
+  {
+    "name": "Nix",
+    "publisher": "bbenoist",
+    "sha256": "0zd0n9f5z1f0ckzfjr38xw2zzmcxg1gjrava7yahg5cvdcw6l35b",
+    "version": "1.0.1"
+  },
+  {
+    "name": "toml",
+    "publisher": "be5invis",
+    "sha256": "1r1y6krqw5rrdhia9xbs3bx9gibd1ky4bm709231m9zvbqqwwq2j",
+    "version": "0.5.1"
+  },
+  {
+    "name": "dhall-lang",
+    "publisher": "dhall",
+    "sha256": "0sa04srhqmngmw71slnrapi2xay0arj42j4gkan8i11n7bfi1xpf",
+    "version": "0.0.4"
+  },
+  {
+    "name": "gitlens",
+    "publisher": "eamodio",
+    "sha256": "0py8c5h3pp99r0q9x2dgh1ryp05dbndyc5ipp999z3x1xvwnfrlv",
+    "version": "11.3.0"
+  },
+  {
+    "name": "haskell",
+    "publisher": "haskell",
+    "sha256": "0vxsn4s27n1aqp5pp4cipv804c9cwd7d9677chxl0v18j8bf7zly",
+    "version": "1.2.0"
+  },
+  {
+    "name": "language-haskell",
+    "publisher": "justusadam",
+    "sha256": "0ab7m5jzxakjxaiwmg0jcck53vnn183589bbxh3iiylkpicrv67y",
+    "version": "3.4.0"
+  },
+  {
+    "name": "nix-ide",
+    "publisher": "jnoortheen",
+    "sha256": "0c9x3br92rpsmc7d0i3c8rnvhyvwz7hvrrfd3sds9p168lz87gli",
+    "version": "0.1.10"
+  },
+  {
+    "name": "rust-analyzer",
+    "publisher": "matklad",
+    "sha256": "0ivf8yxs17x10z6q44ij3vpamwzga0wiqfg9hzp3bs6mff9szfmb",
+    "version": "0.2.538"
+  },
+  {
+    "name": "vscode-docker",
+    "publisher": "ms-azuretools",
+    "sha256": "141800jcxslqa5nbwcdj4mwnysa42mxligvc073gf225ns984vfr",
+    "version": "1.11.0"
+  },
+  {
+    "name": "remote-containers",
+    "publisher": "ms-vscode-remote",
+    "sha256": "1jv3zjwa1sdylkgrmq9cjq48s4pf1gs6lwb3iigxb66q408xibl6",
+    "version": "0.166.0"
+  },
+  {
+    "name": "remote-ssh",
+    "publisher": "ms-vscode-remote",
+    "sha256": "0xg6p1x479lmm1chn69hd7b43p708hb9p7c4aqbmqf0d96xgsa9r",
+    "version": "0.65.1"
+  },
+  {
+    "name": "remote-ssh-edit",
+    "publisher": "ms-vscode-remote",
+    "sha256": "0ajbn3iyhxajj7v6j5sh74j9bm6qh2sx0964vlillbiwr5i845f0",
+    "version": "0.65.1"
+  },
+  {
+    "name": "debugger-for-chrome",
+    "publisher": "msjsdiag",
+    "sha256": "0nkzck3i4342dhswhpg4b3mn0yp23ipad228hwdf23z8b19p4b5g",
+    "version": "4.12.12"
+  },
+  {
+    "name": "ide-purescript",
+    "publisher": "nwolverson",
+    "sha256": "1z20hlzwhhi9yzdb8v5iqj7rbf3m5f6xg5p2mc188j85b4gp4jcm",
+    "version": "0.24.0"
+  },
+  {
+    "name": "language-purescript",
+    "publisher": "nwolverson",
+    "sha256": "16c6ik09wj87r0dg4l0swl2qlqy48jkavpp5i90l166x2mjw2b7w",
+    "version": "0.2.4"
+  },
+  {
+    "name": "rust",
+    "publisher": "rust-lang",
+    "sha256": "039ns854v1k4jb9xqknrjkj8lf62nfcpfn0716ancmjc4f0xlzb3",
+    "version": "0.7.8"
+  },
+  {
+    "name": "crates",
+    "publisher": "serayuzgur",
+    "sha256": "1q19mb686mpgvx129bq226a2kfynaz942sp870b1i50hvxnshiw3",
+    "version": "0.5.7"
+  },
+  {
+    "name": "vscode-nginx",
+    "publisher": "william-voyek",
+    "sha256": "0s4akrhdmrf8qwn6vp8kc31k5hx2k2wml5mcashfc09hxiqsf2cq",
+    "version": "0.7.2"
+  }
+]
