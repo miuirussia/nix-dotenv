@@ -49,7 +49,7 @@ pkgs.stdenv.mkDerivation {
   buildPhase = ''
     export PYTHONIOENCODING=utf8
     for filename in ./fonts/ttf/*.ttf; do
-      fontforge -script ${font-patcher}/bin/nerdfonts-patcher $filename --careful -out ./out
+      fontforge -script ${font-patcher}/bin/nerdfonts-patcher $filename -c -out ./out
     done
   '';
 
