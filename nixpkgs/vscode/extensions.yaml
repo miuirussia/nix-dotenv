@@ -2,6 +2,8 @@
   publisher: akamud
 - name: material-icon-theme
   publisher: pkief
+- name: vscode-jest
+  publisher: orta
 - name: flow-for-vscode
   publisher: flowtype
 - name: vscode-neovim
