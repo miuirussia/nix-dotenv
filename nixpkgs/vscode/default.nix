@@ -7,6 +7,6 @@ let
     (pkgs.callPackage ./codelldb { })
   ]) ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace (fromJSON (readFile ./extensions.json));
 in pkgs.vscode-with-extensions.override {
-  vscode = pkgs.vscodium;
+  vscode = pkgs.callPackage ./package { };
   vscodeExtensions = extensions;
 }

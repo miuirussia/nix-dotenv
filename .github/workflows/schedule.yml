@@ -33,6 +33,7 @@ jobs:
           $GITHUB_WORKSPACE/fix-sha256.sh hls-stable
           $GITHUB_WORKSPACE/fix-sha256.sh hls-unstable
           cd $GITHUB_WORKSPACE/nixpkgs/vscode && ./update-vscode-plugins.py
+          cd $GITHUB_WORKSPACE/nixpkgs/vscode/package && ./update.sh
           cd $GITHUB_WORKSPACE/nixpkgs/vscode/codelldb && ./update.sh
           cd $GITHUB_WORKSPACE/nixpkgs/nodePackages && node2nix -i node-packages.json
         env:
