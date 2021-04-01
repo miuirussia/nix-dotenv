@@ -238,13 +238,13 @@ let
         sha512 = "j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==";
       };
     };
-    "ajv-8.0.1" = {
+    "ajv-8.0.2" = {
       name = "ajv";
       packageName = "ajv";
-      version = "8.0.1";
+      version = "8.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ajv/-/ajv-8.0.1.tgz";
-        sha512 = "46ZA4TalFcLLqX1dEU3dhdY38wAtDydJ4e7QQTVekLUTzXkb1LfqU6VOBXC/a9wiv4T094WURqJH6ZitF92Kqw==";
+        url = "https://registry.npmjs.org/ajv/-/ajv-8.0.2.tgz";
+        sha512 = "V0HGxJd0PiDF0ecHYIesTOqfd1gJguwQUOYfMfAWnRsWQEXfc5ifbUFhD3Wjc+O+y7VAqL+g07prq9gHQ/JOZQ==";
       };
     };
     "ansi-colors-4.1.1" = {
@@ -1021,13 +1021,13 @@ let
         sha512 = "f2domd9fsVDFtaFcbaRZuYXwtdmnzqbADSwhSWYxYB/Q8zsdUUFMXVRwXGDMWmbEzAn1kdRrtI1T/KTFOL4X2A==";
       };
     };
-    "core-js-3.9.1" = {
+    "core-js-3.10.0" = {
       name = "core-js";
       packageName = "core-js";
-      version = "3.9.1";
+      version = "3.10.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/core-js/-/core-js-3.9.1.tgz";
-        sha512 = "gSjRvzkxQc1zjM/5paAmL4idJBFzuJoo+jDjF1tStYFMV2ERfD02HhahhCGXUyHxQRG4yFKVSdO6g62eoRMcDg==";
+        url = "https://registry.npmjs.org/core-js/-/core-js-3.10.0.tgz";
+        sha512 = "MQx/7TLgmmDVamSyfE+O+5BHvG1aUGj/gHhLn1wVtm2B5u1eVIPvh7vkfjwWKNCjrTJB8+He99IntSQ1qP+vYQ==";
       };
     };
     "core-util-is-1.0.2" = {
@@ -5031,7 +5031,7 @@ in
       sources."supports-color-8.1.1"
       (sources."table-6.0.9" // {
         dependencies = [
-          sources."ajv-8.0.1"
+          sources."ajv-8.0.2"
           sources."json-schema-traverse-1.0.0"
         ];
       })
@@ -5139,7 +5139,7 @@ in
       sources."color-name-1.1.3"
       sources."common-tags-1.8.0"
       sources."concat-map-0.0.1"
-      sources."core-js-3.9.1"
+      sources."core-js-3.10.0"
       sources."cross-spawn-6.0.5"
       sources."debug-4.3.2"
       sources."decamelize-1.2.0"
@@ -5965,10 +5965,10 @@ in
   spago = nodeEnv.buildNodePackage {
     name = "spago";
     packageName = "spago";
-    version = "0.19.1";
+    version = "0.19.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/spago/-/spago-0.19.1.tgz";
-      sha512 = "OD/yopJZ9Ub+XsFtayDeLAWLT4kLdMxosJEyyp8W5OkyJVVSbCrvYacsO7iq3lSuHJmmNny/TEZdyb7uSyupng==";
+      url = "https://registry.npmjs.org/spago/-/spago-0.19.2.tgz";
+      sha512 = "/u4ofPqWkK1JKRlDU8ZpuLVEOqOpD7/F9zIms4jaPxrXDNhddvhZkbYXrFF/Pe4ZpawysrkhQxhKKt+FJfOfuw==";
     };
     dependencies = [
       sources."ajv-6.12.6"
