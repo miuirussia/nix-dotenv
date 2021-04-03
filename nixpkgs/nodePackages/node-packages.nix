@@ -238,13 +238,13 @@ let
         sha512 = "j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==";
       };
     };
-    "ajv-8.0.3" = {
+    "ajv-8.0.5" = {
       name = "ajv";
       packageName = "ajv";
-      version = "8.0.3";
+      version = "8.0.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ajv/-/ajv-8.0.3.tgz";
-        sha512 = "Df6NAivu9KpZw+q8ySijAgLvr1mUA5ihkRvCLCxpdYR21ann5yIuN+PpFxmweSj7i3yjJ0x5LN5KVs0RRzskAQ==";
+        url = "https://registry.npmjs.org/ajv/-/ajv-8.0.5.tgz";
+        sha512 = "RkiLa/AeJx7+9OvniQ/qeWu0w74A8DiPPBclQ6ji3ZQkv5KamO+QGpqmi7O4JIw3rHGUXZ6CoP9tsAkn3gyazg==";
       };
     };
     "ansi-colors-4.1.1" = {
@@ -2803,22 +2803,22 @@ let
         sha512 = "x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==";
       };
     };
-    "mime-db-1.46.0" = {
+    "mime-db-1.47.0" = {
       name = "mime-db";
       packageName = "mime-db";
-      version = "1.46.0";
+      version = "1.47.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/mime-db/-/mime-db-1.46.0.tgz";
-        sha512 = "svXaP8UQRZ5K7or+ZmfNhg2xX3yKDMUzqadsSqi4NCH/KomcH75MAMYAGVlvXn4+b/xOPhS3I2uHKRUzvjY7BQ==";
+        url = "https://registry.npmjs.org/mime-db/-/mime-db-1.47.0.tgz";
+        sha512 = "QBmA/G2y+IfeS4oktet3qRZ+P5kPhCKRXxXnQEudYqUaEioAU1/Lq2us3D/t1Jfo4hE9REQPrbB7K5sOczJVIw==";
       };
     };
-    "mime-types-2.1.29" = {
+    "mime-types-2.1.30" = {
       name = "mime-types";
       packageName = "mime-types";
-      version = "2.1.29";
+      version = "2.1.30";
       src = fetchurl {
-        url = "https://registry.npmjs.org/mime-types/-/mime-types-2.1.29.tgz";
-        sha512 = "Y/jMt/S5sR9OaqteJtslsFZKWOIIqMACsJSiHghlCAyhf7jfVYjKBmLiX8OgpWeW+fjJ2b+Az69aPFPkUOY6xQ==";
+        url = "https://registry.npmjs.org/mime-types/-/mime-types-2.1.30.tgz";
+        sha512 = "crmjA4bLtR8m9qLpHvgxSChT+XoSlZi8J4n/aIdn3z92e/U47Z0V/yl+Wh9W046GgFVAmoNR/fmdbZYcSSIUeg==";
       };
     };
     "mimic-fn-1.2.0" = {
@@ -5031,7 +5031,7 @@ in
       sources."supports-color-8.1.1"
       (sources."table-6.0.9" // {
         dependencies = [
-          sources."ajv-8.0.3"
+          sources."ajv-8.0.5"
           sources."json-schema-traverse-1.0.0"
         ];
       })
@@ -5705,8 +5705,8 @@ in
       sources."log-update-3.4.0"
       sources."lru-cache-5.1.1"
       sources."merge-stream-2.0.0"
-      sources."mime-db-1.46.0"
-      sources."mime-types-2.1.29"
+      sources."mime-db-1.47.0"
+      sources."mime-types-2.1.30"
       sources."mimic-fn-2.1.0"
       sources."minimatch-3.0.4"
       sources."minimist-1.2.5"
@@ -6003,8 +6003,8 @@ in
       sources."json-schema-traverse-0.4.1"
       sources."json-stringify-safe-5.0.1"
       sources."jsprim-1.4.1"
-      sources."mime-db-1.46.0"
-      sources."mime-types-2.1.29"
+      sources."mime-db-1.47.0"
+      sources."mime-types-2.1.30"
       sources."minimist-1.2.5"
       sources."minipass-2.9.0"
       sources."minizlib-1.3.3"
