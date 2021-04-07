@@ -463,13 +463,13 @@ let
         sha512 = "xh1Rl34h6Fi1DC2WWKfxUTVqRsNnr6LsKz2+hfwDxQJWmrx8+c7ylaqBMcHfl1U1r2dsifOvKX3LQuLNZ+XSvA==";
       };
     };
-    "balanced-match-1.0.0" = {
+    "balanced-match-1.0.2" = {
       name = "balanced-match";
       packageName = "balanced-match";
-      version = "1.0.0";
+      version = "1.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.0.tgz";
-        sha1 = "89b4d199ab2bee49de164ea02b89ce462d71b767";
+        url = "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz";
+        sha512 = "3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==";
       };
     };
     "base64-js-1.5.1" = {
@@ -4819,13 +4819,13 @@ let
         sha512 = "LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==";
       };
     };
-    "y18n-4.0.1" = {
+    "y18n-4.0.2" = {
       name = "y18n";
       packageName = "y18n";
-      version = "4.0.1";
+      version = "4.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/y18n/-/y18n-4.0.1.tgz";
-        sha512 = "wNcy4NvjMYL8gogWWYAO7ZFWFfHcbdbE57tZO8e4cbpj8tfUcwrwqSl3ad8HxpYWCdXcJUCeKKZS62Av1affwQ==";
+        url = "https://registry.npmjs.org/y18n/-/y18n-4.0.2.tgz";
+        sha512 = "DnBDwcL54b5xWMM/7RfFg4xs5amYxq2ot49aUfLjQSAracXkGvlZq0txzqr3Pa6Q0ayuCxBcwTzrPUScKY0O8w==";
       };
     };
     "yallist-3.1.1" = {
@@ -4907,7 +4907,7 @@ in
       sources."ansi-styles-3.2.1"
       sources."argparse-1.0.10"
       sources."astral-regex-2.0.0"
-      sources."balanced-match-1.0.0"
+      sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
       sources."call-bind-1.0.2"
       sources."callsites-3.1.0"
@@ -5119,7 +5119,7 @@ in
       sources."argparse-1.0.10"
       sources."arrify-2.0.1"
       sources."astral-regex-1.0.0"
-      sources."balanced-match-1.0.0"
+      sources."balanced-match-1.0.2"
       sources."boolify-1.0.1"
       sources."brace-expansion-1.1.11"
       sources."callsites-3.1.0"
@@ -5323,7 +5323,7 @@ in
       })
       sources."wrappy-1.0.2"
       sources."write-1.0.3"
-      sources."y18n-4.0.1"
+      sources."y18n-4.0.2"
       (sources."yargs-13.3.2" // {
         dependencies = [
           sources."find-up-3.0.0"
@@ -5371,7 +5371,7 @@ in
         ];
       })
       sources."async-1.5.2"
-      sources."balanced-match-1.0.0"
+      sources."balanced-match-1.0.2"
       sources."base64-js-1.5.1"
       sources."bn.js-5.2.0"
       sources."brace-expansion-1.1.11"
@@ -5631,7 +5631,7 @@ in
       sources."asynckit-0.4.0"
       sources."aws-sign2-0.7.0"
       sources."aws4-1.11.0"
-      sources."balanced-match-1.0.0"
+      sources."balanced-match-1.0.2"
       sources."bcrypt-pbkdf-1.0.2"
       sources."bluebird-3.7.2"
       sources."brace-expansion-1.1.11"
@@ -5777,7 +5777,7 @@ in
       sources."wrap-ansi-5.1.0"
       sources."wrappy-1.0.2"
       sources."xtend-4.0.2"
-      sources."y18n-4.0.1"
+      sources."y18n-4.0.2"
       sources."yallist-3.1.1"
       sources."zen-observable-0.8.15"
     ];
@@ -5872,7 +5872,7 @@ in
       sources."@nodelib/fs.walk-1.2.6"
       sources."aggregate-error-3.1.0"
       sources."array-union-2.1.0"
-      sources."balanced-match-1.0.0"
+      sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
       sources."braces-3.0.2"
       sources."clean-stack-2.2.0"
