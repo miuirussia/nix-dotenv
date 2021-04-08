@@ -136,5 +136,11 @@
     "publisher": "william-voyek",
     "sha256": "0s4akrhdmrf8qwn6vp8kc31k5hx2k2wml5mcashfc09hxiqsf2cq",
     "version": "0.7.2"
+  },
+  {
+    "name": "shellcheck",
+    "publisher": "timonwong",
+    "sha256": "08mpda56dslpw98gnj3sk7nq1v881jrrlr1yfz1nw2sqclcl35si",
+    "version": "0.14.0"
   }
 ]

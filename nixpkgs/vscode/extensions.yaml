@@ -44,3 +44,5 @@
   publisher: serayuzgur
 - name: vscode-nginx
   publisher: william-voyek
+- name: shellcheck
+  publisher: timonwong
