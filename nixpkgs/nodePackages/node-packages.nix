@@ -1021,13 +1021,13 @@ let
         sha512 = "f2domd9fsVDFtaFcbaRZuYXwtdmnzqbADSwhSWYxYB/Q8zsdUUFMXVRwXGDMWmbEzAn1kdRrtI1T/KTFOL4X2A==";
       };
     };
-    "core-js-3.10.0" = {
+    "core-js-3.10.1" = {
       name = "core-js";
       packageName = "core-js";
-      version = "3.10.0";
+      version = "3.10.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/core-js/-/core-js-3.10.0.tgz";
-        sha512 = "MQx/7TLgmmDVamSyfE+O+5BHvG1aUGj/gHhLn1wVtm2B5u1eVIPvh7vkfjwWKNCjrTJB8+He99IntSQ1qP+vYQ==";
+        url = "https://registry.npmjs.org/core-js/-/core-js-3.10.1.tgz";
+        sha512 = "pwCxEXnj27XG47mu7SXAwhLP3L5CrlvCB91ANUkIz40P27kUcvNfSdvyZJ9CLHiVoKSp+TTChMQMSKQEH/IQxA==";
       };
     };
     "core-util-is-1.0.2" = {
@@ -2713,13 +2713,13 @@ let
         sha512 = "xTYd4JVHpSCW+aqDof6w/MebaMVNTVYBZhbB/vi513xXdiPT92JMVCo0Jq8W2UZnzYRFeVbQiQ+I25l13JuKvA==";
       };
     };
-    "map-obj-4.2.0" = {
+    "map-obj-4.2.1" = {
       name = "map-obj";
       packageName = "map-obj";
-      version = "4.2.0";
+      version = "4.2.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/map-obj/-/map-obj-4.2.0.tgz";
-        sha512 = "NAq0fCmZYGz9UFEQyndp7sisrow4GroyGeKluyKC/chuITZsPyOyC1UJZPJlVFImhXdROIP5xqouRLThT3BbpQ==";
+        url = "https://registry.npmjs.org/map-obj/-/map-obj-4.2.1.tgz";
+        sha512 = "+WA2/1sPmDj1dlvvJmB5G6JKfY9dpn7EVBUL06+y6PoljPkh+6V1QihwxNkbcGxCRjt2b0F9K0taiCuo7MbdFQ==";
       };
     };
     "md5.js-1.3.5" = {
@@ -4018,13 +4018,13 @@ let
         sha512 = "HXXqVUq7+pcKeLqqZj6mHFUMvXtOJt1uoUx09pFW6011inTMxqI8BA8PM95myrIyyKwdnzjdFjLiE6KBPVtJIg==";
       };
     };
-    "ssri-6.0.1" = {
+    "ssri-6.0.2" = {
       name = "ssri";
       packageName = "ssri";
-      version = "6.0.1";
+      version = "6.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ssri/-/ssri-6.0.1.tgz";
-        sha512 = "3Wge10hNcT1Kur4PDFwEieXSCMCJs/7WvSACcrMYrNp+b8kDL1/0wJch5Ni2WrtwEa2IO8OsVfeKIciKCDx/QA==";
+        url = "https://registry.npmjs.org/ssri/-/ssri-6.0.2.tgz";
+        sha512 = "cepbSq/neFK7xB6A50KHN0xHDotYzq58wWCa5LeWqnPrHG8GzfEjO/4O8kpmcGW+oaxkvhEJCWgbgNk4/ZV93Q==";
       };
     };
     "stream-browserify-2.0.2" = {
@@ -4819,13 +4819,13 @@ let
         sha512 = "LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==";
       };
     };
-    "y18n-4.0.2" = {
+    "y18n-4.0.3" = {
       name = "y18n";
       packageName = "y18n";
-      version = "4.0.2";
+      version = "4.0.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/y18n/-/y18n-4.0.2.tgz";
-        sha512 = "DnBDwcL54b5xWMM/7RfFg4xs5amYxq2ot49aUfLjQSAracXkGvlZq0txzqr3Pa6Q0ayuCxBcwTzrPUScKY0O8w==";
+        url = "https://registry.npmjs.org/y18n/-/y18n-4.0.3.tgz";
+        sha512 = "JKhqTOwSrqNA1NY5lSztJ1GrBiUodLMmIZuLiDaMRJ+itFd+ABVE8XBjOvIWL+rSqNDC74LCSFmlb/U4UZ4hJQ==";
       };
     };
     "yallist-3.1.1" = {
@@ -5139,7 +5139,7 @@ in
       sources."color-name-1.1.3"
       sources."common-tags-1.8.0"
       sources."concat-map-0.0.1"
-      sources."core-js-3.10.0"
+      sources."core-js-3.10.1"
       sources."cross-spawn-6.0.5"
       sources."debug-4.3.2"
       sources."decamelize-1.2.0"
@@ -5226,7 +5226,7 @@ in
         ];
       })
       sources."make-plural-4.3.0"
-      sources."map-obj-4.2.0"
+      sources."map-obj-4.2.1"
       sources."messageformat-2.3.0"
       sources."messageformat-formatters-2.0.1"
       sources."messageformat-parser-4.1.3"
@@ -5323,7 +5323,7 @@ in
       })
       sources."wrappy-1.0.2"
       sources."write-1.0.3"
-      sources."y18n-4.0.2"
+      sources."y18n-4.0.3"
       (sources."yargs-13.3.2" // {
         dependencies = [
           sources."find-up-3.0.0"
@@ -5753,7 +5753,7 @@ in
       sources."shebang-regex-3.0.0"
       sources."signal-exit-3.0.3"
       sources."sshpk-1.16.1"
-      sources."ssri-6.0.1"
+      sources."ssri-6.0.2"
       sources."stream-each-1.2.3"
       sources."stream-shift-1.0.1"
       sources."string-width-3.1.0"
@@ -5777,7 +5777,7 @@ in
       sources."wrap-ansi-5.1.0"
       sources."wrappy-1.0.2"
       sources."xtend-4.0.2"
-      sources."y18n-4.0.2"
+      sources."y18n-4.0.3"
       sources."yallist-3.1.1"
       sources."zen-observable-0.8.15"
     ];
@@ -5965,10 +5965,10 @@ in
   spago = nodeEnv.buildNodePackage {
     name = "spago";
     packageName = "spago";
-    version = "0.19.2";
+    version = "0.20.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/spago/-/spago-0.19.2.tgz";
-      sha512 = "/u4ofPqWkK1JKRlDU8ZpuLVEOqOpD7/F9zIms4jaPxrXDNhddvhZkbYXrFF/Pe4ZpawysrkhQxhKKt+FJfOfuw==";
+      url = "https://registry.npmjs.org/spago/-/spago-0.20.0.tgz";
+      sha512 = "B0cvb1g5rjV80ovMT5MuNvUhfcXz0caEa3OPdydvYlvh6/WQZYa0S74or4PUPbRsiwhm9C1FCtfzzEk+yTKaHA==";
     };
     dependencies = [
       sources."ajv-6.12.6"
