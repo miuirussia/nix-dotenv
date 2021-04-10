@@ -7,5 +7,6 @@ vscodium.overrideAttrs (_: {
     mkdir -p "$out/Applications/VSCodium.app" $out/bin
     cp -r ./* "$out/Applications/VSCodium.app"
     ln -s "$out/Applications/VSCodium.app/Contents/Resources/app/bin/codium" $out/bin/codium
+    ln -s "$out/Applications/VSCodium.app/Contents/Resources/app/bin/codium" $out/bin/code
   '';
 })
