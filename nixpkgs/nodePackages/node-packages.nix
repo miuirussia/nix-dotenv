@@ -1390,13 +1390,13 @@ let
         sha512 = "S3Rz11i7c8AA5JPv7xAH+dOyq/Cu/VXHiHXBPOU1k/JAM5dXqQPt3qcrhpHSorXmrpu2g0gkIBVXAqCpzfoZIg==";
       };
     };
-    "eslint-7.23.0" = {
+    "eslint-7.24.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "7.23.0";
+      version = "7.24.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-7.23.0.tgz";
-        sha512 = "kqvNVbdkjzpFy0XOszNwjkKzZ+6TcwCQ/h+ozlcIWwaimBBuhlQ4nN6kbiM2L+OjDcznkTJxzYfRFH92sx4a0Q==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-7.24.0.tgz";
+        sha512 = "k9gaHeHiFmGCDQ2rEfvULlSLruz6tgfA8DEn+rY9/oYPFFTlz55mM/Q/Rij1b2Y42jwZiK3lXvNTw6w6TXzcKQ==";
       };
     };
     "eslint-scope-3.7.3" = {
@@ -1948,13 +1948,13 @@ let
         sha512 = "BWICuzzDvDoH54NHKCseDanAhE3CeDorgDL5MT6LMXXj2WCnd9UC2szdk4AWLfjdgNBCXLUanXYcpBBKOSWGwg==";
       };
     };
-    "globals-13.7.0" = {
+    "globals-13.8.0" = {
       name = "globals";
       packageName = "globals";
-      version = "13.7.0";
+      version = "13.8.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/globals/-/globals-13.7.0.tgz";
-        sha512 = "Aipsz6ZKRxa/xQkZhNg0qIWXT6x6rD46f6x/PCnBomlttdIyAPak4YD9jTmKpZ72uROSMU87qJtcgpgHaVchiA==";
+        url = "https://registry.npmjs.org/globals/-/globals-13.8.0.tgz";
+        sha512 = "rHtdA6+PDBIjeEvA91rpqzEvk/k3/i7EeNQiryiWuJH0Hw9cpyJMAt2jtbAwUaRdhD+573X4vWw6IcjKPasi9Q==";
       };
     };
     "globby-11.0.3" = {
@@ -2776,13 +2776,13 @@ let
         sha512 = "2fU3XDCanRqeOCkn7R5zW5VQHWf+T3hH65SzuqRvjatBK7r4uyFa5mEX+k6F9Bd04LVM5G4/BHBTUJsOdW7uyg==";
       };
     };
-    "micromatch-4.0.2" = {
+    "micromatch-4.0.3" = {
       name = "micromatch";
       packageName = "micromatch";
-      version = "4.0.2";
+      version = "4.0.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/micromatch/-/micromatch-4.0.2.tgz";
-        sha512 = "y7FpHSbMUMoyPbYUSzO6PaZ6FyRnQOpHuKwbo1G+Knck95XVU4QAiKdGEnj5wwoS7PlOgthX/09u5iFJ+aYf5Q==";
+        url = "https://registry.npmjs.org/micromatch/-/micromatch-4.0.3.tgz";
+        sha512 = "ueuSaP4i67F/FAUac9zzZ0Dz/5KeKDkITYIS/k4fps+9qeh1SkeH6gbljcqz97mNBOsaWZ+iv2UobMKK/yD+aw==";
       };
     };
     "miller-rabin-4.0.1" = {
@@ -3325,13 +3325,13 @@ let
         sha512 = "gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==";
       };
     };
-    "pbkdf2-3.1.1" = {
+    "pbkdf2-3.1.2" = {
       name = "pbkdf2";
       packageName = "pbkdf2";
-      version = "3.1.1";
+      version = "3.1.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/pbkdf2/-/pbkdf2-3.1.1.tgz";
-        sha512 = "4Ejy1OPxi9f2tt1rRV7Go7zmfDQ+ZectEQz3VGUQhgq62HtIRPDyG/JtnwIxs6x3uNMwo2V7q1fMvKjb+Tnpqg==";
+        url = "https://registry.npmjs.org/pbkdf2/-/pbkdf2-3.1.2.tgz";
+        sha512 = "iuh7L6jA7JEGu2WxDwtQP1ddOpaJNC4KlDEFfdQajSGgGPNi4OyDc2R7QnbY2bR9QjBVGwgvTdNJZoE7RaxUMA==";
       };
     };
     "performance-now-2.1.0" = {
@@ -4930,7 +4930,7 @@ in
       sources."emoji-regex-8.0.0"
       sources."enquirer-2.3.6"
       sources."escape-string-regexp-1.0.5"
-      sources."eslint-7.23.0"
+      sources."eslint-7.24.0"
       sources."eslint-scope-5.1.1"
       (sources."eslint-utils-2.1.0" // {
         dependencies = [
@@ -4968,7 +4968,7 @@ in
       sources."get-intrinsic-1.1.1"
       sources."glob-7.1.6"
       sources."glob-parent-5.1.2"
-      (sources."globals-13.7.0" // {
+      (sources."globals-13.8.0" // {
         dependencies = [
           sources."type-fest-0.20.2"
         ];
@@ -5525,7 +5525,7 @@ in
       sources."path-is-absolute-1.0.1"
       sources."path-parse-1.0.6"
       sources."path-platform-0.11.15"
-      sources."pbkdf2-3.1.1"
+      sources."pbkdf2-3.1.2"
       sources."process-0.11.10"
       sources."process-nextick-args-2.0.1"
       (sources."public-encrypt-4.0.3" // {
@@ -5903,7 +5903,7 @@ in
       sources."locate-path-5.0.0"
       sources."lodash-4.17.21"
       sources."merge2-1.4.1"
-      sources."micromatch-4.0.2"
+      sources."micromatch-4.0.3"
       sources."minimatch-3.0.4"
       sources."once-1.4.0"
       sources."p-limit-2.3.0"
