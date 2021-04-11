@@ -2776,13 +2776,13 @@ let
         sha512 = "2fU3XDCanRqeOCkn7R5zW5VQHWf+T3hH65SzuqRvjatBK7r4uyFa5mEX+k6F9Bd04LVM5G4/BHBTUJsOdW7uyg==";
       };
     };
-    "micromatch-4.0.3" = {
+    "micromatch-4.0.4" = {
       name = "micromatch";
       packageName = "micromatch";
-      version = "4.0.3";
+      version = "4.0.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/micromatch/-/micromatch-4.0.3.tgz";
-        sha512 = "ueuSaP4i67F/FAUac9zzZ0Dz/5KeKDkITYIS/k4fps+9qeh1SkeH6gbljcqz97mNBOsaWZ+iv2UobMKK/yD+aw==";
+        url = "https://registry.npmjs.org/micromatch/-/micromatch-4.0.4.tgz";
+        sha512 = "pRmzw/XUcwXGpD9aI9q/0XOwLNygjETJ8y0ao0wdqprrzDa4YnxLcz7fQRZr8voh8V10kGhABbNcHVk5wHgWwg==";
       };
     };
     "miller-rabin-4.0.1" = {
@@ -3343,13 +3343,13 @@ let
         sha1 = "6309f4e0e5fa913ec1c69307ae364b4b377c9e7b";
       };
     };
-    "picomatch-2.2.2" = {
+    "picomatch-2.2.3" = {
       name = "picomatch";
       packageName = "picomatch";
-      version = "2.2.2";
+      version = "2.2.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/picomatch/-/picomatch-2.2.2.tgz";
-        sha512 = "q0M/9eZHzmr0AulXyPwNfZjtwZ/RBZlbN3K3CErVrk50T2ASYI7Bye0EvekFY3IP1Nt2DHu0re+V2ZHIpMkuWg==";
+        url = "https://registry.npmjs.org/picomatch/-/picomatch-2.2.3.tgz";
+        sha512 = "KpELjfwcCDUb9PeigTs2mBJzXUPzAuP2oPcA989He8Rte0+YUAjw1JVedDhuTKPkHjSYzMN3npC9luThGYEKdg==";
       };
     };
     "prelude-ls-1.1.2" = {
@@ -5903,7 +5903,7 @@ in
       sources."locate-path-5.0.0"
       sources."lodash-4.17.21"
       sources."merge2-1.4.1"
-      sources."micromatch-4.0.3"
+      sources."micromatch-4.0.4"
       sources."minimatch-3.0.4"
       sources."once-1.4.0"
       sources."p-limit-2.3.0"
@@ -5913,7 +5913,7 @@ in
       sources."path-exists-4.0.0"
       sources."path-is-absolute-1.0.1"
       sources."path-type-4.0.0"
-      sources."picomatch-2.2.2"
+      sources."picomatch-2.2.3"
       sources."queue-microtask-1.2.3"
       sources."reusify-1.0.4"
       sources."rimraf-3.0.2"
