@@ -74,14 +74,14 @@
   {
     "name": "rust-analyzer",
     "publisher": "matklad",
-    "sha256": "0awsckzyvrvpbs67d278bijx9fsbyrqhsi2l8gp4wjja3gh913ca",
-    "version": "0.2.546"
+    "sha256": "0pd1bip8b391hw6pmb7ic4hzvf7nh6g5m6aw7ncv8kpxcnrx0ngn",
+    "version": "0.2.554"
   },
   {
     "name": "vscode-docker",
     "publisher": "ms-azuretools",
-    "sha256": "141800jcxslqa5nbwcdj4mwnysa42mxligvc073gf225ns984vfr",
-    "version": "1.11.0"
+    "sha256": "02ivhv7lbh18jrwqpyjijrzv6c78x9zlrsg7cvrcag6hpnd2k6pf",
+    "version": "1.12.0"
   },
   {
     "name": "remote-containers",
