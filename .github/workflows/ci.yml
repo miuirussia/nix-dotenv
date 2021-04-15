@@ -184,6 +184,7 @@ jobs:
         cp -f ./nix/user{.example,}.nix
         export XDG_CONFIG_HOME=$(pwd)
         home-manager -f ./nix/home.nix build
+        rm -f result
       working-directory: dotfiles
     - name: Upload cache
       run: |
