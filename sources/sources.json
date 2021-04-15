@@ -11,40 +11,28 @@
     "url": "https://github.com/JetBrains/JetBrainsMono/archive/acab62a2caefaa2d0e258bbcbfc23fcd969e7eec.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
-  "asyncomplete-buffer.vim": {
+  "deoplete-nvim": {
     "branch": "master",
-    "description": "provides buffer autocomplete for asyncomplete.vim",
-    "homepage": null,
-    "owner": "prabirshrestha",
-    "repo": "asyncomplete-buffer.vim",
-    "rev": "018bcf0f712ce0fde3f1f2eaabd7004fccb2d34a",
-    "sha256": "0ixc37gzgsf93sl52fa3ywz6bw7cn1406fgimmy5rz0d62b0y8yi",
-    "type": "tarball",
-    "url": "https://github.com/prabirshrestha/asyncomplete-buffer.vim/archive/018bcf0f712ce0fde3f1f2eaabd7004fccb2d34a.tar.gz",
-    "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-  },
-  "asyncomplete-lsp.vim": {
-    "branch": "master",
-    "description": null,
-    "homepage": null,
-    "owner": "prabirshrestha",
-    "repo": "asyncomplete-lsp.vim",
-    "rev": "684c34453db9dcbed5dbf4769aaa6521530a23e0",
-    "sha256": "0vqx0d6iks7c0liplh3x8vgvffpljfs1j3g2yap7as6wyvq621rq",
-    "type": "tarball",
-    "url": "https://github.com/prabirshrestha/asyncomplete-lsp.vim/archive/684c34453db9dcbed5dbf4769aaa6521530a23e0.tar.gz",
-    "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-  },
-  "asyncomplete.vim": {
-    "branch": "master",
-    "description": "async completion in pure vim script for vim8 and neovim",
+    "description": ":stars: Dark powered asynchronous completion framework for neovim/Vim8",
     "homepage": "",
-    "owner": "prabirshrestha",
-    "repo": "asyncomplete.vim",
-    "rev": "8e018dee9c5e2205288bda01be0de196b04b7cf2",
-    "sha256": "1ghv6zp3qajd4n9qv3mnxqhczi77qmds2b2iicbl252slvldr604",
+    "owner": "Shougo",
+    "repo": "deoplete.nvim",
+    "rev": "20d181d84c108ea2b13ce227e9dd5ae13df0e13e",
+    "sha256": "058bb2pznmldk8936d69ynqf79apiv0j39sva68qpqmsixnljnz9",
     "type": "tarball",
-    "url": "https://github.com/prabirshrestha/asyncomplete.vim/archive/8e018dee9c5e2205288bda01be0de196b04b7cf2.tar.gz",
+    "url": "https://github.com/Shougo/deoplete.nvim/archive/20d181d84c108ea2b13ce227e9dd5ae13df0e13e.tar.gz",
+    "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+  },
+  "deoplete-vim-lsp": {
+    "branch": "master",
+    "description": "deoplete source for vim-lsp",
+    "homepage": null,
+    "owner": "lighttiger2505",
+    "repo": "deoplete-vim-lsp",
+    "rev": "af5432f1e063fd4c3a5879aa8c2afe82c17dc1c9",
+    "sha256": "1s6fw6vkpl0yiya22g13v4i14w3n1ds2zr8zdlwpkk44bf0225px",
+    "type": "tarball",
+    "url": "https://github.com/lighttiger2505/deoplete-vim-lsp/archive/af5432f1e063fd4c3a5879aa8c2afe82c17dc1c9.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "dhall-vim": {

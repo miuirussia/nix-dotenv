@@ -109,24 +109,19 @@
     src = sources.vim-lsp;
   };
 
-  asyncomplete = pkgs.vimUtils.buildVimPlugin {
-    name = "asyncomplete.vim";
-    src = sources."asyncomplete.vim";
-  };
-
-  asyncomplete-lsp = pkgs.vimUtils.buildVimPlugin {
-    name = "asyncomplete-lsp.vim";
-    src = sources."asyncomplete-lsp.vim";
-  };
-
-  asyncomplete-buffer = pkgs.vimUtils.buildVimPlugin {
-    name = "asyncomplete-buffer.vim";
-    src = sources."asyncomplete-buffer.vim";
-  };
-
   vista-vim = pkgs.vimUtils.buildVimPlugin {
     name = "vista-vim";
     src = sources.vista-vim;
+  };
+
+  deoplete-nvim = pkgs.vimUtils.buildVimPlugin {
+    name = "deoplete-nvim";
+    src = sources.deoplete-nvim;
+  };
+
+  deoplete-vim-lsp = pkgs.vimUtils.buildVimPlugin {
+    name = "deoplete-vim-lsp";
+    src = sources.deoplete-vim-lsp;
   };
 
   vim-json5 = pkgs.vimUtils.buildVimPlugin {
