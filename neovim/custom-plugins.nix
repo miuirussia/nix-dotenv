@@ -1,7 +1,10 @@
 { pkgs, sources, ... }:
 
-{
-  vimspector = pkgs.vimUtils.buildVimPlugin {
+let
+  buildVimPluginFrom2Nix = pkgs.vimUtils.buildVimPluginFrom2Nix;
+  buildVimPlugin = pkgs.vimUtils.buildVimPlugin;
+in {
+  vimspector = buildVimPlugin {
     name = "vimspector";
     src = sources.vimspector;
 
@@ -14,117 +17,112 @@
     '';
   };
 
-  intero-neovim = pkgs.vimUtils.buildVimPlugin {
-    name = "intero-neovim";
-    src = sources.intero-neovim;
-  };
-
-  purescript-vim = pkgs.vimUtils.buildVimPlugin {
+  purescript-vim = buildVimPluginFrom2Nix {
     name = "purescript-vim";
     src = sources.purescript-vim;
   };
 
-  vim-styled-components = pkgs.vimUtils.buildVimPlugin {
+  vim-styled-components = buildVimPluginFrom2Nix {
     name = "vim-styled-components";
     src = sources.vim-styled-components;
   };
 
-  vim-rust = pkgs.vimUtils.buildVimPlugin {
+  vim-rust = buildVimPluginFrom2Nix {
     name = "vim-rust";
     src = sources."rust.vim";
   };
 
-  vim-sandwich = pkgs.vimUtils.buildVimPlugin {
+  vim-sandwich = buildVimPluginFrom2Nix {
     name = "vim-sandwich";
     src = sources.vim-sandwich;
   };
 
-  vim-javascript = pkgs.vimUtils.buildVimPlugin {
+  vim-javascript = buildVimPluginFrom2Nix {
     name = "vim-javascript";
     src = sources.vim-javascript;
   };
 
-  vim-jsx = pkgs.vimUtils.buildVimPlugin {
+  vim-jsx = buildVimPluginFrom2Nix {
     name = "vim-jsx";
     src = sources.vim-jsx;
   };
 
-  nginx-vim = pkgs.vimUtils.buildVimPlugin {
+  nginx-vim = buildVimPluginFrom2Nix {
     name = "nginx-vim";
     src = sources.nginx-vim;
   };
 
-  vim-toml = pkgs.vimUtils.buildVimPlugin {
+  vim-toml = buildVimPluginFrom2Nix {
     name = "vim-toml";
     src = sources.vim-toml;
   };
 
-  dhall-vim = pkgs.vimUtils.buildVimPlugin {
+  dhall-vim = buildVimPluginFrom2Nix {
     name = "dhall-vim";
     src = sources.dhall-vim;
   };
 
-  tabular = pkgs.vimUtils.buildVimPlugin {
+  tabular = buildVimPluginFrom2Nix {
     name = "tabular";
     src = sources.vim-tabular;
   };
 
-  postcss-syntax-vim = pkgs.vimUtils.buildVimPlugin {
+  postcss-syntax-vim = buildVimPluginFrom2Nix {
     name = "postcss-syntax-vim";
     src = sources.postcss-syntax-vim;
   };
 
-  vim-languages = pkgs.vimUtils.buildVimPlugin {
+  vim-languages = buildVimPluginFrom2Nix {
     name = "vim-languages";
     src = sources.vim-languages;
   };
 
-  vim-xkbswitch = pkgs.vimUtils.buildVimPlugin {
+  vim-xkbswitch = buildVimPluginFrom2Nix {
     name = "vim-xkbswitch";
     src = sources.vim-xkbswitch;
   };
 
-  vim-rooter = pkgs.vimUtils.buildVimPlugin {
+  vim-rooter = buildVimPluginFrom2Nix {
     name = "vim-rooter";
     src = sources.vim-rooter;
   };
 
-  vim-airline = pkgs.vimUtils.buildVimPlugin {
+  vim-airline = buildVimPluginFrom2Nix {
     name = "vim-airline";
     src = sources.vim-airline;
   };
 
-  vim-js = pkgs.vimUtils.buildVimPlugin {
+  vim-js = buildVimPluginFrom2Nix {
     name = "vim-js";
     src = sources.vim-js;
   };
 
-  vim-jsx-pretty = pkgs.vimUtils.buildVimPlugin {
+  vim-jsx-pretty = buildVimPluginFrom2Nix {
     name = "vim-jsx-pretty";
     src = sources.vim-jsx-pretty;
   };
 
-  vim-lsp = pkgs.vimUtils.buildVimPlugin {
+  vim-lsp = buildVimPluginFrom2Nix {
     name = "vim-lsp";
     src = sources.vim-lsp;
   };
 
-  vista-vim = pkgs.vimUtils.buildVimPlugin {
+  vista-vim = buildVimPluginFrom2Nix {
     name = "vista-vim";
     src = sources.vista-vim;
   };
 
-  deoplete-nvim = pkgs.vimUtils.buildVimPlugin {
+  deoplete-nvim = buildVimPluginFrom2Nix {
     name = "deoplete-nvim";
     src = sources.deoplete-nvim;
   };
 
-  deoplete-vim-lsp = pkgs.vimUtils.buildVimPlugin {
+  deoplete-vim-lsp = buildVimPluginFrom2Nix {
     name = "deoplete-vim-lsp";
     src = sources.deoplete-vim-lsp;
   };
 
-  vim-json5 = pkgs.vimUtils.buildVimPlugin {
+  vim-json5 = buildVimPluginFrom2Nix {
     name = "json5.vim";
     src = sources."json5.vim";
   };
