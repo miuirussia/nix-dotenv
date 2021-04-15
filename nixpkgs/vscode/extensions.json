@@ -50,8 +50,8 @@
   {
     "name": "gitlens",
     "publisher": "eamodio",
-    "sha256": "05gbsx8mvppwnng0qk9pl3kbmk9krkfqv1qljk7xxr837aip3vw2",
-    "version": "11.4.0"
+    "sha256": "1gqkcv210h595rxwqsgwywjg2c2xnxdjlpqmgg091hd36g7jhcrs",
+    "version": "11.4.1"
   },
   {
     "name": "haskell",
@@ -92,14 +92,14 @@
   {
     "name": "remote-ssh",
     "publisher": "ms-vscode-remote",
-    "sha256": "0xg6p1x479lmm1chn69hd7b43p708hb9p7c4aqbmqf0d96xgsa9r",
-    "version": "0.65.1"
+    "sha256": "0wi0y3kc2kb4616sz2522598sd342k1k7g94a9hiawx2jci0vm9q",
+    "version": "0.65.3"
   },
   {
     "name": "remote-ssh-edit",
     "publisher": "ms-vscode-remote",
-    "sha256": "0ajbn3iyhxajj7v6j5sh74j9bm6qh2sx0964vlillbiwr5i845f0",
-    "version": "0.65.1"
+    "sha256": "0a9y2bd2xvfykr6ixalhyxrf0kcc6xizdzqqp30n5rh3cniy0zsr",
+    "version": "0.65.3"
   },
   {
     "name": "debugger-for-chrome",

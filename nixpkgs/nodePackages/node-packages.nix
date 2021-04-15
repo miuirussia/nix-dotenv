@@ -4054,13 +4054,13 @@ let
         sha512 = "vlMC2f8I2u/bZGqkdfLQW/13Zihpej/7PmSiMQsbYddxuTsJp8vRe2x2FvVExZg7FaOds43ROAuFJwPR4MTZLw==";
       };
     };
-    "stream-http-3.1.1" = {
+    "stream-http-3.2.0" = {
       name = "stream-http";
       packageName = "stream-http";
-      version = "3.1.1";
+      version = "3.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/stream-http/-/stream-http-3.1.1.tgz";
-        sha512 = "S7OqaYu0EkFpgeGFb/NPOoPLxFko7TPqtEeFg5DXPB4v/KETHG0Ln6fRFrNezoelpaDKmycEmmZ81cC9DAwgYg==";
+        url = "https://registry.npmjs.org/stream-http/-/stream-http-3.2.0.tgz";
+        sha512 = "Oq1bLqisTyK3TSCXpPbT4sdeYNdmyZJv1LxpEm2vu1ZhK89kSE5YXwZc3cWk0MagGaKriBh9mCFbVGtO+vY29A==";
       };
     };
     "stream-shift-1.0.1" = {
@@ -4252,13 +4252,13 @@ let
         sha512 = "wmEc8m4fjnob4gt5riFRtTu/6+4rSe12TpAELNSqHMfF3IqnA+CH37USM6/YR3qRZv7e56kAEAtd6nKZaxe0Ug==";
       };
     };
-    "table-6.0.9" = {
+    "table-6.1.0" = {
       name = "table";
       packageName = "table";
-      version = "6.0.9";
+      version = "6.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/table/-/table-6.0.9.tgz";
-        sha512 = "F3cLs9a3hL1Z7N4+EkSscsel3z55XT950AvB05bwayrNg5T1/gykXtigioTAjbltvbMSJvvhFCbnf6mX+ntnJQ==";
+        url = "https://registry.npmjs.org/table/-/table-6.1.0.tgz";
+        sha512 = "T4G5KMmqIk6X87gLKWyU5exPpTjLjY5KyrFWaIjv3SvgaIUGXV7UEzGEnZJdTA38/yUS6f9PlKezQ0bYXG3iIQ==";
       };
     };
     "tar-4.4.13" = {
@@ -5029,7 +5029,7 @@ in
       sources."strip-ansi-6.0.0"
       sources."strip-json-comments-3.1.1"
       sources."supports-color-8.1.1"
-      (sources."table-6.0.9" // {
+      (sources."table-6.1.0" // {
         dependencies = [
           sources."ajv-8.1.0"
           sources."json-schema-traverse-1.0.0"
@@ -5562,7 +5562,7 @@ in
       sources."sourcemap-codec-1.4.8"
       sources."stream-browserify-2.0.2"
       sources."stream-combiner2-1.1.1"
-      (sources."stream-http-3.1.1" // {
+      (sources."stream-http-3.2.0" // {
         dependencies = [
           sources."readable-stream-3.6.0"
         ];
