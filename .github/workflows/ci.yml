@@ -186,6 +186,8 @@ jobs:
         home-manager -f ./nix/home.nix build
         rm -f result
       working-directory: dotfiles
+      env:
+        NIX_CURL_FLAGS: "--header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}'"
     - name: Upload cache
       run: |
         comm -13 <(sort /tmp/store-path-pre-build) <(nix path-info --all | grep -v '\.drv$' | sort) | xargs -P8 upload-nix
