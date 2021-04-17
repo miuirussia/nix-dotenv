@@ -86,8 +86,8 @@
   {
     "name": "remote-containers",
     "publisher": "ms-vscode-remote",
-    "sha256": "1i8zqyw19n48wm6jv8g0kjjrg9r3970xq9dw790hxwiymh50hwdh",
-    "version": "0.167.0"
+    "sha256": "1m7sd4yd7p67q95n5qnnkpcmiqk6wxmbbhm8y6m2ingfhd9776vb",
+    "version": "0.168.0"
   },
   {
     "name": "remote-ssh",
@@ -128,8 +128,8 @@
   {
     "name": "crates",
     "publisher": "serayuzgur",
-    "sha256": "1icypigrjcp8han3d8gc57kk8ls847m51wfsk52wgaq88vj6907l",
-    "version": "0.5.8"
+    "sha256": "0l26pyvw7n3bszf97yx6qps72acq112akg3q4jq5mvlibng1nwk0",
+    "version": "0.5.9"
   },
   {
     "name": "vscode-nginx",
