@@ -184,19 +184,19 @@ jobs:
         cp -f ./nix/user{.example,}.nix
         export XDG_CONFIG_HOME=$(pwd)
         home-manager -f ./nix/home.nix build
-        rm -f result
       working-directory: dotfiles
       env:
         NIX_CURL_FLAGS: "--header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}'"
     - name: Upload cache
       run: |
-        comm -13 <(sort /tmp/store-path-pre-build) <(nix path-info --all | grep -v '\.drv$' | sort) | xargs -P8 upload-nix
+        all-nix-deps $(readlink result) | xargs -P8 upload-nix
+        rm -f result
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         NIX_UPLOAD_STORE_URL: 's3://nix-cache?endpoint=s3.kdevlab.com'
         NIX_UPLOAD_SECRET_KEY: ${{ secrets.CACHE_PRIVATE_KEY }}
-      working-directory: environment
+      working-directory: dotfiles
     - name: Commit updated files
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
