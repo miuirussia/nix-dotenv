@@ -97,9 +97,6 @@ in
             vista-vim
 
             vim-lsp
-            asyncomplete
-            asyncomplete-lsp
-            asyncomplete-buffer
 
             vscode-custom
 
