@@ -200,6 +200,7 @@ jobs:
     - name: Get commit message
       run: |
         echo ::set-env name=commitmsg::$(git log --format=%B -n 1 ${{ github.event.after }})
+      working-directory: environment
     - name: Show commit message
       run : echo $commitmsg
     - name: Commit updated files
