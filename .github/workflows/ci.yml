@@ -199,14 +199,14 @@ jobs:
       working-directory: dotfiles
     - name: Get commit message
       run: |
-        echo ::set-env name=commitmsg::$(git log --format=%B -n 1 ${{ github.event.after }})
+        echo "commitmsg=$(git log --format=%B -n 1 ${{ github.event.after }})" >> $GITHUB_ENV
       working-directory: environment
     - name: Show commit message
       run : echo $commitmsg
     - name: Commit updated files
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        commit_message: $commitmsg
+        commit_message: ${{ env.commitmsg }}
         repository: dotfiles
     - name: Notify in telegram
       if: cancelled() == false
