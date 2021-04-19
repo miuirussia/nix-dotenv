@@ -197,10 +197,15 @@ jobs:
         NIX_UPLOAD_STORE_URL: 's3://nix-cache?endpoint=s3.kdevlab.com'
         NIX_UPLOAD_SECRET_KEY: ${{ secrets.CACHE_PRIVATE_KEY }}
       working-directory: dotfiles
+    - name: Get commit message
+      run: |
+        echo ::set-env name=commitmsg::$(git log --format=%B -n 1 ${{ github.event.after }})
+    - name: Show commit message
+      run : echo $commitmsg
     - name: Commit updated files
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        commit_message: Automatic sources update – ${{ steps.current-time.outputs.formattedTime }}
+        commit_message: $commitmsg
         repository: dotfiles
     - name: Notify in telegram
       if: cancelled() == false
