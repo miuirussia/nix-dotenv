@@ -4252,13 +4252,13 @@ let
         sha512 = "wmEc8m4fjnob4gt5riFRtTu/6+4rSe12TpAELNSqHMfF3IqnA+CH37USM6/YR3qRZv7e56kAEAtd6nKZaxe0Ug==";
       };
     };
-    "table-6.1.0" = {
+    "table-6.2.0" = {
       name = "table";
       packageName = "table";
-      version = "6.1.0";
+      version = "6.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/table/-/table-6.1.0.tgz";
-        sha512 = "T4G5KMmqIk6X87gLKWyU5exPpTjLjY5KyrFWaIjv3SvgaIUGXV7UEzGEnZJdTA38/yUS6f9PlKezQ0bYXG3iIQ==";
+        url = "https://registry.npmjs.org/table/-/table-6.2.0.tgz";
+        sha512 = "WMBBLuauiLXJjth35K4vOnd/xkaZ/dxEcyoZ+YhxSwfxFqvh+av06+oRqIwbR14m1lENB1egSWOFv/bNEt2D8A==";
       };
     };
     "tar-4.4.13" = {
@@ -5029,7 +5029,7 @@ in
       sources."strip-ansi-6.0.0"
       sources."strip-json-comments-3.1.1"
       sources."supports-color-8.1.1"
-      (sources."table-6.1.0" // {
+      (sources."table-6.2.0" // {
         dependencies = [
           sources."ajv-8.1.0"
           sources."json-schema-traverse-1.0.0"
@@ -5614,10 +5614,10 @@ in
   purescript = nodeEnv.buildNodePackage {
     name = "purescript";
     packageName = "purescript";
-    version = "0.14.0";
+    version = "0.14.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/purescript/-/purescript-0.14.0.tgz";
-      sha512 = "iTA1k8mwxHqrJp/K296g6omVfve5RCjnB5D6Up93PVtZdP66mCIqlOYC4hrLBHg2hgkk27xePDt5NUXKvH4ApQ==";
+      url = "https://registry.npmjs.org/purescript/-/purescript-0.14.1.tgz";
+      sha512 = "dh87XeDP/JGe/3DKBMglkRuIRfGLGkL8beuLIl9KemzckgyuD+j7VK15eVb9n5Exp3DIr6SNEuGG4FjuQQ7Rpg==";
     };
     dependencies = [
       sources."ajv-6.12.6"
