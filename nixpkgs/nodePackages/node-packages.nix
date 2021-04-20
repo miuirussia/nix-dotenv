@@ -1021,13 +1021,13 @@ let
         sha512 = "f2domd9fsVDFtaFcbaRZuYXwtdmnzqbADSwhSWYxYB/Q8zsdUUFMXVRwXGDMWmbEzAn1kdRrtI1T/KTFOL4X2A==";
       };
     };
-    "core-js-3.10.1" = {
+    "core-js-3.10.2" = {
       name = "core-js";
       packageName = "core-js";
-      version = "3.10.1";
+      version = "3.10.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/core-js/-/core-js-3.10.1.tgz";
-        sha512 = "pwCxEXnj27XG47mu7SXAwhLP3L5CrlvCB91ANUkIz40P27kUcvNfSdvyZJ9CLHiVoKSp+TTChMQMSKQEH/IQxA==";
+        url = "https://registry.npmjs.org/core-js/-/core-js-3.10.2.tgz";
+        sha512 = "W+2oVYeNghuBr3yTzZFQ5rfmjZtYB/Ubg87R5YOmlGrIb+Uw9f7qjUbhsj+/EkXhcV7eOD3jiM4+sgraX3FZUw==";
       };
     };
     "core-util-is-1.0.2" = {
@@ -4252,13 +4252,13 @@ let
         sha512 = "wmEc8m4fjnob4gt5riFRtTu/6+4rSe12TpAELNSqHMfF3IqnA+CH37USM6/YR3qRZv7e56kAEAtd6nKZaxe0Ug==";
       };
     };
-    "table-6.2.0" = {
+    "table-6.3.0" = {
       name = "table";
       packageName = "table";
-      version = "6.2.0";
+      version = "6.3.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/table/-/table-6.2.0.tgz";
-        sha512 = "WMBBLuauiLXJjth35K4vOnd/xkaZ/dxEcyoZ+YhxSwfxFqvh+av06+oRqIwbR14m1lENB1egSWOFv/bNEt2D8A==";
+        url = "https://registry.npmjs.org/table/-/table-6.3.0.tgz";
+        sha512 = "gM9kB7aNIuSagW89Fh+SdL49uhKnVSORxMcV72u/dfptFdqExInNn5M21wgq/Uf5UdJpsboFhNe/0SoNKjaxzg==";
       };
     };
     "tar-4.4.13" = {
@@ -5029,7 +5029,7 @@ in
       sources."strip-ansi-6.0.0"
       sources."strip-json-comments-3.1.1"
       sources."supports-color-8.1.1"
-      (sources."table-6.2.0" // {
+      (sources."table-6.3.0" // {
         dependencies = [
           sources."ajv-8.1.0"
           sources."json-schema-traverse-1.0.0"
@@ -5139,7 +5139,7 @@ in
       sources."color-name-1.1.3"
       sources."common-tags-1.8.0"
       sources."concat-map-0.0.1"
-      sources."core-js-3.10.1"
+      sources."core-js-3.10.2"
       sources."cross-spawn-6.0.5"
       sources."debug-4.3.2"
       sources."decamelize-1.2.0"
