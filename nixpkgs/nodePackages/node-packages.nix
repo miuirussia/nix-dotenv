@@ -4252,13 +4252,13 @@ let
         sha512 = "wmEc8m4fjnob4gt5riFRtTu/6+4rSe12TpAELNSqHMfF3IqnA+CH37USM6/YR3qRZv7e56kAEAtd6nKZaxe0Ug==";
       };
     };
-    "table-6.3.0" = {
+    "table-6.3.2" = {
       name = "table";
       packageName = "table";
-      version = "6.3.0";
+      version = "6.3.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/table/-/table-6.3.0.tgz";
-        sha512 = "gM9kB7aNIuSagW89Fh+SdL49uhKnVSORxMcV72u/dfptFdqExInNn5M21wgq/Uf5UdJpsboFhNe/0SoNKjaxzg==";
+        url = "https://registry.npmjs.org/table/-/table-6.3.2.tgz";
+        sha512 = "I9/Ca6Huf2oxFag7crD0DhA+arIdfLtWunSn0NIXSzjtUlDgIBGVZY7SsMkNPNT3Psd/z4gza0nuEpmra9eRbg==";
       };
     };
     "tar-4.4.13" = {
@@ -5029,7 +5029,7 @@ in
       sources."strip-ansi-6.0.0"
       sources."strip-json-comments-3.1.1"
       sources."supports-color-8.1.1"
-      (sources."table-6.3.0" // {
+      (sources."table-6.3.2" // {
         dependencies = [
           sources."ajv-8.1.0"
           sources."json-schema-traverse-1.0.0"
@@ -5965,10 +5965,10 @@ in
   spago = nodeEnv.buildNodePackage {
     name = "spago";
     packageName = "spago";
-    version = "0.20.0";
+    version = "0.20.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/spago/-/spago-0.20.0.tgz";
-      sha512 = "B0cvb1g5rjV80ovMT5MuNvUhfcXz0caEa3OPdydvYlvh6/WQZYa0S74or4PUPbRsiwhm9C1FCtfzzEk+yTKaHA==";
+      url = "https://registry.npmjs.org/spago/-/spago-0.20.1.tgz";
+      sha512 = "g5ygBk61HKCyD9ILqJV+syYqDhgF7zN22CxJpm6EdA4FXA63Onh6QrZ4iaDcs/mGhCBtYqTb7PBKxAaF0wNjqw==";
     };
     dependencies = [
       sources."ajv-6.12.6"
