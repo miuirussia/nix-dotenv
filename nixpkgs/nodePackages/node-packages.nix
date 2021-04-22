@@ -787,13 +787,13 @@ let
         sha512 = "Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==";
       };
     };
-    "chalk-4.1.0" = {
+    "chalk-4.1.1" = {
       name = "chalk";
       packageName = "chalk";
-      version = "4.1.0";
+      version = "4.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/chalk/-/chalk-4.1.0.tgz";
-        sha512 = "qwx12AxXe2Q5xQ43Ac//I6v5aXTipYrSESdOgzrN+9XjgEpyjpKuvSGaN4qE93f7TQTlerQQ8S+EQ0EyDoVL1A==";
+        url = "https://registry.npmjs.org/chalk/-/chalk-4.1.1.tgz";
+        sha512 = "diHzdDKxcU+bAsUboHLPEDQiw0qEe0qd7SYUn3HgcFlWgbDcfLGswOHYeGrHKzG9z6UYf01d9VFMfZxPM1xZSg==";
       };
     };
     "chardet-0.7.0" = {
@@ -4911,7 +4911,7 @@ in
       sources."brace-expansion-1.1.11"
       sources."call-bind-1.0.2"
       sources."callsites-3.1.0"
-      (sources."chalk-4.1.0" // {
+      (sources."chalk-4.1.1" // {
         dependencies = [
           sources."ansi-styles-4.3.0"
           sources."color-convert-2.0.1"
@@ -5067,7 +5067,7 @@ in
       sources."@medv/blessed-2.0.1"
       sources."ansi-regex-5.0.0"
       sources."ansi-styles-4.3.0"
-      sources."chalk-4.1.0"
+      sources."chalk-4.1.1"
       sources."color-convert-2.0.1"
       sources."color-name-1.1.4"
       sources."emoji-regex-8.0.0"
