@@ -60,15 +60,15 @@
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "flow": {
-    "branch": "master",
+    "branch": "4f40f407d5c347142f10e65556eed22a3e98929f",
     "description": "Adds static typing to JavaScript to improve developer productivity and code quality.",
     "homepage": "https://flow.org/",
     "owner": "facebook",
     "repo": "flow",
-    "rev": "bf8f42b44f2b137aabadf9e96cdf4401ef89c0e8",
-    "sha256": "18fdfs73sn979xm5q82cna6sdmczy40w0aw3q0hzr3alp4s69z30",
+    "rev": "4f40f407d5c347142f10e65556eed22a3e98929f",
+    "sha256": "1dyzn32a481hv7p01qj1282ws8s7mjxwgdwgirzqhzcaq09454zy",
     "type": "tarball",
-    "url": "https://github.com/facebook/flow/archive/bf8f42b44f2b137aabadf9e96cdf4401ef89c0e8.tar.gz",
+    "url": "https://github.com/facebook/flow/archive/4f40f407d5c347142f10e65556eed22a3e98929f.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "haskell.nix": {

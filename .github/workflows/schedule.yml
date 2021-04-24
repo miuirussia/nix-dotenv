@@ -30,6 +30,7 @@ jobs:
       - name: Update dependencies
         run: |
           niv -s sources/sources.json update
+          niv -s sources/sources.json update flow -b $(curl "https://api.github.com/repos/facebook/flow/tags" | jq -r ".[0].commit.sha")
           $GITHUB_WORKSPACE/fix-sha256.sh hls-stable
           $GITHUB_WORKSPACE/fix-sha256.sh hls-unstable
           cd $GITHUB_WORKSPACE/nixpkgs/vscode && ./update-vscode-plugins.py
