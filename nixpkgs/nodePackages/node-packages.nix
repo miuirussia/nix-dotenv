@@ -1381,13 +1381,13 @@ let
         sha512 = "S3Rz11i7c8AA5JPv7xAH+dOyq/Cu/VXHiHXBPOU1k/JAM5dXqQPt3qcrhpHSorXmrpu2g0gkIBVXAqCpzfoZIg==";
       };
     };
-    "eslint-7.24.0" = {
+    "eslint-7.25.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "7.24.0";
+      version = "7.25.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-7.24.0.tgz";
-        sha512 = "k9gaHeHiFmGCDQ2rEfvULlSLruz6tgfA8DEn+rY9/oYPFFTlz55mM/Q/Rij1b2Y42jwZiK3lXvNTw6w6TXzcKQ==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-7.25.0.tgz";
+        sha512 = "TVpSovpvCNpLURIScDRB6g5CYu/ZFq9GfX2hLNIV4dSBKxIWojeDODvYl3t0k0VtMxYeR8OXPCFE5+oHMlGfhw==";
       };
     };
     "eslint-scope-3.7.3" = {
@@ -4198,13 +4198,13 @@ let
         sha512 = "wmEc8m4fjnob4gt5riFRtTu/6+4rSe12TpAELNSqHMfF3IqnA+CH37USM6/YR3qRZv7e56kAEAtd6nKZaxe0Ug==";
       };
     };
-    "table-6.3.4" = {
+    "table-6.5.1" = {
       name = "table";
       packageName = "table";
-      version = "6.3.4";
+      version = "6.5.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/table/-/table-6.3.4.tgz";
-        sha512 = "fhKcZ3+oAYG/ld3seJEZ9+fGSsy+yeoPzLQUrwbOzNYdhrU+6TzObhJ2Sp76ZfUGIrDTrxsXz5NSCZJIUOJb4Q==";
+        url = "https://registry.npmjs.org/table/-/table-6.5.1.tgz";
+        sha512 = "xGDXWTBJxahkzPQCsn1S9ESHEenU7TbMD5Iv4FeopXv/XwJyWatFjfbor+6ipI10/MNPXBYUamYukOrbPZ9L/w==";
       };
     };
     "tar-4.4.13" = {
@@ -4875,7 +4875,7 @@ in
       sources."emoji-regex-8.0.0"
       sources."enquirer-2.3.6"
       sources."escape-string-regexp-1.0.5"
-      sources."eslint-7.24.0"
+      sources."eslint-7.25.0"
       sources."eslint-scope-5.1.1"
       (sources."eslint-utils-2.1.0" // {
         dependencies = [
@@ -4967,7 +4967,7 @@ in
       sources."strip-ansi-6.0.0"
       sources."strip-json-comments-3.1.1"
       sources."supports-color-8.1.1"
-      (sources."table-6.3.4" // {
+      (sources."table-6.5.1" // {
         dependencies = [
           sources."ajv-8.1.0"
           sources."json-schema-traverse-1.0.0"
