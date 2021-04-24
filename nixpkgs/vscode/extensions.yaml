@@ -46,3 +46,5 @@
   publisher: william-voyek
 - name: shellcheck
   publisher: timonwong
+- name: vscode-thunder-client
+  publisher: rangav

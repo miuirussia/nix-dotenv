@@ -142,5 +142,11 @@
     "publisher": "timonwong",
     "sha256": "1c8ls79y30rdk20xsj3cw3b6s143qac4ss2zb95s6whd20rs2y2z",
     "version": "0.14.1"
+  },
+  {
+    "name": "vscode-thunder-client",
+    "publisher": "rangav",
+    "sha256": "077vxhjs930105yaz7vszr9mccmbg96gqf37c8wldqwnhlx4d0b8",
+    "version": "1.0.7"
   }
 ]
