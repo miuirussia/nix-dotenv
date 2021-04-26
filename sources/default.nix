@@ -58,10 +58,6 @@ let
         hls-unstable =
             let s = sources.hls-unstable;
             in fromGitHub s "haskell-hls-${s.branch}-src";
-        nixpkgs-unstable =
-            mkPatchedNixpkgs {
-              src = srcs.nixpkgs-unstable;
-            };
 
         vimspector =
             let

@@ -228,15 +228,15 @@
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nixpkgs-unstable": {
-    "branch": "5268ee2ebacbc73875be42d71e60c2b5c1b5a1c7",
+    "branch": "nixpkgs-unstable",
     "description": "A read-only mirror of NixOS/nixpkgs tracking the released channels. Send issues and PRs to",
     "homepage": "https://github.com/NixOS/nixpkgs",
-    "owner": "NixOS",
+    "owner": "miuirussia",
     "repo": "nixpkgs",
-    "rev": "5268ee2ebacbc73875be42d71e60c2b5c1b5a1c7",
-    "sha256": "080fvmg0i6z01h6adddfrjp1bbbjhhqk32ks6ch9gv689645ccfq",
+    "rev": "af834286e629daab4721270b241f737442bfd637",
+    "sha256": "0qi2qs9q4xq3dzg8gd4k51m2w53qvpzmvk9971a3piy56x3zlabc",
     "type": "tarball",
-    "url": "https://github.com/NixOS/nixpkgs/archive/5268ee2ebacbc73875be42d71e60c2b5c1b5a1c7.tar.gz",
+    "url": "https://github.com/miuirussia/nixpkgs/archive/af834286e629daab4721270b241f737442bfd637.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "postcss-syntax-vim": {
