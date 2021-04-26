@@ -74,8 +74,8 @@
   {
     "name": "rust-analyzer",
     "publisher": "matklad",
-    "sha256": "01s1a9vky8d6krnw7s4k5wjvxji4zg691xlv79p9gm78bg050jdz",
-    "version": "0.2.565"
+    "sha256": "072z7qq51cc11qqp4msj5700zkv9b0qw7bc24g0b8r07lkhjnczm",
+    "version": "0.2.574"
   },
   {
     "name": "vscode-docker",
@@ -86,8 +86,8 @@
   {
     "name": "remote-containers",
     "publisher": "ms-vscode-remote",
-    "sha256": "02gbfda82541906xyswi8bpapfih2mxpi88spbffr5vcr4bbxidf",
-    "version": "0.171.0"
+    "sha256": "1cxiypl0wbj4ypmfxllbqvy1lh13hxlvfxxbkkzm0rc04asghimv",
+    "version": "0.172.0"
   },
   {
     "name": "remote-ssh",
