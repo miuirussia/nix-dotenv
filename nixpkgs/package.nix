@@ -76,13 +76,7 @@ in
   allowUnfree = true;
 
   packageOverrides = pkgs: let
-    nodejs-14_x = pkgs.nodejs-14_x.overrideAttrs (
-      prev: {
-        patches = prev.patches ++ [
-          ./node/usable-repl-fix.patch
-        ];
-      }
-    );
+    nodejs = pkgs.nodejs-14_x;
   in
     {
       vscode-custom = import ./vscode/default.nix { inherit sources; inherit pkgs; };
@@ -179,12 +173,11 @@ in
         '';
 
 
-      nodePackages = pkgs.nodePackages // (pkgs.callPackage ./nodePackages/default.nix { nodejs = pkgs.nodejs-14_x; });
+      nodePackages = pkgs.nodePackages // (pkgs.callPackage ./nodePackages/default.nix { inherit nodejs; });
 
-      wrapNeovimUnstable = pkgs.wrapNeovimUnstable.override { nodejs = nodejs-14_x; };
-      neovimUtils = pkgs.neovimUtils.override { nodejs = pkgs.nodejs-14_x; };
+      wrapNeovimUnstable = pkgs.wrapNeovimUnstable.override { inherit nodejs; };
+      neovimUtils = pkgs.neovimUtils.override { inherit nodejs; };
 
-      inherit nodejs-14_x;
       inherit font-patcher;
     };
 }
