@@ -132,6 +132,11 @@ jobs:
       uses: cachix/install-nix-action@v12
       with:
         nix_path: nixpkgs=channel:nixpkgs-unstable
+    - name: Add nix channels
+      run: |
+        nix-channel --add https://github.com/miuirussia/nixpkgs/archive/nixpkgs-unstable.tar.gz nixpkgs
+        nix-channel --add https://github.com/miuirussia/home-manager/archive/master.tar.gz home-manager
+        nix-channel --update
     - name: Install nix-cache-tools
       run: |
         nix-env -i -f ./environment/nixpkgs/nix-cache-tools
@@ -180,7 +185,7 @@ jobs:
         cp -f  ./environment/nixpkgs/nodePackages/{default.nix,node-env.nix,node-packages.json,node-packages.nix} ./dotfiles/nix/nixpkgs/nodePackages
     - name: Build home-manager
       run: |
-        nix-env -f '<nixpkgs>' -iA home-manager
+        nix-shell '<home-manager>' -A install
         cp -f ./nix/user{.example,}.nix
         export XDG_CONFIG_HOME=$(pwd)
         home-manager --max-jobs auto -f ./nix/home.nix build
