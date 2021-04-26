@@ -185,6 +185,7 @@ jobs:
         cp -f  ./environment/nixpkgs/nodePackages/{default.nix,node-env.nix,node-packages.json,node-packages.nix} ./dotfiles/nix/nixpkgs/nodePackages
     - name: Build home-manager
       run: |
+        export NIX_PATH=$HOME/.nix-defexpr/channels${NIX_PATH:+:}$NIX_PATH
         nix-shell '<home-manager>' -A install
         cp -f ./nix/user{.example,}.nix
         export XDG_CONFIG_HOME=$(pwd)
