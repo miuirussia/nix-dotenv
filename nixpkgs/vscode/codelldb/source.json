@@ -1,5 +1,5 @@
 {
-  "url": "https://github.com/vadimcn/vscode-lldb/releases/download/v1.6.3-dev.2104290407/codelldb-x86_64-darwin.vsix",
-  "sha256": "0wyygr1y7jam3fg2r46zb0zlbgz2kcyzmszn7wqh7x6zfd0svz1p",
+  "url": "https://github.com/vadimcn/vscode-lldb/releases/download/v1.6.3/codelldb-x86_64-darwin.vsix",
+  "sha256": "006232v74n4g22q04fbgannx4yw0dbk6amaqll2d0qsmhn9l5hb7",
   "name": "vscode-lldb.zip"
 }
