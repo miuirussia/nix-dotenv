@@ -233,10 +233,10 @@
     "homepage": "https://github.com/NixOS/nixpkgs",
     "owner": "miuirussia",
     "repo": "nixpkgs",
-    "rev": "15c529d9fce226089105c061754d756f6a15ef7b",
+    "rev": "3347a34f670b964b700743d3b883835079d7ecb4",
     "sha256": "0nbkgrzmr0a8rhhwz99xb6957qd75p0slpvqi8c0crgpjdf0hp1n",
     "type": "tarball",
-    "url": "https://github.com/miuirussia/nixpkgs/archive/15c529d9fce226089105c061754d756f6a15ef7b.tar.gz",
+    "url": "https://github.com/miuirussia/nixpkgs/archive/3347a34f670b964b700743d3b883835079d7ecb4.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "postcss-syntax-vim": {
