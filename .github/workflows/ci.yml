@@ -135,7 +135,7 @@ jobs:
     - name: Add nix channels
       run: |
         nix-env -iA jq -f https://github.com/NixOS/nixpkgs/archive/nixpkgs-unstable.tar.gz
-        nix-channel --add $(jq -r '.["nixpkgs-unstable"] | .url' ./sources/sources.json) nixpkgs
+        nix-channel --add https://github.com/miuirussia/nixpkgs/archive/nixpkgs-unstable.tar.gz nixpkgs
         nix-channel --add https://github.com/miuirussia/home-manager/archive/master.tar.gz home-manager
         nix-channel --update
     - name: Install nix-cache-tools
