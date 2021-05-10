@@ -14,8 +14,8 @@
   {
     "name": "vscode-jest",
     "publisher": "orta",
-    "sha256": "1qhhy3q5lmdmgw25vmyx69h37i2vbpjxca46jra86vm6kdwglc36",
-    "version": "3.2.0"
+    "sha256": "07m0as88cwkzygzj4kwrvvzn9ih85344rxnfzag9cibra5rgbwgx",
+    "version": "4.0.0"
   },
   {
     "name": "flow-for-vscode",
@@ -68,14 +68,14 @@
   {
     "name": "nix-ide",
     "publisher": "jnoortheen",
-    "sha256": "0c9x3br92rpsmc7d0i3c8rnvhyvwz7hvrrfd3sds9p168lz87gli",
-    "version": "0.1.10"
+    "sha256": "1wkc5mvxv7snrpd0py6x83aci05b9fb9v4w9pl9d1hyaszqbfnif",
+    "version": "0.1.12"
   },
   {
     "name": "rust-analyzer",
     "publisher": "matklad",
-    "sha256": "072z7qq51cc11qqp4msj5700zkv9b0qw7bc24g0b8r07lkhjnczm",
-    "version": "0.2.574"
+    "sha256": "0abz4hcndjr3yvacv1nr18zsblrr7vy3dhsi3dida79sqzvl29qy",
+    "version": "0.2.583"
   },
   {
     "name": "vscode-docker",
@@ -86,8 +86,8 @@
   {
     "name": "remote-containers",
     "publisher": "ms-vscode-remote",
-    "sha256": "00axv0wjm8y7ny6yc05sahjpiz8kjcvhyjr71f6hqzcb4yphz4yi",
-    "version": "0.174.0"
+    "sha256": "18ifmlda1qyshcd3i68w6s04bxycx6n6im060mkb28g2m7vyzrsy",
+    "version": "0.177.0"
   },
   {
     "name": "remote-ssh",
@@ -146,7 +146,7 @@
   {
     "name": "vscode-thunder-client",
     "publisher": "rangav",
-    "sha256": "1aj8dgm17q96s4282qsn3cv8q7xz4axji549g7qadfpfrk5skzld",
-    "version": "1.1.0"
+    "sha256": "03grydrl9wly5ll8y14rzzysi5rl36nqldcbv48l0x5c2aqx9wjh",
+    "version": "1.2.2"
   }
 ]
