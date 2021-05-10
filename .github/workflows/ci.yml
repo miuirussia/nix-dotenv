@@ -128,6 +128,13 @@ jobs:
       with:
         path: environment
         fetch-depth: 0
+    - name: Import GPG key
+      uses: crazy-max/ghaction-import-gpg@v3
+      with:
+        gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
+        passphrase: ${{ secrets.PASSPHRASE }}
+        git-user-signingkey: true
+        git-commit-gpgsign: true
     - name: Install nix
       uses: cachix/install-nix-action@v12
       with:
