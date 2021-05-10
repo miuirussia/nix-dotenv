@@ -135,6 +135,7 @@ jobs:
         passphrase: ${{ secrets.PASSPHRASE }}
         git-user-signingkey: true
         git-commit-gpgsign: true
+        workdir: environment
     - name: Install nix
       uses: cachix/install-nix-action@v12
       with:
@@ -182,6 +183,14 @@ jobs:
         token: ${{ secrets.REPO_ACCESS_TOKEN }}
         persist-credentials: true
         fetch-depth: 0
+    - name: Import GPG key
+      uses: crazy-max/ghaction-import-gpg@v3
+      with:
+        gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
+        passphrase: ${{ secrets.PASSPHRASE }}
+        git-user-signingkey: true
+        git-commit-gpgsign: true
+        workdir: dotfiles
     - name: Copy updated files
       run: |
         rm -rf ./dotfiles/nix/sources/*.patch || true
