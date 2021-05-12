@@ -4816,10 +4816,10 @@ in
   eslint_d = nodeEnv.buildNodePackage {
     name = "eslint_d";
     packageName = "eslint_d";
-    version = "10.1.0";
+    version = "10.1.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-10.1.0.tgz";
-      sha512 = "cPVyErdihWmBRmG7+xMyYUFzyJo49j/3B2IyeUkC287AuijR6a0GpmVs7FmlHwVnJFUSLu0fUWBm94UAEYQT3A==";
+      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-10.1.1.tgz";
+      sha512 = "pWZFDw8ku0cWwLMAQo71i3NE6eESl/w/UqwB9uhdM2IMAFNUFSGHt34UOxg2o8gcRCM85Xwo2rj4AAV7jwKjkA==";
     };
     dependencies = [
       sources."@babel/code-frame-7.12.11"
