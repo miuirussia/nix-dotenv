@@ -30,10 +30,7 @@ jobs:
           nix_path: nixpkgs=channel:nixpkgs-unstable
       - name: Install niv, jq, nix-prefetch-git, node2nix
         run: |
-          nix-env -iA niv -f https://github.com/nmattia/niv/tarball/master \
-            --substituters https://niv.cachix.org \
-            --trusted-public-keys niv.cachix.org-1:X32PCg2e/zAm3/uD1ScqW2z/K0LtDyNV7RdaxIuLgQM=
-          nix-env -iA jq nix-prefetch-git nodePackages.node2nix -f https://github.com/NixOS/nixpkgs/archive/nixpkgs-unstable.tar.gz
+          nix-env -iA niv jq nix-prefetch-git nodePackages.node2nix -f https://github.com/miuirussia/nixpkgs/tarball/nixpkgs-unstable
       - name: Update dependencies
         run: |
           niv -s sources/sources.json update
