@@ -5893,10 +5893,10 @@ in
   spago = nodeEnv.buildNodePackage {
     name = "spago";
     packageName = "spago";
-    version = "0.20.2";
+    version = "0.20.3";
     src = fetchurl {
-      url = "https://registry.npmjs.org/spago/-/spago-0.20.2.tgz";
-      sha512 = "B3TqAK4Uyq39LEeFjtxf5N4Q5kuUX8v68Lyns/8JTSO5VR6zrnxchEjVoUbYXG6lCO3TSj8k30V5s9TBrLmWjQ==";
+      url = "https://registry.npmjs.org/spago/-/spago-0.20.3.tgz";
+      sha512 = "R4CWLP5IbaWoNIpS1QAUuDK2LKlKYqT5gBKVZL7ILilvCwdwS72u3NbGZbvx7VCRRZz4lG7zXUkqKNow7zh6wQ==";
     };
     dependencies = [
       sources."ajv-6.12.6"
