@@ -86,20 +86,20 @@
   {
     "name": "remote-containers",
     "publisher": "ms-vscode-remote",
-    "sha256": "1ba48pmraplqky6w00n7hmn4bw2il8l0k9fnb9b6g8vlw41z9rz2",
-    "version": "0.178.0"
+    "sha256": "09c05hhmgxmihdj7by4f4wjpsras5i6bl4hddvk2bgcydbm4f11i",
+    "version": "0.179.0"
   },
   {
     "name": "remote-ssh",
     "publisher": "ms-vscode-remote",
-    "sha256": "0w42511a8ipxjxqz2ys73lp4aq1yr5hmjvwdjrjcxic1m62rqaxx",
-    "version": "0.65.4"
+    "sha256": "03a39m3b0ad9fqnbqns3dilxsy1vnv7riadhlxajbcl1afm3s5as",
+    "version": "0.65.6"
   },
   {
     "name": "remote-ssh-edit",
     "publisher": "ms-vscode-remote",
-    "sha256": "1f1cfzmwf9iy2hbk1c7yj7j47maq8vlfj0hfgy53j63xsya0l1m7",
-    "version": "0.65.4"
+    "sha256": "12ml15k0hqw5avhqj1hz3jz0gzkrr56rw85i2igjz4r3qf0wkrav",
+    "version": "0.65.6"
   },
   {
     "name": "debugger-for-chrome",
