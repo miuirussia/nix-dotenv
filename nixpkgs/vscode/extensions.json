@@ -14,8 +14,8 @@
   {
     "name": "vscode-jest",
     "publisher": "orta",
-    "sha256": "016hrs96pvf0d9y7qrmj2kfg1zcz8640d0lpmm0qvj03isxvwpip",
-    "version": "4.0.1"
+    "sha256": "0d39mvmydgwvksm2pvdddvb6n9bzn23c5damyhz7drr46i2k9gr3",
+    "version": "4.0.2"
   },
   {
     "name": "flow-for-vscode",

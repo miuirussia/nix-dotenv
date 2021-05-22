@@ -1372,6 +1372,15 @@ let
         sha1 = "1b61c0562190a8dff6ae3bb2cf0200ca130b86d4";
       };
     };
+    "escape-string-regexp-4.0.0" = {
+      name = "escape-string-regexp";
+      packageName = "escape-string-regexp";
+      version = "4.0.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz";
+        sha512 = "TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==";
+      };
+    };
     "eslint-5.16.0" = {
       name = "eslint";
       packageName = "eslint";
@@ -1381,13 +1390,13 @@ let
         sha512 = "S3Rz11i7c8AA5JPv7xAH+dOyq/Cu/VXHiHXBPOU1k/JAM5dXqQPt3qcrhpHSorXmrpu2g0gkIBVXAqCpzfoZIg==";
       };
     };
-    "eslint-7.26.0" = {
+    "eslint-7.27.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "7.26.0";
+      version = "7.27.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-7.26.0.tgz";
-        sha512 = "4R1ieRf52/izcZE7AlLy56uIHHDLT74Yzz2Iv2l6kDaYvEu9x+wMB5dZArVL8SYGXSYV2YAg70FcW5Y5nGGNIg==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-7.27.0.tgz";
+        sha512 = "JZuR6La2ZF0UD384lcbnd0Cgg6QJjiCwhMD6eU4h/VGPcVGwawNNzKU41tgokGXnfjOOyI6QIffthhJTPzzuRA==";
       };
     };
     "eslint-scope-3.7.3" = {
@@ -3280,13 +3289,13 @@ let
         sha1 = "6309f4e0e5fa913ec1c69307ae364b4b377c9e7b";
       };
     };
-    "picomatch-2.2.3" = {
+    "picomatch-2.3.0" = {
       name = "picomatch";
       packageName = "picomatch";
-      version = "2.2.3";
+      version = "2.3.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/picomatch/-/picomatch-2.2.3.tgz";
-        sha512 = "KpELjfwcCDUb9PeigTs2mBJzXUPzAuP2oPcA989He8Rte0+YUAjw1JVedDhuTKPkHjSYzMN3npC9luThGYEKdg==";
+        url = "https://registry.npmjs.org/picomatch/-/picomatch-2.3.0.tgz";
+        sha512 = "lY1Q/PiJGC2zOv/z391WOTD+Z02bCgsFfvxoXXf6h7kv9o+WmsmzYqrAwY63sNgOxE4xEdq0WyUnXfKeBrSvYw==";
       };
     };
     "prelude-ls-1.1.2" = {
@@ -4816,10 +4825,10 @@ in
   eslint_d = nodeEnv.buildNodePackage {
     name = "eslint_d";
     packageName = "eslint_d";
-    version = "10.1.1";
+    version = "10.1.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-10.1.1.tgz";
-      sha512 = "pWZFDw8ku0cWwLMAQo71i3NE6eESl/w/UqwB9uhdM2IMAFNUFSGHt34UOxg2o8gcRCM85Xwo2rj4AAV7jwKjkA==";
+      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-10.1.2.tgz";
+      sha512 = "SCkQfCkOjhvIA1nSSl2f420h9bwLEg11rIo0+szBk+LICEDrh9muXmilkCSQ31eA53Wt34gL6RsX3bwtlS4SVA==";
     };
     dependencies = [
       sources."@babel/code-frame-7.12.11"
@@ -4827,6 +4836,7 @@ in
       (sources."@babel/highlight-7.14.0" // {
         dependencies = [
           sources."chalk-2.4.2"
+          sources."escape-string-regexp-1.0.5"
           sources."has-flag-3.0.0"
           sources."supports-color-5.5.0"
         ];
@@ -4865,8 +4875,8 @@ in
       sources."doctrine-3.0.0"
       sources."emoji-regex-8.0.0"
       sources."enquirer-2.3.6"
-      sources."escape-string-regexp-1.0.5"
-      sources."eslint-7.26.0"
+      sources."escape-string-regexp-4.0.0"
+      sources."eslint-7.27.0"
       sources."eslint-scope-5.1.1"
       (sources."eslint-utils-2.1.0" // {
         dependencies = [
@@ -4922,8 +4932,8 @@ in
       sources."json-schema-traverse-0.4.1"
       sources."json-stable-stringify-without-jsonify-1.0.1"
       sources."levn-0.4.1"
-      sources."lodash-4.17.21"
       sources."lodash.clonedeep-4.5.0"
+      sources."lodash.merge-4.6.2"
       sources."lodash.truncate-4.4.2"
       sources."lru-cache-6.0.0"
       sources."minimatch-3.0.4"
@@ -5841,7 +5851,7 @@ in
       sources."path-exists-4.0.0"
       sources."path-is-absolute-1.0.1"
       sources."path-type-4.0.0"
-      sources."picomatch-2.2.3"
+      sources."picomatch-2.3.0"
       sources."queue-microtask-1.2.3"
       sources."reusify-1.0.4"
       sources."rimraf-3.0.2"
