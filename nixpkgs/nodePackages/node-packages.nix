@@ -1012,13 +1012,13 @@ let
         sha512 = "f2domd9fsVDFtaFcbaRZuYXwtdmnzqbADSwhSWYxYB/Q8zsdUUFMXVRwXGDMWmbEzAn1kdRrtI1T/KTFOL4X2A==";
       };
     };
-    "core-js-3.12.1" = {
+    "core-js-3.13.0" = {
       name = "core-js";
       packageName = "core-js";
-      version = "3.12.1";
+      version = "3.13.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/core-js/-/core-js-3.12.1.tgz";
-        sha512 = "Ne9DKPHTObRuB09Dru5AjwKjY4cJHVGu+y5f7coGn1E9Grkc3p2iBwE9AI/nJzsE29mQF7oq+mhYYRqOMFN1Bw==";
+        url = "https://registry.npmjs.org/core-js/-/core-js-3.13.0.tgz";
+        sha512 = "iWDbiyha1M5vFwPFmQnvRv+tJzGbFAm6XimJUT0NgHYW3xZEs1SkCAcasWSVFxpI2Xb/V1DDJckq3v90+bQnog==";
       };
     };
     "core-util-is-1.0.2" = {
@@ -3244,13 +3244,13 @@ let
         sha512 = "ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==";
       };
     };
-    "path-parse-1.0.6" = {
+    "path-parse-1.0.7" = {
       name = "path-parse";
       packageName = "path-parse";
-      version = "1.0.6";
+      version = "1.0.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/path-parse/-/path-parse-1.0.6.tgz";
-        sha512 = "GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==";
+        url = "https://registry.npmjs.org/path-parse/-/path-parse-1.0.7.tgz";
+        sha512 = "LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==";
       };
     };
     "path-platform-0.11.15" = {
@@ -5077,7 +5077,7 @@ in
       sources."color-name-1.1.3"
       sources."common-tags-1.8.0"
       sources."concat-map-0.0.1"
-      sources."core-js-3.12.1"
+      sources."core-js-3.13.0"
       sources."cross-spawn-6.0.5"
       sources."debug-4.3.2"
       sources."decamelize-1.2.0"
@@ -5461,7 +5461,7 @@ in
       sources."parse-asn1-5.1.6"
       sources."path-browserify-0.0.1"
       sources."path-is-absolute-1.0.1"
-      sources."path-parse-1.0.6"
+      sources."path-parse-1.0.7"
       sources."path-platform-0.11.15"
       sources."pbkdf2-3.1.2"
       sources."process-0.11.10"
@@ -5799,10 +5799,10 @@ in
   diagnostic-languageserver = nodeEnv.buildNodePackage {
     name = "diagnostic-languageserver";
     packageName = "diagnostic-languageserver";
-    version = "1.9.0";
+    version = "1.11.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/diagnostic-languageserver/-/diagnostic-languageserver-1.9.0.tgz";
-      sha512 = "ewhg5DDU+BnqsFAJE7/jMHodXj7ZwpnR10kks+gXfONAAbxpSrqcZtzvO1uLw2B4zTSA7esi/n2wfJX9J9swRA==";
+      url = "https://registry.npmjs.org/diagnostic-languageserver/-/diagnostic-languageserver-1.11.0.tgz";
+      sha512 = "4kjsgc/rV+qtH3dTqEnR/ug36yKNjyo5z674ySkD6k08DwlLs10fsP/I+d8BAsbtjpL36bqZxLa9iNgTDqioXQ==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.4"
