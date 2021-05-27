@@ -11,6 +11,18 @@
     "url": "https://github.com/JetBrains/JetBrainsMono/archive/d5b56fc2876bc6ae036fd665274a74c41697e4a6.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
+  "coc-nvim": {
+    "branch": "release",
+    "description": "Nodejs extension host for vim & neovim, load extensions like VSCode and host language servers.",
+    "homepage": "",
+    "owner": "neoclide",
+    "repo": "coc.nvim",
+    "rev": "1a74bf3c57fec8442f837b3baad0d6fb75d1b97a",
+    "sha256": "105jcl74k006dsslplp40yizfdjrj3p7qr23c53dgs2wlbzqc3kj",
+    "type": "tarball",
+    "url": "https://github.com/neoclide/coc.nvim/archive/1a74bf3c57fec8442f837b3baad0d6fb75d1b97a.tar.gz",
+    "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+  },
   "deoplete-nvim": {
     "branch": "master",
     "description": ":stars: Dark powered asynchronous completion framework for neovim/Vim8",

@@ -17,6 +17,11 @@ in {
     '';
   };
 
+  coc-nvim = buildVimPluginFrom2Nix {
+    name = "coc-nvim";
+    src = sources.coc-nvim;
+  };
+
   purescript-vim = buildVimPluginFrom2Nix {
     name = "purescript-vim";
     src = sources.purescript-vim;
