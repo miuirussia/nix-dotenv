@@ -1939,13 +1939,13 @@ let
         sha512 = "BWICuzzDvDoH54NHKCseDanAhE3CeDorgDL5MT6LMXXj2WCnd9UC2szdk4AWLfjdgNBCXLUanXYcpBBKOSWGwg==";
       };
     };
-    "globals-13.8.0" = {
+    "globals-13.9.0" = {
       name = "globals";
       packageName = "globals";
-      version = "13.8.0";
+      version = "13.9.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/globals/-/globals-13.8.0.tgz";
-        sha512 = "rHtdA6+PDBIjeEvA91rpqzEvk/k3/i7EeNQiryiWuJH0Hw9cpyJMAt2jtbAwUaRdhD+573X4vWw6IcjKPasi9Q==";
+        url = "https://registry.npmjs.org/globals/-/globals-13.9.0.tgz";
+        sha512 = "74/FduwI/JaIrr1H8e71UbDE+5x7pIPs1C2rrwC52SszOo043CsWOZEMW7o2Y58xwm9b+0RBKDxY5n2sUpEFxA==";
       };
     };
     "globby-11.0.3" = {
@@ -4912,7 +4912,7 @@ in
       sources."functional-red-black-tree-1.0.1"
       sources."glob-7.1.7"
       sources."glob-parent-5.1.2"
-      (sources."globals-13.8.0" // {
+      (sources."globals-13.9.0" // {
         dependencies = [
           sources."type-fest-0.20.2"
         ];
