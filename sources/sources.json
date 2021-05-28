@@ -108,15 +108,15 @@
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-unstable": {
-    "branch": "e0a464282db913b6c7e0f2ec4504d24e2bcfb4b1",
+    "branch": "master",
     "description": "Integration point for ghcide and haskell-ide-engine. One IDE to rule them all.",
     "homepage": null,
     "owner": "haskell",
     "repo": "haskell-language-server",
-    "rev": "e0a464282db913b6c7e0f2ec4504d24e2bcfb4b1",
-    "sha256": "0hp97lifp02djqwscjbb6848fjnv50i8wcl17siyn7f5zi6nprp8",
+    "rev": "959da6207406ee17b56051e386ff9d2c1e511c23",
+    "sha256": "0j561f6968bg2zz9g07b5mgj2hxxrzhixyk8lfqcnclmbpdaj6bw",
     "type": "tarball",
-    "url": "https://github.com/haskell/haskell-language-server/archive/e0a464282db913b6c7e0f2ec4504d24e2bcfb4b1.tar.gz",
+    "url": "https://github.com/haskell/haskell-language-server/archive/959da6207406ee17b56051e386ff9d2c1e511c23.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "intero-neovim": {
