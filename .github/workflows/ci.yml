@@ -5,7 +5,7 @@ jobs:
   ghc:
     strategy:
       matrix:
-        ghc: ['844', '865', '884', '8103', '8104']
+        ghc: ['865', '884', '8103', '8104']
     name: "ghc${{ matrix.ghc }}"
     runs-on: macos-latest
     steps:
@@ -192,10 +192,11 @@ jobs:
       run: |
         rm -rf ./dotfiles/nix/sources/*.patch || true
         rm -rf ./dotfiles/nix/programs/neovim/patches || true
-        rm -rf ./dotfiles/nix/nix/nixpkgs/{vscode,jetbrains-mono,build-support,tmuxinator} || true
+        rm -rf ./dotfiles/nix/nixpkgs/{vscode,jetbrains-mono,build-support,tmuxinator} || true
+        rm -rf ./dotfiles/nix/nixpkgs/{mkHlsPkgs.nix,hls.nix} || true
         cp -f  ./environment/sources/{default.nix,sources.nix,sources.json,*.patch} ./dotfiles/nix/sources
         cp -rf ./environment/neovim/{custom-plugins.nix,patches} ./dotfiles/nix/programs/neovim
-        cp -rf ./environment/nixpkgs/{mkHlsPkgs.nix,hls.nix,nix-cache-tools,package.nix,vscode,jetbrains-mono,build-support,tmuxinator} ./dotfiles/nix/nixpkgs
+        cp -rf ./environment/nixpkgs/{nix-cache-tools,package.nix,vscode,jetbrains-mono,build-support,tmuxinator} ./dotfiles/nix/nixpkgs
         cp -f  ./environment/nixpkgs/nodePackages/{default.nix,node-env.nix,node-packages.json,node-packages.nix} ./dotfiles/nix/nixpkgs/nodePackages
     - name: Build home-manager
       run: |
