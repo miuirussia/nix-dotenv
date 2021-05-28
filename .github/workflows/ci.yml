@@ -59,10 +59,7 @@ jobs:
         NIX_UPLOAD_SECRET_KEY: ${{ secrets.CACHE_PRIVATE_KEY }}
   hls:
     needs: [ghc]
-    strategy:
-      matrix:
-        ghc: ['865', '884', '8103', '8104']
-    name: "hls - ghc${{ matrix.ghc }}"
+    name: "hls"
     runs-on: macos-latest
     steps:
     - name: Checkout nix-dotenv
@@ -101,10 +98,10 @@ jobs:
     - name: Build hls.nix
       run: |
         nix path-info --all | grep -v '\.drv$' > /tmp/store-path-pre-build
-        nix --print-build-logs --show-trace build -f hls.nix --argstr "version" "${{ matrix.ghc }}"
+        nix --print-build-logs --show-trace build -f hls.nix
     - name: Show builded paths
       run: |
-        nix --print-build-logs path-info -f hls.nix --argstr "version" "${{ matrix.ghc }}"
+        nix --print-build-logs path-info -f hls.nix
     - name: Upload cache
       run: |
         comm -13 <(sort /tmp/store-path-pre-build) <(nix path-info --all | grep -v '\.drv$' | sort) | xargs -P8 upload-nix
