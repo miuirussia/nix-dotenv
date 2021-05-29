@@ -105,9 +105,6 @@ in
       haskell = pkgs.haskell // {
         compiler = pkgs.haskell.compiler // {
           ghc865 = iohk.haskell-nix.compiler.ghc865;
-          ghc884 = iohk.haskell-nix.compiler.ghc884;
-          ghc8104 = iohk.haskell-nix.compiler.ghc8104;
-          ghc901 = iohk.haskell-nix.compiler.ghc901;
         };
       };
 
