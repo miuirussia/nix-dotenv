@@ -1,9 +1,9 @@
 { sources }:
 
 let
-  haskellNix = import (sources."haskell.nix") {};
-  iohkPkgs = import sources.nixpkgs-unstable haskellNix.nixpkgsArgs;
-  fetchGitHubFiles = iohkPkgs.callPackage ./build-support/fetchgithubfiles { };
+  haskellNix = import sources."haskell.nix" {};
+  iohk = haskellNix.pkgs-unstable;
+  fetchGitHubFiles = iohk.callPackage ./build-support/fetchgithubfiles { };
 
   font-patcher-repo = {
     owner = "ryanoasis";
@@ -21,13 +21,13 @@ let
     sha256 = "1yf12p4dsfy5pqnmn28q7pbadr63dpymmx8xzck21sbwl5qhlfzm";
   };
 
-  font-patcher = iohkPkgs.stdenvNoCC.mkDerivation {
+  font-patcher = iohk.stdenvNoCC.mkDerivation {
     name = "font-patcher-${font-patcher-repo.rev}";
 
     src = font-patcher-src;
 
     phases = [ "unpackPhase" "buildPhase" "installPhase" "fixupPhase" ];
-    propagatedBuildInputs = with iohkPkgs; [
+    propagatedBuildInputs = with iohk; [
       (python3.withPackages (ps: with ps; [ fontforge fonttools configparser ]))
       ttfautohint
     ];
@@ -74,11 +74,11 @@ in
 
       niv = (import sources.niv {}).niv;
 
-      nix-tools = iohkPkgs.haskell-nix.nix-tools.ghc8102;
+      nix-tools = iohk.haskell-nix.nix-tools.ghc901;
 
       nix-cache-tools = import ./nix-cache-tools;
 
-      haskell-nix = iohkPkgs.haskell-nix;
+      haskell-nix = iohk.haskell-nix;
 
       hls = let
         mkHlsPackage = { ghcVersion }: import sources.nix-haskell-hls {
@@ -104,8 +104,11 @@ in
 
       haskell = pkgs.haskell // {
         compiler = pkgs.haskell.compiler // {
-          ghc844 = iohkPkgs.haskell-nix.compiler.ghc844;
-          ghc865 = iohkPkgs.haskell-nix.compiler.ghc865;
+          ghc844 = iohk.haskell-nix.compiler.ghc844;
+          ghc865 = iohk.haskell-nix.compiler.ghc865;
+          ghc884 = iohk.haskell-nix.compiler.ghc884;
+          ghc8104 = iohk.haskell-nix.compiler.ghc8104;
+          ghc901 = iohk.haskell-nix.compiler.ghc901;
         };
       };
 
