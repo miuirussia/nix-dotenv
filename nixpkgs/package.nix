@@ -3,7 +3,7 @@
 let
   haskellNix = import sources."haskell.nix" {};
   iohk = haskellNix.pkgs-unstable;
-  fetchGitHubFiles = iohk.callPackage ./build-support/fetchgithubfiles { };
+  fetchGitHubFiles = iohk.callPackage ./build-support/fetchgithubfiles {};
 
   font-patcher-repo = {
     owner = "ryanoasis";
@@ -81,32 +81,34 @@ in
       haskell-nix = iohk.haskell-nix;
 
       hls = let
-        mkHlsPackage = { ghcVersion }: import sources.nix-haskell-hls {
-          nixpkgs-pin = "nixpkgs-unstable";
-          inherit ghcVersion;
-          hlsUnstable = true;
-        };
+        mkHlsPackage = { ghcVersion }: import sources.hls-nix { inherit sources; inherit ghcVersion; };
 
         hls865 = mkHlsPackage { ghcVersion = "ghc865"; };
         hls884 = mkHlsPackage { ghcVersion = "ghc884"; };
         hls8104 = mkHlsPackage { ghcVersion = "ghc8104"; };
-      in pkgs.buildEnv {
-        name = "haskell-language-server";
+      in
+        pkgs.buildEnv {
+          name = "haskell-language-server";
 
-        paths = [
-          hls865.hls-renamed
-          hls884.hls-renamed
-          hls8104.hls-renamed
-          hls8104.hls-wrapper
-          hls8104.hls-wrapper-nix
-        ];
-      };
-
-      haskell = pkgs.haskell // {
-        compiler = pkgs.haskell.compiler // {
-          ghc865 = iohk.haskell-nix.compiler.ghc865;
+          paths = [
+            hls865.hls-renamed
+            hls884.hls-renamed
+            hls8104.hls-renamed
+            hls8104.hls-wrapper
+            hls8104.hls-wrapper-nix
+          ];
         };
-      };
+
+      haskell = let
+        mkGhcPackage = { ghcVersion }: (import sources.hls-nix { inherit sources; inherit ghcVersion; }).ghc;
+      in
+        pkgs.haskell // {
+          compiler = pkgs.haskell.compiler // {
+            ghc865 = mkGhcPackage { ghcVersion = "ghc865"; };
+            ghc884 = mkGhcPackage { ghcVersion = "ghc884"; };
+            ghc8104 = mkGhcPackage { ghcVersion = "ghc8104"; };
+          };
+        };
 
       neovim-nightly = let
         tree-sitter = (pkgs.callPackage ./tree-sitter/default.nix { inherit sources; });
@@ -126,7 +128,7 @@ in
           }
         );
 
-        flow = pkgs.writeShellScriptBin "flow"
+      flow = pkgs.writeShellScriptBin "flow"
         ''
           lookup() {
             local file="''${1}"
