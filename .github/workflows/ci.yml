@@ -27,14 +27,14 @@ jobs:
       run: nix-instantiate --eval -E '(import <nixpkgs> {}).lib.version'
     - name: Build ghc.nix
       run: |
-        nix path-info --all | grep -v '\.drv$' > /tmp/store-path-pre-build
         nix --print-build-logs --show-trace build -f ghc.nix --argstr "version" "${{ matrix.ghc }}"
     - name: Show builded paths
       run: |
         nix --print-build-logs path-info -f ghc.nix --argstr "version" "${{ matrix.ghc }}"
     - name: Upload cache
       run: |
-        comm -13 <(sort /tmp/store-path-pre-build) <(nix path-info --all | grep -v '\.drv$' | sort) | xargs -P8 upload-nix
+        all-nix-deps $(readlink result) | xargs -P8 upload-nix
+        rm -f result
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
@@ -66,14 +66,14 @@ jobs:
       run: nix-instantiate --eval -E '(import <nixpkgs> {}).lib.version'
     - name: Build hls.nix
       run: |
-        nix path-info --all | grep -v '\.drv$' > /tmp/store-path-pre-build
         nix --print-build-logs --show-trace build -f hls.nix --argstr "version" "${{ matrix.ghc }}"
     - name: Show builded paths
       run: |
         nix --print-build-logs path-info -f hls.nix --argstr "version" "${{ matrix.ghc }}"
     - name: Upload cache
       run: |
-        comm -13 <(sort /tmp/store-path-pre-build) <(nix path-info --all | grep -v '\.drv$' | sort) | xargs -P8 upload-nix
+        all-nix-deps $(readlink result) | xargs -P8 upload-nix
+        rm -f result
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
