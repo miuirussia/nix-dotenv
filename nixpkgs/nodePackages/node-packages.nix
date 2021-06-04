@@ -5975,4 +5975,22 @@ in
     bypassCache = true;
     reconstructLock = true;
   };
+  pnpm = nodeEnv.buildNodePackage {
+    name = "pnpm";
+    packageName = "pnpm";
+    version = "6.7.1";
+    src = fetchurl {
+      url = "https://registry.npmjs.org/pnpm/-/pnpm-6.7.1.tgz";
+      sha512 = "XVMlcMqroV6dp89MYMv1RBAk0jbfOy6xwNIySqC/7q+oRNJx4vHI3cIVCYwrKoBVB8tP7Fl0aIDGdzVNNwqwpQ==";
+    };
+    buildInputs = globalBuildInputs;
+    meta = {
+      description = "Fast, disk space efficient package manager";
+      homepage = "https://pnpm.io";
+      license = "MIT";
+    };
+    production = true;
+    bypassCache = true;
+    reconstructLock = true;
+  };
 }

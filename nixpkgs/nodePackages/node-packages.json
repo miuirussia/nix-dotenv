@@ -8,5 +8,6 @@
   "typescript-language-server",
   "diagnostic-languageserver",
   "purescript-psa",
-  "spago"
+  "spago",
+  "pnpm"
 ]
