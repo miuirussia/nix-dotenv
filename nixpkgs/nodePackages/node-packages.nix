@@ -1012,13 +1012,13 @@ let
         sha512 = "f2domd9fsVDFtaFcbaRZuYXwtdmnzqbADSwhSWYxYB/Q8zsdUUFMXVRwXGDMWmbEzAn1kdRrtI1T/KTFOL4X2A==";
       };
     };
-    "core-js-3.13.1" = {
+    "core-js-3.14.0" = {
       name = "core-js";
       packageName = "core-js";
-      version = "3.13.1";
+      version = "3.14.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/core-js/-/core-js-3.13.1.tgz";
-        sha512 = "JqveUc4igkqwStL2RTRn/EPFGBOfEZHxJl/8ej1mXJR75V3go2mFF4bmUYkEIT1rveHKnkUlcJX/c+f1TyIovQ==";
+        url = "https://registry.npmjs.org/core-js/-/core-js-3.14.0.tgz";
+        sha512 = "3s+ed8er9ahK+zJpp9ZtuVcDoFzHNiZsPbNAAE4KXgrRHbjSqqNN6xGSXq6bq7TZIbKj4NLrLb6bJ5i+vSVjHA==";
       };
     };
     "core-util-is-1.0.2" = {
@@ -5051,7 +5051,7 @@ in
       sources."color-name-1.1.3"
       sources."common-tags-1.8.0"
       sources."concat-map-0.0.1"
-      sources."core-js-3.13.1"
+      sources."core-js-3.14.0"
       sources."cross-spawn-6.0.5"
       sources."debug-4.3.2"
       sources."decamelize-1.2.0"
@@ -5526,10 +5526,10 @@ in
   purescript = nodeEnv.buildNodePackage {
     name = "purescript";
     packageName = "purescript";
-    version = "0.14.1";
+    version = "0.14.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/purescript/-/purescript-0.14.1.tgz";
-      sha512 = "dh87XeDP/JGe/3DKBMglkRuIRfGLGkL8beuLIl9KemzckgyuD+j7VK15eVb9n5Exp3DIr6SNEuGG4FjuQQ7Rpg==";
+      url = "https://registry.npmjs.org/purescript/-/purescript-0.14.2.tgz";
+      sha512 = "kEXY5yUaG8a1FNN/IdtfNl4gcql7p76CPqnanMZ37GdtBZTcFK/SB24bp2rOAT1/N9qU8/corlra6uNf4+5pgQ==";
     };
     dependencies = [
       sources."ajv-6.12.6"
