@@ -101,10 +101,10 @@
     "homepage": null,
     "owner": "miuirussia",
     "repo": "hls-nix",
-    "rev": "a2774bebd372205a23edfb28ab10d69ca104e781",
-    "sha256": "1azb0gw6l97xzi16x0b4q1n7hi42v58s5sr4zpgnnhm83ybffsk4",
+    "rev": "9a7509fe177d2464b99d397bd2c4239c8e510131",
+    "sha256": "1skw65ba50akcc8li9dz2iaakywpag7yy219kky1p5k0dksn2z90",
     "type": "tarball",
-    "url": "https://github.com/miuirussia/hls-nix/archive/a2774bebd372205a23edfb28ab10d69ca104e781.tar.gz",
+    "url": "https://github.com/miuirussia/hls-nix/archive/9a7509fe177d2464b99d397bd2c4239c8e510131.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-stable": {
@@ -125,10 +125,10 @@
     "homepage": null,
     "owner": "haskell",
     "repo": "haskell-language-server",
-    "rev": "0b3bb10cd22cb265b7cbab84514178bcf4ae4f92",
-    "sha256": "15ciphgr61kqpvpbmmyxxhvcdyrcy3qjkxvv6660a4m3ap0dvhas",
+    "rev": "41bf8b85ed40499d0a0b524277d51f470ec95e94",
+    "sha256": "0j5cn9cj59hfkzllg11vg0hfhik9rs06l4wqspd9z1nfyvq35il0",
     "type": "tarball",
-    "url": "https://github.com/haskell/haskell-language-server/archive/0b3bb10cd22cb265b7cbab84514178bcf4ae4f92.tar.gz",
+    "url": "https://github.com/haskell/haskell-language-server/archive/41bf8b85ed40499d0a0b524277d51f470ec95e94.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "intero-neovim": {
