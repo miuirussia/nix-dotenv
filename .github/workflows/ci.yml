@@ -27,7 +27,7 @@ jobs:
       run: nix-instantiate --eval -E '(import <nixpkgs> {}).lib.version'
     - name: Build ghc.nix
       run: |
-        nix --print-build-logs --show-trace build -f ghc.nix --argstr "version" "${{ matrix.ghc }}"
+        nix -j $(sysctl -n hw.logicalcpu) --print-build-logs --show-trace build -f ghc.nix --argstr "version" "${{ matrix.ghc }}"
     - name: Show builded paths
       run: |
         nix --print-build-logs path-info -f ghc.nix --argstr "version" "${{ matrix.ghc }}"
@@ -66,7 +66,7 @@ jobs:
       run: nix-instantiate --eval -E '(import <nixpkgs> {}).lib.version'
     - name: Build hls.nix
       run: |
-        nix --print-build-logs --show-trace build -f hls.nix --argstr "version" "${{ matrix.ghc }}"
+        nix -j $(sysctl -n hw.logicalcpu) --print-build-logs --show-trace build -f hls.nix --argstr "version" "${{ matrix.ghc }}"
     - name: Show builded paths
       run: |
         nix --print-build-logs path-info -f hls.nix --argstr "version" "${{ matrix.ghc }}"
