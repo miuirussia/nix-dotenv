@@ -89,10 +89,10 @@
     "homepage": "https://input-output-hk.github.io/haskell.nix",
     "owner": "input-output-hk",
     "repo": "haskell.nix",
-    "rev": "70e3bc77ce844b59e235e5ae48364862f1b229b2",
-    "sha256": "0pmmr85xpx3ciwra8gxg6qh5vrg925wbwzgc820f3rn989xc1c72",
+    "rev": "ac5b01f98bc1f3805e8a49176e053a99b1f50a39",
+    "sha256": "0bfhk5hv8nsvw0rvqdr04wnwhvl2ma26swkp7js5wilf74kkzqzc",
     "type": "tarball",
-    "url": "https://github.com/input-output-hk/haskell.nix/archive/70e3bc77ce844b59e235e5ae48364862f1b229b2.tar.gz",
+    "url": "https://github.com/input-output-hk/haskell.nix/archive/ac5b01f98bc1f3805e8a49176e053a99b1f50a39.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-nix": {
@@ -101,10 +101,10 @@
     "homepage": null,
     "owner": "miuirussia",
     "repo": "hls-nix",
-    "rev": "9a7509fe177d2464b99d397bd2c4239c8e510131",
-    "sha256": "1skw65ba50akcc8li9dz2iaakywpag7yy219kky1p5k0dksn2z90",
+    "rev": "0eb94e76f1a783b5f53ec70ddc77f9178468b6c9",
+    "sha256": "0plz45l9x90n55rk1pzfdni1rvc8bjlh76rg1gfha7v1b0fr7a9a",
     "type": "tarball",
-    "url": "https://github.com/miuirussia/hls-nix/archive/9a7509fe177d2464b99d397bd2c4239c8e510131.tar.gz",
+    "url": "https://github.com/miuirussia/hls-nix/archive/0eb94e76f1a783b5f53ec70ddc77f9178468b6c9.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-stable": {
@@ -125,10 +125,10 @@
     "homepage": null,
     "owner": "haskell",
     "repo": "haskell-language-server",
-    "rev": "41bf8b85ed40499d0a0b524277d51f470ec95e94",
-    "sha256": "0j5cn9cj59hfkzllg11vg0hfhik9rs06l4wqspd9z1nfyvq35il0",
+    "rev": "0cc89d209791c4bc200bf582f0e5f2a8b2465220",
+    "sha256": "0v841xm2z7j8napjn5118vpc8q90g4qgjik4lq45x9gdq6flpcr0",
     "type": "tarball",
-    "url": "https://github.com/haskell/haskell-language-server/archive/41bf8b85ed40499d0a0b524277d51f470ec95e94.tar.gz",
+    "url": "https://github.com/haskell/haskell-language-server/archive/0cc89d209791c4bc200bf582f0e5f2a8b2465220.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "intero-neovim": {
@@ -161,10 +161,10 @@
     "homepage": "",
     "owner": "kovidgoyal",
     "repo": "kitty",
-    "rev": "4ced7b7657b0e14f1623dd2b7360767820966366",
-    "sha256": "1sl1s90qzfacq1wh7znf4n9ja88m8swjlihxgnaj6k8jg2mc163n",
+    "rev": "bfffd98fd4f2a1032b5a6fccddd508db70c60792",
+    "sha256": "0y91i8w46gd2ml3hpmydxzs6bhpk137sa8155avsvr5bn5lkglxi",
     "type": "tarball",
-    "url": "https://github.com/kovidgoyal/kitty/archive/4ced7b7657b0e14f1623dd2b7360767820966366.tar.gz",
+    "url": "https://github.com/kovidgoyal/kitty/archive/bfffd98fd4f2a1032b5a6fccddd508db70c60792.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "neovim": {
@@ -209,26 +209,14 @@
     "homepage": "",
     "owner": "shajra",
     "repo": "nix-project",
-    "rev": "b5c9ad3c2de8fb1c4320835ef72a85bc0cdda4b8",
-    "sha256": "1wnd5c5m5pw21q3j4x9hw6awn38zz4hw4kvxhis7cbpjjddm9669",
+    "rev": "b75206b7bc7ef0142fe68f9def37f50c41e49d48",
+    "sha256": "1bs7iifcigyziw1lbjqigqx79l4avdqw7pfsik9q8szm1wczww3n",
     "type": "tarball",
-    "url": "https://github.com/shajra/nix-project/archive/b5c9ad3c2de8fb1c4320835ef72a85bc0cdda4b8.tar.gz",
+    "url": "https://github.com/shajra/nix-project/archive/b75206b7bc7ef0142fe68f9def37f50c41e49d48.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nixpkgs": {
     "branch": "nixos-20.09",
-    "description": "A read-only mirror of NixOS/nixpkgs tracking the released channels. Send issues and PRs to",
-    "homepage": "https://github.com/NixOS/nixpkgs",
-    "owner": "NixOS",
-    "repo": "nixpkgs",
-    "rev": "47e580e291ff40bbde191e9fed35128727963b0c",
-    "sha256": "1fnz42w2p6avnz76p8n0dr2lvdgv1v1kipysih61mdakr4lc2fs8",
-    "type": "tarball",
-    "url": "https://github.com/NixOS/nixpkgs/archive/47e580e291ff40bbde191e9fed35128727963b0c.tar.gz",
-    "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-  },
-  "nixpkgs-stable-darwin": {
-    "branch": "nixpkgs-20.09-darwin",
     "description": "A read-only mirror of NixOS/nixpkgs tracking the released channels. Send issues and PRs to",
     "homepage": "https://github.com/NixOS/nixpkgs",
     "owner": "NixOS",
@@ -239,16 +227,28 @@
     "url": "https://github.com/NixOS/nixpkgs/archive/b52409e65eb55d4f75ccf1561f4d87c1a43f7b2f.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
+  "nixpkgs-stable-darwin": {
+    "branch": "nixpkgs-20.09-darwin",
+    "description": "A read-only mirror of NixOS/nixpkgs tracking the released channels. Send issues and PRs to",
+    "homepage": "https://github.com/NixOS/nixpkgs",
+    "owner": "NixOS",
+    "repo": "nixpkgs",
+    "rev": "1f44c30a1a2a2d16469b2584243619b26d45d6a9",
+    "sha256": "15zp4lak4i542vw2dl4f66aqamw28wabl4lbi2xpp9p84gvsa1cw",
+    "type": "tarball",
+    "url": "https://github.com/NixOS/nixpkgs/archive/1f44c30a1a2a2d16469b2584243619b26d45d6a9.tar.gz",
+    "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+  },
   "nixpkgs-stable-linux": {
     "branch": "nixos-20.09",
     "description": "A read-only mirror of NixOS/nixpkgs tracking the released channels. Send issues and PRs to",
     "homepage": "https://github.com/NixOS/nixpkgs",
     "owner": "NixOS",
     "repo": "nixpkgs",
-    "rev": "47e580e291ff40bbde191e9fed35128727963b0c",
-    "sha256": "1fnz42w2p6avnz76p8n0dr2lvdgv1v1kipysih61mdakr4lc2fs8",
+    "rev": "b52409e65eb55d4f75ccf1561f4d87c1a43f7b2f",
+    "sha256": "013kzbbwmddzigj2bz100006iycq35mjwah8sp03sr5bssqanzxn",
     "type": "tarball",
-    "url": "https://github.com/NixOS/nixpkgs/archive/47e580e291ff40bbde191e9fed35128727963b0c.tar.gz",
+    "url": "https://github.com/NixOS/nixpkgs/archive/b52409e65eb55d4f75ccf1561f4d87c1a43f7b2f.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nixpkgs-unstable": {
