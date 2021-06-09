@@ -146,7 +146,7 @@
   {
     "name": "vscode-thunder-client",
     "publisher": "rangav",
-    "sha256": "1r5mdzq4bd60i9nska3gqlf26hz2l5hagygn691ibszxkpcp0ykc",
-    "version": "1.4.0"
+    "sha256": "0cks6dwbdly40imhmcf4mwnwn2dhcwxs40v2dhh19b6wv0x8clyz",
+    "version": "1.4.1"
   }
 ]
