@@ -92,14 +92,14 @@
   {
     "name": "remote-ssh",
     "publisher": "ms-vscode-remote",
-    "sha256": "03a39m3b0ad9fqnbqns3dilxsy1vnv7riadhlxajbcl1afm3s5as",
-    "version": "0.65.6"
+    "sha256": "10ynl4pzlxy2k8f2zk3nfkp81br12a2aa6hzpd3zfnpwg6zc91mf",
+    "version": "0.65.7"
   },
   {
     "name": "remote-ssh-edit",
     "publisher": "ms-vscode-remote",
-    "sha256": "12ml15k0hqw5avhqj1hz3jz0gzkrr56rw85i2igjz4r3qf0wkrav",
-    "version": "0.65.6"
+    "sha256": "1q5x6ds2wlg3q98ybvic00j19l33pablx7wczywa7fc26f8h9xzj",
+    "version": "0.65.7"
   },
   {
     "name": "debugger-for-chrome",
