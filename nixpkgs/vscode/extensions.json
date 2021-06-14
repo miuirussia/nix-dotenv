@@ -14,8 +14,8 @@
   {
     "name": "vscode-jest",
     "publisher": "orta",
-    "sha256": "0d39mvmydgwvksm2pvdddvb6n9bzn23c5damyhz7drr46i2k9gr3",
-    "version": "4.0.2"
+    "sha256": "1skb0gxpx7lra48mcf8j7y4yqkxhfi6pabrjn8i9vxap0jb16hvv",
+    "version": "4.0.3"
   },
   {
     "name": "flow-for-vscode",
@@ -110,8 +110,8 @@
   {
     "name": "ide-purescript",
     "publisher": "nwolverson",
-    "sha256": "1z20hlzwhhi9yzdb8v5iqj7rbf3m5f6xg5p2mc188j85b4gp4jcm",
-    "version": "0.24.0"
+    "sha256": "079mswv7s1rvqs0n5dz31x5w135nl7iph1fwxqsc493x77df2s0f",
+    "version": "0.25.0"
   },
   {
     "name": "language-purescript",

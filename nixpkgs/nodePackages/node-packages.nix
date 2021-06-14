@@ -5706,10 +5706,10 @@ in
   purescript-language-server = nodeEnv.buildNodePackage {
     name = "purescript-language-server";
     packageName = "purescript-language-server";
-    version = "0.15.0";
+    version = "0.15.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/purescript-language-server/-/purescript-language-server-0.15.0.tgz";
-      sha512 = "zzVqn7EnHdFYVrXhIVQ5LJqQ1ysZb7leo6kdNnxwkBgvmdrdi68OQBPG3QlmJ+LULnEyKhhWyAdb5lc+W2Ha1Q==";
+      url = "https://registry.npmjs.org/purescript-language-server/-/purescript-language-server-0.15.2.tgz";
+      sha512 = "dlxcc6Fv7rcXO3uFVcOgZturcKknB4J00ITJjZCrORTjw5eVbGcSTKrSeSAlNZWaUYu0HQX9NHVKtHDG/6rBNw==";
     };
     dependencies = [
       sources."isexe-2.0.0"
