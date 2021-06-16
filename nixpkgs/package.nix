@@ -114,6 +114,7 @@ in
         pkgs.haskell // {
           compiler = pkgs.haskell.compiler // {
             ghc865 = mkGhcPackage { ghcVersion = "ghc865"; };
+            ghc8105 = mkGhcPackage { ghcVersion = "ghc8105"; };
           };
         };
 
