@@ -1390,13 +1390,13 @@ let
         sha512 = "S3Rz11i7c8AA5JPv7xAH+dOyq/Cu/VXHiHXBPOU1k/JAM5dXqQPt3qcrhpHSorXmrpu2g0gkIBVXAqCpzfoZIg==";
       };
     };
-    "eslint-7.28.0" = {
+    "eslint-7.29.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "7.28.0";
+      version = "7.29.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-7.28.0.tgz";
-        sha512 = "UMfH0VSjP0G4p3EWirscJEQ/cHqnT/iuH6oNZOB94nBjWbMnhGEPxsZm1eyIW0C/9jLI0Fow4W5DXLjEI7mn1g==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-7.29.0.tgz";
+        sha512 = "82G/JToB9qIy/ArBzIWG9xvvwL3R86AlCjtGw+A29OMZDqhTybz/MByORSukGxeI+YPCR4coYyITKk8BFH9nDA==";
       };
     };
     "eslint-scope-3.7.3" = {
@@ -4854,7 +4854,7 @@ in
       sources."emoji-regex-8.0.0"
       sources."enquirer-2.3.6"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-7.28.0"
+      sources."eslint-7.29.0"
       sources."eslint-scope-5.1.1"
       (sources."eslint-utils-2.1.0" // {
         dependencies = [
