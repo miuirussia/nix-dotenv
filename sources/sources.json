@@ -89,10 +89,10 @@
     "homepage": "https://input-output-hk.github.io/haskell.nix",
     "owner": "input-output-hk",
     "repo": "haskell.nix",
-    "rev": "9a1e9c48a3ea9f2868cd85dad1d81c6e6b6cce6e",
-    "sha256": "1ibb7cpsifjxr7y9lfhfwmnv2zri59hwm8vznvg86scvp6cafqhh",
+    "rev": "f53f98a092a684b6662ffdb1baa750bd118a9e8d",
+    "sha256": "1wkr99smx38y5i3aqmhi8bg0a4jn8xnjphcf4lwq2n3ypz8jn2ii",
     "type": "tarball",
-    "url": "https://github.com/input-output-hk/haskell.nix/archive/9a1e9c48a3ea9f2868cd85dad1d81c6e6b6cce6e.tar.gz",
+    "url": "https://github.com/input-output-hk/haskell.nix/archive/f53f98a092a684b6662ffdb1baa750bd118a9e8d.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-nix": {
@@ -125,10 +125,10 @@
     "homepage": null,
     "owner": "haskell",
     "repo": "haskell-language-server",
-    "rev": "b214231253612342c6ac2e6abab4c71f9961b8f7",
-    "sha256": "0rfg7s7ir40m9fz6g9fchzdddl7p37a495rvx7s4b1xkki8f4a1m",
+    "rev": "48fcaf1d9bd64d95465838f82a49e90817fdc6c9",
+    "sha256": "0l4yr1f1hr1m8l1lby93mlzmfc3lx0mly0wc21b7jl75mcl2p4vk",
     "type": "tarball",
-    "url": "https://github.com/haskell/haskell-language-server/archive/b214231253612342c6ac2e6abab4c71f9961b8f7.tar.gz",
+    "url": "https://github.com/haskell/haskell-language-server/archive/48fcaf1d9bd64d95465838f82a49e90817fdc6c9.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "intero-neovim": {
@@ -173,10 +173,10 @@
     "homepage": "https://neovim.io",
     "owner": "neovim",
     "repo": "neovim",
-    "rev": "96d83e2a66734b1bbbf863583e90a6fb6e646a67",
-    "sha256": "1q183c0jj1swkjsm676052gw3fxi7gmrakz1z63mybqzmcgxmsp0",
+    "rev": "997a9c879215bc01a928de3e762955878314ec6a",
+    "sha256": "1jli9z1yycmzmfpzj7f3yw61ddsral8nnnffrljzzyjn817ix79n",
     "type": "tarball",
-    "url": "https://github.com/neovim/neovim/archive/96d83e2a66734b1bbbf863583e90a6fb6e646a67.tar.gz",
+    "url": "https://github.com/neovim/neovim/archive/997a9c879215bc01a928de3e762955878314ec6a.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nginx-vim": {
