@@ -3,7 +3,7 @@
 let
   pkgs = import <nixpkgs> {};
   sources = import ./sources;
-  hlsPackage = import sources.hls-nix { inherit sources; ghcVersion = "ghc${version}"; };
+  hlsPackage = import sources.hls-nix { inherit sources; ghcVersion = "ghc${version}"; checkMaterialization = true; };
 in
 pkgs.buildEnv {
   name = "hls-ghc${version}";
