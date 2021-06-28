@@ -1606,13 +1606,13 @@ let
         sha512 = "f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==";
       };
     };
-    "fast-glob-3.2.5" = {
+    "fast-glob-3.2.6" = {
       name = "fast-glob";
       packageName = "fast-glob";
-      version = "3.2.5";
+      version = "3.2.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/fast-glob/-/fast-glob-3.2.5.tgz";
-        sha512 = "2DtFcgT68wiTTiwZ2hNdJfcHNke9XOfnwmBRWXhmeKM8rF0TGwmC/Qto3S7RoZKp5cilZbxzO5iTNTQsJ+EeDg==";
+        url = "https://registry.npmjs.org/fast-glob/-/fast-glob-3.2.6.tgz";
+        sha512 = "GnLuqj/pvQ7pX8/L4J84nijv6sAnlwvSDpMkJi9i7nPmPxGtRPkBSStfvDW5l6nMdX9VWe+pkKWFTgD+vF2QSQ==";
       };
     };
     "fast-json-stable-stringify-2.1.0" = {
@@ -5793,7 +5793,7 @@ in
       sources."crypto-random-string-2.0.0"
       sources."del-6.0.0"
       sources."dir-glob-3.0.1"
-      sources."fast-glob-3.2.5"
+      sources."fast-glob-3.2.6"
       sources."fastq-1.11.0"
       sources."fill-range-7.0.1"
       sources."find-up-4.1.0"
