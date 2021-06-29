@@ -5,7 +5,7 @@ jobs:
   ghc:
     strategy:
       matrix:
-        ghc: ['865', '884', '8104', '8105', '901']
+        ghc: ['865', '884', '8105', '901']
     name: "ghc${{ matrix.ghc }}"
     runs-on: macos-latest
     steps:
@@ -43,7 +43,7 @@ jobs:
   hls:
     strategy:
       matrix:
-        ghc: ['865', '884', '8104', '8105']
+        ghc: ['865', '884', '8105']
     needs: [ghc]
     name: "hls-ghc${{ matrix.ghc }}"
     runs-on: macos-latest
