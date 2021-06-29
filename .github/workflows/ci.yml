@@ -29,9 +29,6 @@ jobs:
       run: |
         nix -j $(sysctl -n hw.logicalcpu) --print-build-logs --show-trace build -f ghc.nix original -o original --argstr "version" "${{ matrix.ghc }}"
         nix -j $(sysctl -n hw.logicalcpu) --print-build-logs --show-trace build -f ghc.nix hix -o hix --argstr "version" "${{ matrix.ghc }}"
-    - name: Show builded paths
-      run: |
-        nix --print-build-logs path-info -f ghc.nix --argstr "version" "${{ matrix.ghc }}"
     - name: Upload cache
       run: |
         all-nix-deps $(readlink original) | xargs -P8 upload-nix
@@ -70,9 +67,6 @@ jobs:
     - name: Build hls.nix
       run: |
         nix -j $(sysctl -n hw.logicalcpu) --print-build-logs --show-trace build -f hls.nix --argstr "version" "${{ matrix.ghc }}"
-    - name: Show builded paths
-      run: |
-        nix --print-build-logs path-info -f hls.nix --argstr "version" "${{ matrix.ghc }}"
     - name: Upload cache
       run: |
         all-nix-deps $(readlink result) | xargs -P8 upload-nix
