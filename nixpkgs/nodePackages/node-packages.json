@@ -1,13 +1,14 @@
 [
+  "coc-yaml",
+  "diagnostic-languageserver",
   "eslint_d",
   "fx",
+  "pnpm",
   "prettier-eslint-cli",
   "pulp",
   "purescript",
   "purescript-language-server",
-  "typescript-language-server",
-  "diagnostic-languageserver",
   "purescript-psa",
   "spago",
-  "pnpm"
+  "typescript-language-server"
 ]
