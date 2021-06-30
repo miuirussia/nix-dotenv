@@ -20,8 +20,8 @@
   {
     "name": "flow-for-vscode",
     "publisher": "flowtype",
-    "sha256": "0firvhcnd4mvb19r51pw4q6fadsnb8l0hdfin292s4kvcjkqcdc5",
-    "version": "1.5.0"
+    "sha256": "139kxrxgdcw11rny852m2hsci4sl00b2zvas3qfr8qyqxniz3q2l",
+    "version": "1.9.0"
   },
   {
     "name": "vscode-neovim",
@@ -146,7 +146,7 @@
   {
     "name": "vscode-thunder-client",
     "publisher": "rangav",
-    "sha256": "0bdxb281ham93wnlvn6wa1i64n4j0d43y3z7ilr4h7qqq1wj3nl2",
-    "version": "1.5.0"
+    "sha256": "1gc04mh9j1fyz1waw61izjsh50fgi7rdj0lzd48yax1pcgqczs9m",
+    "version": "1.6.1"
   }
 ]
