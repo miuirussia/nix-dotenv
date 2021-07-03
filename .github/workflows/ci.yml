@@ -5,9 +5,8 @@ jobs:
   ghc:
     strategy:
       matrix:
-        ghc: ['865', '884', '8105', '901']
-        build: ['original', 'hix']
-    name: "ghc${{ matrix.ghc }}-${{ matrix.build }}"
+        ghc: ['865', '884', '8105']
+    name: "ghc${{ matrix.ghc }}"
     runs-on: macos-latest
     steps:
     - name: Checkout nix-dotenv
@@ -28,11 +27,14 @@ jobs:
       run: nix-instantiate --eval -E '(import <nixpkgs> {}).lib.version'
     - name: Build ghc.nix
       run: |
-        nix -j $(sysctl -n hw.logicalcpu) --print-build-logs --show-trace build -f ghc.nix ${{ matrix.build }} -o ${{ matrix.build }} --argstr "version" "${{ matrix.ghc }}"
+        nix -j $(sysctl -n hw.logicalcpu) --print-build-logs --show-trace build -f ghc.nix hix -o hix --argstr "version" "${{ matrix.ghc }}"
+        nix -j $(sysctl -n hw.logicalcpu) --print-build-logs --show-trace build -f ghc.nix original -o original --argstr "version" "${{ matrix.ghc }}"
     - name: Upload cache
       run: |
-        all-nix-deps $(readlink ${{ matrix.build }}) | xargs -P8 upload-nix
-        rm -f ${{ matrix.build }}
+        all-nix-deps $(readlink hix) | xargs -P8 upload-nix
+        all-nix-deps $(readlink original) | xargs -P8 upload-nix
+        rm -f hix
+        rm -f original
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
