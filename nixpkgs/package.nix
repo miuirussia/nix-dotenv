@@ -1,14 +1,17 @@
 { sources }:
 
 let
+  haskell-nix = import sources."haskell.nix" {};
+
   nixpkgs-hn = let
-    haskell-nix = import sources."haskell.nix" {};
     args = haskell-nix.nixpkgsArgs // {
       config = {};
       overlays = haskell-nix.overlays;
     };
   in
     import sources.nixpkgs-unstable args;
+
+  hix = haskell-nix.hix;
 
   fetchGitHubFiles = nixpkgs-hn.callPackage ./build-support/fetchgithubfiles {};
 
@@ -165,6 +168,6 @@ in
       wrapNeovimUnstable = pkgs.wrapNeovimUnstable.override { inherit nodejs; };
       neovimUtils = pkgs.neovimUtils.override { inherit nodejs; };
 
-      inherit font-patcher;
+      inherit font-patcher hix;
     };
 }
