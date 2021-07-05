@@ -356,15 +356,15 @@
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "vim-javascript": {
-    "branch": "misc-flow-improvements",
+    "branch": "master",
     "description": "Vastly improved Javascript indentation and syntax support in Vim.",
     "homepage": "http://www.vim.org/scripts/script.php?script_id=4452",
     "owner": "pangloss",
     "repo": "vim-javascript",
-    "rev": "f466bd75d346a6a977faa7db4cce9aadb440f6c1",
-    "sha256": "1s97nvlyv8jk40jcaacxb5y0vsgqd37w4s6jgmbahvl79jzpr3z7",
+    "rev": "f8345cdb6734aefa5c0f9cb128c9efd005410a43",
+    "sha256": "0s8bsfsjzc2djy2gvvf44g5ypsr7r3ax436xn0qpvhr58aa5m4dv",
     "type": "tarball",
-    "url": "https://github.com/pangloss/vim-javascript/archive/f466bd75d346a6a977faa7db4cce9aadb440f6c1.tar.gz",
+    "url": "https://github.com/pangloss/vim-javascript/archive/f8345cdb6734aefa5c0f9cb128c9efd005410a43.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "vim-js": {
