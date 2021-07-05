@@ -265,13 +265,13 @@ let
         sha512 = "j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==";
       };
     };
-    "ajv-8.6.0" = {
+    "ajv-8.6.1" = {
       name = "ajv";
       packageName = "ajv";
-      version = "8.6.0";
+      version = "8.6.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ajv/-/ajv-8.6.0.tgz";
-        sha512 = "cnUG4NSBiM4YFBxgZIj/In3/6KX+rQ2l2YPRVcvAMQGWEPKuXoPIhxzwqh31jA3IPbI4qEOp/5ILI4ynioXsGQ==";
+        url = "https://registry.npmjs.org/ajv/-/ajv-8.6.1.tgz";
+        sha512 = "42VLtQUOLefAvKFAQIxIZDaThq6om/PrfP0CYk3/vn+y4BMNkKnbli8ON2QCiHov4KkzOSJ/xSoBJdayiiYvVQ==";
       };
     };
     "ansi-colors-4.1.1" = {
@@ -1696,13 +1696,13 @@ let
         sha512 = "Utm6CdzT+6xsDk2m8S6uL8VHxNwI6Jub+e9NYTcAms28T84pTa25GJQV9j0CY0N1rM8hK4x6grpF2BQf+2qwVA==";
       };
     };
-    "fastq-1.11.0" = {
+    "fastq-1.11.1" = {
       name = "fastq";
       packageName = "fastq";
-      version = "1.11.0";
+      version = "1.11.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/fastq/-/fastq-1.11.0.tgz";
-        sha512 = "7Eczs8gIPDrVzT+EksYBcupqMyxSHXXrHOLRRxU2/DicV8789MRBRR8+Hc2uWzUupOs4YS4JzBmBxjjCVBxD/g==";
+        url = "https://registry.npmjs.org/fastq/-/fastq-1.11.1.tgz";
+        sha512 = "HOnr8Mc60eNYl1gzwp6r5RoUyAn5/glBolUzP/Ez6IFVPMPirxn/9phgL6zhOtaTy7ISwPvQ+wT+hfcRZh/bzw==";
       };
     };
     "figgy-pudding-3.5.2" = {
@@ -5050,7 +5050,7 @@ in
       sources."del-6.0.0"
       sources."dir-glob-3.0.1"
       sources."fast-glob-3.2.6"
-      sources."fastq-1.11.0"
+      sources."fastq-1.11.1"
       sources."fill-range-7.0.1"
       sources."find-up-4.1.0"
       sources."fs.realpath-1.0.0"
@@ -5253,7 +5253,7 @@ in
       sources."supports-color-8.1.1"
       (sources."table-6.7.1" // {
         dependencies = [
-          sources."ajv-8.6.0"
+          sources."ajv-8.6.1"
           sources."json-schema-traverse-1.0.0"
         ];
       })
@@ -6179,7 +6179,7 @@ in
       sources."del-6.0.0"
       sources."dir-glob-3.0.1"
       sources."fast-glob-3.2.6"
-      sources."fastq-1.11.0"
+      sources."fastq-1.11.1"
       sources."fill-range-7.0.1"
       sources."fs-extra-10.0.0"
       sources."fs.realpath-1.0.0"
