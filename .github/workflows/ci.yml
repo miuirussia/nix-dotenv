@@ -44,11 +44,51 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         NIX_UPLOAD_STORE_URL: 's3://nix-cache?endpoint=s3.kdevlab.com'
         NIX_UPLOAD_SECRET_KEY: ${{ secrets.CACHE_PRIVATE_KEY }}
+  packages:
+    strategy:
+      matrix:
+        package: ['brittany', 'hoogle', 'stack']
+    needs: [ghc]
+    name: "${{ matrix.package }}"
+    runs-on: macos-latest
+    steps:
+    - name: Checkout nix-dotenv
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: Install nix
+      uses: cachix/install-nix-action@v12
+      with:
+        nix_path: nixpkgs=channel:nixpkgs-unstable
+        extra_nix_config: |
+          trusted-public-keys = hydra.iohk.io:f/Ea+s+dFdN+3Y/G+FDgSq+a5NEWhJGzdjvKNGv0/EQ= s3.kdevlab.com:PhuKrzVfCsS0T1R4FnslJy2qUBul9oQ2CTSO/fg/llM= cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY=
+          substituters = https://hydra.iohk.io https://nix-cache.s3.kdevlab.com https://cache.nixos.org/
+    - uses: cachix/cachix-action@v10
+      with:
+        name: kdevlab
+        authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
+    - name: Install nix-cache-tools
+      run: |
+        nix-env -i -f ./nixpkgs/nix-cache-tools
+    - name: Show nixpkgs version
+      run: nix-instantiate --eval -E '(import <nixpkgs> {}).lib.version'
+    - name: Build ghc.nix
+      run: |
+        nix -j $(sysctl -n hw.logicalcpu) --print-build-logs --show-trace build -f hpkg.nix -o out --argstr "name" "${{ matrix.package }}"
+    - name: Upload cache
+      run: |
+        all-nix-deps $(readlink out) | xargs -P8 upload-nix
+        rm -f out
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        NIX_UPLOAD_STORE_URL: 's3://nix-cache?endpoint=s3.kdevlab.com'
+        NIX_UPLOAD_SECRET_KEY: ${{ secrets.CACHE_PRIVATE_KEY }}
   hls:
     strategy:
       matrix:
         ghc: ['865', '884', '8104', '8105']
-    needs: [ghc]
+    needs: [packages]
     name: "hls-ghc${{ matrix.ghc }}"
     runs-on: macos-latest
     steps:
