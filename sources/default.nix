@@ -53,12 +53,6 @@ let
     };
 
   overrides = {
-    "haskell.nix" = mkPatchedSource {
-      name = "haskell.nix";
-      src = srcs."haskell.nix";
-      patches = [ ./hnix_sphinx_fix.patch ];
-    };
-
     hls-stable =
       let
         s = sources.hls-stable;
