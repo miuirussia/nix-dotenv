@@ -112,13 +112,13 @@ let
         sha512 = "OCutwjDZ4aFS6PB1UZ988C4YgwlBHJd6wCeQqaLdmadZ/7e+w79+hbMUFC1QXDNCmdyoRfAFdm0RypzwR+Qpag==";
       };
     };
-    "@types/json-schema-7.0.7" = {
+    "@types/json-schema-7.0.8" = {
       name = "_at_types_slash_json-schema";
       packageName = "@types/json-schema";
-      version = "7.0.7";
+      version = "7.0.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.7.tgz";
-        sha512 = "cxWFQVseBm6O9Gbw1IWb8r6OS4OhSt3hPZLkFApLjM8TEXROBuQGLAH2i2gZpcXdLBIrpXuTDhH7Vbm1iXmNGA==";
+        url = "https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.8.tgz";
+        sha512 = "YSBPTLTVm2e2OoQIDYx8HaeWJ5tTToLH67kXR7zYNGupXMEHa2++G8k+DczX2cFVgalypqtyZIcU19AFcmOpmg==";
       };
     };
     "@typescript-eslint/experimental-utils-1.13.0" = {
@@ -4675,13 +4675,13 @@ let
         sha512 = "2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==";
       };
     };
-    "vscode-json-languageservice-4.1.5" = {
+    "vscode-json-languageservice-4.1.0" = {
       name = "vscode-json-languageservice";
       packageName = "vscode-json-languageservice";
-      version = "4.1.5";
+      version = "4.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-json-languageservice/-/vscode-json-languageservice-4.1.5.tgz";
-        sha512 = "oRVPj2UY6BQ8PQ1LIz/FigUEZQVqsB9msNCFlxRBHE9sSEIJkCbYG6aCB2n7WR17VIisYQdO3MDheuoyI48G2w==";
+        url = "https://registry.npmjs.org/vscode-json-languageservice/-/vscode-json-languageservice-4.1.0.tgz";
+        sha512 = "QW2SFk4kln5lTPQajGNuXWtmr2z9hVA6Sfi4qPFEW2vjt2XaUAp38/1OrcUQYiJXOyXntbWN2jZJaGxg+hDUxw==";
       };
     };
     "vscode-jsonrpc-6.0.0" = {
@@ -4978,10 +4978,10 @@ in
   coc-yaml = nodeEnv.buildNodePackage {
     name = "coc-yaml";
     packageName = "coc-yaml";
-    version = "1.4.0";
+    version = "1.4.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/coc-yaml/-/coc-yaml-1.4.0.tgz";
-      sha512 = "45QVkJGHeQNluIdNS7WEmMOz8wJ+1fE0uIeL34ZLoFd0mFaN0djndvSEZBiRCqEM1rWuiD8Zcw3GPn481OSwLQ==";
+      url = "https://registry.npmjs.org/coc-yaml/-/coc-yaml-1.4.1.tgz";
+      sha512 = "VKdGhmaPJqbQ90/HAOnaQShjdTReMesSPMpULmPzOmLbxQzJ+nKxr/Z7tWu3XZNEtd5lji05uEh0bt/YW1Dx7Q==";
     };
     dependencies = [
       sources."agent-base-4.3.0"
@@ -4995,26 +4995,30 @@ in
       sources."http-proxy-agent-2.1.0"
       sources."https-proxy-agent-2.2.4"
       sources."js-yaml-4.1.0"
-      sources."jsonc-parser-2.3.1"
+      sources."jsonc-parser-3.0.0"
       sources."minimatch-3.0.4"
       sources."ms-2.0.0"
       sources."prettier-2.0.5"
-      sources."request-light-0.2.5"
-      (sources."vscode-json-languageservice-4.1.5" // {
+      (sources."request-light-0.2.5" // {
         dependencies = [
-          sources."jsonc-parser-3.0.0"
-          sources."vscode-nls-5.0.0"
-          sources."vscode-uri-3.0.2"
+          sources."vscode-nls-4.1.2"
         ];
       })
+      sources."vscode-json-languageservice-4.1.0"
       sources."vscode-jsonrpc-6.0.0"
       sources."vscode-languageserver-7.0.0"
       sources."vscode-languageserver-protocol-3.16.0"
       sources."vscode-languageserver-textdocument-1.0.1"
       sources."vscode-languageserver-types-3.16.0"
-      sources."vscode-nls-4.1.2"
-      sources."vscode-uri-2.1.2"
-      sources."yaml-language-server-0.20.0"
+      sources."vscode-nls-5.0.0"
+      sources."vscode-uri-3.0.2"
+      (sources."yaml-language-server-0.20.0" // {
+        dependencies = [
+          sources."jsonc-parser-2.3.1"
+          sources."vscode-nls-4.1.2"
+          sources."vscode-uri-2.1.2"
+        ];
+      })
       sources."yaml-language-server-parser-0.1.2"
     ];
     buildInputs = globalBuildInputs;
@@ -5342,7 +5346,7 @@ in
       sources."@babel/helper-validator-identifier-7.14.5"
       sources."@babel/highlight-7.14.5"
       sources."@types/eslint-visitor-keys-1.0.0"
-      sources."@types/json-schema-7.0.7"
+      sources."@types/json-schema-7.0.8"
       sources."@typescript-eslint/experimental-utils-1.13.0"
       sources."@typescript-eslint/parser-1.13.0"
       (sources."@typescript-eslint/typescript-estree-1.13.0" // {
@@ -5854,10 +5858,10 @@ in
   purescript = nodeEnv.buildNodePackage {
     name = "purescript";
     packageName = "purescript";
-    version = "0.14.2";
+    version = "0.14.3";
     src = fetchurl {
-      url = "https://registry.npmjs.org/purescript/-/purescript-0.14.2.tgz";
-      sha512 = "kEXY5yUaG8a1FNN/IdtfNl4gcql7p76CPqnanMZ37GdtBZTcFK/SB24bp2rOAT1/N9qU8/corlra6uNf4+5pgQ==";
+      url = "https://registry.npmjs.org/purescript/-/purescript-0.14.3.tgz";
+      sha512 = "lAzHU/tcmxF4n3YUwUTwG/sIwHzjUq1zsIOBNmaVpbm7hxM+RhOTKMJdwdbTeCjxlilyVPWOLUQ6Exll4DYuMA==";
     };
     dependencies = [
       sources."ajv-6.12.6"
