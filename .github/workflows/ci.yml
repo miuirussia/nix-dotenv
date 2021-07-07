@@ -72,7 +72,7 @@ jobs:
         nix-env -i -f ./nixpkgs/nix-cache-tools
     - name: Show nixpkgs version
       run: nix-instantiate --eval -E '(import <nixpkgs> {}).lib.version'
-    - name: Build ghc.nix
+    - name: Build ${{ matrix.package }}
       run: |
         nix -j $(sysctl -n hw.logicalcpu) --print-build-logs --show-trace build -f hpkg.nix -o out --argstr "name" "${{ matrix.package }}"
     - name: Upload cache
