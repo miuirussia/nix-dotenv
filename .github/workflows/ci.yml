@@ -47,7 +47,7 @@ jobs:
   packages:
     strategy:
       matrix:
-        package: ['brittany', 'hoogle', 'stack']
+        package: ['brittany', 'hoogle', 'stack', 'pandoc']
     needs: [ghc]
     name: "${{ matrix.package }}"
     runs-on: macos-latest
