@@ -1984,13 +1984,13 @@ let
         sha512 = "WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==";
       };
     };
-    "globals-13.9.0" = {
+    "globals-13.10.0" = {
       name = "globals";
       packageName = "globals";
-      version = "13.9.0";
+      version = "13.10.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/globals/-/globals-13.9.0.tgz";
-        sha512 = "74/FduwI/JaIrr1H8e71UbDE+5x7pIPs1C2rrwC52SszOo043CsWOZEMW7o2Y58xwm9b+0RBKDxY5n2sUpEFxA==";
+        url = "https://registry.npmjs.org/globals/-/globals-13.10.0.tgz";
+        sha512 = "piHC3blgLGFjvOuMmWZX60f+na1lXFDhQXBf1UYp2fXPXqvEUbOhNwi6BsQ0bQishwedgnjkwv1d9zKf+MWw3g==";
       };
     };
     "globby-11.0.4" = {
@@ -4978,10 +4978,10 @@ in
   coc-yaml = nodeEnv.buildNodePackage {
     name = "coc-yaml";
     packageName = "coc-yaml";
-    version = "1.4.1";
+    version = "1.4.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/coc-yaml/-/coc-yaml-1.4.1.tgz";
-      sha512 = "VKdGhmaPJqbQ90/HAOnaQShjdTReMesSPMpULmPzOmLbxQzJ+nKxr/Z7tWu3XZNEtd5lji05uEh0bt/YW1Dx7Q==";
+      url = "https://registry.npmjs.org/coc-yaml/-/coc-yaml-1.4.2.tgz";
+      sha512 = "cfocwN+TczdspN03m7t+eJMyaAsKCSzfgJJDM2CWPvrreKIMMahWqce/krTtENqDHDu51miuWo+o6/6FEKSf4g==";
     };
     dependencies = [
       sources."agent-base-4.3.0"
@@ -5204,7 +5204,7 @@ in
       sources."functional-red-black-tree-1.0.1"
       sources."glob-7.1.7"
       sources."glob-parent-5.1.2"
-      sources."globals-13.9.0"
+      sources."globals-13.10.0"
       sources."has-flag-4.0.0"
       sources."ignore-4.0.6"
       sources."import-fresh-3.3.0"
