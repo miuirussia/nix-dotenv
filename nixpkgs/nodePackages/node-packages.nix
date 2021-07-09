@@ -94,13 +94,13 @@ let
         sha512 = "RkhPPp2zrqDAQA/2jNhnztcPAlv64XdhIp7a7454A5ovI7Bukxgt7MX7udwAu3zg1DcpPU0rz3VV1SeaqvY4+A==";
       };
     };
-    "@nodelib/fs.walk-1.2.7" = {
+    "@nodelib/fs.walk-1.2.8" = {
       name = "_at_nodelib_slash_fs.walk";
       packageName = "@nodelib/fs.walk";
-      version = "1.2.7";
+      version = "1.2.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@nodelib/fs.walk/-/fs.walk-1.2.7.tgz";
-        sha512 = "BTIhocbPBSrRmHxOAJFtR18oLhxTtAFDAvL8hY1S3iU8k+E60W/YFs4jrixGzQjMpF4qPXxIQHcjVD9dz1C2QA==";
+        url = "https://registry.npmjs.org/@nodelib/fs.walk/-/fs.walk-1.2.8.tgz";
+        sha512 = "oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==";
       };
     };
     "@types/eslint-visitor-keys-1.0.0" = {
@@ -211,13 +211,13 @@ let
         sha1 = "afdf9488fb1ecefc8348f6fb22f464e32a58b36b";
       };
     };
-    "acorn-jsx-5.3.1" = {
+    "acorn-jsx-5.3.2" = {
       name = "acorn-jsx";
       packageName = "acorn-jsx";
-      version = "5.3.1";
+      version = "5.3.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/acorn-jsx/-/acorn-jsx-5.3.1.tgz";
-        sha512 = "K0Ptm/47OKfQRpNQ2J/oIN/3QYiK6FwW+eJbILhsdxh2WTLdl+30o8aGdTbm5JbffpFFAg/g+zi1E+jvJha5ng==";
+        url = "https://registry.npmjs.org/acorn-jsx/-/acorn-jsx-5.3.2.tgz";
+        sha512 = "rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==";
       };
     };
     "acorn-node-1.8.2" = {
@@ -1660,13 +1660,13 @@ let
         sha512 = "f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==";
       };
     };
-    "fast-glob-3.2.6" = {
+    "fast-glob-3.2.7" = {
       name = "fast-glob";
       packageName = "fast-glob";
-      version = "3.2.6";
+      version = "3.2.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/fast-glob/-/fast-glob-3.2.6.tgz";
-        sha512 = "GnLuqj/pvQ7pX8/L4J84nijv6sAnlwvSDpMkJi9i7nPmPxGtRPkBSStfvDW5l6nMdX9VWe+pkKWFTgD+vF2QSQ==";
+        url = "https://registry.npmjs.org/fast-glob/-/fast-glob-3.2.7.tgz";
+        sha512 = "rYGMRwip6lUMvYD3BTScMwT1HtAs2d71SMv66Vrxs0IekGZEjhM0pcMfjQPnknBt2zeCwQMEupiN02ZP4DiT1Q==";
       };
     };
     "fast-json-stable-stringify-2.1.0" = {
@@ -1804,13 +1804,13 @@ let
         sha512 = "r5wGx7YeOwNWNlCA0wQ86zKyDLMQr+/RB8xy74M4hTphfmjlijTSSXGuH8rnvKZnfT9i+75zmd8jcKdMR4O6jA==";
       };
     };
-    "flatted-3.2.0" = {
+    "flatted-3.2.1" = {
       name = "flatted";
       packageName = "flatted";
-      version = "3.2.0";
+      version = "3.2.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/flatted/-/flatted-3.2.0.tgz";
-        sha512 = "XprP7lDrVT+kE2c2YlfiV+IfS9zxukiIOvNamPNsImNhXadSsQEbosItdL9bUQlCZXR13SvPk20BjWSWLA7m4A==";
+        url = "https://registry.npmjs.org/flatted/-/flatted-3.2.1.tgz";
+        sha512 = "OMQjaErSFHmHqZe+PSidH5n8j3O0F2DdnVh8JB4j4eUQ2k6KvB0qGfrKIhapvez5JerBbmWkaLYUYWISaESoXg==";
       };
     };
     "flush-write-stream-1.1.1" = {
@@ -5041,7 +5041,7 @@ in
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
       sources."@nodelib/fs.stat-2.0.5"
-      sources."@nodelib/fs.walk-1.2.7"
+      sources."@nodelib/fs.walk-1.2.8"
       sources."aggregate-error-3.1.0"
       sources."array-union-2.1.0"
       sources."balanced-match-1.0.2"
@@ -5053,7 +5053,7 @@ in
       sources."crypto-random-string-2.0.0"
       sources."del-6.0.0"
       sources."dir-glob-3.0.1"
-      sources."fast-glob-3.2.6"
+      sources."fast-glob-3.2.7"
       sources."fastq-1.11.1"
       sources."fill-range-7.0.1"
       sources."find-up-4.1.0"
@@ -5139,7 +5139,7 @@ in
       sources."@humanwhocodes/config-array-0.5.0"
       sources."@humanwhocodes/object-schema-1.2.0"
       sources."acorn-7.4.1"
-      sources."acorn-jsx-5.3.1"
+      sources."acorn-jsx-5.3.2"
       sources."ajv-6.12.6"
       sources."ansi-colors-4.1.1"
       sources."ansi-regex-5.0.0"
@@ -5199,7 +5199,7 @@ in
       sources."fast-levenshtein-2.0.6"
       sources."file-entry-cache-6.0.1"
       sources."flat-cache-3.0.4"
-      sources."flatted-3.2.0"
+      sources."flatted-3.2.1"
       sources."fs.realpath-1.0.0"
       sources."functional-red-black-tree-1.0.1"
       sources."glob-7.1.7"
@@ -5355,7 +5355,7 @@ in
         ];
       })
       sources."acorn-6.4.2"
-      sources."acorn-jsx-5.3.1"
+      sources."acorn-jsx-5.3.2"
       sources."ajv-6.12.6"
       sources."ansi-escapes-3.2.0"
       sources."ansi-regex-4.1.0"
@@ -6169,7 +6169,7 @@ in
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
       sources."@nodelib/fs.stat-2.0.5"
-      sources."@nodelib/fs.walk-1.2.7"
+      sources."@nodelib/fs.walk-1.2.8"
       sources."aggregate-error-3.1.0"
       sources."array-union-2.1.0"
       sources."balanced-match-1.0.2"
@@ -6182,7 +6182,7 @@ in
       sources."crypto-random-string-2.0.0"
       sources."del-6.0.0"
       sources."dir-glob-3.0.1"
-      sources."fast-glob-3.2.6"
+      sources."fast-glob-3.2.7"
       sources."fastq-1.11.1"
       sources."fill-range-7.0.1"
       sources."fs-extra-10.0.0"

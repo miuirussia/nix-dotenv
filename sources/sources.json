@@ -72,15 +72,15 @@
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "flow": {
-    "branch": "b193692a6ea5afc452f9aef3478b9880417cb31d",
+    "branch": "8b58d933d96f09dcb60a3d1a5d0c2427234ef1f0",
     "description": "Adds static typing to JavaScript to improve developer productivity and code quality.",
     "homepage": "https://flow.org/",
     "owner": "facebook",
     "repo": "flow",
-    "rev": "b193692a6ea5afc452f9aef3478b9880417cb31d",
-    "sha256": "13cp7hd1bwp4phvmg22a8gm3c9bk5wh6kdsizfwglc90q62wg922",
+    "rev": "8b58d933d96f09dcb60a3d1a5d0c2427234ef1f0",
+    "sha256": "0wh318y1wnir12x576lsfxkm23vrjji4iwbsqqj6ib2mmaaa1jil",
     "type": "tarball",
-    "url": "https://github.com/facebook/flow/archive/b193692a6ea5afc452f9aef3478b9880417cb31d.tar.gz",
+    "url": "https://github.com/facebook/flow/archive/8b58d933d96f09dcb60a3d1a5d0c2427234ef1f0.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "haskell.nix": {
@@ -89,10 +89,10 @@
     "homepage": "https://input-output-hk.github.io/haskell.nix",
     "owner": "input-output-hk",
     "repo": "haskell.nix",
-    "rev": "8a3b3d686a3337a2934ea55aa59700901594d798",
-    "sha256": "0l85baawp9anfizsp85nb82ryl3iyrfcrgqqy0ycrdnk5rnw2s3y",
+    "rev": "76bfee3d017f4c8a2cb74b1475229c50f091e8d4",
+    "sha256": "0y2mmkq4mf3lcwf2x1c86ivd5hn1j2357nh063gjkxnlpnbcsh96",
     "type": "tarball",
-    "url": "https://github.com/input-output-hk/haskell.nix/archive/8a3b3d686a3337a2934ea55aa59700901594d798.tar.gz",
+    "url": "https://github.com/input-output-hk/haskell.nix/archive/76bfee3d017f4c8a2cb74b1475229c50f091e8d4.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-nix": {
@@ -161,10 +161,10 @@
     "homepage": "",
     "owner": "kovidgoyal",
     "repo": "kitty",
-    "rev": "f62f94381ed5c1eda00c0cf0b9bcad9fc4ba77f1",
-    "sha256": "0gkzsgdhb89cpd5q7dqfg0pxk6pps1x72w9r6fxnh7d7rlm884p5",
+    "rev": "75b73f6821ea3cb277db9d92a916efc31be19553",
+    "sha256": "0kxgvmy937jz9agqv73rn93qbi5y0c5b0pdffgdf6kbdslxpvfb8",
     "type": "tarball",
-    "url": "https://github.com/kovidgoyal/kitty/archive/f62f94381ed5c1eda00c0cf0b9bcad9fc4ba77f1.tar.gz",
+    "url": "https://github.com/kovidgoyal/kitty/archive/75b73f6821ea3cb277db9d92a916efc31be19553.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "neovim": {
@@ -173,10 +173,10 @@
     "homepage": "https://neovim.io",
     "owner": "neovim",
     "repo": "neovim",
-    "rev": "af263711a368bcbdea66d086537316495ed64576",
-    "sha256": "1jjlsidzpyxyjla0rl4jvxz410x1v1h3550vqvymg52fx52yfvwq",
+    "rev": "27118c6eb3351b0df96e2514e8f3806108e50cf7",
+    "sha256": "022ad0lg4jdzmi5910rm4cka1h87h1i83lk09gkaffzzfryxcg6n",
     "type": "tarball",
-    "url": "https://github.com/neovim/neovim/archive/af263711a368bcbdea66d086537316495ed64576.tar.gz",
+    "url": "https://github.com/neovim/neovim/archive/27118c6eb3351b0df96e2514e8f3806108e50cf7.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nginx-vim": {
