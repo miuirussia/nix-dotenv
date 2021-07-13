@@ -20,8 +20,8 @@
   {
     "name": "flow-for-vscode",
     "publisher": "flowtype",
-    "sha256": "139kxrxgdcw11rny852m2hsci4sl00b2zvas3qfr8qyqxniz3q2l",
-    "version": "1.9.0"
+    "sha256": "0s1qc0v5qwcg014f2mrblnidvqlbjcazgj4aqqr9hk0cbkp208gy",
+    "version": "1.9.1"
   },
   {
     "name": "vscode-neovim",
@@ -74,8 +74,8 @@
   {
     "name": "rust-analyzer",
     "publisher": "matklad",
-    "sha256": "01qxgn4cplxpawwkbpxcfpv1fx9q1n8ckspqzxa83qy9q8w78rmj",
-    "version": "0.2.662"
+    "sha256": "08p8n87rixqixs292kp4gvx18i1h8d4xmdp06l01sbgdb0xn55ql",
+    "version": "0.2.670"
   },
   {
     "name": "vscode-docker",
