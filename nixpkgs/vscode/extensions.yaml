@@ -48,3 +48,5 @@
   publisher: timonwong
 - name: vscode-thunder-client
   publisher: rangav
+- name: hadolint
+  publisher: exiasr
