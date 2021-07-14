@@ -50,8 +50,8 @@
   {
     "name": "gitlens",
     "publisher": "eamodio",
-    "sha256": "0wy23fnd21jfqw88cyspzf09yvz2bpnlxniz4bc61n4pqm7xxki1",
-    "version": "11.5.1"
+    "sha256": "0lhrw24ilncdczh90jnjx71ld3b626xpk8b9qmwgzzhby89qs417",
+    "version": "11.6.0"
   },
   {
     "name": "haskell",
@@ -146,7 +146,7 @@
   {
     "name": "vscode-thunder-client",
     "publisher": "rangav",
-    "sha256": "1gc04mh9j1fyz1waw61izjsh50fgi7rdj0lzd48yax1pcgqczs9m",
-    "version": "1.6.1"
+    "sha256": "1c7rxm2mfd6j1cr6gqj9vdacffp2d38qcgzbjyidgfznq10x4ram",
+    "version": "1.7.0"
   }
 ]
