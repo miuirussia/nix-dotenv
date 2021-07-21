@@ -5,10 +5,10 @@
     "homepage": "https://jetbrains.com/mono",
     "owner": "JetBrains",
     "repo": "JetBrainsMono",
-    "rev": "dd6b1d4420409f8465e7d08c670661551789b867",
-    "sha256": "0jr21wbhvfbxysakzs97zhzv8wz3mpvwchw6vlbhrxyf7bdzh5vv",
+    "rev": "333ca681d7ee2a76ddcd232b79d07dbc0de9ebd8",
+    "sha256": "046shz1h2h695w1081vf5viw88r25044b2lxdv9xkj1af35jkri0",
     "type": "tarball",
-    "url": "https://github.com/JetBrains/JetBrainsMono/archive/dd6b1d4420409f8465e7d08c670661551789b867.tar.gz",
+    "url": "https://github.com/JetBrains/JetBrainsMono/archive/333ca681d7ee2a76ddcd232b79d07dbc0de9ebd8.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "coc-nvim": {
@@ -17,10 +17,10 @@
     "homepage": "",
     "owner": "neoclide",
     "repo": "coc.nvim",
-    "rev": "9c3c84735c9bcfd62507d6e2a137f90b1ddaa98a",
-    "sha256": "0g479ffpiqz15wwam4vwi8x0w7hbdnk2dxcwzryaf1cqnn6ip6in",
+    "rev": "576f3c972aa9c4458d3dbac2794bd8643ae16e4a",
+    "sha256": "09cndvz8dcasn35bclhqc4i72dw93sczivvfi0zw9ncgsdl22r6g",
     "type": "tarball",
-    "url": "https://github.com/neoclide/coc.nvim/archive/9c3c84735c9bcfd62507d6e2a137f90b1ddaa98a.tar.gz",
+    "url": "https://github.com/neoclide/coc.nvim/archive/576f3c972aa9c4458d3dbac2794bd8643ae16e4a.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "deoplete-nvim": {
@@ -89,10 +89,10 @@
     "homepage": "https://input-output-hk.github.io/haskell.nix",
     "owner": "input-output-hk",
     "repo": "haskell.nix",
-    "rev": "dbc2c05cb4555f9ce2289c482284f46b2d3dd0e6",
-    "sha256": "134dww1lfdy6ab2z7fb30lryphdaik8ln7zxx4ax04zg5di6c2bb",
+    "rev": "8c587f90d2986f87a8212c3469521db512bc7ed9",
+    "sha256": "0a4mz47ccvl1nl2p08zbn33i1vmak4bjr4z6wqzzflnq90hg5a0s",
     "type": "tarball",
-    "url": "https://github.com/input-output-hk/haskell.nix/archive/dbc2c05cb4555f9ce2289c482284f46b2d3dd0e6.tar.gz",
+    "url": "https://github.com/input-output-hk/haskell.nix/archive/8c587f90d2986f87a8212c3469521db512bc7ed9.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-nix": {
@@ -101,10 +101,10 @@
     "homepage": null,
     "owner": "miuirussia",
     "repo": "hls-nix",
-    "rev": "84340b9367b6ed456c590ad38c8df7dce7cf926b",
-    "sha256": "1gpiy653hj45pzc9x8237qy6idja0gxw9s2m5lfs321966ia0iac",
+    "rev": "c4d2c6036c0dc6f3681252aceb35ed92be669bc8",
+    "sha256": "0zq9gq2s2rpyk1q5n1j0q6djrw094lr6mb40vbpsg8jy2zxgyyyb",
     "type": "tarball",
-    "url": "https://github.com/miuirussia/hls-nix/archive/84340b9367b6ed456c590ad38c8df7dce7cf926b.tar.gz",
+    "url": "https://github.com/miuirussia/hls-nix/archive/c4d2c6036c0dc6f3681252aceb35ed92be669bc8.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-stable": {
@@ -125,10 +125,10 @@
     "homepage": null,
     "owner": "haskell",
     "repo": "haskell-language-server",
-    "rev": "c78363fcf6ff690cd13cc8b4ef0e8154cd814ab7",
-    "sha256": "0cx049lnqs37gqfrpvgz4l38zv9ird678b7743j3r0ji8xfd0z0l",
+    "rev": "78381b8135811618101a9177ffd32102dac56b68",
+    "sha256": "0dxzfx9q6bwh79qmqrsx9c17v74a2y5z2r9pwsxbz7im5k7k32v9",
     "type": "tarball",
-    "url": "https://github.com/haskell/haskell-language-server/archive/c78363fcf6ff690cd13cc8b4ef0e8154cd814ab7.tar.gz",
+    "url": "https://github.com/haskell/haskell-language-server/archive/78381b8135811618101a9177ffd32102dac56b68.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "intero-neovim": {
@@ -161,10 +161,10 @@
     "homepage": "",
     "owner": "kovidgoyal",
     "repo": "kitty",
-    "rev": "93e3e4d2b1ba51ca59fb8c622882c1dbdd9e8e42",
-    "sha256": "0csqlk21hy41026szyqk5vdvls9ary522hi16w9qf4pci46d2qjn",
+    "rev": "8dfef58f292dce21f979fd981e7f3c625e708ed7",
+    "sha256": "1hr2iidsaby1d3inxvcalk3aj7qhm5g38q3pjhii0jlcx1cyrqkb",
     "type": "tarball",
-    "url": "https://github.com/kovidgoyal/kitty/archive/93e3e4d2b1ba51ca59fb8c622882c1dbdd9e8e42.tar.gz",
+    "url": "https://github.com/kovidgoyal/kitty/archive/8dfef58f292dce21f979fd981e7f3c625e708ed7.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "neovim": {
@@ -173,10 +173,10 @@
     "homepage": "https://neovim.io",
     "owner": "neovim",
     "repo": "neovim",
-    "rev": "2475161defb775b0104dbe8b504a5299044584a2",
-    "sha256": "1ss8i7l1af0ni8iwsmhza8fcfnrn6ggmj2b2hl1djsg87mss2qdg",
+    "rev": "6f48c018b526a776e38e94f58769c30141de9e0c",
+    "sha256": "1cynw7c5c7ij3gnnwhvmzqp5fnbgzd7952wmi7s3zmbhk5vi6g20",
     "type": "tarball",
-    "url": "https://github.com/neovim/neovim/archive/2475161defb775b0104dbe8b504a5299044584a2.tar.gz",
+    "url": "https://github.com/neovim/neovim/archive/6f48c018b526a776e38e94f58769c30141de9e0c.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nginx-vim": {
@@ -421,10 +421,10 @@
     "homepage": "",
     "owner": "prabirshrestha",
     "repo": "vim-lsp",
-    "rev": "fb0a72306e1fc42c1ce8909aa1e420ddfccf6fbf",
-    "sha256": "0dzy7cvpmzvx6z5pifzj4y7biln5gcn4iic35ha58ixwgwcw784m",
+    "rev": "7ba553effb021293c9ff5176b91e76da71797825",
+    "sha256": "1phfqzn94m2j7g10aifh12a4gyyrhqnj1vn2bpdp29lpm1n179yg",
     "type": "tarball",
-    "url": "https://github.com/prabirshrestha/vim-lsp/archive/fb0a72306e1fc42c1ce8909aa1e420ddfccf6fbf.tar.gz",
+    "url": "https://github.com/prabirshrestha/vim-lsp/archive/7ba553effb021293c9ff5176b91e76da71797825.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "vim-rooter": {
