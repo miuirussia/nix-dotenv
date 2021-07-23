@@ -2713,13 +2713,13 @@ let
         sha1 = "6a40218fdc7ae15fc76c3d0f3e676c465388603e";
       };
     };
-    "lossless-json-1.0.4" = {
+    "lossless-json-1.0.5" = {
       name = "lossless-json";
       packageName = "lossless-json";
-      version = "1.0.4";
+      version = "1.0.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/lossless-json/-/lossless-json-1.0.4.tgz";
-        sha512 = "zEkWwELMSQQISdtOF44vk0bRJhN/PJ93qcgJLcodizQjxrJKdFrq2H1+Xv5QDe7v3dTYYbBI5hOsh4a9l0B2Ow==";
+        url = "https://registry.npmjs.org/lossless-json/-/lossless-json-1.0.5.tgz";
+        sha512 = "RicKUuLwZVNZ6ZdJHgIZnSeA05p8qWc5NW0uR96mpPIjN9WDLUg9+kj1esQU1GkPn9iLZVKatSQK5gyiaFHgJA==";
       };
     };
     "lru-cache-5.1.1" = {
@@ -5300,7 +5300,7 @@ in
       sources."has-flag-4.0.0"
       sources."indent-string-4.0.0"
       sources."is-fullwidth-code-point-3.0.0"
-      sources."lossless-json-1.0.4"
+      sources."lossless-json-1.0.5"
       sources."string-width-4.2.2"
       sources."strip-ansi-6.0.0"
       sources."supports-color-7.2.0"
