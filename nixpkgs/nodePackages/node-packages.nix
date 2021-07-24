@@ -4324,13 +4324,13 @@ let
         sha512 = "ZGum47Yi6KOOFDE8m223td53ath2enHcYLgOCjGr5ngu8bdIARQk6mN/wRMv4yMRcHnCSnHbCEha4sobQx5yWg==";
       };
     };
-    "tar-4.4.13" = {
+    "tar-4.4.14" = {
       name = "tar";
       packageName = "tar";
-      version = "4.4.13";
+      version = "4.4.14";
       src = fetchurl {
-        url = "https://registry.npmjs.org/tar/-/tar-4.4.13.tgz";
-        sha512 = "w2VwSrBoHa5BsSyH+KxEqeQBAllHhccyMFVHtGtdMpF4W7IRWfZjFiQceJPChOeTsSDVUpER2T8FA93pr0L+QA==";
+        url = "https://registry.npmjs.org/tar/-/tar-4.4.14.tgz";
+        sha512 = "ouN3XcSWYOAHmXZ+P4NEFJvqXL50To9OZBSQNNP30vBUFJFZZ0PLX15fnwupv6azfxMUfUDUr2fhYw4zGAEPcg==";
       };
     };
     "temp-0.9.4" = {
@@ -6005,7 +6005,7 @@ in
       sources."strip-ansi-5.2.0"
       sources."strip-final-newline-2.0.0"
       sources."supports-color-5.5.0"
-      sources."tar-4.4.13"
+      sources."tar-4.4.14"
       sources."through2-2.0.5"
       sources."tough-cookie-2.5.0"
       sources."tunnel-agent-0.6.0"
@@ -6139,7 +6139,7 @@ in
       sources."safe-buffer-5.2.1"
       sources."safer-buffer-2.1.2"
       sources."sshpk-1.16.1"
-      sources."tar-4.4.13"
+      sources."tar-4.4.14"
       sources."tough-cookie-2.5.0"
       sources."tunnel-agent-0.6.0"
       sources."tweetnacl-0.14.5"
