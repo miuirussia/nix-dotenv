@@ -5033,10 +5033,10 @@ in
   diagnostic-languageserver = nodeEnv.buildNodePackage {
     name = "diagnostic-languageserver";
     packageName = "diagnostic-languageserver";
-    version = "1.11.0";
+    version = "1.12.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/diagnostic-languageserver/-/diagnostic-languageserver-1.11.0.tgz";
-      sha512 = "4kjsgc/rV+qtH3dTqEnR/ug36yKNjyo5z674ySkD6k08DwlLs10fsP/I+d8BAsbtjpL36bqZxLa9iNgTDqioXQ==";
+      url = "https://registry.npmjs.org/diagnostic-languageserver/-/diagnostic-languageserver-1.12.0.tgz";
+      sha512 = "oXWAYO2ACrjFRYPTqUOQz3gCE7U1R5HVkuiqXXTFCcujiAprJjzvV5VAjrJolgA7guyRrXE5HliuDGoWJfWHOw==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"

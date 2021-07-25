@@ -89,10 +89,10 @@
     "homepage": "https://input-output-hk.github.io/haskell.nix",
     "owner": "input-output-hk",
     "repo": "haskell.nix",
-    "rev": "5ef948a71d4071414975673186f3ef4b22ba91b9",
-    "sha256": "0jgzpiywx1liag3605pbbvdkjsqkmd9m0189w2bhncik91gbf5rz",
+    "rev": "4ed57420edcde6166c63d81782c81a4472b2846a",
+    "sha256": "0qx90f3ycl3j159ilfs2gh0gh02kkrva0p8j5b49jqd7mgqqgm3r",
     "type": "tarball",
-    "url": "https://github.com/input-output-hk/haskell.nix/archive/5ef948a71d4071414975673186f3ef4b22ba91b9.tar.gz",
+    "url": "https://github.com/input-output-hk/haskell.nix/archive/4ed57420edcde6166c63d81782c81a4472b2846a.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-nix": {
@@ -101,10 +101,10 @@
     "homepage": null,
     "owner": "miuirussia",
     "repo": "hls-nix",
-    "rev": "e74d9170c9c88a56d4e72fd09ed99038f31ed45a",
-    "sha256": "1f180ld90hb1r63h73h67adxzhh4nrxcm7rm2461hyjiijpbqwg5",
+    "rev": "7f2c6c5235d47b94d7fd0f24fb02d3611459a84a",
+    "sha256": "07ddxg5sczcfvc804pp3m84n7c7f30jipd19flkzmqgz7ylj3ikr",
     "type": "tarball",
-    "url": "https://github.com/miuirussia/hls-nix/archive/e74d9170c9c88a56d4e72fd09ed99038f31ed45a.tar.gz",
+    "url": "https://github.com/miuirussia/hls-nix/archive/7f2c6c5235d47b94d7fd0f24fb02d3611459a84a.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-stable": {
@@ -173,10 +173,10 @@
     "homepage": "https://neovim.io",
     "owner": "neovim",
     "repo": "neovim",
-    "rev": "754ac5a834cb82f73ca552a9a55b90a40f9367f6",
-    "sha256": "0y4zh8g9bd698zsadxavh87gsv3vsjmcag6ffdbgj87wwq54j25v",
+    "rev": "46009499afbb0232124072d775caa9552d0f71de",
+    "sha256": "0szsciycqmm664nrj8fh31bc43c1k38z9vphik2d122jlzrhnnyh",
     "type": "tarball",
-    "url": "https://github.com/neovim/neovim/archive/754ac5a834cb82f73ca552a9a55b90a40f9367f6.tar.gz",
+    "url": "https://github.com/neovim/neovim/archive/46009499afbb0232124072d775caa9552d0f71de.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nginx-vim": {
@@ -221,10 +221,10 @@
     "homepage": "",
     "owner": "shajra",
     "repo": "nix-project",
-    "rev": "160d4f561e53438537a318721db5a1062fdc04b7",
-    "sha256": "0xfbqfs8kwxy3ixqld7h8bkb80pv8b8qmd8zsrpsyjj132pxkdsy",
+    "rev": "31c4ea19e01484c83900ff578bc6a427267e1d2a",
+    "sha256": "0jzpyv1i8dhbiilm5n4a1xxls0rp6514hgdd36pcby1mvkg0na87",
     "type": "tarball",
-    "url": "https://github.com/shajra/nix-project/archive/160d4f561e53438537a318721db5a1062fdc04b7.tar.gz",
+    "url": "https://github.com/shajra/nix-project/archive/31c4ea19e01484c83900ff578bc6a427267e1d2a.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nixpkgs": {
