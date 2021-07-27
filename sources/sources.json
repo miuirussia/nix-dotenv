@@ -17,10 +17,10 @@
     "homepage": "",
     "owner": "neoclide",
     "repo": "coc.nvim",
-    "rev": "d3022067c1af0d50797f51425103d7f9ee22c236",
-    "sha256": "1p6lag2asn2pnxgn6d2y7xnj0ij9aphzhznblg7di2xhprxky4mh",
+    "rev": "bdd11f8bfbe38522e20e49c97739d747c9db5bcf",
+    "sha256": "0a3y0ldj6y7xc3nbkzj2af1zs430z69wkzf5y8mcgxcavfg3krz4",
     "type": "tarball",
-    "url": "https://github.com/neoclide/coc.nvim/archive/d3022067c1af0d50797f51425103d7f9ee22c236.tar.gz",
+    "url": "https://github.com/neoclide/coc.nvim/archive/bdd11f8bfbe38522e20e49c97739d747c9db5bcf.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "deoplete-nvim": {
@@ -89,10 +89,10 @@
     "homepage": "https://input-output-hk.github.io/haskell.nix",
     "owner": "input-output-hk",
     "repo": "haskell.nix",
-    "rev": "9e5d672d13e5b829cd3ec6be65a15aa690663545",
-    "sha256": "04pf6hpw05jpi0ign5f8jwjrb2js43y7cdnm6b67zp4lgafs3a8z",
+    "rev": "97421c99a9a1843e88e6e8937ed683d59eedc74e",
+    "sha256": "0c7g8akcrqds4rkpiczk047riryk2hzllv75dlbjyy76qzxwyhr3",
     "type": "tarball",
-    "url": "https://github.com/input-output-hk/haskell.nix/archive/9e5d672d13e5b829cd3ec6be65a15aa690663545.tar.gz",
+    "url": "https://github.com/input-output-hk/haskell.nix/archive/97421c99a9a1843e88e6e8937ed683d59eedc74e.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-nix": {
@@ -101,10 +101,10 @@
     "homepage": null,
     "owner": "miuirussia",
     "repo": "hls-nix",
-    "rev": "8c4fefb3acd24d59472aa7f80bad8f1ca2324c05",
-    "sha256": "0rqhjl02l018fb9fbxm4aw16n1qdrm5vnlxzm3l4692a4anvq25r",
+    "rev": "c246d108652216e5c30308564a2629a705bb65bb",
+    "sha256": "12migb2717mqzzcsc9fvqwrn1aswy6lrmqzqybvx7h7f7c3qwjfk",
     "type": "tarball",
-    "url": "https://github.com/miuirussia/hls-nix/archive/8c4fefb3acd24d59472aa7f80bad8f1ca2324c05.tar.gz",
+    "url": "https://github.com/miuirussia/hls-nix/archive/c246d108652216e5c30308564a2629a705bb65bb.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-stable": {
@@ -125,10 +125,10 @@
     "homepage": null,
     "owner": "haskell",
     "repo": "haskell-language-server",
-    "rev": "920705004becec81edd508cc34bd29d2c4f59122",
-    "sha256": "1ivsjpklh4h6mfv0wl2p1cdcq3wnrzab2k8mi1xkknpcknixg7zi",
+    "rev": "5ddc93a5404614a765e3df0e7a957c1dd701712b",
+    "sha256": "1kr6nnmdy3277dxn1hdfg64nq94z91pajyldj1yln84hjxhk7n39",
     "type": "tarball",
-    "url": "https://github.com/haskell/haskell-language-server/archive/920705004becec81edd508cc34bd29d2c4f59122.tar.gz",
+    "url": "https://github.com/haskell/haskell-language-server/archive/5ddc93a5404614a765e3df0e7a957c1dd701712b.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "intero-neovim": {
@@ -161,10 +161,10 @@
     "homepage": "",
     "owner": "kovidgoyal",
     "repo": "kitty",
-    "rev": "419cf7898442c80cade77fb4078d81168e07cad2",
-    "sha256": "02iy8zyfj943nfrccrgy0cdv8z1hxp04cdbg2zfmvnac6zkkbj5z",
+    "rev": "9c9d68561e5a97cafa67817dcc5ac67c5a85bc24",
+    "sha256": "1j6g64s7wvqhx8247wsl1ya1fryxkv15j7p1nyhgnxz14d2aijgq",
     "type": "tarball",
-    "url": "https://github.com/kovidgoyal/kitty/archive/419cf7898442c80cade77fb4078d81168e07cad2.tar.gz",
+    "url": "https://github.com/kovidgoyal/kitty/archive/9c9d68561e5a97cafa67817dcc5ac67c5a85bc24.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "neovim": {
@@ -173,10 +173,10 @@
     "homepage": "https://neovim.io",
     "owner": "neovim",
     "repo": "neovim",
-    "rev": "192adfe99f33778a85e11fbfdceb37f347a3d235",
-    "sha256": "1y8f0nvibc245ipcp2wlr7bg1v2vkxzi7z6614qpnbidchb0z5aj",
+    "rev": "c818d8df349fff514eef8a529afe63e8102ca281",
+    "sha256": "0kcqda4n163dbkhsv6qbshn0figfv9h5bd4p34qri7rpd0qds2kw",
     "type": "tarball",
-    "url": "https://github.com/neovim/neovim/archive/192adfe99f33778a85e11fbfdceb37f347a3d235.tar.gz",
+    "url": "https://github.com/neovim/neovim/archive/c818d8df349fff514eef8a529afe63e8102ca281.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nginx-vim": {

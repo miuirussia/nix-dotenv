@@ -2371,13 +2371,13 @@ let
         sha512 = "YWnfyRwxL/+SsrWYfOpUtz5b3YD+nyfkHvjbcanzk8zgyO4ASD67uVMRt8k5bM4lLMDnXfriRhOpemw+NfT1eA==";
       };
     };
-    "is-stream-2.0.0" = {
+    "is-stream-2.0.1" = {
       name = "is-stream";
       packageName = "is-stream";
-      version = "2.0.0";
+      version = "2.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/is-stream/-/is-stream-2.0.0.tgz";
-        sha512 = "XCoy+WlUr7d1+Z8GgSuXmpuUFC9fOhRXglJMx+dwLKTkL44Cjd4W1Z5P+BQZpr+cR93aGP4S/s7Ftw6Nd/kiEw==";
+        url = "https://registry.npmjs.org/is-stream/-/is-stream-2.0.1.tgz";
+        sha512 = "hFoiJiTl63nn+kstHGBtewWSKnQLpyb155KHheA1l39uvtO9nWIop1p3udqPcUd/xbF1VLMO4n7OI6p7RbngDg==";
       };
     };
     "is-typedarray-1.0.0" = {
@@ -4324,13 +4324,13 @@ let
         sha512 = "ZGum47Yi6KOOFDE8m223td53ath2enHcYLgOCjGr5ngu8bdIARQk6mN/wRMv4yMRcHnCSnHbCEha4sobQx5yWg==";
       };
     };
-    "tar-4.4.14" = {
+    "tar-4.4.15" = {
       name = "tar";
       packageName = "tar";
-      version = "4.4.14";
+      version = "4.4.15";
       src = fetchurl {
-        url = "https://registry.npmjs.org/tar/-/tar-4.4.14.tgz";
-        sha512 = "ouN3XcSWYOAHmXZ+P4NEFJvqXL50To9OZBSQNNP30vBUFJFZZ0PLX15fnwupv6azfxMUfUDUr2fhYw4zGAEPcg==";
+        url = "https://registry.npmjs.org/tar/-/tar-4.4.15.tgz";
+        sha512 = "ItbufpujXkry7bHH9NpQyTXPbJ72iTlXgkBAYsAjDXk3Ds8t/3NfO5P4xZGy7u+sYuQUbimgzswX4uQIEeNVOA==";
       };
     };
     "temp-0.9.4" = {
@@ -5071,7 +5071,7 @@ in
       sources."is-number-7.0.0"
       sources."is-path-cwd-2.2.0"
       sources."is-path-inside-3.0.3"
-      sources."is-stream-2.0.0"
+      sources."is-stream-2.0.1"
       sources."locate-path-5.0.0"
       sources."lodash-4.17.21"
       sources."merge2-1.4.1"
@@ -5935,7 +5935,7 @@ in
       sources."inherits-2.0.4"
       sources."is-fullwidth-code-point-2.0.0"
       sources."is-plain-obj-2.1.0"
-      sources."is-stream-2.0.0"
+      sources."is-stream-2.0.1"
       sources."is-typedarray-1.0.0"
       sources."isarray-1.0.0"
       sources."isexe-2.0.0"
@@ -6005,7 +6005,7 @@ in
       sources."strip-ansi-5.2.0"
       sources."strip-final-newline-2.0.0"
       sources."supports-color-5.5.0"
-      sources."tar-4.4.14"
+      sources."tar-4.4.15"
       sources."through2-2.0.5"
       sources."tough-cookie-2.5.0"
       sources."tunnel-agent-0.6.0"
@@ -6139,7 +6139,7 @@ in
       sources."safe-buffer-5.2.1"
       sources."safer-buffer-2.1.2"
       sources."sshpk-1.16.1"
-      sources."tar-4.4.14"
+      sources."tar-4.4.15"
       sources."tough-cookie-2.5.0"
       sources."tunnel-agent-0.6.0"
       sources."tweetnacl-0.14.5"
@@ -6200,7 +6200,7 @@ in
       sources."is-number-7.0.0"
       sources."is-path-cwd-2.2.0"
       sources."is-path-inside-3.0.3"
-      sources."is-stream-2.0.0"
+      sources."is-stream-2.0.1"
       sources."jsonfile-6.1.0"
       sources."merge2-1.4.1"
       sources."micromatch-4.0.4"
