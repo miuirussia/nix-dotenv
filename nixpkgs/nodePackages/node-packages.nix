@@ -2839,22 +2839,22 @@ let
         sha512 = "x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==";
       };
     };
-    "mime-db-1.48.0" = {
+    "mime-db-1.49.0" = {
       name = "mime-db";
       packageName = "mime-db";
-      version = "1.48.0";
+      version = "1.49.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/mime-db/-/mime-db-1.48.0.tgz";
-        sha512 = "FM3QwxV+TnZYQ2aRqhlKBMHxk10lTbMt3bBkMAp54ddrNeVSfcQYOOKuGuy3Ddrm38I04If834fOUSq1yzslJQ==";
+        url = "https://registry.npmjs.org/mime-db/-/mime-db-1.49.0.tgz";
+        sha512 = "CIc8j9URtOVApSFCQIF+VBkX1RwXp/oMMOrqdyXSBXq5RWNEsRfyj1kiRnQgmNXmHxPoFIxOroKA3zcU9P+nAA==";
       };
     };
-    "mime-types-2.1.31" = {
+    "mime-types-2.1.32" = {
       name = "mime-types";
       packageName = "mime-types";
-      version = "2.1.31";
+      version = "2.1.32";
       src = fetchurl {
-        url = "https://registry.npmjs.org/mime-types/-/mime-types-2.1.31.tgz";
-        sha512 = "XGZnNzm3QvgKxa8dpzyhFTHmpP3l5YNusmne07VUOXxou9CqUqYa/HBy124RqtVh/O2pECas/MOcsDgpilPOPg==";
+        url = "https://registry.npmjs.org/mime-types/-/mime-types-2.1.32.tgz";
+        sha512 = "hJGaVS4G4c9TSMYh2n6SQAGrC4RnfU+daP8G7cSCmaqNjiOoUY0VHCMS42pxnQmVF1GWwFhbHWn3RIxCqTmZ9A==";
       };
     };
     "mimic-fn-1.2.0" = {
@@ -5949,8 +5949,8 @@ in
       sources."log-update-3.4.0"
       sources."lru-cache-5.1.1"
       sources."merge-stream-2.0.0"
-      sources."mime-db-1.48.0"
-      sources."mime-types-2.1.31"
+      sources."mime-db-1.49.0"
+      sources."mime-types-2.1.32"
       sources."mimic-fn-2.1.0"
       sources."minimatch-3.0.4"
       sources."minimist-1.2.5"
@@ -6124,8 +6124,8 @@ in
       sources."json-schema-traverse-0.4.1"
       sources."json-stringify-safe-5.0.1"
       sources."jsprim-1.4.1"
-      sources."mime-db-1.48.0"
-      sources."mime-types-2.1.31"
+      sources."mime-db-1.49.0"
+      sources."mime-types-2.1.32"
       sources."minimist-1.2.5"
       sources."minipass-2.9.0"
       sources."minizlib-1.3.3"
