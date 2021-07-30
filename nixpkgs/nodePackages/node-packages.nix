@@ -814,13 +814,13 @@ let
         sha512 = "Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==";
       };
     };
-    "chalk-4.1.1" = {
+    "chalk-4.1.2" = {
       name = "chalk";
       packageName = "chalk";
-      version = "4.1.1";
+      version = "4.1.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/chalk/-/chalk-4.1.1.tgz";
-        sha512 = "diHzdDKxcU+bAsUboHLPEDQiw0qEe0qd7SYUn3HgcFlWgbDcfLGswOHYeGrHKzG9z6UYf01d9VFMfZxPM1xZSg==";
+        url = "https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz";
+        sha512 = "oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==";
       };
     };
     "chardet-0.7.0" = {
@@ -5149,7 +5149,7 @@ in
       sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
       sources."callsites-3.1.0"
-      (sources."chalk-4.1.1" // {
+      (sources."chalk-4.1.2" // {
         dependencies = [
           sources."ansi-styles-4.3.0"
           sources."color-convert-2.0.1"
@@ -5293,7 +5293,7 @@ in
       sources."@medv/blessed-2.0.1"
       sources."ansi-regex-5.0.0"
       sources."ansi-styles-4.3.0"
-      sources."chalk-4.1.1"
+      sources."chalk-4.1.2"
       sources."color-convert-2.0.1"
       sources."color-name-1.1.4"
       sources."emoji-regex-8.0.0"
@@ -5315,13 +5315,31 @@ in
     bypassCache = true;
     reconstructLock = true;
   };
+  npm = nodeEnv.buildNodePackage {
+    name = "npm";
+    packageName = "npm";
+    version = "7.20.3";
+    src = fetchurl {
+      url = "https://registry.npmjs.org/npm/-/npm-7.20.3.tgz";
+      sha512 = "Kxk+NSnv+bcUKlWEKRaJ745AjEApYzM6GHxXs9AzR8VJiRMPcKvrIGMp+pdkIaF++2kEbcyg/Kx0FCrv+ySJiQ==";
+    };
+    buildInputs = globalBuildInputs;
+    meta = {
+      description = "a package manager for JavaScript";
+      homepage = "https://docs.npmjs.com/";
+      license = "Artistic-2.0";
+    };
+    production = true;
+    bypassCache = true;
+    reconstructLock = true;
+  };
   pnpm = nodeEnv.buildNodePackage {
     name = "pnpm";
     packageName = "pnpm";
-    version = "6.10.3";
+    version = "6.11.5";
     src = fetchurl {
-      url = "https://registry.npmjs.org/pnpm/-/pnpm-6.10.3.tgz";
-      sha512 = "GdxerBN3hhe9x9W0mAMmiWoDELy7KekrmHbYdo7WeHC1MthP/gI7MGVYIgcKj9Vy4zWLO9v1hVYOgKUrewkDVg==";
+      url = "https://registry.npmjs.org/pnpm/-/pnpm-6.11.5.tgz";
+      sha512 = "TXMSRyncP88F4GTdKFIIi3kdXSYf+v3uvIKLfNjPTt2YjsrbKmYNCR3VsGjYwlMVSnH2UEo2/sM2VNSefH9Isw==";
     };
     buildInputs = globalBuildInputs;
     meta = {

@@ -3,6 +3,7 @@
   "diagnostic-languageserver",
   "eslint_d",
   "fx",
+  "npm",
   "pnpm",
   "prettier-eslint-cli",
   "pulp",
