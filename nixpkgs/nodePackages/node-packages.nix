@@ -706,13 +706,13 @@ let
         sha1 = "0d333e3f00eac50aa1454abd30ef8c2a5d9a7242";
       };
     };
-    "buffer-from-1.1.1" = {
+    "buffer-from-1.1.2" = {
       name = "buffer-from";
       packageName = "buffer-from";
-      version = "1.1.1";
+      version = "1.1.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/buffer-from/-/buffer-from-1.1.1.tgz";
-        sha512 = "MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==";
+        url = "https://registry.npmjs.org/buffer-from/-/buffer-from-1.1.2.tgz";
+        sha512 = "E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==";
       };
     };
     "buffer-xor-1.0.3" = {
@@ -1048,13 +1048,13 @@ let
         sha512 = "f2domd9fsVDFtaFcbaRZuYXwtdmnzqbADSwhSWYxYB/Q8zsdUUFMXVRwXGDMWmbEzAn1kdRrtI1T/KTFOL4X2A==";
       };
     };
-    "core-js-3.15.2" = {
+    "core-js-3.16.0" = {
       name = "core-js";
       packageName = "core-js";
-      version = "3.15.2";
+      version = "3.16.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/core-js/-/core-js-3.15.2.tgz";
-        sha512 = "tKs41J7NJVuaya8DxIOCnl8QuPHx5/ZVbFo1oKgVl1qHFBBrDctzQGtuLjPpRdNTWmKPH6oEvgN/MUID+l485Q==";
+        url = "https://registry.npmjs.org/core-js/-/core-js-3.16.0.tgz";
+        sha512 = "5+5VxRFmSf97nM8Jr2wzOwLqRo6zphH2aX+7KsAUONObyzakDNq2G/bgbhinxB4PoV9L3aXQYhiDKyIKWd2c8g==";
       };
     };
     "core-util-is-1.0.2" = {
@@ -5383,7 +5383,7 @@ in
       sources."color-name-1.1.3"
       sources."common-tags-1.8.0"
       sources."concat-map-0.0.1"
-      sources."core-js-3.15.2"
+      sources."core-js-3.16.0"
       sources."cross-spawn-6.0.5"
       sources."debug-4.3.2"
       sources."decamelize-1.2.0"
@@ -5646,7 +5646,7 @@ in
       sources."browserify-zlib-0.2.0"
       sources."buffer-5.2.1"
       sources."buffer-crc32-0.2.13"
-      sources."buffer-from-1.1.1"
+      sources."buffer-from-1.1.2"
       sources."buffer-xor-1.0.3"
       sources."builtin-status-codes-3.0.0"
       sources."cached-path-relative-1.0.2"
@@ -5879,7 +5879,7 @@ in
       sources."bcrypt-pbkdf-1.0.2"
       sources."bluebird-3.7.2"
       sources."brace-expansion-1.1.11"
-      sources."buffer-from-1.1.1"
+      sources."buffer-from-1.1.2"
       sources."byline-5.0.0"
       sources."cacache-11.3.3"
       sources."caseless-0.12.0"
