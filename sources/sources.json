@@ -113,10 +113,10 @@
     "homepage": null,
     "owner": "miuirussia",
     "repo": "hls-nix",
-    "rev": "1aa66712ed1093bc63c56cfb9a0f8afdebfb3a14",
-    "sha256": "1dagcd49cx4mi1zp30brd0jqhh1mpf70bl6ci5la81hbhyyq7fyx",
+    "rev": "b038e9b95ce92648e75a05757ea9ce80cf46b59c",
+    "sha256": "1v0bnfff26pdmsd8d7mi5sfjai9wwpv9rkp5zq098g3x1vgr83mz",
     "type": "tarball",
-    "url": "https://github.com/miuirussia/hls-nix/archive/1aa66712ed1093bc63c56cfb9a0f8afdebfb3a14.tar.gz",
+    "url": "https://github.com/miuirussia/hls-nix/archive/b038e9b95ce92648e75a05757ea9ce80cf46b59c.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-stable": {
@@ -185,10 +185,10 @@
     "homepage": "https://neovim.io",
     "owner": "neovim",
     "repo": "neovim",
-    "rev": "535c762ff7d8303a20047ef5f5b4466c2b78e237",
-    "sha256": "0xqdqdby12wkycsjz6gdnrg3y0a32vgr4nm5lnwigh919cfbw8c0",
+    "rev": "3f9a838454e78252cfd90311472978960040d4ec",
+    "sha256": "0lxc7zfld82d0nnrbdl5ay352g5hk0cnz4p4qn6dn5bm65v2niz9",
     "type": "tarball",
-    "url": "https://github.com/neovim/neovim/archive/535c762ff7d8303a20047ef5f5b4466c2b78e237.tar.gz",
+    "url": "https://github.com/neovim/neovim/archive/3f9a838454e78252cfd90311472978960040d4ec.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nginx-vim": {
