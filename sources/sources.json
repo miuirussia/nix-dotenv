@@ -89,10 +89,10 @@
     "homepage": "",
     "owner": "miuirussia",
     "repo": "hackage.nix",
-    "rev": "a31cf40dcf44e74023f6d9b879f3ae3ca18b2562",
-    "sha256": "0ma6cxw398pc2vdl6v9g5k5s6ml6l0pr8cngpxylkbvc19kjdp4i",
+    "rev": "983051a1ec67617bb35769cbc655fe34816523d2",
+    "sha256": "1ykv6dx6sf64fbypicamdv0mdd47raa5yp5zlncxbf5q71szl9gf",
     "type": "tarball",
-    "url": "https://github.com/miuirussia/hackage.nix/archive/a31cf40dcf44e74023f6d9b879f3ae3ca18b2562.tar.gz",
+    "url": "https://github.com/miuirussia/hackage.nix/archive/983051a1ec67617bb35769cbc655fe34816523d2.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "haskell.nix": {
@@ -113,10 +113,10 @@
     "homepage": null,
     "owner": "miuirussia",
     "repo": "hls-nix",
-    "rev": "b038e9b95ce92648e75a05757ea9ce80cf46b59c",
-    "sha256": "1v0bnfff26pdmsd8d7mi5sfjai9wwpv9rkp5zq098g3x1vgr83mz",
+    "rev": "17d44b03806ab03da65688af604a6e8070f630b7",
+    "sha256": "11nggsrf8sbkmi1dhnvrsrw1vwdv50ybcja42ys3viz7cgkyr9xw",
     "type": "tarball",
-    "url": "https://github.com/miuirussia/hls-nix/archive/b038e9b95ce92648e75a05757ea9ce80cf46b59c.tar.gz",
+    "url": "https://github.com/miuirussia/hls-nix/archive/17d44b03806ab03da65688af604a6e8070f630b7.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-stable": {
