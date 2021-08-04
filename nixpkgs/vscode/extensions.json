@@ -56,8 +56,8 @@
   {
     "name": "haskell",
     "publisher": "haskell",
-    "sha256": "1jk702fd0b0aqfryixpiy6sc8njzd1brd0lbkdhcifp0qlbdwki0",
-    "version": "1.4.0"
+    "sha256": "1k6qpksgrfm3ldhsdimhzggxbrkcrj2hj2c30qa2kshm4dcismp9",
+    "version": "1.5.0"
   },
   {
     "name": "language-haskell",
@@ -104,8 +104,8 @@
   {
     "name": "debugger-for-chrome",
     "publisher": "msjsdiag",
-    "sha256": "0nkzck3i4342dhswhpg4b3mn0yp23ipad228hwdf23z8b19p4b5g",
-    "version": "4.12.12"
+    "sha256": "0r6l804dyinqfk012bmaynv73f07kgnvvxf74nc83pw61vvk5jk9",
+    "version": "4.13.0"
   },
   {
     "name": "ide-purescript",

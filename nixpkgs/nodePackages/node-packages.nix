@@ -112,13 +112,13 @@ let
         sha512 = "OCutwjDZ4aFS6PB1UZ988C4YgwlBHJd6wCeQqaLdmadZ/7e+w79+hbMUFC1QXDNCmdyoRfAFdm0RypzwR+Qpag==";
       };
     };
-    "@types/json-schema-7.0.8" = {
+    "@types/json-schema-7.0.9" = {
       name = "_at_types_slash_json-schema";
       packageName = "@types/json-schema";
-      version = "7.0.8";
+      version = "7.0.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.8.tgz";
-        sha512 = "YSBPTLTVm2e2OoQIDYx8HaeWJ5tTToLH67kXR7zYNGupXMEHa2++G8k+DczX2cFVgalypqtyZIcU19AFcmOpmg==";
+        url = "https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.9.tgz";
+        sha512 = "qcUXuemtEu+E5wZSJHNxUXeCZhAfXKQ41D+duX+VYPde7xyEVZci+/oXKJL13tnRs9lR2pr4fod59GT6/X1/yQ==";
       };
     };
     "@typescript-eslint/experimental-utils-1.13.0" = {
@@ -5364,7 +5364,7 @@ in
       sources."@babel/helper-validator-identifier-7.14.9"
       sources."@babel/highlight-7.14.5"
       sources."@types/eslint-visitor-keys-1.0.0"
-      sources."@types/json-schema-7.0.8"
+      sources."@types/json-schema-7.0.9"
       sources."@typescript-eslint/experimental-utils-1.13.0"
       sources."@typescript-eslint/parser-1.13.0"
       (sources."@typescript-eslint/typescript-estree-1.13.0" // {
