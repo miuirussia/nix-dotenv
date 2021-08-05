@@ -56,8 +56,8 @@
   {
     "name": "haskell",
     "publisher": "haskell",
-    "sha256": "1k6qpksgrfm3ldhsdimhzggxbrkcrj2hj2c30qa2kshm4dcismp9",
-    "version": "1.5.0"
+    "sha256": "1y3c09m0dcx21kksxydmys9d040571chfh7yc7qsa33p4ha522jj",
+    "version": "1.5.1"
   },
   {
     "name": "language-haskell",
@@ -86,8 +86,8 @@
   {
     "name": "remote-containers",
     "publisher": "ms-vscode-remote",
-    "sha256": "09v36dzn5nag72b2c6vy7lcmmac9jfnv2gbjns3m9ak0agpy5zzh",
-    "version": "0.190.0"
+    "sha256": "0zcvfv045k9v0ni7xd2kw3l0k2rw3177azmrx6yjs8iwh17q8jal",
+    "version": "0.191.0"
   },
   {
     "name": "remote-ssh",
