@@ -2011,13 +2011,13 @@ let
         sha512 = "7IDTQTIu2xzXkT+6mlluidnWo+BypnbSoEVVQCGfzqnl5Ik8d3e1d4wycb8Rj9tWW+Z39uPWsdlquqiqPCd/pA==";
       };
     };
-    "graceful-fs-4.2.6" = {
+    "graceful-fs-4.2.8" = {
       name = "graceful-fs";
       packageName = "graceful-fs";
-      version = "4.2.6";
+      version = "4.2.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.6.tgz";
-        sha512 = "nTnJ528pbqxYanhpDYsi4Rd8MAeaBA67+RZ10CM1m3bTAVFEDcd5AuA4a6W5YkGZ1iNXHzZz8T6TBKLeBuNriQ==";
+        url = "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.8.tgz";
+        sha512 = "qkIilPUYcNhJpd33n0GBXTB1MMPp14TxEsEs0pTrsSVucApsYzW5V+Q8Qxhik6KU3evy+qkAAowTByymK0avdg==";
       };
     };
     "har-schema-2.0.0" = {
@@ -5061,7 +5061,7 @@ in
       sources."glob-7.1.7"
       sources."glob-parent-5.1.2"
       sources."globby-11.0.4"
-      sources."graceful-fs-4.2.6"
+      sources."graceful-fs-4.2.8"
       sources."ignore-5.1.8"
       sources."indent-string-4.0.0"
       sources."inflight-1.0.6"
@@ -5318,10 +5318,10 @@ in
   npm = nodeEnv.buildNodePackage {
     name = "npm";
     packageName = "npm";
-    version = "7.20.3";
+    version = "7.20.5";
     src = fetchurl {
-      url = "https://registry.npmjs.org/npm/-/npm-7.20.3.tgz";
-      sha512 = "Kxk+NSnv+bcUKlWEKRaJ745AjEApYzM6GHxXs9AzR8VJiRMPcKvrIGMp+pdkIaF++2kEbcyg/Kx0FCrv+ySJiQ==";
+      url = "https://registry.npmjs.org/npm/-/npm-7.20.5.tgz";
+      sha512 = "vRyu1V79n5BzKn4vkanag1xEjEMLIZ48Ry1V7IyAvHQHi8syOEiYWvUMxNpeDk+e8JKAKCNG3lIYJDm3pM8VMQ==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -5716,7 +5716,7 @@ in
       sources."get-assigned-identifiers-1.2.0"
       sources."glob-7.1.7"
       sources."globule-1.3.2"
-      sources."graceful-fs-4.2.6"
+      sources."graceful-fs-4.2.8"
       sources."has-1.0.3"
       (sources."hash-base-3.1.0" // {
         dependencies = [
@@ -5942,7 +5942,7 @@ in
       sources."get-stream-5.2.0"
       sources."getpass-0.1.7"
       sources."glob-7.1.7"
-      sources."graceful-fs-4.2.6"
+      sources."graceful-fs-4.2.8"
       sources."har-schema-2.0.0"
       sources."har-validator-5.1.5"
       sources."has-flag-3.0.0"
@@ -6208,7 +6208,7 @@ in
       sources."glob-7.1.7"
       sources."glob-parent-5.1.2"
       sources."globby-11.0.4"
-      sources."graceful-fs-4.2.6"
+      sources."graceful-fs-4.2.8"
       sources."ignore-5.1.8"
       sources."indent-string-4.0.0"
       sources."inflight-1.0.6"

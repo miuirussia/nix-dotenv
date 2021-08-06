@@ -8,8 +8,8 @@
   {
     "name": "material-icon-theme",
     "publisher": "pkief",
-    "sha256": "06xsb1dqqdgr9ack0d92rc96qkhymyfba4msm884l52scd6jr7mx",
-    "version": "4.8.0"
+    "sha256": "133mmcvbmks3xp2wlay00gzbnqmjm019ziksaz4xadc7r19cy0fv",
+    "version": "4.9.0"
   },
   {
     "name": "vscode-jest",
