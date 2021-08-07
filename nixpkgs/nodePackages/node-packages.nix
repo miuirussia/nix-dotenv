@@ -5336,10 +5336,10 @@ in
   pnpm = nodeEnv.buildNodePackage {
     name = "pnpm";
     packageName = "pnpm";
-    version = "6.11.5";
+    version = "6.12.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/pnpm/-/pnpm-6.11.5.tgz";
-      sha512 = "TXMSRyncP88F4GTdKFIIi3kdXSYf+v3uvIKLfNjPTt2YjsrbKmYNCR3VsGjYwlMVSnH2UEo2/sM2VNSefH9Isw==";
+      url = "https://registry.npmjs.org/pnpm/-/pnpm-6.12.0.tgz";
+      sha512 = "3kBjfvJo6eFu6tKpXFhit/Mihd364cjaG4bblu4px8kVbSX+oGKmPBGver4zLG2dP0txtglNU+AS0e1OGEJQMw==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -6056,10 +6056,10 @@ in
   purescript-language-server = nodeEnv.buildNodePackage {
     name = "purescript-language-server";
     packageName = "purescript-language-server";
-    version = "0.15.2";
+    version = "0.15.3";
     src = fetchurl {
-      url = "https://registry.npmjs.org/purescript-language-server/-/purescript-language-server-0.15.2.tgz";
-      sha512 = "dlxcc6Fv7rcXO3uFVcOgZturcKknB4J00ITJjZCrORTjw5eVbGcSTKrSeSAlNZWaUYu0HQX9NHVKtHDG/6rBNw==";
+      url = "https://registry.npmjs.org/purescript-language-server/-/purescript-language-server-0.15.3.tgz";
+      sha512 = "qAlUEFQRTRKnKet3SxRbLmrC5mOyBIiR5CDqzOmorDN10jgcFIR6mL1sJujQc5cRRcE+HNbBuBeoVdiDvznOGg==";
     };
     dependencies = [
       sources."isexe-2.0.0"
