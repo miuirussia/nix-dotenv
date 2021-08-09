@@ -1048,13 +1048,13 @@ let
         sha512 = "f2domd9fsVDFtaFcbaRZuYXwtdmnzqbADSwhSWYxYB/Q8zsdUUFMXVRwXGDMWmbEzAn1kdRrtI1T/KTFOL4X2A==";
       };
     };
-    "core-js-3.16.0" = {
+    "core-js-3.16.1" = {
       name = "core-js";
       packageName = "core-js";
-      version = "3.16.0";
+      version = "3.16.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/core-js/-/core-js-3.16.0.tgz";
-        sha512 = "5+5VxRFmSf97nM8Jr2wzOwLqRo6zphH2aX+7KsAUONObyzakDNq2G/bgbhinxB4PoV9L3aXQYhiDKyIKWd2c8g==";
+        url = "https://registry.npmjs.org/core-js/-/core-js-3.16.1.tgz";
+        sha512 = "AAkP8i35EbefU+JddyWi12AWE9f2N/qr/pwnDtWz4nyUIBGMJPX99ANFFRSw6FefM374lDujdtLDyhN2A/btHw==";
       };
     };
     "core-util-is-1.0.2" = {
@@ -5336,10 +5336,10 @@ in
   pnpm = nodeEnv.buildNodePackage {
     name = "pnpm";
     packageName = "pnpm";
-    version = "6.12.0";
+    version = "6.12.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/pnpm/-/pnpm-6.12.0.tgz";
-      sha512 = "3kBjfvJo6eFu6tKpXFhit/Mihd364cjaG4bblu4px8kVbSX+oGKmPBGver4zLG2dP0txtglNU+AS0e1OGEJQMw==";
+      url = "https://registry.npmjs.org/pnpm/-/pnpm-6.12.1.tgz";
+      sha512 = "p2fowre11u8/f6rw6n1zadtpNLQd2XNux40sUUdcVQqwryUG0YO7xveP96iRTBSWi+RdyCRlXnDgppyvb31d8g==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -5401,7 +5401,7 @@ in
       sources."color-name-1.1.3"
       sources."common-tags-1.8.0"
       sources."concat-map-0.0.1"
-      sources."core-js-3.16.0"
+      sources."core-js-3.16.1"
       sources."cross-spawn-6.0.5"
       sources."debug-4.3.2"
       sources."decamelize-1.2.0"
