@@ -17,10 +17,10 @@
     "homepage": "",
     "owner": "neoclide",
     "repo": "coc.nvim",
-    "rev": "bdd11f8bfbe38522e20e49c97739d747c9db5bcf",
-    "sha256": "0a3y0ldj6y7xc3nbkzj2af1zs430z69wkzf5y8mcgxcavfg3krz4",
+    "rev": "6a9a0ee38d2d28fc978db89237cdceb40aea6de3",
+    "sha256": "04ywmwbr8y86z6fgcx4w8w779rl0c9c3q8fazncmx24wmcmilhb5",
     "type": "tarball",
-    "url": "https://github.com/neoclide/coc.nvim/archive/bdd11f8bfbe38522e20e49c97739d747c9db5bcf.tar.gz",
+    "url": "https://github.com/neoclide/coc.nvim/archive/6a9a0ee38d2d28fc978db89237cdceb40aea6de3.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "deoplete-nvim": {
@@ -89,10 +89,10 @@
     "homepage": "",
     "owner": "miuirussia",
     "repo": "hackage.nix",
-    "rev": "91f1ba732576d1f8575747e73ee32eba092a6978",
-    "sha256": "15ydmljwc45r490f6hccdqyqy2zm59n6c24a8icj9wxs5b1gp4gk",
+    "rev": "4a5a0fe7deef221f6acfc6d9b3d7357c9b133573",
+    "sha256": "09qbp3f4cg51iimryqji1m410ng6z1ryynkn66qw2v6pff2yimx8",
     "type": "tarball",
-    "url": "https://github.com/miuirussia/hackage.nix/archive/91f1ba732576d1f8575747e73ee32eba092a6978.tar.gz",
+    "url": "https://github.com/miuirussia/hackage.nix/archive/4a5a0fe7deef221f6acfc6d9b3d7357c9b133573.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "haskell.nix": {
@@ -101,10 +101,10 @@
     "homepage": "https://input-output-hk.github.io/haskell.nix",
     "owner": "input-output-hk",
     "repo": "haskell.nix",
-    "rev": "d5d304d5b50db1e584ce62915c48fc8c0c8b626a",
-    "sha256": "0j70lnw99v62qshdd0a03ph37d0zyb9lqiiq48av3iw5g2f6h44z",
+    "rev": "40c97135df2d83ac0d5531a32028d23eca6d130e",
+    "sha256": "1x6fayd88binak0c6z8d360wdnnj2dqxqg7lhdg7b7y6blpdyxli",
     "type": "tarball",
-    "url": "https://github.com/input-output-hk/haskell.nix/archive/d5d304d5b50db1e584ce62915c48fc8c0c8b626a.tar.gz",
+    "url": "https://github.com/input-output-hk/haskell.nix/archive/40c97135df2d83ac0d5531a32028d23eca6d130e.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-nix": {
@@ -113,10 +113,10 @@
     "homepage": null,
     "owner": "miuirussia",
     "repo": "hls-nix",
-    "rev": "214bd7c0b30d602c9a7a336aa52479296a7d35b7",
-    "sha256": "115qmpcm8jqijk1sb4vkmpal46am6yjy0p5x68xa6amq9hj5vy4w",
+    "rev": "9b5e41ccf89c3c0e2ae25e3cbfc7701748ef7a41",
+    "sha256": "1jf6mq04xd3na6w2hl469jw2kzkblahrvzzw79hakjkkgf1i0ik6",
     "type": "tarball",
-    "url": "https://github.com/miuirussia/hls-nix/archive/214bd7c0b30d602c9a7a336aa52479296a7d35b7.tar.gz",
+    "url": "https://github.com/miuirussia/hls-nix/archive/9b5e41ccf89c3c0e2ae25e3cbfc7701748ef7a41.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-stable": {
@@ -185,10 +185,10 @@
     "homepage": "https://neovim.io",
     "owner": "neovim",
     "repo": "neovim",
-    "rev": "68f61b167e71ca8dd42157b10b3096571c06f39d",
-    "sha256": "11kcg185rmp60wyniy6fwcz4zpsiwv87yc795hy396calm0ggy01",
+    "rev": "1a10acb997d2c454bef2c787faecde429c0c977b",
+    "sha256": "0vkrxdcp71ixnv3ly0v4clshwjlgd65yqlnnm61hwdq53vmw0435",
     "type": "tarball",
-    "url": "https://github.com/neovim/neovim/archive/68f61b167e71ca8dd42157b10b3096571c06f39d.tar.gz",
+    "url": "https://github.com/neovim/neovim/archive/1a10acb997d2c454bef2c787faecde429c0c977b.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nginx-vim": {
@@ -361,10 +361,10 @@
     "homepage": "",
     "owner": "vim-airline",
     "repo": "vim-airline",
-    "rev": "0cfd829c92a6fd208bfdcbdd2881105462224636",
-    "sha256": "1jl6j7pq5klcr5rf2vmwrqvzx1y7paywhfw96dfk6397rxsga058",
+    "rev": "2259e5c93e671cb7676f0efb225fef4b65f85b6e",
+    "sha256": "1dp3n4061b7x43488paddy7gh8ib9s2b49zq14kjwy1bhzkwykh5",
     "type": "tarball",
-    "url": "https://github.com/vim-airline/vim-airline/archive/0cfd829c92a6fd208bfdcbdd2881105462224636.tar.gz",
+    "url": "https://github.com/vim-airline/vim-airline/archive/2259e5c93e671cb7676f0efb225fef4b65f85b6e.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "vim-javascript": {
