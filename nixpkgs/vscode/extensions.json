@@ -6,6 +6,12 @@
     "version": "2.2.3"
   },
   {
+    "name": "vscode-theme-onelight",
+    "publisher": "akamud",
+    "sha256": "1mzd77sv6lb6kfv5fvdvzggs488q553cf752byrml981ys9r7khz",
+    "version": "2.2.3"
+  },
+  {
     "name": "material-icon-theme",
     "publisher": "pkief",
     "sha256": "133mmcvbmks3xp2wlay00gzbnqmjm019ziksaz4xadc7r19cy0fv",

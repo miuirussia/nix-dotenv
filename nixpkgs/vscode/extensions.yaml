@@ -1,5 +1,7 @@
 - name: vscode-theme-onedark
   publisher: akamud
+- name: vscode-theme-onelight
+  publisher: akamud
 - name: material-icon-theme
   publisher: pkief
 - name: vscode-jest
