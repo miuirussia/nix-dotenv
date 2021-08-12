@@ -4324,13 +4324,13 @@ let
         sha512 = "ZGum47Yi6KOOFDE8m223td53ath2enHcYLgOCjGr5ngu8bdIARQk6mN/wRMv4yMRcHnCSnHbCEha4sobQx5yWg==";
       };
     };
-    "tar-4.4.16" = {
+    "tar-4.4.17" = {
       name = "tar";
       packageName = "tar";
-      version = "4.4.16";
+      version = "4.4.17";
       src = fetchurl {
-        url = "https://registry.npmjs.org/tar/-/tar-4.4.16.tgz";
-        sha512 = "gOVUT/KWPkGFZQmCRDVFNUWBl7niIo/PRR7lzrIqtZpit+st54lGROuVjc6zEQM9FhH+dJfQIl+9F0k8GNXg5g==";
+        url = "https://registry.npmjs.org/tar/-/tar-4.4.17.tgz";
+        sha512 = "q7OwXq6NTdcYIa+k58nEMV3j1euhDhGCs/VRw9ymx/PbH0jtIM2+VTgDE/BW3rbLkrBUXs5fzEKgic5oUciu7g==";
       };
     };
     "temp-0.9.4" = {
@@ -6023,7 +6023,7 @@ in
       sources."strip-ansi-5.2.0"
       sources."strip-final-newline-2.0.0"
       sources."supports-color-5.5.0"
-      (sources."tar-4.4.16" // {
+      (sources."tar-4.4.17" // {
         dependencies = [
           sources."safe-buffer-5.2.1"
         ];
@@ -6060,10 +6060,10 @@ in
   purescript-language-server = nodeEnv.buildNodePackage {
     name = "purescript-language-server";
     packageName = "purescript-language-server";
-    version = "0.15.3";
+    version = "0.15.4";
     src = fetchurl {
-      url = "https://registry.npmjs.org/purescript-language-server/-/purescript-language-server-0.15.3.tgz";
-      sha512 = "qAlUEFQRTRKnKet3SxRbLmrC5mOyBIiR5CDqzOmorDN10jgcFIR6mL1sJujQc5cRRcE+HNbBuBeoVdiDvznOGg==";
+      url = "https://registry.npmjs.org/purescript-language-server/-/purescript-language-server-0.15.4.tgz";
+      sha512 = "llUv605I8yvraO98rb5RmmqPdpWBno7IpIlgNlX3Nq3Q4lvB7G0OxGK89JuAoVZ8T/xkTzhjyuzw0sty0DoY3Q==";
     };
     dependencies = [
       sources."isexe-2.0.0"
@@ -6161,7 +6161,7 @@ in
       sources."safe-buffer-5.2.1"
       sources."safer-buffer-2.1.2"
       sources."sshpk-1.16.1"
-      sources."tar-4.4.16"
+      sources."tar-4.4.17"
       sources."tough-cookie-2.5.0"
       sources."tunnel-agent-0.6.0"
       sources."tweetnacl-0.14.5"
