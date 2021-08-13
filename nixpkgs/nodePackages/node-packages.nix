@@ -1984,13 +1984,13 @@ let
         sha512 = "WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==";
       };
     };
-    "globals-13.10.0" = {
+    "globals-13.11.0" = {
       name = "globals";
       packageName = "globals";
-      version = "13.10.0";
+      version = "13.11.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/globals/-/globals-13.10.0.tgz";
-        sha512 = "piHC3blgLGFjvOuMmWZX60f+na1lXFDhQXBf1UYp2fXPXqvEUbOhNwi6BsQ0bQishwedgnjkwv1d9zKf+MWw3g==";
+        url = "https://registry.npmjs.org/globals/-/globals-13.11.0.tgz";
+        sha512 = "08/xrJ7wQjK9kkkRoI3OFUBbLx4f+6x3SGwcPvQ0QH6goFDrOU2oyAWrmh3dJezu65buo+HBMzAMQy6rovVC3g==";
       };
     };
     "globby-11.0.4" = {
@@ -4693,15 +4693,6 @@ let
         sha512 = "wnJA4BnEjOSyFMvjZdpiOwhSq9uDoK8e/kpRJDTaMYzwlkrhG1fwDIZI94CLsLzlCK5cIbMMtFlJlfR57Lavmg==";
       };
     };
-    "vscode-languageserver-5.3.0-next.10" = {
-      name = "vscode-languageserver";
-      packageName = "vscode-languageserver";
-      version = "5.3.0-next.10";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-languageserver/-/vscode-languageserver-5.3.0-next.10.tgz";
-        sha512 = "QL7Fe1FT6PdLtVzwJeZ78pTic4eZbzLRy7yAQgPb9xalqqgZESR0+yDZPwJrM3E7PzOmwHBceYcJR54eQZ7Kng==";
-      };
-    };
     "vscode-languageserver-6.1.1" = {
       name = "vscode-languageserver";
       packageName = "vscode-languageserver";
@@ -4763,15 +4754,6 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/vscode-nls/-/vscode-nls-5.0.0.tgz";
         sha512 = "u0Lw+IYlgbEJFF6/qAqG2d1jQmJl0eyAGJHoAJqr2HT4M2BNuQYSEiSE75f52pXHSJm8AlTjnLLbBFPrdz2hpA==";
-      };
-    };
-    "vscode-textbuffer-1.0.0" = {
-      name = "vscode-textbuffer";
-      packageName = "vscode-textbuffer";
-      version = "1.0.0";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-textbuffer/-/vscode-textbuffer-1.0.0.tgz";
-        sha512 = "zPaHo4urgpwsm+PrJWfNakolRpryNja18SUip/qIIsfhuEqEIPEXMxHOlFPjvDC4JgTaimkncNW7UMXRJTY6ow==";
       };
     };
     "vscode-uri-1.0.8" = {
@@ -5204,7 +5186,7 @@ in
       sources."functional-red-black-tree-1.0.1"
       sources."glob-7.1.7"
       sources."glob-parent-5.1.2"
-      sources."globals-13.10.0"
+      sources."globals-13.11.0"
       sources."has-flag-4.0.0"
       sources."ignore-4.0.6"
       sources."import-fresh-3.3.0"
@@ -5318,10 +5300,10 @@ in
   npm = nodeEnv.buildNodePackage {
     name = "npm";
     packageName = "npm";
-    version = "7.20.5";
+    version = "7.20.6";
     src = fetchurl {
-      url = "https://registry.npmjs.org/npm/-/npm-7.20.5.tgz";
-      sha512 = "vRyu1V79n5BzKn4vkanag1xEjEMLIZ48Ry1V7IyAvHQHi8syOEiYWvUMxNpeDk+e8JKAKCNG3lIYJDm3pM8VMQ==";
+      url = "https://registry.npmjs.org/npm/-/npm-7.20.6.tgz";
+      sha512 = "SRx0i1sMZDf8cd0/JokYD0EPZg0BS1iTylU9MSWw07N6/9CZHjMpZL/p8gsww7m2JsWAsTamhmGl15dQ9UgUgw==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -6183,10 +6165,10 @@ in
   typescript-language-server = nodeEnv.buildNodePackage {
     name = "typescript-language-server";
     packageName = "typescript-language-server";
-    version = "0.5.4";
+    version = "0.6.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-0.5.4.tgz";
-      sha512 = "MQbCaq+ZUGfibp91reQJGYPXWbEdsY8G+iAkOaKRLOs3MDIssacEYF3v1nFne8iWWYPSsYs4HvuiIzbuUAO8GA==";
+      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-0.6.0.tgz";
+      sha512 = "gBvRnenOM413yVfZy8dKMs+b+/Zknl2o1M79+XAGbdptOds+VAkbZXrfj0MC1IGdB+hQ6XxuWa4jWfrvBkoFiQ==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
@@ -6245,17 +6227,16 @@ in
       sources."unique-string-2.0.0"
       sources."universalify-2.0.0"
       sources."vscode-jsonrpc-6.0.0"
-      sources."vscode-languageserver-5.3.0-next.10"
+      sources."vscode-languageserver-7.0.0"
       sources."vscode-languageserver-protocol-3.16.0"
+      sources."vscode-languageserver-textdocument-1.0.1"
       sources."vscode-languageserver-types-3.16.0"
-      sources."vscode-textbuffer-1.0.0"
       sources."vscode-uri-1.0.8"
       sources."wrappy-1.0.2"
     ];
     buildInputs = globalBuildInputs;
     meta = {
       description = "Language Server Protocol (LSP) implementation for TypeScript using tsserver";
-      homepage = "https://github.com/theia-ide/typescript-language-server#readme";
       license = "Apache-2.0";
     };
     production = true;
