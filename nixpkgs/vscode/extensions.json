@@ -74,8 +74,8 @@
   {
     "name": "nix-ide",
     "publisher": "jnoortheen",
-    "sha256": "1wkc5mvxv7snrpd0py6x83aci05b9fb9v4w9pl9d1hyaszqbfnif",
-    "version": "0.1.12"
+    "sha256": "11sq213z9af3pdz80kp8g7200678hwzq4hmf9gagwqxg9vmgif9v",
+    "version": "0.1.14"
   },
   {
     "name": "rust-analyzer",
