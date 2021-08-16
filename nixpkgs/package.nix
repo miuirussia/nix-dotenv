@@ -56,7 +56,6 @@ in
   in
     {
       vscode-custom = import ./vscode/default.nix { inherit sources; inherit pkgs; };
-      tmuxinator = pkgs.callPackage ./tmuxinator/default.nix {};
       reason-language-server = pkgs.callPackage ./reason-language-server/default.nix { inherit sources; };
       reattach-to-user-namespace = pkgs.reattach-to-user-namespace.overrideAttrs (
         prev: {
