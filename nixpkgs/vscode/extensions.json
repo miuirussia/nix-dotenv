@@ -74,14 +74,14 @@
   {
     "name": "nix-ide",
     "publisher": "jnoortheen",
-    "sha256": "11sq213z9af3pdz80kp8g7200678hwzq4hmf9gagwqxg9vmgif9v",
-    "version": "0.1.14"
+    "sha256": "17y5k0049zb78xqpah73hkw8l56kcshqb0qz4m7a59rqv5gzfk6c",
+    "version": "0.1.15"
   },
   {
     "name": "rust-analyzer",
     "publisher": "matklad",
-    "sha256": "1xk43p2y086v41szcabmma3abach147dvwalngmxl00zf80g8aqm",
-    "version": "0.2.702"
+    "sha256": "091wkpq65nqc86fnbwy9glpskvhl4w07k7zjy0jhry78qjlaizb3",
+    "version": "0.2.710"
   },
   {
     "name": "vscode-docker",

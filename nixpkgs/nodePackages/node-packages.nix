@@ -6165,10 +6165,10 @@ in
   typescript-language-server = nodeEnv.buildNodePackage {
     name = "typescript-language-server";
     packageName = "typescript-language-server";
-    version = "0.6.0";
+    version = "0.6.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-0.6.0.tgz";
-      sha512 = "gBvRnenOM413yVfZy8dKMs+b+/Zknl2o1M79+XAGbdptOds+VAkbZXrfj0MC1IGdB+hQ6XxuWa4jWfrvBkoFiQ==";
+      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-0.6.1.tgz";
+      sha512 = "ZqqD4XK1EgITEoW1SaOnNe473K5EMr7vSYwFeqK4Fe37TjNyEwB+2vXuqW01kPujiw7tRpv3teDAl7WtP9AmIw==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"

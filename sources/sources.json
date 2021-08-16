@@ -17,10 +17,10 @@
     "homepage": "",
     "owner": "neoclide",
     "repo": "coc.nvim",
-    "rev": "9b224047e4596636cbc1e112d38d7b6bb48a2c15",
-    "sha256": "105dsskbxir7w5665dfs5m2dwn4l85jwvmwflkqfvgf75538hgsw",
+    "rev": "ebe8bfe9416feecb4d2a41d04953a77b5350794a",
+    "sha256": "1fyn1hbflzhx76a9qbzh2rws82qacr2s2kmi7y1cwhq9cflmbf7j",
     "type": "tarball",
-    "url": "https://github.com/neoclide/coc.nvim/archive/9b224047e4596636cbc1e112d38d7b6bb48a2c15.tar.gz",
+    "url": "https://github.com/neoclide/coc.nvim/archive/ebe8bfe9416feecb4d2a41d04953a77b5350794a.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "deoplete-nvim": {
@@ -185,10 +185,10 @@
     "homepage": "https://neovim.io",
     "owner": "neovim",
     "repo": "neovim",
-    "rev": "aa07d06bf44b3931c04bb1db5043c0fbe30548f4",
-    "sha256": "1ffr1j5s1dcfg2hcpywcy6a2hkgaxg2p161zq6798azlla330npr",
+    "rev": "29712aef602b96d70c1cabbc7c717be1d045c4ca",
+    "sha256": "17xn7pqisj7pwg26p14771x2w61jdam3fnm7lfx376dahypja151",
     "type": "tarball",
-    "url": "https://github.com/neovim/neovim/archive/aa07d06bf44b3931c04bb1db5043c0fbe30548f4.tar.gz",
+    "url": "https://github.com/neovim/neovim/archive/29712aef602b96d70c1cabbc7c717be1d045c4ca.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nginx-vim": {
