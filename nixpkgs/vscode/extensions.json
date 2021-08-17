@@ -86,8 +86,8 @@
   {
     "name": "vscode-docker",
     "publisher": "ms-azuretools",
-    "sha256": "0rbd2pp4k4q2781jxfc87mxxj4m0gs4nrl2d1fa0aljgw4fln17j",
-    "version": "1.15.0"
+    "sha256": "1vsl82gpf6y92wa09mg4m6xz1ff51ngqvb6msgc7109yq5rrkv4g",
+    "version": "1.16.0"
   },
   {
     "name": "remote-containers",
