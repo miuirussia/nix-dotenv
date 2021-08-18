@@ -113,10 +113,10 @@
     "homepage": null,
     "owner": "miuirussia",
     "repo": "hls-nix",
-    "rev": "02936ec33bb3c755ad5a7eb472fcb48a8f56ee04",
-    "sha256": "0rna1cvnnmdynh30f12ipgpg70ylf1w143q72ac6h2gbn8riq290",
+    "rev": "52101c2b0707b892071bbe29a8a022ce636d0f0f",
+    "sha256": "1gxmm4wbl7fgd0hs0nj7gdx4svp105vk20k2qcvv82qwsrgb4pgl",
     "type": "tarball",
-    "url": "https://github.com/miuirussia/hls-nix/archive/02936ec33bb3c755ad5a7eb472fcb48a8f56ee04.tar.gz",
+    "url": "https://github.com/miuirussia/hls-nix/archive/52101c2b0707b892071bbe29a8a022ce636d0f0f.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-stable": {
@@ -137,10 +137,10 @@
     "homepage": null,
     "owner": "haskell",
     "repo": "haskell-language-server",
-    "rev": "7227ea2f14eb81c9dfefa4e937c3afd511576ea2",
-    "sha256": "10lpk1xgix8avb3mjjl08mzq7bgb7ag7wqa9q5wcxk5c6pjifq7k",
+    "rev": "57ffd74486b18f428d43bc6fb45f5476b0a443b6",
+    "sha256": "1g7wp2f47r8a0vmv3pmlh8zn9cpfgwyaac6nw1wx635vkhpgvprx",
     "type": "tarball",
-    "url": "https://github.com/haskell/haskell-language-server/archive/7227ea2f14eb81c9dfefa4e937c3afd511576ea2.tar.gz",
+    "url": "https://github.com/haskell/haskell-language-server/archive/57ffd74486b18f428d43bc6fb45f5476b0a443b6.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "intero-neovim": {
@@ -173,10 +173,10 @@
     "homepage": "",
     "owner": "kovidgoyal",
     "repo": "kitty",
-    "rev": "801f0d51a1cac7d213557663fd1a2aebd7669d8f",
-    "sha256": "0w34qwnndvllz7pg06zh7v4f8d02iq1ajhlga9nbdcw7hk8ryh76",
+    "rev": "59c14d07fd56bdcf4660818438b0640803e5b73c",
+    "sha256": "1bl995i1r02a43xbp7zj7gmmifpn5ls8fxr49xmsgy349jja6hlj",
     "type": "tarball",
-    "url": "https://github.com/kovidgoyal/kitty/archive/801f0d51a1cac7d213557663fd1a2aebd7669d8f.tar.gz",
+    "url": "https://github.com/kovidgoyal/kitty/archive/59c14d07fd56bdcf4660818438b0640803e5b73c.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "neovim": {
