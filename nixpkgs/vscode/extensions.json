@@ -92,8 +92,8 @@
   {
     "name": "remote-containers",
     "publisher": "ms-vscode-remote",
-    "sha256": "0zcvfv045k9v0ni7xd2kw3l0k2rw3177azmrx6yjs8iwh17q8jal",
-    "version": "0.191.0"
+    "sha256": "0hd127zs2n22x4nm32zji7imvs5zx5qnvkwxslqfi2illi5y8wli",
+    "version": "0.191.1"
   },
   {
     "name": "remote-ssh",
@@ -152,8 +152,8 @@
   {
     "name": "vscode-thunder-client",
     "publisher": "rangav",
-    "sha256": "1611gqmddblylfb3wc09lkdlp8arps6sm2npr7dll3wfcsdqbacy",
-    "version": "1.9.0"
+    "sha256": "1m642xpym1a80xz0nq4h3y6z6qlvk45y7rlfn00yajylpfgjygig",
+    "version": "1.9.1"
   },
   {
     "name": "hadolint",

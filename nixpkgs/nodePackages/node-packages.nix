@@ -1048,13 +1048,13 @@ let
         sha512 = "f2domd9fsVDFtaFcbaRZuYXwtdmnzqbADSwhSWYxYB/Q8zsdUUFMXVRwXGDMWmbEzAn1kdRrtI1T/KTFOL4X2A==";
       };
     };
-    "core-js-3.16.1" = {
+    "core-js-3.16.2" = {
       name = "core-js";
       packageName = "core-js";
-      version = "3.16.1";
+      version = "3.16.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/core-js/-/core-js-3.16.1.tgz";
-        sha512 = "AAkP8i35EbefU+JddyWi12AWE9f2N/qr/pwnDtWz4nyUIBGMJPX99ANFFRSw6FefM374lDujdtLDyhN2A/btHw==";
+        url = "https://registry.npmjs.org/core-js/-/core-js-3.16.2.tgz";
+        sha512 = "P0KPukO6OjMpjBtHSceAZEWlDD1M2Cpzpg6dBbrjFqFhBHe/BwhxaP820xKOjRn/lZRQirrCusIpLS/n2sgXLQ==";
       };
     };
     "core-util-is-1.0.2" = {
@@ -2002,13 +2002,13 @@ let
         sha512 = "9O4MVG9ioZJ08ffbcyVYyLOJLk5JQ688pJ4eMGLpdWLHq/Wr1D9BlriLQyL0E+jbkuePVZXYFj47QM/v093wHg==";
       };
     };
-    "globule-1.3.2" = {
+    "globule-1.3.3" = {
       name = "globule";
       packageName = "globule";
-      version = "1.3.2";
+      version = "1.3.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/globule/-/globule-1.3.2.tgz";
-        sha512 = "7IDTQTIu2xzXkT+6mlluidnWo+BypnbSoEVVQCGfzqnl5Ik8d3e1d4wycb8Rj9tWW+Z39uPWsdlquqiqPCd/pA==";
+        url = "https://registry.npmjs.org/globule/-/globule-1.3.3.tgz";
+        sha512 = "mb1aYtDbIjTu4ShMB85m3UzjX9BVKe9WCzsnfMSZk+K5GpIbBOexgg4PPCt5eHDEG5/ZQAUX2Kct02zfiPLsKg==";
       };
     };
     "graceful-fs-4.2.8" = {
@@ -2290,13 +2290,13 @@ let
         sha512 = "NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==";
       };
     };
-    "is-core-module-2.5.0" = {
+    "is-core-module-2.6.0" = {
       name = "is-core-module";
       packageName = "is-core-module";
-      version = "2.5.0";
+      version = "2.6.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/is-core-module/-/is-core-module-2.5.0.tgz";
-        sha512 = "TXCMSDsEHMEEZ6eCA8rwRDbLu55MRGmrctljsBX/2v1d9/GzqHOxW5c5oPSgrUt2vBFXebu9rGqckXGPWOlYpg==";
+        url = "https://registry.npmjs.org/is-core-module/-/is-core-module-2.6.0.tgz";
+        sha512 = "wShG8vs60jKfPWpF2KZRaAtvt3a20OAn7+IJ6hLPECpSABLcKtFKTTI4ZtH5QcBruBHlq+WsdHWyz0BCZW7svQ==";
       };
     };
     "is-extglob-2.1.1" = {
@@ -5015,10 +5015,10 @@ in
   diagnostic-languageserver = nodeEnv.buildNodePackage {
     name = "diagnostic-languageserver";
     packageName = "diagnostic-languageserver";
-    version = "1.12.0";
+    version = "1.12.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/diagnostic-languageserver/-/diagnostic-languageserver-1.12.0.tgz";
-      sha512 = "oXWAYO2ACrjFRYPTqUOQz3gCE7U1R5HVkuiqXXTFCcujiAprJjzvV5VAjrJolgA7guyRrXE5HliuDGoWJfWHOw==";
+      url = "https://registry.npmjs.org/diagnostic-languageserver/-/diagnostic-languageserver-1.12.1.tgz";
+      sha512 = "guR2r4tNIJBXmR0sx1JpBQ+/T5h5vsAdjcixFNcSOoSG7TD3MYnS3iC0OJ6HMFsyM+gR2siTBQXVaK3s04PrOw==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
@@ -5383,7 +5383,7 @@ in
       sources."color-name-1.1.3"
       sources."common-tags-1.8.0"
       sources."concat-map-0.0.1"
-      sources."core-js-3.16.1"
+      sources."core-js-3.16.2"
       sources."cross-spawn-6.0.5"
       sources."debug-4.3.2"
       sources."decamelize-1.2.0"
@@ -5697,7 +5697,7 @@ in
       sources."gaze-1.1.3"
       sources."get-assigned-identifiers-1.2.0"
       sources."glob-7.1.7"
-      sources."globule-1.3.2"
+      sources."globule-1.3.3"
       sources."graceful-fs-4.2.8"
       sources."has-1.0.3"
       (sources."hash-base-3.1.0" // {
@@ -5719,7 +5719,7 @@ in
         ];
       })
       sources."is-buffer-1.1.6"
-      sources."is-core-module-2.5.0"
+      sources."is-core-module-2.6.0"
       sources."isarray-1.0.0"
       sources."isexe-2.0.0"
       sources."json-stable-stringify-0.0.1"
