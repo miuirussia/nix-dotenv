@@ -1696,13 +1696,13 @@ let
         sha512 = "lXatBjf3WPjmWD6DpIZxkeSsCOwqI0maYMpgDlx8g4U2qi4lbjA9oH/HD2a87G+KfsUmo5WbJFmqBZlPxtptag==";
       };
     };
-    "fastq-1.11.1" = {
+    "fastq-1.12.0" = {
       name = "fastq";
       packageName = "fastq";
-      version = "1.11.1";
+      version = "1.12.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/fastq/-/fastq-1.11.1.tgz";
-        sha512 = "HOnr8Mc60eNYl1gzwp6r5RoUyAn5/glBolUzP/Ez6IFVPMPirxn/9phgL6zhOtaTy7ISwPvQ+wT+hfcRZh/bzw==";
+        url = "https://registry.npmjs.org/fastq/-/fastq-1.12.0.tgz";
+        sha512 = "VNX0QkHK3RsXVKr9KrlUv/FoTa0NdbYoHHl7uXHv2rzyHSlxjdNAKug2twd9luJxpcyNeAgf5iPPMutJO67Dfg==";
       };
     };
     "figgy-pudding-3.5.2" = {
@@ -5015,10 +5015,10 @@ in
   diagnostic-languageserver = nodeEnv.buildNodePackage {
     name = "diagnostic-languageserver";
     packageName = "diagnostic-languageserver";
-    version = "1.12.1";
+    version = "1.13.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/diagnostic-languageserver/-/diagnostic-languageserver-1.12.1.tgz";
-      sha512 = "guR2r4tNIJBXmR0sx1JpBQ+/T5h5vsAdjcixFNcSOoSG7TD3MYnS3iC0OJ6HMFsyM+gR2siTBQXVaK3s04PrOw==";
+      url = "https://registry.npmjs.org/diagnostic-languageserver/-/diagnostic-languageserver-1.13.0.tgz";
+      sha512 = "ye07E+B6IpwUx3eBvZ9Ug0dVloNDzefTWlxkYnP+kB2nB17tjU07wiWzy2FamWIXIlL6THBtY74ZmvoVQ3Bn7w==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
@@ -5036,7 +5036,7 @@ in
       sources."del-6.0.0"
       sources."dir-glob-3.0.1"
       sources."fast-glob-3.2.7"
-      sources."fastq-1.11.1"
+      sources."fastq-1.12.0"
       sources."fill-range-7.0.1"
       sources."find-up-4.1.0"
       sources."fs.realpath-1.0.0"
@@ -5300,10 +5300,10 @@ in
   npm = nodeEnv.buildNodePackage {
     name = "npm";
     packageName = "npm";
-    version = "7.20.6";
+    version = "7.21.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/npm/-/npm-7.20.6.tgz";
-      sha512 = "SRx0i1sMZDf8cd0/JokYD0EPZg0BS1iTylU9MSWw07N6/9CZHjMpZL/p8gsww7m2JsWAsTamhmGl15dQ9UgUgw==";
+      url = "https://registry.npmjs.org/npm/-/npm-7.21.0.tgz";
+      sha512 = "OYSQykXItCDXYGb9U8o85Snhmbe0k/nwVK6CmUNmgtOcfPevVB5ZXwA44eWOCvM+WdWYQsJAJoA7eCHKImQt8g==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -6187,7 +6187,7 @@ in
       sources."del-6.0.0"
       sources."dir-glob-3.0.1"
       sources."fast-glob-3.2.7"
-      sources."fastq-1.11.1"
+      sources."fastq-1.12.0"
       sources."fill-range-7.0.1"
       sources."fs-extra-10.0.0"
       sources."fs.realpath-1.0.0"
