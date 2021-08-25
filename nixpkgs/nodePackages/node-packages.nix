@@ -1048,13 +1048,13 @@ let
         sha512 = "f2domd9fsVDFtaFcbaRZuYXwtdmnzqbADSwhSWYxYB/Q8zsdUUFMXVRwXGDMWmbEzAn1kdRrtI1T/KTFOL4X2A==";
       };
     };
-    "core-js-3.16.2" = {
+    "core-js-3.16.3" = {
       name = "core-js";
       packageName = "core-js";
-      version = "3.16.2";
+      version = "3.16.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/core-js/-/core-js-3.16.2.tgz";
-        sha512 = "P0KPukO6OjMpjBtHSceAZEWlDD1M2Cpzpg6dBbrjFqFhBHe/BwhxaP820xKOjRn/lZRQirrCusIpLS/n2sgXLQ==";
+        url = "https://registry.npmjs.org/core-js/-/core-js-3.16.3.tgz";
+        sha512 = "lM3GftxzHNtPNUJg0v4pC2RC6puwMd6VZA7vXUczi+SKmCWSf4JwO89VJGMqbzmB7jlK7B5hr3S64PqwFL49cA==";
       };
     };
     "core-util-is-1.0.2" = {
@@ -5383,7 +5383,7 @@ in
       sources."color-name-1.1.3"
       sources."common-tags-1.8.0"
       sources."concat-map-0.0.1"
-      sources."core-js-3.16.2"
+      sources."core-js-3.16.3"
       sources."cross-spawn-6.0.5"
       sources."debug-4.3.2"
       sources."decamelize-1.2.0"
