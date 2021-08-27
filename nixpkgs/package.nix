@@ -77,7 +77,7 @@ in
 
       niv = (import sources.niv {}).niv;
 
-      nix-tools = hpkgs.haskell-nix.nix-tools.ghc901;
+      nix-tools = hpkgs.haskell-nix.nix-tools.ghc8106;
 
       nix-cache-tools = import ./nix-cache-tools;
 
@@ -88,7 +88,6 @@ in
 
         hls865 = mkHlsPackage { ghcVersion = "ghc865"; };
         hls884 = mkHlsPackage { ghcVersion = "ghc884"; };
-        hls8104 = mkHlsPackage { ghcVersion = "ghc8104"; };
         hls8106 = mkHlsPackage { ghcVersion = "ghc8106"; };
       in
         pkgs.buildEnv {
@@ -97,7 +96,6 @@ in
           paths = [
             hls865.hls-renamed
             hls884.hls-renamed
-            hls8104.hls-renamed
             hls8106.hls-renamed
             hls8106.hls-wrapper
             hls8106.hls-wrapper-nix
@@ -112,6 +110,7 @@ in
             ghc865 = mkGhcPackage { ghcVersion = "ghc865"; };
             ghc884 = mkGhcPackage { ghcVersion = "ghc884"; };
             ghc8104 = mkGhcPackage { ghcVersion = "ghc8104"; };
+            ghc8105 = mkGhcPackage { ghcVersion = "ghc8105"; };
             ghc8106 = mkGhcPackage { ghcVersion = "ghc8106"; };
           };
         };
