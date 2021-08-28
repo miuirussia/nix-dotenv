@@ -113,10 +113,10 @@
     "homepage": null,
     "owner": "miuirussia",
     "repo": "hls-nix",
-    "rev": "c27c28592a7990ced3b143d64a33c6f2eb29038a",
-    "sha256": "0fb5zy0arb6rpwjrmh7syzv7z6c3piyzmax6ndv6m4wdqnrk2hwj",
+    "rev": "5811cb39446d4d717ca30864da6eda4c4357cd0a",
+    "sha256": "1lmhjazaww3d650ml9qzl039310p7yc06i5709k03l9zhrjz9kjq",
     "type": "tarball",
-    "url": "https://github.com/miuirussia/hls-nix/archive/c27c28592a7990ced3b143d64a33c6f2eb29038a.tar.gz",
+    "url": "https://github.com/miuirussia/hls-nix/archive/5811cb39446d4d717ca30864da6eda4c4357cd0a.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-stable": {
@@ -185,10 +185,10 @@
     "homepage": "https://neovim.io",
     "owner": "neovim",
     "repo": "neovim",
-    "rev": "32024787b6b1ef39c23bda1653c23b5dfbde9e81",
-    "sha256": "04mhnfvg8df9pbd84z83kamhwpi3xzik42n8wpd08jly6h8x9224",
+    "rev": "8af13ed946aa06636c633327c6549993e2e50116",
+    "sha256": "12565mbpkngfhd0fcnm1q4ik04vhzqnhhqppk0mhd5qvvazqkg9v",
     "type": "tarball",
-    "url": "https://github.com/neovim/neovim/archive/32024787b6b1ef39c23bda1653c23b5dfbde9e81.tar.gz",
+    "url": "https://github.com/neovim/neovim/archive/8af13ed946aa06636c633327c6549993e2e50116.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nginx-vim": {
@@ -281,10 +281,10 @@
     "homepage": "https://github.com/NixOS/nixpkgs",
     "owner": "miuirussia",
     "repo": "nixpkgs",
-    "rev": "dd7aa46275a2f9338c5fb1acbf64e789c2c9796d",
-    "sha256": "0fgdkvpdixrqridjpkrlcs4wqh7dc3g5lywmzgvj3fkb2mgyf1yh",
+    "rev": "8127ec98e468fc2c44e4ca2c22821fa82f0c731e",
+    "sha256": "03qjc8h4bs9rs23c6bq0xcl4vnwj0xnrbk04k251k9fxfd2vj3kc",
     "type": "tarball",
-    "url": "https://github.com/miuirussia/nixpkgs/archive/dd7aa46275a2f9338c5fb1acbf64e789c2c9796d.tar.gz",
+    "url": "https://github.com/miuirussia/nixpkgs/archive/8127ec98e468fc2c44e4ca2c22821fa82f0c731e.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "postcss-syntax-vim": {
