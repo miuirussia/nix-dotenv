@@ -77,7 +77,7 @@ in
 
       niv = (import sources.niv {}).niv;
 
-      nix-tools = hpkgs.haskell-nix.nix-tools.ghc8106;
+      nix-tools = hpkgs.haskell-nix.nix-tools.ghc8107;
 
       nix-cache-tools = import ./nix-cache-tools;
 
