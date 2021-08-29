@@ -89,10 +89,10 @@
     "homepage": "",
     "owner": "miuirussia",
     "repo": "hackage.nix",
-    "rev": "81a00b51d8eabb3e7dcd10d236d1230557d42d1a",
-    "sha256": "04qkjf3nr2174cd4h2ilzz6m0j6n79rfyp1zsma0c1hrbc5d4f7b",
+    "rev": "65abae795d8fb6e8a6fdebb2ab1a3f32755b0b7b",
+    "sha256": "1pkly848cpszklvskg5yvqlhc21wvs4aqq8aywixb8cma9yn5381",
     "type": "tarball",
-    "url": "https://github.com/miuirussia/hackage.nix/archive/81a00b51d8eabb3e7dcd10d236d1230557d42d1a.tar.gz",
+    "url": "https://github.com/miuirussia/hackage.nix/archive/65abae795d8fb6e8a6fdebb2ab1a3f32755b0b7b.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "haskell.nix": {
@@ -113,10 +113,10 @@
     "homepage": null,
     "owner": "miuirussia",
     "repo": "hls-nix",
-    "rev": "5811cb39446d4d717ca30864da6eda4c4357cd0a",
-    "sha256": "1lmhjazaww3d650ml9qzl039310p7yc06i5709k03l9zhrjz9kjq",
+    "rev": "bb429b4d99bb6dc1402f56fa93829fa23778d2eb",
+    "sha256": "1skd3kzaq5kjlmmkdbx1bi1qx15gj0y4bk9h6fp49np33m997a07",
     "type": "tarball",
-    "url": "https://github.com/miuirussia/hls-nix/archive/5811cb39446d4d717ca30864da6eda4c4357cd0a.tar.gz",
+    "url": "https://github.com/miuirussia/hls-nix/archive/bb429b4d99bb6dc1402f56fa93829fa23778d2eb.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-stable": {
@@ -137,10 +137,10 @@
     "homepage": null,
     "owner": "haskell",
     "repo": "haskell-language-server",
-    "rev": "6fa3e640b6ffac4ee9ffbd051b8d01fd220a7378",
-    "sha256": "1vp7v9vn0g6kglyckd9l15awscw4il1fxidbkvnjdybcqgvb17vn",
+    "rev": "a800b9d71e4eac70d672d30b2488949ea26dcbc3",
+    "sha256": "0wbnhcz1d62cym454vkwxx474nwclv93jl1l9nw0zxs9icbhrhhx",
     "type": "tarball",
-    "url": "https://github.com/haskell/haskell-language-server/archive/6fa3e640b6ffac4ee9ffbd051b8d01fd220a7378.tar.gz",
+    "url": "https://github.com/haskell/haskell-language-server/archive/a800b9d71e4eac70d672d30b2488949ea26dcbc3.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "intero-neovim": {
