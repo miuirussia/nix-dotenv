@@ -89,6 +89,7 @@ in
         hls865 = mkHlsPackage { ghcVersion = "ghc865"; };
         hls884 = mkHlsPackage { ghcVersion = "ghc884"; };
         hls8106 = mkHlsPackage { ghcVersion = "ghc8106"; };
+        hls8107 = mkHlsPackage { ghcVersion = "ghc8107"; };
       in
         pkgs.buildEnv {
           name = "haskell-language-server";
@@ -97,8 +98,9 @@ in
             hls865.hls-renamed
             hls884.hls-renamed
             hls8106.hls-renamed
-            hls8106.hls-wrapper
-            hls8106.hls-wrapper-nix
+            hls8107.hls-renamed
+            hls8107.hls-wrapper
+            hls8107.hls-wrapper-nix
           ];
         };
 
@@ -112,6 +114,7 @@ in
             ghc8104 = mkGhcPackage { ghcVersion = "ghc8104"; };
             ghc8105 = mkGhcPackage { ghcVersion = "ghc8105"; };
             ghc8106 = mkGhcPackage { ghcVersion = "ghc8106"; };
+            ghc8107 = mkGhcPackage { ghcVersion = "ghc8107"; };
           };
         };
 
