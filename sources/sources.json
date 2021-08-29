@@ -113,10 +113,10 @@
     "homepage": null,
     "owner": "miuirussia",
     "repo": "hls-nix",
-    "rev": "bb429b4d99bb6dc1402f56fa93829fa23778d2eb",
-    "sha256": "1skd3kzaq5kjlmmkdbx1bi1qx15gj0y4bk9h6fp49np33m997a07",
+    "rev": "125b2766ac971f3234c04f628ebc08828e21342e",
+    "sha256": "14cfbpzqh9yksq6z9jisha1m5h23vns6ydnrgizgkkjlni9d0ifc",
     "type": "tarball",
-    "url": "https://github.com/miuirussia/hls-nix/archive/bb429b4d99bb6dc1402f56fa93829fa23778d2eb.tar.gz",
+    "url": "https://github.com/miuirussia/hls-nix/archive/125b2766ac971f3234c04f628ebc08828e21342e.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-stable": {
@@ -457,10 +457,10 @@
     "homepage": "",
     "owner": "machakann",
     "repo": "vim-sandwich",
-    "rev": "9e6340affe9f53c11a6975a5f50b9bf48adb692c",
-    "sha256": "0ghli93qzr3i8ai90waikylwas3xgy5bdgykng55b9mqgpmc3faf",
+    "rev": "04f775510011606ab2b9081e3758aa0c11018c5c",
+    "sha256": "1796xqfa8anbcyjb9adqdcqbpvm6l5506r4n04lx7980ivpqz6bz",
     "type": "tarball",
-    "url": "https://github.com/machakann/vim-sandwich/archive/9e6340affe9f53c11a6975a5f50b9bf48adb692c.tar.gz",
+    "url": "https://github.com/machakann/vim-sandwich/archive/04f775510011606ab2b9081e3758aa0c11018c5c.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "vim-styled-components": {
