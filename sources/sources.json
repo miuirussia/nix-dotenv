@@ -101,10 +101,10 @@
     "homepage": "https://input-output-hk.github.io/haskell.nix",
     "owner": "miuirussia",
     "repo": "haskell.nix",
-    "rev": "1cc117197937131e3bf56fd2d186d5974145a52d",
-    "sha256": "0fjp89n4hx06w21dp5v4k4ii9nl9zlkgfkr0a77la7pgi03h14x1",
+    "rev": "e440377fd96ad9e4558c9958c00dbc0f6e40b564",
+    "sha256": "0m32i7r8p6m2ziirilp8bysdp6559hiypaaf3dypwp4cvzgh9m8i",
     "type": "tarball",
-    "url": "https://github.com/miuirussia/haskell.nix/archive/1cc117197937131e3bf56fd2d186d5974145a52d.tar.gz",
+    "url": "https://github.com/miuirussia/haskell.nix/archive/e440377fd96ad9e4558c9958c00dbc0f6e40b564.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-nix": {
@@ -113,10 +113,10 @@
     "homepage": null,
     "owner": "miuirussia",
     "repo": "hls-nix",
-    "rev": "3decf97781848bd463b5ddb4bc913ef5848a60f1",
-    "sha256": "0xyj1jbs4s6f4nb4yyqmp7npcm1x76zfzg7vxf2gmb8fj5r41xrn",
+    "rev": "166f969e61c5b032f22960171340b12fb1df6304",
+    "sha256": "0giiy4prifn2rsi2iq281ixdfyr0zrz5inm9jnabh4lz3gwsp0kj",
     "type": "tarball",
-    "url": "https://github.com/miuirussia/hls-nix/archive/3decf97781848bd463b5ddb4bc913ef5848a60f1.tar.gz",
+    "url": "https://github.com/miuirussia/hls-nix/archive/166f969e61c5b032f22960171340b12fb1df6304.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-stable": {
@@ -341,6 +341,18 @@
     "sha256": "16q5m64jhv41sphpk553zdsdhvc08lgyla256qby462sfhcvp80a",
     "type": "tarball",
     "url": "https://github.com/rust-lang/rust.vim/archive/7a66142d0ddfb18fc746f76396af0218b6b6146f.tar.gz",
+    "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+  },
+  "stackage.nix": {
+    "branch": "master",
+    "description": "Automatically generated Nix expressions of Stackage snapshots",
+    "homepage": "",
+    "owner": "input-output-hk",
+    "repo": "stackage.nix",
+    "rev": "b9d5092644fda4c0311675e19d0b533808610dd4",
+    "sha256": "1p3bgvdz2cw8fmidmfvy8y1s773gw4l2rwi14hahcrkasj0xpxhb",
+    "type": "tarball",
+    "url": "https://github.com/input-output-hk/stackage.nix/archive/b9d5092644fda4c0311675e19d0b533808610dd4.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "tree-sitter": {
