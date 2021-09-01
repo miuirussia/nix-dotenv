@@ -1066,6 +1066,15 @@ let
         sha1 = "b5fd54220aa2bc5ab57aab7140c940754503c1a7";
       };
     };
+    "core-util-is-1.0.3" = {
+      name = "core-util-is";
+      packageName = "core-util-is";
+      version = "1.0.3";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.3.tgz";
+        sha512 = "ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==";
+      };
+    };
     "core_d-3.2.0" = {
       name = "core_d";
       packageName = "core_d";
@@ -5662,7 +5671,7 @@ in
       sources."console-browserify-1.2.0"
       sources."constants-browserify-1.0.0"
       sources."convert-source-map-1.1.3"
-      sources."core-util-is-1.0.2"
+      sources."core-util-is-1.0.3"
       (sources."create-ecdh-4.0.4" // {
         dependencies = [
           sources."bn.js-4.12.0"
@@ -5892,7 +5901,7 @@ in
       sources."concat-map-0.0.1"
       sources."concat-stream-1.6.2"
       sources."copy-concurrently-1.0.5"
-      sources."core-util-is-1.0.2"
+      sources."core-util-is-1.0.3"
       (sources."cross-spawn-7.0.3" // {
         dependencies = [
           sources."which-2.0.2"
@@ -6020,7 +6029,11 @@ in
       sources."uri-js-4.4.1"
       sources."util-deprecate-1.0.2"
       sources."uuid-3.4.0"
-      sources."verror-1.10.0"
+      (sources."verror-1.10.0" // {
+        dependencies = [
+          sources."core-util-is-1.0.2"
+        ];
+      })
       sources."which-1.3.1"
       sources."wrap-ansi-5.1.0"
       sources."wrappy-1.0.2"
