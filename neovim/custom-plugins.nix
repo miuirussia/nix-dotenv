@@ -3,7 +3,13 @@
 let
   buildVimPluginFrom2Nix = pkgs.vimUtils.buildVimPluginFrom2Nix;
   buildVimPlugin = pkgs.vimUtils.buildVimPlugin;
-in {
+  buildNodeVimPlugin = name: buildVimPluginFrom2Nix {
+    pname = name;
+    inherit (pkgs.nodePackages.${name}) version meta;
+    src = "${pkgs.nodePackages.${name}}/lib/node_modules/${name}";
+  };
+in
+{
   vimspector = buildVimPlugin {
     name = "vimspector";
     src = sources.vimspector;
@@ -21,6 +27,10 @@ in {
     name = "coc-nvim";
     src = sources.coc-nvim;
   };
+
+  coc-markdown-preview-enhanced = buildNodeVimPlugin "coc-markdown-preview-enhanced";
+
+  coc-webview = buildNodeVimPlugin "coc-webview";
 
   purescript-vim = buildVimPluginFrom2Nix {
     name = "purescript-vim";

@@ -1,4 +1,6 @@
 [
+  "coc-markdown-preview-enhanced",
+  "coc-webview",
   "coc-yaml",
   "diagnostic-languageserver",
   "eslint_d",
