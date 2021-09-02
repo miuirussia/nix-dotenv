@@ -1237,13 +1237,13 @@ let
         sha1 = "2680fbb8068a48d08656b6098092bdafc906f4a5";
       };
     };
-    "core-js-3.17.0" = {
+    "core-js-3.17.1" = {
       name = "core-js";
       packageName = "core-js";
-      version = "3.17.0";
+      version = "3.17.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/core-js/-/core-js-3.17.0.tgz";
-        sha512 = "zXT4rclS9jM6tikbAUKAGLonuRKOJ2ZvBnZCEOJAbzuTLw4kKcuA5plNt8juzdU6O/py/EgAehzvLh0VXEdBbQ==";
+        url = "https://registry.npmjs.org/core-js/-/core-js-3.17.1.tgz";
+        sha512 = "C8i/FNpVN2Ti89QIJcFn9ZQmnM+HaAQr2OpE+ja3TRM9Q34FigsGlAVuwPGkIgydSVClo/1l1D1grP8LVt9IYA==";
       };
     };
     "core-util-is-1.0.2" = {
@@ -3730,13 +3730,13 @@ let
         sha512 = "GyQkE8M32pULhQk7Sko5raoIbPalAk90ICG+An4fq6fCsFHsP6fB2K46WGXVdoJpy4SGMnZ/EKbo123fZJomWg==";
       };
     };
-    "native-request-1.0.9" = {
+    "native-request-1.1.0" = {
       name = "native-request";
       packageName = "native-request";
-      version = "1.0.9";
+      version = "1.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/native-request/-/native-request-1.0.9.tgz";
-        sha512 = "KTRwqMwWCkoLZfjes3yBhK6XHwZ5Q1jPsdVra9hug8HNRbMsfTJm8a8L6/WOYi1h5eWNwlBaYy8V5SpJwkDgKw==";
+        url = "https://registry.npmjs.org/native-request/-/native-request-1.1.0.tgz";
+        sha512 = "uZ5rQaeRn15XmpgE0xoPL8YWqcX90VtCFglYwAgkvKM5e8fog+vePLAhHxuuv/gRkrQxIeh5U3q9sMNUrENqWw==";
       };
     };
     "natural-compare-1.4.0" = {
@@ -6336,7 +6336,7 @@ in
       sources."mkdirp-1.0.4"
       sources."ms-2.1.2"
       sources."mz-2.7.0"
-      sources."native-request-1.0.9"
+      sources."native-request-1.1.0"
       sources."netmask-2.0.2"
       sources."node-fetch-2.6.1"
       sources."nth-check-2.0.0"
@@ -6929,7 +6929,7 @@ in
       sources."color-name-1.1.3"
       sources."common-tags-1.8.0"
       sources."concat-map-0.0.1"
-      sources."core-js-3.17.0"
+      sources."core-js-3.17.1"
       sources."cross-spawn-6.0.5"
       sources."debug-4.3.2"
       sources."decamelize-1.2.0"
