@@ -1237,13 +1237,13 @@ let
         sha1 = "2680fbb8068a48d08656b6098092bdafc906f4a5";
       };
     };
-    "core-js-3.17.1" = {
+    "core-js-3.17.2" = {
       name = "core-js";
       packageName = "core-js";
-      version = "3.17.1";
+      version = "3.17.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/core-js/-/core-js-3.17.1.tgz";
-        sha512 = "C8i/FNpVN2Ti89QIJcFn9ZQmnM+HaAQr2OpE+ja3TRM9Q34FigsGlAVuwPGkIgydSVClo/1l1D1grP8LVt9IYA==";
+        url = "https://registry.npmjs.org/core-js/-/core-js-3.17.2.tgz";
+        sha512 = "XkbXqhcXeMHPRk2ItS+zQYliAMilea2euoMsnpRRdDad6b2VY6CQQcwz1K8AnWesfw4p165RzY0bTnr3UrbYiA==";
       };
     };
     "core-util-is-1.0.2" = {
@@ -6846,10 +6846,10 @@ in
   npm = nodeEnv.buildNodePackage {
     name = "npm";
     packageName = "npm";
-    version = "7.21.1";
+    version = "7.22.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/npm/-/npm-7.21.1.tgz";
-      sha512 = "k7XQNHGHAp0VowMMUMRMtntxWatNad9hhYrelUKDPvZ++DBxvofA8QTNPiuMKtx8CBOFA8iJ4aizhbx6ZYVfzQ==";
+      url = "https://registry.npmjs.org/npm/-/npm-7.22.0.tgz";
+      sha512 = "HJnjTCrGGnacPMCSnrxuHGf2H4VdrY7hwTAK1RwByg0K96KIuTR4QNioFW+bnc/pW0uwpk9lLsDf4BeEQhTv2Q==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -6929,7 +6929,7 @@ in
       sources."color-name-1.1.3"
       sources."common-tags-1.8.0"
       sources."concat-map-0.0.1"
-      sources."core-js-3.17.1"
+      sources."core-js-3.17.2"
       sources."cross-spawn-6.0.5"
       sources."debug-4.3.2"
       sources."decamelize-1.2.0"
@@ -7592,10 +7592,10 @@ in
   purescript-language-server = nodeEnv.buildNodePackage {
     name = "purescript-language-server";
     packageName = "purescript-language-server";
-    version = "0.15.4";
+    version = "0.15.5";
     src = fetchurl {
-      url = "https://registry.npmjs.org/purescript-language-server/-/purescript-language-server-0.15.4.tgz";
-      sha512 = "llUv605I8yvraO98rb5RmmqPdpWBno7IpIlgNlX3Nq3Q4lvB7G0OxGK89JuAoVZ8T/xkTzhjyuzw0sty0DoY3Q==";
+      url = "https://registry.npmjs.org/purescript-language-server/-/purescript-language-server-0.15.5.tgz";
+      sha512 = "Km6LOus92Rab315/OhnILwslCseXbl8s53m0T8te0SYeYgNfUnxVh4/m/r217PAApicemaT3ZMdnXrtAZJ5U6Q==";
     };
     dependencies = [
       sources."isexe-2.0.0"
