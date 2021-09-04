@@ -20,8 +20,8 @@
   {
     "name": "vscode-jest",
     "publisher": "orta",
-    "sha256": "18k93lznkd1d7k35x9b5l4q6qwx84snzs76vnvlb9z5gb0hrhil0",
-    "version": "4.1.1"
+    "sha256": "0j4gws0y4i8lwddac60p8zdgca24j54gb585a9my0yn7c5rdpgnx",
+    "version": "4.1.2"
   },
   {
     "name": "flow-for-vscode",
@@ -146,8 +146,8 @@
   {
     "name": "shellcheck",
     "publisher": "timonwong",
-    "sha256": "0yzmcb38lnbsdv2mzrcj942x325y0awxh0r837d1ins0i6mky6j6",
-    "version": "0.15.2"
+    "sha256": "196ijpdsi0aj8j1gcclv7ahs5m2g8bp081dfc18ji96vff9831bi",
+    "version": "0.15.3"
   },
   {
     "name": "vscode-thunder-client",
