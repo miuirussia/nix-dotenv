@@ -1489,13 +1489,13 @@ let
         sha1 = "f6534d15148269b20352e7bee26f501f9a191290";
       };
     };
-    "deep-is-0.1.3" = {
+    "deep-is-0.1.4" = {
       name = "deep-is";
       packageName = "deep-is";
-      version = "0.1.3";
+      version = "0.1.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/deep-is/-/deep-is-0.1.3.tgz";
-        sha1 = "b369d6fb5dbc13eecf524f91b070feedc357cf34";
+        url = "https://registry.npmjs.org/deep-is/-/deep-is-0.1.4.tgz";
+        sha512 = "oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==";
       };
     };
     "default-user-agent-1.0.0" = {
@@ -6216,7 +6216,7 @@ in
       sources."dashdash-1.14.1"
       sources."data-uri-to-buffer-3.0.1"
       sources."debug-4.3.2"
-      sources."deep-is-0.1.3"
+      sources."deep-is-0.1.4"
       sources."default-user-agent-1.0.0"
       sources."degenerator-2.2.0"
       sources."delayed-stream-1.0.0"
@@ -6647,10 +6647,10 @@ in
   eslint_d = nodeEnv.buildNodePackage {
     name = "eslint_d";
     packageName = "eslint_d";
-    version = "10.1.3";
+    version = "11.0.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-10.1.3.tgz";
-      sha512 = "B8ESWH1KrLNgV0CR9r/Mc4lbgArnbWIuHnHrJlmuWx+02UriPXNnk4+nNFakzXHRh/sTHeCA4LiArkSfIqsfsw==";
+      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-11.0.0.tgz";
+      sha512 = "eR6yaJepLQ8hMGIfW2Bj41e4ZnxbsbMZvYjDxWl98YnUlqn46qoUi20N3VB0xq9mv1IKsOO+Rqfnjov5Y93zLg==";
     };
     dependencies = [
       sources."@babel/code-frame-7.12.11"
@@ -6691,7 +6691,7 @@ in
       sources."core_d-3.2.0"
       sources."cross-spawn-7.0.3"
       sources."debug-4.3.2"
-      sources."deep-is-0.1.3"
+      sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."emoji-regex-8.0.0"
       sources."enquirer-2.3.6"
@@ -6933,7 +6933,7 @@ in
       sources."cross-spawn-6.0.5"
       sources."debug-4.3.2"
       sources."decamelize-1.2.0"
-      sources."deep-is-0.1.3"
+      sources."deep-is-0.1.4"
       sources."dlv-1.1.3"
       sources."doctrine-3.0.0"
       sources."emoji-regex-7.0.3"
