@@ -84,12 +84,12 @@ in
       haskell-nix = hpkgs.haskell-nix;
 
       hls = let
-        hlsPackage = (import sources.hls-nix).build."${builtins.currentSystem}";
+        mkHlsPackage = ghcVersion: (import sources.hls-nix).build."${builtins.currentSystem}"."${ghcVersion}";
 
-        hls865 = hlsPackage.ghc865;
-        hls884 = hlsPackage.ghc884;
-        hls8106 = hlsPackage.ghc8106;
-        hls8107 = hlsPackage.ghc8107;
+        hls865 = mkHlsPackage "ghc865";
+        hls884 = mkHlsPackage "ghc884";
+        hls8106 = mkHlsPackage "ghc8106";
+        hls8107 = mkHlsPackage "ghc8107";
       in
         pkgs.buildEnv {
           name = "haskell-language-server";

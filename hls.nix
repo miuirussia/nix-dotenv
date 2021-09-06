@@ -3,11 +3,11 @@
 let
   pkgs = import <nixpkgs> {};
   sources = import ./sources;
-  hlsPackage = import sources.hls-nix { inherit sources; ghcVersion = "ghc${version}"; checkMaterialization = true; };
+  mkHlsPackage = ghcVersion: (import sources.hls-nix).build."${builtins.currentSystem}"."${ghcVersion}";
 in
 pkgs.buildEnv {
   name = "hls-ghc${version}";
-  paths = with hlsPackage; [
+  paths = with (mkHlsPackage "ghc${version}"); [
     ghc
     hls
     hls-wrapper
