@@ -3766,13 +3766,13 @@ let
         sha512 = "1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==";
       };
     };
-    "node-fetch-2.6.1" = {
+    "node-fetch-2.6.2" = {
       name = "node-fetch";
       packageName = "node-fetch";
-      version = "2.6.1";
+      version = "2.6.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.1.tgz";
-        sha512 = "V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==";
+        url = "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.2.tgz";
+        sha512 = "aLoxToI6RfZ+0NOjmWAgn9+LEd30YCkJKFSyWacNZdEKTit/ZMcKjGkTRo8uWEsnIb/hfKecNPEbln02PdWbcA==";
       };
     };
     "node-static-0.7.11" = {
@@ -6338,7 +6338,7 @@ in
       sources."mz-2.7.0"
       sources."native-request-1.1.0"
       sources."netmask-2.0.2"
-      sources."node-fetch-2.6.1"
+      sources."node-fetch-2.6.2"
       sources."nth-check-2.0.0"
       sources."oauth-sign-0.9.0"
       sources."object-assign-4.1.1"
@@ -6864,10 +6864,10 @@ in
   pnpm = nodeEnv.buildNodePackage {
     name = "pnpm";
     packageName = "pnpm";
-    version = "6.14.6";
+    version = "6.14.7";
     src = fetchurl {
-      url = "https://registry.npmjs.org/pnpm/-/pnpm-6.14.6.tgz";
-      sha512 = "PwBdhK7q/QqM8erzDuNu8a85bPNLV4Q3X6G0AFItogwhjDKEtJGKSIIGnvtq8AqnB2r1S9DGAOrQ8yqRJHU8xA==";
+      url = "https://registry.npmjs.org/pnpm/-/pnpm-6.14.7.tgz";
+      sha512 = "/pjz4Eod3Heyxw/QCGLYpkZR8YNuzTTblgcVC+qvvYCtX0Wb5J9jVcbHoSRqC2jeo4ldtg8H9dssPlHlH50I7w==";
     };
     buildInputs = globalBuildInputs;
     meta = {
