@@ -500,7 +500,7 @@
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "vim-toml": {
-    "branch": "master",
+    "branch": "main",
     "description": "Vim syntax for TOML",
     "homepage": "",
     "owner": "cespare",
