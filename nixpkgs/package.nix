@@ -84,7 +84,7 @@ in
       haskell-nix = hpkgs.haskell-nix;
 
       hls = let
-        mkHlsPackage = ghcVersion: (import sources.hls-nix).build."${builtins.currentSystem}"."${ghcVersion}";
+        mkHlsPackage = ghcVersion: (import sources.hls-nix).lib."${builtins.currentSystem}"."${ghcVersion}";
 
         hls865 = mkHlsPackage "ghc865";
         hls884 = mkHlsPackage "ghc884";
@@ -105,7 +105,7 @@ in
         };
 
       haskell = let
-        mkGhcPackage = ghcVersion: (import sources.hls-nix).build."${builtins.currentSystem}"."${ghcVersion}".ghc;
+        mkGhcPackage = ghcVersion: (import sources.hls-nix).lib."${builtins.currentSystem}"."${ghcVersion}".ghc;
       in
         pkgs.haskell // {
           compiler = pkgs.haskell.compiler // {

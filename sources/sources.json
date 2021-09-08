@@ -113,10 +113,10 @@
     "homepage": null,
     "owner": "miuirussia",
     "repo": "hls-nix",
-    "rev": "8d7673e3178488e1809b5ba57dceb15aea6663c0",
-    "sha256": "17aiz3hz7123dv0g298d3ilybmrgw9120f2qzzrwhnkmdca83laj",
+    "rev": "32d6becebf594d662e1327188f5f0f5b2dc4afce",
+    "sha256": "0h283spm9y1sgf3vnyilh07ic7kg9mqyj5lvc5zkslw41gmg115c",
     "type": "tarball",
-    "url": "https://github.com/miuirussia/hls-nix/archive/8d7673e3178488e1809b5ba57dceb15aea6663c0.tar.gz",
+    "url": "https://github.com/miuirussia/hls-nix/archive/32d6becebf594d662e1327188f5f0f5b2dc4afce.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-stable": {

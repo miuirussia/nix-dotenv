@@ -3,7 +3,7 @@
 let
   pkgs = import <nixpkgs> {};
   sources = import ./sources;
-  mkHlsPackage = ghcVersion: (import sources.hls-nix).build."${builtins.currentSystem}"."${ghcVersion}";
+  mkHlsPackage = ghcVersion: (import sources.hls-nix).lib."${builtins.currentSystem}"."${ghcVersion}";
 in
 pkgs.buildEnv {
   name = "hls-ghc${version}";
