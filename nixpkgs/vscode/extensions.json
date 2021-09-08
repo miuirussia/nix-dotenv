@@ -26,8 +26,8 @@
   {
     "name": "flow-for-vscode",
     "publisher": "flowtype",
-    "sha256": "0s1qc0v5qwcg014f2mrblnidvqlbjcazgj4aqqr9hk0cbkp208gy",
-    "version": "1.9.1"
+    "sha256": "1bdilg2cmgf06z8v7pcynmdg99887lpvcxmlzlqcp6zqf5vdcn0c",
+    "version": "1.9.2"
   },
   {
     "name": "vscode-neovim",

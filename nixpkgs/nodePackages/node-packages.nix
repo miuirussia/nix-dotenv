@@ -1516,13 +1516,13 @@ let
         sha1 = "c98d9bcef75674188e110969151199e39b1fa693";
       };
     };
-    "degenerator-2.2.0" = {
+    "degenerator-3.0.1" = {
       name = "degenerator";
       packageName = "degenerator";
-      version = "2.2.0";
+      version = "3.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/degenerator/-/degenerator-2.2.0.tgz";
-        sha512 = "aiQcQowF01RxFI4ZLFMpzyotbQonhNpBao6dkI8JPk5a+hmSjR5ErHp2CQySmQe8os3VBqLCIh87nDBgZXvsmg==";
+        url = "https://registry.npmjs.org/degenerator/-/degenerator-3.0.1.tgz";
+        sha512 = "LFsIFEeLPlKvAKXu7j3ssIG6RT0TbI7/GhsqrI0DnHASEQjXQ0LUSYcjJteGgRGmZbl1TnMSxpNQIAiJ7Du5TQ==";
       };
     };
     "del-6.0.0" = {
@@ -2128,13 +2128,13 @@ let
         sha1 = "3d8a5c66883a16a30ca8643e851f19baa7797917";
       };
     };
-    "fast-safe-stringify-2.0.8" = {
+    "fast-safe-stringify-2.1.0" = {
       name = "fast-safe-stringify";
       packageName = "fast-safe-stringify";
-      version = "2.0.8";
+      version = "2.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/fast-safe-stringify/-/fast-safe-stringify-2.0.8.tgz";
-        sha512 = "lXatBjf3WPjmWD6DpIZxkeSsCOwqI0maYMpgDlx8g4U2qi4lbjA9oH/HD2a87G+KfsUmo5WbJFmqBZlPxtptag==";
+        url = "https://registry.npmjs.org/fast-safe-stringify/-/fast-safe-stringify-2.1.0.tgz";
+        sha512 = "xHSIyDJTOVQjtMBGcUokl3tpaOKgTyVTjlHj255V4Q4J1oho3cnrWrf5sCx8z1jq7gzNMv8y0PH53pYYuZUFPQ==";
       };
     };
     "fastq-1.12.0" = {
@@ -3982,22 +3982,22 @@ let
         sha512 = "R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==";
       };
     };
-    "pac-proxy-agent-4.1.0" = {
+    "pac-proxy-agent-5.0.0" = {
       name = "pac-proxy-agent";
       packageName = "pac-proxy-agent";
-      version = "4.1.0";
+      version = "5.0.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/pac-proxy-agent/-/pac-proxy-agent-4.1.0.tgz";
-        sha512 = "ejNgYm2HTXSIYX9eFlkvqFp8hyJ374uDf0Zq5YUAifiSh1D6fo+iBivQZirGvVv8dCYUsLhmLBRhlAYvBKI5+Q==";
+        url = "https://registry.npmjs.org/pac-proxy-agent/-/pac-proxy-agent-5.0.0.tgz";
+        sha512 = "CcFG3ZtnxO8McDigozwE3AqAw15zDvGH+OjXO4kzf7IkEKkQ4gxQ+3sdF50WmhQ4P/bVusXcqNE2S3XrNURwzQ==";
       };
     };
-    "pac-resolver-4.2.0" = {
+    "pac-resolver-5.0.0" = {
       name = "pac-resolver";
       packageName = "pac-resolver";
-      version = "4.2.0";
+      version = "5.0.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/pac-resolver/-/pac-resolver-4.2.0.tgz";
-        sha512 = "rPACZdUyuxT5Io/gFKUeeZFfE5T7ve7cAkE5TUZRRfuKP0u5Hocwe48X7ZEm6mYB+bTB0Qf+xlVlA/RM/i6RCQ==";
+        url = "https://registry.npmjs.org/pac-resolver/-/pac-resolver-5.0.0.tgz";
+        sha512 = "H+/A6KitiHNNW+bxBKREk2MCGSxljfqRX76NjummWEYIat7ldVXRU3dhRIE3iXZ0nvGBk6smv3nntxKkzRL8NA==";
       };
     };
     "pako-1.0.11" = {
@@ -4297,13 +4297,13 @@ let
         sha1 = "98472870bf228132fcbdd868129bad12c3c029e3";
       };
     };
-    "proxy-agent-4.0.1" = {
+    "proxy-agent-5.0.0" = {
       name = "proxy-agent";
       packageName = "proxy-agent";
-      version = "4.0.1";
+      version = "5.0.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/proxy-agent/-/proxy-agent-4.0.1.tgz";
-        sha512 = "ODnQnW2jc/FUVwHHuaZEfN5otg/fMbvMxz9nMSUQfJ9JU7q2SZvSULSsjLloVgJOiv9yhc8GlNMKc4GkFmcVEA==";
+        url = "https://registry.npmjs.org/proxy-agent/-/proxy-agent-5.0.0.tgz";
+        sha512 = "gkH7BkvLVkSfX9Dk27W6TyNOWWZWRilRfk1XxGNWOYJ2TuedAv1yFpCaU9QSBmBe716XOTNpYNOzhysyw8xn7g==";
       };
     };
     "proxy-from-env-1.1.0" = {
@@ -5683,13 +5683,13 @@ let
         sha1 = "3838e97cfc60521eb73c525a8e55bfdd9e2e28f1";
       };
     };
-    "urllib-2.37.3" = {
+    "urllib-2.37.4" = {
       name = "urllib";
       packageName = "urllib";
-      version = "2.37.3";
+      version = "2.37.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/urllib/-/urllib-2.37.3.tgz";
-        sha512 = "jGfi6qi23KvN3u3WizRxeU/yWVoh0Ml7c4yfmeRKVfGESMXYfNcQCPgeHRC1w1OMstVa9MXyIUYz3OLj+pWAMA==";
+        url = "https://registry.npmjs.org/urllib/-/urllib-2.37.4.tgz";
+        sha512 = "1l+eKrnE5d0TyNeaMw0cxLjA+1jGjacJYxvZ+ZP7l99kSv+dZmP5KTyp3KRV33pw0fsyqAY+rokCpfTFfwVfug==";
       };
     };
     "userhome-1.0.0" = {
@@ -5825,6 +5825,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/vm-browserify/-/vm-browserify-1.1.2.tgz";
         sha512 = "2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==";
+      };
+    };
+    "vm2-3.9.3" = {
+      name = "vm2";
+      packageName = "vm2";
+      version = "3.9.3";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/vm2/-/vm2-3.9.3.tgz";
+        sha512 = "smLS+18RjXYMl9joyJxMNI9l4w7biW8ilSDaVRvFBDwOH8P0BK1ognFQTpg0wyQ6wIKLTblHJvROW692L/E53Q==";
       };
     };
     "vscode-json-languageservice-4.1.0" = {
@@ -6218,7 +6227,7 @@ in
       sources."debug-4.3.2"
       sources."deep-is-0.1.4"
       sources."default-user-agent-1.0.0"
-      sources."degenerator-2.2.0"
+      sources."degenerator-3.0.1"
       sources."delayed-stream-1.0.0"
       sources."depd-1.1.2"
       sources."destroy-1.0.4"
@@ -6347,13 +6356,13 @@ in
       sources."optionator-0.8.3"
       sources."os-name-1.0.3"
       sources."osx-release-1.1.0"
-      (sources."pac-proxy-agent-4.1.0" // {
+      (sources."pac-proxy-agent-5.0.0" // {
         dependencies = [
           sources."agent-base-6.0.2"
           sources."https-proxy-agent-5.0.0"
         ];
       })
-      sources."pac-resolver-4.2.0"
+      sources."pac-resolver-5.0.0"
       sources."parse5-6.0.1"
       sources."parse5-htmlparser2-tree-adapter-6.0.1"
       sources."path-is-absolute-1.0.1"
@@ -6364,7 +6373,7 @@ in
       sources."prelude-ls-1.1.2"
       sources."process-nextick-args-2.0.1"
       sources."progress-2.0.3"
-      (sources."proxy-agent-4.0.1" // {
+      (sources."proxy-agent-5.0.0" // {
         dependencies = [
           sources."agent-base-6.0.2"
           sources."https-proxy-agent-5.0.0"
@@ -6441,7 +6450,7 @@ in
       sources."unorm-1.6.0"
       sources."unpipe-1.0.0"
       sources."uri-js-4.4.1"
-      (sources."urllib-2.37.3" // {
+      (sources."urllib-2.37.4" // {
         dependencies = [
           sources."debug-2.6.9"
           sources."ms-2.0.0"
@@ -6465,6 +6474,7 @@ in
           sources."core-util-is-1.0.2"
         ];
       })
+      sources."vm2-3.9.3"
       sources."which-1.3.1"
       sources."win-release-1.1.1"
       sources."word-wrap-1.2.3"
@@ -7237,7 +7247,7 @@ in
       sources."es6-promise-3.3.1"
       sources."events-2.1.0"
       sources."evp_bytestokey-1.0.3"
-      sources."fast-safe-stringify-2.0.8"
+      sources."fast-safe-stringify-2.1.0"
       sources."fs.realpath-1.0.0"
       sources."function-bind-1.1.1"
       sources."gaze-1.1.3"
