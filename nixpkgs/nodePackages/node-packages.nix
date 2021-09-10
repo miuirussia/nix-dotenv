@@ -1237,13 +1237,13 @@ let
         sha1 = "2680fbb8068a48d08656b6098092bdafc906f4a5";
       };
     };
-    "core-js-3.17.2" = {
+    "core-js-3.17.3" = {
       name = "core-js";
       packageName = "core-js";
-      version = "3.17.2";
+      version = "3.17.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/core-js/-/core-js-3.17.2.tgz";
-        sha512 = "XkbXqhcXeMHPRk2ItS+zQYliAMilea2euoMsnpRRdDad6b2VY6CQQcwz1K8AnWesfw4p165RzY0bTnr3UrbYiA==";
+        url = "https://registry.npmjs.org/core-js/-/core-js-3.17.3.tgz";
+        sha512 = "lyvajs+wd8N1hXfzob1LdOCCHFU4bGMbqqmLn1Q4QlCpDqWPpGf+p0nj+LNrvDDG33j0hZXw2nsvvVpHysxyNw==";
       };
     };
     "core-util-is-1.0.2" = {
@@ -6856,10 +6856,10 @@ in
   npm = nodeEnv.buildNodePackage {
     name = "npm";
     packageName = "npm";
-    version = "7.22.0";
+    version = "7.23.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/npm/-/npm-7.22.0.tgz";
-      sha512 = "HJnjTCrGGnacPMCSnrxuHGf2H4VdrY7hwTAK1RwByg0K96KIuTR4QNioFW+bnc/pW0uwpk9lLsDf4BeEQhTv2Q==";
+      url = "https://registry.npmjs.org/npm/-/npm-7.23.0.tgz";
+      sha512 = "m7WFTwGfiBX+jL4ObX7rIDkug/hG/Jn8vZUjKw4WS8CqMjVydHiWTARLDIll7LtHu5i7ZHBnqXZbL2S73U5p6A==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -6939,7 +6939,7 @@ in
       sources."color-name-1.1.3"
       sources."common-tags-1.8.0"
       sources."concat-map-0.0.1"
-      sources."core-js-3.17.2"
+      sources."core-js-3.17.3"
       sources."cross-spawn-6.0.5"
       sources."debug-4.3.2"
       sources."decamelize-1.2.0"
