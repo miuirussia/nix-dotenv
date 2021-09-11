@@ -2137,13 +2137,13 @@ let
         sha512 = "W+KJc2dmILlPplD/H4K9l9LcAHAfPtP6BY84uVLXQ6Evcz9Lcg33Y2z1IVblT6xdY54PXYVHEv+0Wpq8Io6zkA==";
       };
     };
-    "fastq-1.12.0" = {
+    "fastq-1.13.0" = {
       name = "fastq";
       packageName = "fastq";
-      version = "1.12.0";
+      version = "1.13.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/fastq/-/fastq-1.12.0.tgz";
-        sha512 = "VNX0QkHK3RsXVKr9KrlUv/FoTa0NdbYoHHl7uXHv2rzyHSlxjdNAKug2twd9luJxpcyNeAgf5iPPMutJO67Dfg==";
+        url = "https://registry.npmjs.org/fastq/-/fastq-1.13.0.tgz";
+        sha512 = "YpkpUnK8od0o1hmeSc7UUs/eB/vIPWJYjKck2QKIzAf71Vm1AAQ3EbuZB3g2JIy+pg+ERD0vqI79KyZiB2e2Nw==";
       };
     };
     "fd-slicer-1.1.0" = {
@@ -6592,7 +6592,7 @@ in
       sources."del-6.0.0"
       sources."dir-glob-3.0.1"
       sources."fast-glob-3.2.7"
-      sources."fastq-1.12.0"
+      sources."fastq-1.13.0"
       sources."fill-range-7.0.1"
       sources."find-up-4.1.0"
       sources."fs.realpath-1.0.0"
@@ -7747,7 +7747,7 @@ in
       sources."del-6.0.0"
       sources."dir-glob-3.0.1"
       sources."fast-glob-3.2.7"
-      sources."fastq-1.12.0"
+      sources."fastq-1.13.0"
       sources."fill-range-7.0.1"
       sources."fs-extra-10.0.0"
       sources."fs.realpath-1.0.0"
