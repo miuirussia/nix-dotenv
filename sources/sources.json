@@ -137,10 +137,10 @@
     "homepage": null,
     "owner": "haskell",
     "repo": "haskell-language-server",
-    "rev": "c3e2e23eef1b86a531d9847974cc74fb073d17eb",
-    "sha256": "0lkfcrpijvgv40myypv50napdn1vc169ij6bvfah4paxfcdzvx8i",
+    "rev": "155023f86504b457b6d1e1fda87b12ac6c513c76",
+    "sha256": "04fqpi2z45k1j88x55fjc6dyy7qnnlb697b6b8iiiy8wqfik472w",
     "type": "tarball",
-    "url": "https://github.com/haskell/haskell-language-server/archive/c3e2e23eef1b86a531d9847974cc74fb073d17eb.tar.gz",
+    "url": "https://github.com/haskell/haskell-language-server/archive/155023f86504b457b6d1e1fda87b12ac6c513c76.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "intero-neovim": {
@@ -281,10 +281,10 @@
     "homepage": "https://github.com/NixOS/nixpkgs",
     "owner": "miuirussia",
     "repo": "nixpkgs",
-    "rev": "00cd8b68b79908398f3424140ba1b057a081cac9",
-    "sha256": "17wbgdgrhz6nfzlrsk5h885i9ywh4ar0qj5q5g9ji02nx273c720",
+    "rev": "fec571f6732a6d75e1d8d61ad673fd22f553432f",
+    "sha256": "00llzpzwqdxda9q6rin1adf0psgp4lks3wqwf2x8jz41g2b18hhp",
     "type": "tarball",
-    "url": "https://github.com/miuirussia/nixpkgs/archive/00cd8b68b79908398f3424140ba1b057a081cac9.tar.gz",
+    "url": "https://github.com/miuirussia/nixpkgs/archive/fec571f6732a6d75e1d8d61ad673fd22f553432f.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "postcss-syntax-vim": {
