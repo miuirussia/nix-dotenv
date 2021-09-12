@@ -173,10 +173,10 @@
     "homepage": "",
     "owner": "kovidgoyal",
     "repo": "kitty",
-    "rev": "2350952d054bcaf945aa975d1fbd897660960520",
-    "sha256": "0cxjbzpsgvyydw1j58ffyfs75z3g00wqndpp3xcf09qn4w78j9sl",
+    "rev": "efaeb0f0b2c6a6c00b30a292e9cbcc9c2af02b62",
+    "sha256": "1cr0kcx1vpz6nyfpw5bdzmayc1dnn0hzhxr9qwydv1rw1y3zh1l4",
     "type": "tarball",
-    "url": "https://github.com/kovidgoyal/kitty/archive/2350952d054bcaf945aa975d1fbd897660960520.tar.gz",
+    "url": "https://github.com/kovidgoyal/kitty/archive/efaeb0f0b2c6a6c00b30a292e9cbcc9c2af02b62.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "neovim": {
@@ -185,10 +185,10 @@
     "homepage": "https://neovim.io",
     "owner": "neovim",
     "repo": "neovim",
-    "rev": "086631cd92d7b60f122963f9fd1779583b19004c",
-    "sha256": "0kl8kslipf5wz1xf4h4gb1y1p3qc15p97ih2lmfmah11fb7d0ggx",
+    "rev": "413e86869ef147431a78946562c125938b41f533",
+    "sha256": "1s49s6g0683p6vrhd6spzkadyss190mcizxwbj4j5gp3b62znn0n",
     "type": "tarball",
-    "url": "https://github.com/neovim/neovim/archive/086631cd92d7b60f122963f9fd1779583b19004c.tar.gz",
+    "url": "https://github.com/neovim/neovim/archive/413e86869ef147431a78946562c125938b41f533.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nginx-vim": {
@@ -281,10 +281,10 @@
     "homepage": "https://github.com/NixOS/nixpkgs",
     "owner": "miuirussia",
     "repo": "nixpkgs",
-    "rev": "fec571f6732a6d75e1d8d61ad673fd22f553432f",
-    "sha256": "00llzpzwqdxda9q6rin1adf0psgp4lks3wqwf2x8jz41g2b18hhp",
+    "rev": "b691e63b1b5c6aacdf8b5c14a4510f32afec2062",
+    "sha256": "078w5s0m9515jjcz4scaxcql6xja11sdmsklw6c4l47xhmvkfd5b",
     "type": "tarball",
-    "url": "https://github.com/miuirussia/nixpkgs/archive/fec571f6732a6d75e1d8d61ad673fd22f553432f.tar.gz",
+    "url": "https://github.com/miuirussia/nixpkgs/archive/b691e63b1b5c6aacdf8b5c14a4510f32afec2062.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "postcss-syntax-vim": {
@@ -349,10 +349,10 @@
     "homepage": "",
     "owner": "input-output-hk",
     "repo": "stackage.nix",
-    "rev": "f26933675e7d0afbf8a9aab73f0097bb4eb4d2f4",
-    "sha256": "16qk6i37ifkha8swaq9cya6dlirb6g5wd1nx7vw06bz5ya8m6gv4",
+    "rev": "7419a90ef49b532a681bdf9845684eed3e776b67",
+    "sha256": "0b0f96cgwph38hkfbmbxi1198scv727j33sc8ljx0ng6xhsxa34y",
     "type": "tarball",
-    "url": "https://github.com/input-output-hk/stackage.nix/archive/f26933675e7d0afbf8a9aab73f0097bb4eb4d2f4.tar.gz",
+    "url": "https://github.com/input-output-hk/stackage.nix/archive/7419a90ef49b532a681bdf9845684eed3e776b67.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "tree-sitter": {
