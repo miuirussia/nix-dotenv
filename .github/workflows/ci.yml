@@ -32,7 +32,6 @@ jobs:
     - name: Build ghc.nix
       run: |
         nix -j $(sysctl -n hw.logicalcpu) --print-build-logs --show-trace build -f ghc.nix hix -o hix --argstr "version" "${{ matrix.ghc }}"
-        nix -j $(sysctl -n hw.logicalcpu) --print-build-logs --show-trace build -f ghc.nix original -o original --argstr "version" "${{ matrix.ghc }}"
     - name: Upload cache
       run: |
         all-nix-deps $(readlink hix) | xargs -P8 upload-nix
