@@ -6166,10 +6166,10 @@ in
   coc-markdown-preview-enhanced = nodeEnv.buildNodePackage {
     name = "coc-markdown-preview-enhanced";
     packageName = "coc-markdown-preview-enhanced";
-    version = "0.1.0";
+    version = "0.1.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/coc-markdown-preview-enhanced/-/coc-markdown-preview-enhanced-0.1.0.tgz";
-      sha512 = "ixS3kMtx/UqxI+6Zdn0ommTc8ZuirqPOPqSxcYw7r+cKIIN6Cqs1XnKe6DiNc+JIT/jdrrzz8M/FNAglVobiqA==";
+      url = "https://registry.npmjs.org/coc-markdown-preview-enhanced/-/coc-markdown-preview-enhanced-0.1.1.tgz";
+      sha512 = "X3YLYipTK3V8D6k3cmrAFC2ftR527utwGTUoesB6Nof+cNqNEeIz7yVKb5GT8oynOIxbN6sHks9JzVclbBoPww==";
     };
     dependencies = [
       sources."@shd101wyy/mume-0.6.8"
@@ -6498,10 +6498,10 @@ in
   coc-webview = nodeEnv.buildNodePackage {
     name = "coc-webview";
     packageName = "coc-webview";
-    version = "0.4.0";
+    version = "0.5.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/coc-webview/-/coc-webview-0.4.0.tgz";
-      sha512 = "5NFZGn3XLF+umW0L4r+BHX9V8yEpIVheydQj643wk/vmFgzXvaIsJsvSUkinfVq7PVrag808hjSHZiHEiYxbVA==";
+      url = "https://registry.npmjs.org/coc-webview/-/coc-webview-0.5.0.tgz";
+      sha512 = "5EutOiOwpaP+ZFe/YESEMlST6pEiVNHn0WyNZDTxXN+VR8B/X1xrpkaHFwnAzmLauR+dc4/BliJ6E0bqr3jmRw==";
     };
     buildInputs = globalBuildInputs;
     meta = {

@@ -89,10 +89,10 @@
     "homepage": "",
     "owner": "miuirussia",
     "repo": "hackage.nix",
-    "rev": "440f9ce7cac691425e3b41ae7d206cbee3a34d91",
-    "sha256": "19bq2pm3v8lk6nk6m9vlhlfj6xza4s3nvjni34s339vln186xgsc",
+    "rev": "dd5b9ba4d86cb2e72587693ba9bee62841d26c21",
+    "sha256": "1yqhhdii97l0yfhkfhp0abdnxp5i6m3jc9isw3bv850awg2cwd7z",
     "type": "tarball",
-    "url": "https://github.com/miuirussia/hackage.nix/archive/440f9ce7cac691425e3b41ae7d206cbee3a34d91.tar.gz",
+    "url": "https://github.com/miuirussia/hackage.nix/archive/dd5b9ba4d86cb2e72587693ba9bee62841d26c21.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "haskell.nix": {
@@ -113,10 +113,10 @@
     "homepage": null,
     "owner": "miuirussia",
     "repo": "hls-nix",
-    "rev": "2bf004698664ae54e2642dec264fe31a808756df",
-    "sha256": "0jskc8q43s6lh995yf74x5qqc08arba8zi12n4xxc9rzac8y9slw",
+    "rev": "f273cb54210acfbb223a00645d9afa0813598c68",
+    "sha256": "12dqx6xvvssdfsa8kpm60fh79qx8gswhllakjlvmxgcxqd2ls23b",
     "type": "tarball",
-    "url": "https://github.com/miuirussia/hls-nix/archive/2bf004698664ae54e2642dec264fe31a808756df.tar.gz",
+    "url": "https://github.com/miuirussia/hls-nix/archive/f273cb54210acfbb223a00645d9afa0813598c68.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hls-stable": {
@@ -137,10 +137,10 @@
     "homepage": null,
     "owner": "haskell",
     "repo": "haskell-language-server",
-    "rev": "09ee25ef30778ace801d40259d316186339db9dd",
-    "sha256": "1n02x1axvv4jzzl6amfpfv9qf8pp884mn1bhf9fggjbjafvlvdjx",
+    "rev": "e1075e88f15e2c93e8968f69bacc33356d9db255",
+    "sha256": "09n8jry65p010p82m5f5qpw008imd18hjkzb453cai4f4v3wcy3g",
     "type": "tarball",
-    "url": "https://github.com/haskell/haskell-language-server/archive/09ee25ef30778ace801d40259d316186339db9dd.tar.gz",
+    "url": "https://github.com/haskell/haskell-language-server/archive/e1075e88f15e2c93e8968f69bacc33356d9db255.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "intero-neovim": {
@@ -173,10 +173,10 @@
     "homepage": "",
     "owner": "kovidgoyal",
     "repo": "kitty",
-    "rev": "1136c64d496559c5fb1d04ed9e79d6f0820a7187",
-    "sha256": "0wxj790r19yca8qwg64y5lbcdffkjiidpf8a571bvan9ba1r69rq",
+    "rev": "b1322fbe04d31b5bf2f91ab2c03056664f9fe351",
+    "sha256": "02wg5jh5xr0vdip0421fgk1kinfhk9m5gw3fgpqrfw2vcpd2s329",
     "type": "tarball",
-    "url": "https://github.com/kovidgoyal/kitty/archive/1136c64d496559c5fb1d04ed9e79d6f0820a7187.tar.gz",
+    "url": "https://github.com/kovidgoyal/kitty/archive/b1322fbe04d31b5bf2f91ab2c03056664f9fe351.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "neovim": {
@@ -185,10 +185,10 @@
     "homepage": "https://neovim.io",
     "owner": "neovim",
     "repo": "neovim",
-    "rev": "643cb8a6ecc9c78580ccaf1821b52f836b7b7ef4",
-    "sha256": "17p1smm5lzh25qg33hlx430yx0aykrjrbci0mmvc1xw66ppwccsq",
+    "rev": "5fd21b8d3e9dcb2b3dc3bdab4b58218ac908e3e8",
+    "sha256": "0w588rrjj6hbkz4jf2x8gcv0bpqzzwy8jbk65w18gb4npj9vr34b",
     "type": "tarball",
-    "url": "https://github.com/neovim/neovim/archive/643cb8a6ecc9c78580ccaf1821b52f836b7b7ef4.tar.gz",
+    "url": "https://github.com/neovim/neovim/archive/5fd21b8d3e9dcb2b3dc3bdab4b58218ac908e3e8.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nginx-vim": {
@@ -361,10 +361,10 @@
     "homepage": "https://tree-sitter.github.io",
     "owner": "tree-sitter",
     "repo": "tree-sitter",
-    "rev": "5c2ebf093b161b896b232bd8b22b16deb7872207",
-    "sha256": "085s8bxjqckfqdrnmfhap8gqxxzg849hsp3hjhxx6rw53d2441kx",
+    "rev": "22a5cfbe102056ff3d51b2b44a8666fd8f85fdc0",
+    "sha256": "040g8cvny68cgdcxxny0ny2lzv1rmamcp8rg85h8r7pkivay7nw3",
     "type": "tarball",
-    "url": "https://github.com/tree-sitter/tree-sitter/archive/5c2ebf093b161b896b232bd8b22b16deb7872207.tar.gz",
+    "url": "https://github.com/tree-sitter/tree-sitter/archive/22a5cfbe102056ff3d51b2b44a8666fd8f85fdc0.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "vim-airline": {
