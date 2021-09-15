@@ -364,13 +364,13 @@ let
         sha512 = "1apePfXM1UOSqw0o9IiFAovVz9M5S1Dg+4TrDwfMewQ6p/rmMueb7tWZjQ1rx4Loy1ArBggoqGpfqqdI4rondg==";
       };
     };
-    "ansi-regex-5.0.0" = {
+    "ansi-regex-5.0.1" = {
       name = "ansi-regex";
       packageName = "ansi-regex";
-      version = "5.0.0";
+      version = "5.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.0.tgz";
-        sha512 = "bY6fj56OUQ0hU1KjFNDQuJFezqKdrAyFdIevADiqrWHwSlbmBNMHp5ak2f40Pm8JTFyM2mqxkG6ngkHO11f/lg==";
+        url = "https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz";
+        sha512 = "quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==";
       };
     };
     "ansi-styles-2.2.1" = {
@@ -6680,7 +6680,7 @@ in
       sources."acorn-jsx-5.3.2"
       sources."ajv-6.12.6"
       sources."ansi-colors-4.1.1"
-      sources."ansi-regex-5.0.0"
+      sources."ansi-regex-5.0.1"
       sources."ansi-styles-3.2.1"
       sources."argparse-1.0.10"
       sources."astral-regex-2.0.0"
@@ -6829,7 +6829,7 @@ in
     };
     dependencies = [
       sources."@medv/blessed-2.0.1"
-      sources."ansi-regex-5.0.0"
+      sources."ansi-regex-5.0.1"
       sources."ansi-styles-4.3.0"
       sources."chalk-4.1.2"
       sources."color-convert-2.0.1"
