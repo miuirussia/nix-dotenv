@@ -4900,13 +4900,13 @@ let
         sha512 = "q5XPytqFEIKHkGdiMIrY10mvLRvnQh42/+GoBlFW3b2LXLE2xxJpZFdm94we0BaoV3RwJyGqg5wS7epxTv0Zvw==";
       };
     };
-    "signal-exit-3.0.3" = {
+    "signal-exit-3.0.4" = {
       name = "signal-exit";
       packageName = "signal-exit";
-      version = "3.0.3";
+      version = "3.0.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.3.tgz";
-        sha512 = "VUJ49FC8U1OxwZLxIbTTrDvLnf/6TDgxZcK8wxR8zs13xpx7xbG60ndBlhNrFi2EMuFRoeDoJO7wthSLq42EjA==";
+        url = "https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.4.tgz";
+        sha512 = "rqYhcAnZ6d/vTPGghdrw7iumdcbXpsk1b8IG/rz+VWV51DM0p7XCtMoJ3qhPLIbp3tvyt3pKRbaaEMZYpHto8Q==";
       };
     };
     "simple-concat-1.0.1" = {
@@ -6166,10 +6166,10 @@ in
   coc-markdown-preview-enhanced = nodeEnv.buildNodePackage {
     name = "coc-markdown-preview-enhanced";
     packageName = "coc-markdown-preview-enhanced";
-    version = "0.1.1";
+    version = "0.1.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/coc-markdown-preview-enhanced/-/coc-markdown-preview-enhanced-0.1.1.tgz";
-      sha512 = "X3YLYipTK3V8D6k3cmrAFC2ftR527utwGTUoesB6Nof+cNqNEeIz7yVKb5GT8oynOIxbN6sHks9JzVclbBoPww==";
+      url = "https://registry.npmjs.org/coc-markdown-preview-enhanced/-/coc-markdown-preview-enhanced-0.1.2.tgz";
+      sha512 = "T2PKeOjlX43dnpAxqjxSnhDPzvy2l5QqhA2aWIxS3wM+WxZHm+rSfcNvQaPP1a1Lpi/mOvhRT3gYAJoOB53j9w==";
     };
     dependencies = [
       sources."@shd101wyy/mume-0.6.8"
@@ -6498,10 +6498,10 @@ in
   coc-webview = nodeEnv.buildNodePackage {
     name = "coc-webview";
     packageName = "coc-webview";
-    version = "0.5.0";
+    version = "0.6.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/coc-webview/-/coc-webview-0.5.0.tgz";
-      sha512 = "5EutOiOwpaP+ZFe/YESEMlST6pEiVNHn0WyNZDTxXN+VR8B/X1xrpkaHFwnAzmLauR+dc4/BliJ6E0bqr3jmRw==";
+      url = "https://registry.npmjs.org/coc-webview/-/coc-webview-0.6.0.tgz";
+      sha512 = "YFRF4Vn+wkLqaSRqViqFM1Wj13FnKp9gcymHnz1HN61ERer/ojwDIsrR0DT5vF09CcCnH8g8d4DpHEf+WiY3Nw==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -7075,7 +7075,7 @@ in
       sources."set-blocking-2.0.0"
       sources."shebang-command-1.2.0"
       sources."shebang-regex-1.0.0"
-      sources."signal-exit-3.0.3"
+      sources."signal-exit-3.0.4"
       sources."slice-ansi-2.1.0"
       sources."sprintf-js-1.0.3"
       sources."string-width-2.1.1"
@@ -7551,7 +7551,7 @@ in
       sources."safer-buffer-2.1.2"
       sources."shebang-command-2.0.0"
       sources."shebang-regex-3.0.0"
-      sources."signal-exit-3.0.3"
+      sources."signal-exit-3.0.4"
       sources."sshpk-1.16.1"
       sources."ssri-6.0.2"
       sources."stream-each-1.2.3"
