@@ -3793,13 +3793,13 @@ let
         sha512 = "Dbl4A/VfiVGLgQv29URL9xshU8XDY1GeLy+fsaZ1AA8JDSfjvr5P5+pzRbWqRSBxk6/DW7MIh8lTM/PaGnP2kg==";
       };
     };
-    "nth-check-2.0.0" = {
+    "nth-check-2.0.1" = {
       name = "nth-check";
       packageName = "nth-check";
-      version = "2.0.0";
+      version = "2.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/nth-check/-/nth-check-2.0.0.tgz";
-        sha512 = "i4sc/Kj8htBrAiH1viZ0TgU8Y5XqCaV/FziYK6TBczxmeKm3AEFWqqF3195yKudrarqy7Zu80Ra5dobFjn9X/Q==";
+        url = "https://registry.npmjs.org/nth-check/-/nth-check-2.0.1.tgz";
+        sha512 = "it1vE95zF6dTT9lBsYbxvqh0Soy4SPowchj0UBGj/V6cTPnXXtQOPUbhZ6CmGzAD/rW22LQK6E96pcdJXk4A4w==";
       };
     };
     "oauth-sign-0.9.0" = {
@@ -6348,7 +6348,7 @@ in
       sources."native-request-1.1.0"
       sources."netmask-2.0.2"
       sources."node-fetch-2.6.2"
-      sources."nth-check-2.0.0"
+      sources."nth-check-2.0.1"
       sources."oauth-sign-0.9.0"
       sources."object-assign-4.1.1"
       sources."object-inspect-1.11.0"
@@ -6856,10 +6856,10 @@ in
   npm = nodeEnv.buildNodePackage {
     name = "npm";
     packageName = "npm";
-    version = "7.23.0";
+    version = "7.24.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/npm/-/npm-7.23.0.tgz";
-      sha512 = "m7WFTwGfiBX+jL4ObX7rIDkug/hG/Jn8vZUjKw4WS8CqMjVydHiWTARLDIll7LtHu5i7ZHBnqXZbL2S73U5p6A==";
+      url = "https://registry.npmjs.org/npm/-/npm-7.24.0.tgz";
+      sha512 = "4zd4txmN7dYEx32kH/K+gecnZhnGDdCrRFK6/n5TGUtqtyjevw0uPul0knJ9PzwDXeNf9MsWzGhjxGeI1M43FA==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -6874,10 +6874,10 @@ in
   pnpm = nodeEnv.buildNodePackage {
     name = "pnpm";
     packageName = "pnpm";
-    version = "6.15.0";
+    version = "6.15.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/pnpm/-/pnpm-6.15.0.tgz";
-      sha512 = "RqG3S1JHiFYxRgXQ941xT2BnNsjJbp+J1ImacB6b8JiqAIRkp6TAcNeosvF3X0Z9I6FvuCkccMwBxPJe8bboPQ==";
+      url = "https://registry.npmjs.org/pnpm/-/pnpm-6.15.1.tgz";
+      sha512 = "hYGK8xlLdMj/sFhOLJ+x8IotsOkBp01c2mdWdLeKlUdA6EOl/RNWRp+7dUWs3Si2E1zgdTiHsEgNGYffv0PyLQ==";
     };
     buildInputs = globalBuildInputs;
     meta = {
